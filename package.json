@@ -13,7 +13,7 @@
     "clean": "find contracts/chorpiler data/int data xes -type f ! -path 'data/raw/*' -delete && hardhat clean"
   },
   "dependencies": {
-    "chorpiler": "^0.2.0-alpha.19",
+    "chorpiler": "^0.2.0-alpha.21",
     "fast-xml-parser": "^5.2.2",
     "hardhat": "^2.23.0"
   },

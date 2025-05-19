@@ -10,15 +10,15 @@ describe('XML Files in data/raw', () => {
   const outputDataPath = path.join(__dirname, '../data');
 
   const processExclusiveGateways = (process: any) => {
-    const exclusiveGateways = Array.isArray(process['ns0:exclusiveGateway'])
-      ? process['ns0:exclusiveGateway']
-      : [process['ns0:exclusiveGateway']];
+    const exclusiveGateways = Array.isArray(process['exclusiveGateway'])
+      ? process['exclusiveGateway']
+      : [process['exclusiveGateway']];
 
     exclusiveGateways.forEach((gateway) => {
-      if (gateway && gateway['ns0:outgoing']) {
-        const outgoing = Array.isArray(gateway['ns0:outgoing'])
-          ? gateway['ns0:outgoing']
-          : [gateway['ns0:outgoing']];
+      if (gateway && gateway['outgoing']) {
+        const outgoing = Array.isArray(gateway['outgoing'])
+          ? gateway['outgoing']
+          : [gateway['outgoing']];
 
         if (!gateway['@_default'] && outgoing.length > 0) {
           // Add the first outgoing element as default
@@ -27,16 +27,16 @@ describe('XML Files in data/raw', () => {
 
         if (outgoing.length > 1) {
           // Look for corresponding sequenceFlow elements
-          const sequenceFlows = Array.isArray(process['ns0:sequenceFlow'])
-            ? process['ns0:sequenceFlow']
-            : [process['ns0:sequenceFlow']];
+          const sequenceFlows = Array.isArray(process['sequenceFlow'])
+            ? process['sequenceFlow']
+            : [process['sequenceFlow']];
 
           outgoing.forEach((outgoingId) => {
             const sequenceFlow = sequenceFlows.find(
               (flow) => flow['@_id'] === outgoingId
             );
-            if (sequenceFlow && !sequenceFlow['ns0:conditionExpression']) {
-              sequenceFlow['ns0:conditionExpression'] = {
+            if (sequenceFlow && !sequenceFlow['conditionExpression']) {
+              sequenceFlow['conditionExpression'] = {
                 '@_xsi:type': 'bpmn2:tFormalExpression',
                 '@_language': 'Solidity',
                 '#text': 'items==true',
@@ -49,29 +49,29 @@ describe('XML Files in data/raw', () => {
   };
 
   const mergeEndEvents = (process: any) => {
-    const endEvents = Array.isArray(process['ns0:endEvent'])
-      ? process['ns0:endEvent']
-      : [process['ns0:endEvent']];
+    const endEvents = Array.isArray(process['endEvent'])
+      ? process['endEvent']
+      : [process['endEvent']];
 
     if (endEvents.length > 1) {
       const mergedEndEvent = endEvents[0];
-      mergedEndEvent['ns0:incoming'] = endEvents.flatMap((endEvent) =>
-        Array.isArray(endEvent['ns0:incoming'])
-          ? endEvent['ns0:incoming']
-          : [endEvent['ns0:incoming']]
+      mergedEndEvent['incoming'] = endEvents.flatMap((endEvent) =>
+        Array.isArray(endEvent['incoming'])
+          ? endEvent['incoming']
+          : [endEvent['incoming']]
       );
 
       // Remove duplicates
-      mergedEndEvent['ns0:incoming'] = [...new Set(mergedEndEvent['ns0:incoming'])];
+      mergedEndEvent['incoming'] = [...new Set(mergedEndEvent['incoming'])];
 
       // Replace all endEvents with the merged one
-      process['ns0:endEvent'] = mergedEndEvent;
+      process['endEvent'] = mergedEndEvent;
     }
   };
  
   it('should iterate, parse, and modify all XML files in data/raw', async () => {
     const files = fs.readdirSync(rawDataPath);
-    const parser = new XMLParser({ ignoreAttributes: false });
+    const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true });
     const builder = new XMLBuilder({ ignoreAttributes: false, format: true });
 
     for (const file of files) {
@@ -81,8 +81,8 @@ describe('XML Files in data/raw', () => {
         const jsonObj = parser.parse(xmlContent);
 
         // Look for choreography ID and process elements
-        if (jsonObj['ns0:definitions'] && jsonObj['ns0:definitions']['ns0:choreography']) {
-          const choreography = jsonObj['ns0:definitions']['ns0:choreography'];
+        if (jsonObj['definitions'] && jsonObj['definitions']['choreography']) {
+          const choreography = jsonObj['definitions']['choreography'];
             const choreographyId = choreography['@_id'].replace(/-/g, '_');
             const oldId = choreography['@_id'];
             choreography['@_id'] = choreographyId;
@@ -106,7 +106,7 @@ describe('XML Files in data/raw', () => {
             throw new Error(`Choreography ID not found in file: ${file}`);
           }
 
-          const process = jsonObj['ns0:definitions']['ns0:choreography'];
+          const process = jsonObj['definitions']['choreography'];
 
           // Process exclusive gateways
           processExclusiveGateways(process);
@@ -135,30 +135,32 @@ describe('XML Files in data/raw', () => {
 
     for (const file of files) {
       if (file.endsWith('.bpmn')) {
+      try {
+        const bpmnXML = fs.readFileSync(path.join(intDataPath, file));
+        const iNet = await parser.fromXML(bpmnXML);
+        const contractGenerator = new chorpiler.generators.sol.DefaultContractGenerator(iNet[0]);
+        // Write the file to data
+        const outputFilePath = path.join(outputDataPath, file);
+        fs.writeFileSync(outputFilePath, bpmnXML, 'utf-8');
+        
         try {
-          const bpmnXML = fs.readFileSync(path.join(intDataPath, file));
-          const iNet = await parser.fromXML(bpmnXML);
-          const contractGenerator = new chorpiler.generators.sol.DefaultContractGenerator(iNet[0]);
-            // Write the file to data
-            const outputFilePath = path.join(outputDataPath, file);
-            fs.writeFileSync(outputFilePath, bpmnXML, 'utf-8');
-            
-          try {
-            await contractGenerator.compile();
-          } catch (err) {
-            errors.push({ file, error: `Contract generation error: ${(err as Error).message}` });
-          }
+        await contractGenerator.compile();
         } catch (err) {
-          errors.push({ file, error: `Parsing error: ${(err as Error).message}` });
+        errors.push({ file, error: `Contract generation error: ${(err as Error).message}` });
         }
+      } catch (err) {
+        errors.push({ file, error: `Parsing error: ${(err as Error).message}` });
+      }
       }
     }
 
     if (errors.length > 0) {
       console.error("Error Report:");
-      for (const { file, error } of errors) {
-        console.error(`File: ${file}, Error: ${error}`);
-      }
+      console.log(
+      errors
+        .map(({ file, error }) => `File: ${file}\nError: ${error}\n`)
+        .join("\n")
+      );
     } else {
       console.log("All files parsed and compiled successfully.");
     }
