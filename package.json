@@ -7,10 +7,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "hardhat test"
+    "test": "hardhat compile && hardhat test test/execute.ts",
+    "data": "hardhat test test/data.ts",
+    "llm": "hardhat test test/llm.ts",
+    "clean": "find contracts/chorpiler data/int data xes -type f ! -path 'data/raw/*' -delete && hardhat clean"
   },
   "dependencies": {
-    "chorpiler": "^0.2.0-alpha.7",
+    "chorpiler": "^0.2.0-alpha.19",
+    "fast-xml-parser": "^5.2.2",
     "hardhat": "^2.23.0"
   },
   "devDependencies": {
