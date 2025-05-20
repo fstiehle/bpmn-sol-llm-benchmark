@@ -5,9 +5,9 @@ import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import chorpiler from 'chorpiler';
 
 describe('XML Files in data/raw', () => {
-  const rawDataPath = path.join(__dirname, '../data/raw');
-  const intDataPath = path.join(__dirname, '../data/int');
-  const outputDataPath = path.join(__dirname, '../data');
+  const rawDataPath = path.join(__dirname, '../data/sap-sam/raw');
+  const intDataPath = path.join(__dirname, '../data/sap-sam/int');
+  const outputDataPath = path.join(__dirname, '../data/sap-sam/');
 
   const processExclusiveGateways = (process: any) => {
     const exclusiveGateways = Array.isArray(process['exclusiveGateway'])
@@ -168,7 +168,7 @@ describe('XML Files in data/raw', () => {
 
   it('should prepare simulation of the bpmn files', async () => {
     const sim = new chorpiler.utils.Simulator(); 
-    sim.bpmnDir = "./data";
+    sim.bpmnDir = "./data/sap-sam/";
     sim.contractDir = "./contracts/chorpiler";
     sim.xesDir = "./xes";
 

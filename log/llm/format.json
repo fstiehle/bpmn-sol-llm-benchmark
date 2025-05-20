@@ -1,0 +1,9 @@
+{
+  "name": "experiment name",
+  "description": "experiment description",
+  "timestamp": "timestamp",
+  "model": "technical name of model",
+  "prompt": "prompt used",
+  "input": "input .bpmn or textual description",
+  "output": "model output"
+}

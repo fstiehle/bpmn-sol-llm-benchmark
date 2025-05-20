@@ -7,10 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "hardhat compile && hardhat test test/execute.ts",
-    "data": "hardhat test test/data.ts",
+    "test": "hardhat compile && hardhat test test/execute-contracts.ts",
+    "sam": "hardhat test test/prep-sap-sam.ts",
     "llm": "hardhat test test/llm.ts",
-    "clean": "find contracts/chorpiler data/int data xes -type f ! -path 'data/raw/*' -delete && hardhat clean"
+    "clean": "find contracts/chorpiler data/sap-sam/int data/sap-sam xes -type f ! -path 'data/sap-sam/raw/*' -delete && hardhat clean"
   },
   "dependencies": {
     "chorpiler": "^0.2.0-alpha.21",

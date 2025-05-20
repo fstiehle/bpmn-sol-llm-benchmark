@@ -1,5 +1,0 @@
-<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="18.16.2" id="sid-357d8d47-99a8-447d-9213-023dd0b472f1" targetNamespace="http://www.signavio.com" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
-   <ns2:BPMNDiagram id="sid-8b0539d9-22b7-4688-90ea-0585023375a8">
-      <ns2:BPMNPlane id="sid-068ccfef-122d-4377-9421-e5f80389f5cc" />
-   </ns2:BPMNDiagram>
-</ns0:definitions>
