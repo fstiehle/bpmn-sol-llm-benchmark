@@ -80,6 +80,7 @@ const runTest = async (config: TestConfig, endpoint: string) => {
         prompt: prompt,
         input: fs.readFileSync(filePath, "utf-8"),
         output: outputResponse.data,
+        processID: fileNameWithoutExt,
       };
 
       // Write the JSON output to the specified output folder
@@ -94,6 +95,7 @@ const runTest = async (config: TestConfig, endpoint: string) => {
 
 describe("LLM Endpoint Tests", () => {
   const endpoint = "http://127.0.0.1:8000";
+  const stamp = new Date().toISOString;
 
   const tests: TestConfig[] = [
     {
@@ -102,7 +104,7 @@ describe("LLM Endpoint Tests", () => {
       model: "qwen3-14b",
       promptPath: path.join(__dirname, "../prompts/sap-sam/naive.txt"),
       inputFolder: path.join(__dirname, "../data/sap-sam/"),
-      outputFolder: path.join(__dirname, "../log/llm/sap-sam/qwen3-14b/" + new Date().toISOString),
+      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/${stamp}`),
     }
   ];
 
@@ -111,4 +113,5 @@ describe("LLM Endpoint Tests", () => {
       await runTest(testConfig, endpoint);
     });
   }
+  
 });

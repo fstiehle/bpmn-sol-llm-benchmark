@@ -10,6 +10,7 @@
     "test": "hardhat compile && hardhat test test/execute-contracts.ts",
     "sam": "hardhat test test/prep-sap-sam.ts",
     "llm": "hardhat test test/llm.ts",
+    "prep": "hardhat test test/prep-contracts.ts",
     "clean": "find contracts/chorpiler data/sap-sam/int data/sap-sam xes -type f ! -path 'data/sap-sam/raw/*' -delete && hardhat clean"
   },
   "dependencies": {
