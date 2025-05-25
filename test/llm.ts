@@ -2,6 +2,7 @@ import { expect } from "chai";
 import * as fs from "fs";
 import * as path from "path";
 import axios from "axios";
+import FormData from "form-data";
 
 interface TestConfig {
   name: string;
@@ -34,17 +35,9 @@ const runTest = async (config: TestConfig, endpoint: string) => {
     throw new Error(`Failed to set model: ${(error as Error).message}`);
   }
 
-  // Set the prompt via /prompt
-  try {
-    const prompt = fs.readFileSync(config.promptPath, "utf-8");
-    if (typeof prompt !== "string" || prompt.trim() === "") {
-      throw new Error("Prompt must be a non-empty string.");
-    }
-    const promptResponse = await axios.post(`${endpoint}/prompt`, { prompt });
-    expect(promptResponse.status).to.equal(200);
-    console.log("Prompt set successfully.");
-  } catch (error) {
-    throw new Error(`Failed to set prompt: ${(error as Error).message}`);
+  const prompt = fs.readFileSync(config.promptPath, "utf-8");
+  if (typeof prompt !== "string" || prompt.trim() === "") {
+    throw new Error("Prompt must be a non-empty string.");
   }
 
   // Process all .bpmn files in the input folder
@@ -54,11 +47,40 @@ const runTest = async (config: TestConfig, endpoint: string) => {
     const filePath = path.join(config.inputFolder, file);
     const fileNameWithoutExt = path.basename(file, ".bpmn");
 
+    // Read the corresponding .json file from contracts/chorpiler
+    const jsonFilePath = path.join(__dirname, "../contracts/chorpiler", `${fileNameWithoutExt}.json`);
+    if (!fs.existsSync(jsonFilePath)) {
+      throw new Error(`JSON config file not found: ${jsonFilePath}`);
+    }
+
+    const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf-8"));
+    if (!jsonData) {
+      throw new Error(`Missing encoding: ${jsonFilePath}`);
+    }
+
+    // Replace the string {{encoding}} in the prompt with the encoding from the JSON file
+    const updatedPrompt = prompt.replace("{{taskIDs}}", JSON.stringify(jsonData.tasks))
+      .replace("{{parIDs}}", JSON.stringify(jsonData.participants));
+
+    // Set the prompt via /prompt
+    try {
+      const promptResponse = await axios.post(`${endpoint}/prompt`, { prompt: updatedPrompt });
+      expect(promptResponse.status).to.equal(200);
+      console.log("Prompt set successfully.");
+    } catch (error) {
+      throw new Error(`Failed to set prompt: ${(error as Error).message}`);
+    }
+
     try {
       // Send the file to the /input/ endpoint
-      console.log(`Sending ${file} to /input/`);
-      const inputResponse = await axios.post(`${endpoint}/input/`, fs.readFileSync(filePath), {
-        headers: { "Content-Type": "application/xml" },
+      const formData = new FormData();
+      const fileBuffer = fs.readFileSync(filePath);
+      formData.append("file", fileBuffer, file);
+
+      const inputResponse = await axios.post(`${endpoint}/input/`, formData, {
+        headers: {
+          ...formData.getHeaders(),
+        },
       });
       expect(inputResponse.status).to.equal(200);
 
@@ -70,21 +92,27 @@ const runTest = async (config: TestConfig, endpoint: string) => {
       });
       expect(outputResponse.status).to.equal(200);
 
+      // Parse the JSON response to extract the Solidity code
+      const outputData = JSON.parse(outputResponse.data);
+      const solidityCode = outputData.output;
+
       // Prepare the JSON output
-      const prompt = fs.readFileSync(config.promptPath, "utf-8");
       const outputJson = {
         name: config.name,
         description: config.description,
         timestamp: new Date().toISOString(),
         model: config.model,
-        prompt: prompt,
+        prompt: updatedPrompt,
         input: fs.readFileSync(filePath, "utf-8"),
-        output: outputResponse.data,
+        output: solidityCode,
         processID: fileNameWithoutExt,
       };
 
       // Write the JSON output to the specified output folder
       const outputFilePath = path.join(config.outputFolder, `${fileNameWithoutExt}.json`);
+      if (!fs.existsSync(config.outputFolder)) {
+        fs.mkdirSync(config.outputFolder, { recursive: true });
+      }
       fs.writeFileSync(outputFilePath, JSON.stringify(outputJson, null, 2), "utf-8");
       console.log(`Saved output to ${outputFilePath}`);
     } catch (error) {
@@ -94,8 +122,10 @@ const runTest = async (config: TestConfig, endpoint: string) => {
 };
 
 describe("LLM Endpoint Tests", () => {
+
   const endpoint = "http://127.0.0.1:8000";
-  const stamp = new Date().toISOString;
+  //const stamp = new Date().toISOString();
+  const stamp = "last";
 
   const tests: TestConfig[] = [
     {

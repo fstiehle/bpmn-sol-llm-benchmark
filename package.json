@@ -4,21 +4,21 @@
   "description": "",
   "license": "ISC",
   "author": "Fabian Stiehle",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "test": "hardhat compile && hardhat test test/execute-contracts.ts",
-    "sam": "hardhat test test/prep-sap-sam.ts",
-    "llm": "hardhat test test/llm.ts",
-    "prep": "hardhat test test/prep-contracts.ts",
+    "sam": "mocha test/prep-sap-sam.ts",
+    "llm": "mocha --timeout 600000 test/llm.ts",
+    "prep": "mocha test/prep-contracts.ts",
     "clean": "find contracts/chorpiler data/sap-sam/int data/sap-sam xes -type f ! -path 'data/sap-sam/raw/*' -delete && hardhat clean"
   },
   "dependencies": {
-    "chorpiler": "^0.2.0-alpha.21",
+    "chorpiler": "^0.2.0-alpha.22",
     "fast-xml-parser": "^5.2.2",
-    "hardhat": "^2.23.0"
+    "hardhat": "^2.23.0",
+    "ts-mocha": "^11.1.0"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "tsx": "^4.19.4"
   }
 }

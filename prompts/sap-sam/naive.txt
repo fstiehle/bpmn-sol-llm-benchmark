@@ -1,1 +1,21 @@
-testi
+Above is a BPMN 2.0 choreography. Generate a solidity smart contract from this. 
+Name the contract by the choreography ID.
+The contract must implement the function "enact(uint taskID)", which lets a participant execute a task.
+The function enforces the order of tasks. 
+Extract the rules based on the flow given in the diagram, only tasks need to be enacted manually. 
+The different taskIDs can be extracted from the model as follows:
+{{taskIDs}}
+
+Outgoing flows from an exclusiveGateway which are not the default flow, need to enforce a condition.
+The conditions are present in the model as "conditionExpression". Enforce them based on the flow given in the diagram.
+The contracts needs a function "setconditions(uint _conditions)".
+
+Also, enforce the correct participant of a task by comparing the address of the caller with the required address of the participant.
+Participants' addresses are set in the constructor "constructor(address[n] memory _participants)", 
+where n stands for the number of participants. You must encode them like follows: 
+{{parIDs}}
+
+The current state of the contract must be encoded in the "tokenState" variable or function.
+Just output the smart contract, do not output additional, redundant text. In case of 
+problems write "ERROR" followed by a precise diagnosis of the problem.
+Start writing the smart contract:

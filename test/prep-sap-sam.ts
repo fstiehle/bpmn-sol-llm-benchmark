@@ -14,6 +14,8 @@ describe('XML Files in data/raw', () => {
       ? process['exclusiveGateway']
       : [process['exclusiveGateway']];
 
+    const numberOfConds = 0;
+
     exclusiveGateways.forEach((gateway) => {
       if (gateway && gateway['outgoing']) {
         const outgoing = Array.isArray(gateway['outgoing'])
@@ -31,18 +33,23 @@ describe('XML Files in data/raw', () => {
             ? process['sequenceFlow']
             : [process['sequenceFlow']];
 
-          outgoing.forEach((outgoingId) => {
+          for (const outgoingId of outgoing) {
+            if (outgoingId == gateway['@_default']) {
+              continue;
+            }
+
             const sequenceFlow = sequenceFlows.find(
               (flow) => flow['@_id'] === outgoingId
             );
-            if (sequenceFlow && !sequenceFlow['conditionExpression']) {
+            if (sequenceFlow) {
+              const conditionID = 1 << numberOfConds;
               sequenceFlow['conditionExpression'] = {
                 '@_xsi:type': 'bpmn2:tFormalExpression',
                 '@_language': 'Solidity',
-                '#text': 'items==true',
+                '#text': `conditions & ${conditionID} == ${conditionID}`,
               };
             }
-          });
+          }
         }
       }
     });
@@ -114,6 +121,11 @@ describe('XML Files in data/raw', () => {
           // Merge end events
           mergeEndEvents(process);
 
+          // Remove BPMNDiagram elements if they exist
+          if (jsonObj['definitions']['BPMNDiagram']) {
+            delete jsonObj['definitions']['BPMNDiagram'];
+          }
+
           // Convert the modified JSON back to XML
           const updatedXmlContent = builder.build(jsonObj);
 
@@ -135,22 +147,22 @@ describe('XML Files in data/raw', () => {
 
     for (const file of files) {
       if (file.endsWith('.bpmn')) {
-      try {
-        const bpmnXML = fs.readFileSync(path.join(intDataPath, file));
-        const iNet = await parser.fromXML(bpmnXML);
-        const contractGenerator = new chorpiler.generators.sol.DefaultContractGenerator(iNet[0]);
-        // Write the file to data
-        const outputFilePath = path.join(outputDataPath, file);
-        fs.writeFileSync(outputFilePath, bpmnXML, 'utf-8');
-        
         try {
-        await contractGenerator.compile();
+          const bpmnXML = fs.readFileSync(path.join(intDataPath, file));
+          const iNet = await parser.fromXML(bpmnXML);
+          const contractGenerator = new chorpiler.generators.sol.DefaultContractGenerator(iNet[0]);
+          // Write the file to data
+          const outputFilePath = path.join(outputDataPath, file);
+          fs.writeFileSync(outputFilePath, bpmnXML, 'utf-8');
+
+          try {
+            await contractGenerator.compile();
+          } catch (err) {
+            errors.push({ file, error: `Contract generation error: ${(err as Error).message}` });
+          }
         } catch (err) {
-        errors.push({ file, error: `Contract generation error: ${(err as Error).message}` });
+          errors.push({ file, error: `Parsing error: ${(err as Error).message}` });
         }
-      } catch (err) {
-        errors.push({ file, error: `Parsing error: ${(err as Error).message}` });
-      }
       }
     }
 
@@ -172,7 +184,7 @@ describe('XML Files in data/raw', () => {
     sim.contractDir = "./contracts/chorpiler";
     sim.xesDir = "./xes";
 
-    return sim.generate();
+    return sim.generate("comp_");
   });
 
 })

@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-contract sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1 {
+contract comp_sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1 {
   uint public tokenState = 1;
   address[10] public participants;
   uint public conditions;
