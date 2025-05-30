@@ -138,7 +138,7 @@ describe("LLM Endpoint Tests", () => {
       name: "Small Model - One Shot Prompt",
       description: "mall Model - One Shot Prompt",
       model: "qwen3-14b",
-      promptPath: path.join(__dirname, "../prompts/sap-sam/one-shot.txt"),
+      promptPath: path.join(__dirname, "../prompts/sap-sam/one-shot/one-shot.txt"),
       inputFolder: path.join(__dirname, "../data/sap-sam/"),
       outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/one-shot/${stamp}`),
     },
@@ -146,7 +146,7 @@ describe("LLM Endpoint Tests", () => {
       name: "Small Model - Zero Shot Prompt",
       description: "Small Model - Zero Shot Prompt",
       model: "qwen3-14b",
-      promptPath: path.join(__dirname, "../prompts/sap-sam/zero-shot.txt"),
+      promptPath: path.join(__dirname, "../prompts/sap-sam/zero-shot/zero-shot.txt"),
       inputFolder: path.join(__dirname, "../data/sap-sam/"),
       outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/zero-shot/${stamp}`),
     }
