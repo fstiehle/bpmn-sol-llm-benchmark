@@ -92,7 +92,7 @@ describe("Simulator", () => {
             `\tEnd of process not reached! Final token state: ${finalTokenState}`
           );
           } else {
-          console.log("\tProcess completed successfully with token state 0.");
+            console.log("\tProcess completed successfully with token state 0.");
           }
 
           // Generate and log the report for the trace
@@ -104,7 +104,7 @@ describe("Simulator", () => {
 
   describe("Chorpiler", () => {
     it(`Replay traces`, async () => {
-      await replayTraces(contractDir, "");
+      await replayTraces(contractDir, "comp_");
     });
   });
 

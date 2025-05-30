@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-contract LLM_PizzaDelivery {
+contract LLM_Choreography {
   uint public tokenState = 1;
   address[3] public participants;
   uint public conditions;
@@ -19,8 +19,8 @@ contract LLM_PizzaDelivery {
 
     while (_tokenState != 0) {
       if (_tokenState & 1 == 1) {
-        // <--- ChoreographyTask_0hy9n0g Order Pizza --->
-        if (1 == id && msg.sender == participants[0]) {
+        // <--- ChoreographyTask_1vnykqp Check availability of goods --->
+        if (id == 1 && msg.sender == participants[0]) {
           // <--- custom code for task here --->
           _tokenState &= ~uint(1);
           _tokenState |= 2;
@@ -29,32 +29,32 @@ contract LLM_PizzaDelivery {
         }
       }
       if (_tokenState & 2 == 2) {
-        // <--- Gateway_1td68h3 --->
+        // <--- exclusiveGateway condition check --->
         if (conditions & 1 == 1) {
-          // <--- Flow_0mkbrl0 pizza ready --->
+          // <--- Flow_067nql1 available --->
           _tokenState &= ~uint(2);
-          _tokenState |= 4;
+          _tokenState |= 64;
           continue;
         } else {
-          // <--- Flow_1uhdzct Pizza needs to be baked --->
+          // <--- Flow_0ymdsa2 unavailable --->
           _tokenState &= ~uint(2);
-          _tokenState |= 8;
+          _tokenState |= 20;
           continue;
         }
       }
-      if (_tokenState & 8 == 8) {
-        // <--- ChoreographyTask_1b2vkz9 Confirm ETA --->
-        if (2 == id && msg.sender == participants[1]) {
+      if (_tokenState & 4 == 4) {
+        // <--- ChoreographyTask_16lc74v Produce goods --->
+        if (id == 2 && msg.sender == participants[1]) {
           // <--- custom code for task here --->
-          _tokenState &= ~uint(8);
-          _tokenState |= 16;
+          _tokenState &= ~uint(4);
+          _tokenState |= 8;
           id = 0;
           continue;
         }
       }
       if (_tokenState & 16 == 16) {
-        // <--- ChoreographyTask_1jrfmx8 Announce Delivery --->
-        if (3 == id && msg.sender == participants[1]) {
+        // <--- ChoreographyTask_07t2zjo Inform customer --->
+        if (id == 3 && msg.sender == participants[1]) {
           // <--- custom code for task here --->
           _tokenState &= ~uint(16);
           _tokenState |= 32;
@@ -62,24 +62,20 @@ contract LLM_PizzaDelivery {
           continue;
         }
       }
-      if (_tokenState & 32 == 32) {
-        // <--- Gateway_0x44u2n --->
-        _tokenState &= ~uint(32);
+      if (_tokenState & 8 == 8 && _tokenState & 32 == 32) {
+        // <--- parallelGateway auto transition --->
+        _tokenState &= ~uint(40);
         _tokenState |= 64;
         continue;
       }
-      if (_tokenState & 4 == 4) {
-        // <--- ChoreographyTask_1797ws1 Deliver Pizza --->
-        if (4 == id && msg.sender == participants[2]) {
+      if (_tokenState & 64 == 64) {
+        // <--- ChoreographyTask_056ylqg Ship goods --->
+        if (id == 4 && msg.sender == participants[1]) {
           // <--- custom code for task here --->
-          _tokenState &= ~uint(4);
+          _tokenState &= ~uint(64);
           _tokenState |= 0;
           break; // is end
         }
-      }
-      if (_tokenState & 64 == 64) {
-        // <--- EndEvent_1lv264w --->
-        break;
       }
       break;
     }
