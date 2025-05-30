@@ -1,0 +1,195 @@
+Above is a BPMN 2.0 choreography. Generate a solidity smart contract from this.
+Name the contract by the choreography ID.
+The contract must implement the function "enact(uint taskID)", which lets a participant execute a task.
+The function enforces the order of tasks. Extract the order based on the flow given in the diagram. 
+Only tasks are executed by participants, gateways are evaluated by the smart contract automatically.
+The different taskIDs for the function must equal the ones from the model as follows:
+{{taskIDs}}.
+
+Outgoing flows from an exclusiveGateway which are not the default flow, need to enforce a condition.
+The conditions are present in the model as "conditionExpression". Enforce them based on the flow given in the diagram.
+The contracts needs a function "setconditions(uint _conditions)".
+
+Also, enforce the correct initiator (initiatingParticipantRef) of a task by comparing the address.
+Participants' addresses are set in the constructor "constructor(address[n] memory _participants)", 
+where n stands for the number of participants. You must encode them like follows: 
+{{parIDs}}
+
+The current state (or marking) of the contract must be encoded in the "tokenState" variable.
+If the end of the contract is reached, set tokenState to 0.
+Just output the smart contract, do not output additional, redundant text. In case of 
+problems write "ERROR" followed by a precise diagnosis of the problem.
+
+An example.
+Given the choreography
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions id="_tTv5YOycEeiHGOQ2NkJZNQ" targetNamespace="http://bpmn.io/schema/bpmn">
+  <message id="Message_032z8ml"></message>
+  <message id="Message_19qrd5q"></message>
+  <message id="Message_0vnm1wq"></message>
+  <message id="Message_085o98p"></message>
+  <choreography id="Choreography">
+    <participant id="Participant_1tzf68i" name="Customer"></participant>
+    <participant id="Participant_198pz14" name="Seller"></participant>
+    <participant id="Participant_0378t5g" name="Manufacturer"></participant>
+    <messageFlow id="MessageFlow_0r98f9o" sourceRef="Participant_198pz14" targetRef="Participant_1tzf68i" messageRef="Message_032z8ml"></messageFlow>
+    <messageFlow id="MessageFlow_18xf3u6" sourceRef="Participant_198pz14" targetRef="Participant_1tzf68i" messageRef="Message_19qrd5q"></messageFlow>
+    <messageFlow id="MessageFlow_0r00txu" sourceRef="Participant_198pz14" targetRef="Participant_0378t5g" messageRef="Message_0vnm1wq"></messageFlow>
+    <messageFlow id="MessageFlow_1cx9rl4" sourceRef="Participant_1tzf68i" targetRef="Participant_198pz14" messageRef="Message_085o98p"></messageFlow>
+    <startEvent id="Event_0y1sdn3">
+      <outgoing>Flow_0e2c805</outgoing>
+    </startEvent>
+    <choreographyTask id="ChoreographyTask_1vnykqp" name="Check availability of goods" initiatingParticipantRef="Participant_1tzf68i">
+      <incoming>Flow_0e2c805</incoming>
+      <outgoing>Flow_0d6j7vb</outgoing>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <participantRef>Participant_198pz14</participantRef>
+      <messageFlowRef>MessageFlow_1cx9rl4</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_16lc74v" name="Produce goods" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_0ybxbuc</incoming>
+      <outgoing>Flow_14ulro8</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_0378t5g</participantRef>
+      <messageFlowRef>MessageFlow_0r00txu</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_07t2zjo" name="Inform customer" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_02gqwyg</incoming>
+      <outgoing>Flow_1kim4vq</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <messageFlowRef>MessageFlow_18xf3u6</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_056ylqg" name="Ship goods" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_11zi7qu</incoming>
+      <outgoing>Flow_04lnqsf</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <messageFlowRef>MessageFlow_0r98f9o</messageFlowRef>
+    </choreographyTask>
+    <sequenceFlow id="Flow_0e2c805" sourceRef="Event_0y1sdn3" targetRef="ChoreographyTask_1vnykqp"></sequenceFlow>
+    <sequenceFlow id="Flow_0d6j7vb" sourceRef="ChoreographyTask_1vnykqp" targetRef="Gateway_1bpkhpg"></sequenceFlow>
+    <sequenceFlow id="Flow_0ymdsa2" name="unavailable" sourceRef="Gateway_1bpkhpg" targetRef="Gateway_1klfaw3"></sequenceFlow>
+    <sequenceFlow id="Flow_0ybxbuc" sourceRef="Gateway_1klfaw3" targetRef="ChoreographyTask_16lc74v"></sequenceFlow>
+    <sequenceFlow id="Flow_02gqwyg" sourceRef="Gateway_1klfaw3" targetRef="ChoreographyTask_07t2zjo"></sequenceFlow>
+    <sequenceFlow id="Flow_1kim4vq" sourceRef="ChoreographyTask_07t2zjo" targetRef="Gateway_0xcnzox"></sequenceFlow>
+    <sequenceFlow id="Flow_14ulro8" sourceRef="ChoreographyTask_16lc74v" targetRef="Gateway_0xcnzox"></sequenceFlow>
+    <sequenceFlow id="Flow_067nql1" name="available" sourceRef="Gateway_1bpkhpg" targetRef="Gateway_1yl9mch">
+      <conditionExpression xsi:type="bpmn2:tFormalExpression" language="Solidity">conditions &amp; 1 == 1</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_198zju1" sourceRef="Gateway_0xcnzox" targetRef="Gateway_1yl9mch"></sequenceFlow>
+    <sequenceFlow id="Flow_11zi7qu" sourceRef="Gateway_1yl9mch" targetRef="ChoreographyTask_056ylqg"></sequenceFlow>
+    <sequenceFlow id="Flow_04lnqsf" sourceRef="ChoreographyTask_056ylqg" targetRef="Event_1ezlk4g"></sequenceFlow>
+    <exclusiveGateway id="Gateway_1bpkhpg" default="Flow_0ymdsa2">
+      <incoming>Flow_0d6j7vb</incoming>
+      <outgoing>Flow_0ymdsa2</outgoing>
+      <outgoing>Flow_067nql1</outgoing>
+    </exclusiveGateway>
+    <exclusiveGateway id="Gateway_1yl9mch" default="Flow_11zi7qu">
+      <incoming>Flow_067nql1</incoming>
+      <incoming>Flow_198zju1</incoming>
+      <outgoing>Flow_11zi7qu</outgoing>
+    </exclusiveGateway>
+    <parallelGateway id="Gateway_1klfaw3">
+      <incoming>Flow_0ymdsa2</incoming>
+      <outgoing>Flow_0ybxbuc</outgoing>
+      <outgoing>Flow_02gqwyg</outgoing>
+    </parallelGateway>
+    <parallelGateway id="Gateway_0xcnzox">
+      <incoming>Flow_1kim4vq</incoming>
+      <incoming>Flow_14ulro8</incoming>
+      <outgoing>Flow_198zju1</outgoing>
+    </parallelGateway>
+    <endEvent id="Event_1ezlk4g">
+      <incoming>Flow_04lnqsf</incoming>
+    </endEvent>
+  </choreography>
+</definitions>
+A correct implementation is:
+```solidity
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.9;
+
+contract comp_Choreography {
+  uint public tokenState = 1;
+  address[3] public participants;
+  uint public conditions;
+
+  constructor(address[3] memory _participants) {
+    participants = _participants;
+  }
+  function setconditions(uint _conditions) external {
+    conditions = _conditions;
+  }
+
+  function enact(uint id) external {
+    uint _tokenState = tokenState;
+
+    while(_tokenState != 0) {
+      if (_tokenState & 1 == 1) {
+        // <--- ChoreographyTask_1vnykqp Check availability of goods --->
+        if (1 == id && msg.sender == participants[0]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(1);
+        _tokenState |= 2;
+        id = 0;
+        continue; 
+        }
+      }
+      if (_tokenState & 4 == 4) {
+        // <--- ChoreographyTask_16lc74v Produce goods --->
+        if (2 == id && msg.sender == participants[1]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(4);
+        _tokenState |= 8;
+        id = 0;
+        continue; 
+        }
+      }
+      if (_tokenState & 16 == 16) {
+        // <--- ChoreographyTask_07t2zjo Inform customer --->
+        if (3 == id && msg.sender == participants[1]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(16);
+        _tokenState |= 32;
+        id = 0;
+        continue; 
+        }
+      }
+      if (_tokenState & 64 == 64) {
+        // <--- ChoreographyTask_056ylqg Ship goods --->
+        if (4 == id && msg.sender == participants[1]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(64);
+        _tokenState |= 0;
+        break; // is end
+        }
+      }
+      if (_tokenState & 2 == 2) {
+        if (conditions & 1 == 1) {
+          // <---  auto transition  --->
+          _tokenState &= ~uint(2);
+          _tokenState |= 64;
+          continue; 
+        }
+        else {
+          // <---  auto transition  --->
+          _tokenState &= ~uint(2);
+          _tokenState |= 20;
+          continue; 
+        }
+      }
+      if (_tokenState & 40 == 40) {
+        // <---  auto transition  --->
+        _tokenState &= ~uint(40);
+        _tokenState |= 64;
+        continue; 
+      }
+      break;
+    }
+
+    tokenState = _tokenState;
+  }
+
+}```
+Start writing the smart contract:

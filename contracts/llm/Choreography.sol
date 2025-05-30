@@ -1,3 +1,4 @@
+// Created by qwen3-14b at 2025-05-30T15:32:42.452Z
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -29,7 +30,7 @@ contract LLM_Choreography {
         }
       }
       if (_tokenState & 2 == 2) {
-        // <--- exclusiveGateway condition check --->
+        // <--- Gateway_1bpkhpg --->
         if (conditions & 1 == 1) {
           // <--- Flow_067nql1 available --->
           _tokenState &= ~uint(2);
@@ -41,6 +42,13 @@ contract LLM_Choreography {
           _tokenState |= 20;
           continue;
         }
+      }
+      if (_tokenState & 20 == 20) {
+        // <--- Gateway_1klfaw3 --->
+        _tokenState &= ~uint(20);
+        _tokenState |= 4;
+        _tokenState |= 16;
+        continue;
       }
       if (_tokenState & 4 == 4) {
         // <--- ChoreographyTask_16lc74v Produce goods --->
@@ -63,8 +71,9 @@ contract LLM_Choreography {
         }
       }
       if (_tokenState & 8 == 8 && _tokenState & 32 == 32) {
-        // <--- parallelGateway auto transition --->
-        _tokenState &= ~uint(40);
+        // <--- Gateway_0xcnzox --->
+        _tokenState &= ~uint(8);
+        _tokenState &= ~uint(32);
         _tokenState |= 64;
         continue;
       }

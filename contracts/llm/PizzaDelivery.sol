@@ -1,3 +1,4 @@
+// Created by qwen3-14b at 2025-05-30T15:32:52.606Z
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -29,24 +30,23 @@ contract LLM_PizzaDelivery {
         }
       }
       if (_tokenState & 2 == 2) {
-        // <--- Gateway_1td68h3 --->
         if (conditions & 1 == 1) {
-          // <--- Flow_0mkbrl0 pizza ready --->
-          _tokenState &= ~uint(2);
-          _tokenState |= 4;
-          continue;
-        } else {
-          // <--- Flow_1uhdzct Pizza needs to be baked --->
+          // <--- auto transition to Flow_0mkbrl0 (pizza ready) --->
           _tokenState &= ~uint(2);
           _tokenState |= 8;
           continue;
+        } else {
+          // <--- auto transition to Flow_1uhdzct (Pizza needs to be baked) --->
+          _tokenState &= ~uint(2);
+          _tokenState |= 4;
+          continue;
         }
       }
-      if (_tokenState & 8 == 8) {
+      if (_tokenState & 4 == 4) {
         // <--- ChoreographyTask_1b2vkz9 Confirm ETA --->
         if (2 == id && msg.sender == participants[1]) {
           // <--- custom code for task here --->
-          _tokenState &= ~uint(8);
+          _tokenState &= ~uint(4);
           _tokenState |= 16;
           id = 0;
           continue;
@@ -57,29 +57,19 @@ contract LLM_PizzaDelivery {
         if (3 == id && msg.sender == participants[1]) {
           // <--- custom code for task here --->
           _tokenState &= ~uint(16);
-          _tokenState |= 32;
+          _tokenState |= 8;
           id = 0;
           continue;
         }
       }
-      if (_tokenState & 32 == 32) {
-        // <--- Gateway_0x44u2n --->
-        _tokenState &= ~uint(32);
-        _tokenState |= 64;
-        continue;
-      }
-      if (_tokenState & 4 == 4) {
+      if (_tokenState & 8 == 8) {
         // <--- ChoreographyTask_1797ws1 Deliver Pizza --->
         if (4 == id && msg.sender == participants[2]) {
           // <--- custom code for task here --->
-          _tokenState &= ~uint(4);
+          _tokenState &= ~uint(8);
           _tokenState |= 0;
           break; // is end
         }
-      }
-      if (_tokenState & 64 == 64) {
-        // <--- EndEvent_1lv264w --->
-        break;
       }
       break;
     }

@@ -3,12 +3,14 @@
   "description": "experiment description",
   "timestamp": "timestamp",
   "model": "technical name of model / chorpiler",
-  "prompt": "prompt used (if)",
   "gascost": 0,
-  "compiled": false,
-  "succ_replayed": "amount of correct traces succesfully replayed",
-  "fail_replayed": "",
-  "rejected": "amount of incorrect traces succesfully rejected",
-  "not_rejected": "",
-  "execution trace": "" 
+  "processes" : [
+    {"id": "",
+    "succ_replayed": "amount of correct traces succesfully replayed",
+    "fail_replayed": "",
+    "rejected": "amount of incorrect traces succesfully rejected",
+    "not_rejected": "",
+    "execution trace": "" 
+    }
+  ]
 }

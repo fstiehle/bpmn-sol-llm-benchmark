@@ -1,0 +1,69 @@
+{
+  "name": "one-shot experiment",
+  "description": "Solidity generation from one-shot logs",
+  "timestamp": "2025-05-30T15:32:42.452Z",
+  "model": "qwen3-14b",
+  "gascost": 0,
+  "processes": [
+    {
+      "id": "Choreography",
+      "succ_replayed": 1,
+      "fail_replayed": 2,
+      "rejected": 2,
+      "not_rejected": 1,
+      "execution trace": {
+        "process": "Choreography",
+        "correct": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "PizzaDelivery",
+      "succ_replayed": 2,
+      "fail_replayed": 0,
+      "rejected": 0,
+      "not_rejected": 2,
+      "execution trace": {
+        "process": "PizzaDelivery",
+        "correct": 2,
+        "total": 2
+      }
+    },
+    {
+      "id": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
+      "succ_replayed": 0,
+      "fail_replayed": 3,
+      "rejected": 3,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
+        "correct": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "sid_e6317f9e_4d23_4a94_bc7b_f1e509cf531a",
+      "succ_replayed": 1,
+      "fail_replayed": 0,
+      "rejected": 0,
+      "not_rejected": 1,
+      "execution trace": {
+        "process": "sid_e6317f9e_4d23_4a94_bc7b_f1e509cf531a",
+        "correct": 1,
+        "total": 1
+      }
+    },
+    {
+      "id": "sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1",
+      "succ_replayed": 0,
+      "fail_replayed": 4,
+      "rejected": 4,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1",
+        "correct": 0,
+        "total": 4
+      }
+    }
+  ]
+}

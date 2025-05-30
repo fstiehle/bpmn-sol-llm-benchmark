@@ -40,10 +40,16 @@ const runTest = async (config: TestConfig, endpoint: string) => {
     throw new Error("Prompt must be a non-empty string.");
   }
 
+  if (fs.existsSync(config.outputFolder)) {
+    fs.rmSync(config.outputFolder, { recursive: true, force: true });
+    console.log(`Deleted existing output folder: ${config.outputFolder}`);
+  }
+
   // Process all .bpmn files in the input folder
   const files = fs.readdirSync(config.inputFolder).filter((file) => file.endsWith(".bpmn"));
 
   for (const file of files) {
+    
     const filePath = path.join(config.inputFolder, file);
     const fileNameWithoutExt = path.basename(file, ".bpmn");
 
@@ -129,12 +135,20 @@ describe("LLM Endpoint Tests", () => {
 
   const tests: TestConfig[] = [
     {
-      name: "Test 1",
-      description: "This is the first test.",
+      name: "Small Model - One Shot Prompt",
+      description: "mall Model - One Shot Prompt",
       model: "qwen3-14b",
-      promptPath: path.join(__dirname, "../prompts/sap-sam/naive.txt"),
+      promptPath: path.join(__dirname, "../prompts/sap-sam/one-shot.txt"),
       inputFolder: path.join(__dirname, "../data/sap-sam/"),
-      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/${stamp}`),
+      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/one-shot/${stamp}`),
+    },
+    {
+      name: "Small Model - Zero Shot Prompt",
+      description: "Small Model - Zero Shot Prompt",
+      model: "qwen3-14b",
+      promptPath: path.join(__dirname, "../prompts/sap-sam/zero-shot.txt"),
+      inputFolder: path.join(__dirname, "../data/sap-sam/"),
+      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/zero-shot/${stamp}`),
     }
   ];
 

@@ -1,0 +1,14 @@
+Above is a BPMN 2.0 choreography. Generate a solidity smart contract from this.
+Name the contract by the choreography ID.
+The contract must let participants execute their task. Only tasks are executed, gateways are evaluated by the smart contract autonomously.
+It enforces the order of tasks.
+Outgoing flows from an exclusiveGateway which are not the default flow, need to enforce a condition.
+The conditions are present in the model as "conditionExpression". Enforce them based on the flow given in the diagram.
+The contract needs a way to set the data of the conditions.
+
+Also, enforce the correct initiator (initiatingParticipantRef) of a task by comparing the address.
+Participants' addresses are set in the constructor.
+
+Just output the smart contract, do not output additional, redundant text. In case of 
+problems write "ERROR" followed by a precise diagnosis of the problem.
+Start writing the smart contract:
