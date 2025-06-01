@@ -4,25 +4,22 @@ import * as path from "path";
 import axios from "axios";
 import FormData from "form-data";
 
-interface TestConfig {
-  name: string;
-  description: string;
-  model: string;
-  promptPath: string;
-  inputFolder: string;
-  outputFolder: string;
-}
+import { endpoint, TestConfig, tests} from "../test.config";
+
+const indent = (level: number) => "  ".repeat(level);
 
 const runTest = async (config: TestConfig, endpoint: string) => {
-  console.log(`Running test: ${config.name}`);
-  console.log(`Description: ${config.description}`);
+  const tab = indent(1);
+  const tab2 = indent(2);
+  console.log(`${tab}${config.name}:`);
 
   // Check if the endpoint is reachable
   try {
     const response = await axios.get(endpoint);
     expect(response.status).to.equal(200);
-    console.log("Endpoint is reachable.");
+    console.log(`${tab2}✅ Endpoint is reachable`);
   } catch (error) {
+    console.log(`${tab2}❌ Endpoint is not reachable`);
     throw new Error(`Endpoint ${endpoint} is not reachable: ${(error as Error).message}`);
   }
 
@@ -30,8 +27,9 @@ const runTest = async (config: TestConfig, endpoint: string) => {
   try {
     const modelResponse = await axios.post(`${endpoint}/select_model`, { technical_name: config.model });
     expect(modelResponse.status).to.equal(200);
-    console.log(`Model set to ${config.model}`);
+    console.log(`${tab2}🤖 Model set to ${config.model}`);
   } catch (error) {
+    console.log(`${tab2}❌ Failed to set model`);
     throw new Error(`Failed to set model: ${(error as Error).message}`);
   }
 
@@ -42,25 +40,27 @@ const runTest = async (config: TestConfig, endpoint: string) => {
 
   if (fs.existsSync(config.outputFolder)) {
     fs.rmSync(config.outputFolder, { recursive: true, force: true });
-    console.log(`Deleted existing output folder: ${config.outputFolder}`);
+    console.log(`${tab2}🗑️ Deleted existing output folder: ${config.outputFolder}`);
   }
 
   // Process all .bpmn files in the input folder
   const files = fs.readdirSync(config.inputFolder).filter((file) => file.endsWith(".bpmn"));
 
   for (const file of files) {
-    
     const filePath = path.join(config.inputFolder, file);
     const fileNameWithoutExt = path.basename(file, ".bpmn");
+    console.log(`${tab2}📄 ${file}:`);
 
     // Read the corresponding .json file from contracts/chorpiler
     const jsonFilePath = path.join(__dirname, "../contracts/chorpiler", `${fileNameWithoutExt}.json`);
     if (!fs.existsSync(jsonFilePath)) {
+      console.log(`${tab2}  ❌ JSON config file not found: ${jsonFilePath}`);
       throw new Error(`JSON config file not found: ${jsonFilePath}`);
     }
 
     const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf-8"));
     if (!jsonData) {
+      console.log(`${tab2}  ❌ Missing encoding: ${jsonFilePath}`);
       throw new Error(`Missing encoding: ${jsonFilePath}`);
     }
 
@@ -72,8 +72,9 @@ const runTest = async (config: TestConfig, endpoint: string) => {
     try {
       const promptResponse = await axios.post(`${endpoint}/prompt`, { prompt: updatedPrompt });
       expect(promptResponse.status).to.equal(200);
-      console.log("Prompt set successfully.");
+      console.log(`${tab2}  ✏️ Prompt set`);
     } catch (error) {
+      console.log(`${tab2}  ❌ Failed to set prompt`);
       throw new Error(`Failed to set prompt: ${(error as Error).message}`);
     }
 
@@ -89,9 +90,10 @@ const runTest = async (config: TestConfig, endpoint: string) => {
         },
       });
       expect(inputResponse.status).to.equal(200);
+      console.log(`${tab2}  ⬆️ File uploaded`);
 
       // Wait for the /output/ endpoint to process the file
-      console.log(`Waiting for output of ${file}`);
+      console.log(`${tab2}  ⏳ Waiting for output`);
       const outputResponse = await axios.get(`${endpoint}/output/`, {
         responseType: "text",
         timeout: 300000, // Allow for a long wait (5 minutes)
@@ -105,13 +107,13 @@ const runTest = async (config: TestConfig, endpoint: string) => {
       // Prepare the JSON output
       const outputJson = {
         name: config.name,
-        description: config.description,
         timestamp: new Date().toISOString(),
         model: config.model,
         prompt: updatedPrompt,
         input: fs.readFileSync(filePath, "utf-8"),
         output: solidityCode,
         processID: fileNameWithoutExt,
+        compiled: true // can later be set to false
       };
 
       // Write the JSON output to the specified output folder
@@ -120,42 +122,19 @@ const runTest = async (config: TestConfig, endpoint: string) => {
         fs.mkdirSync(config.outputFolder, { recursive: true });
       }
       fs.writeFileSync(outputFilePath, JSON.stringify(outputJson, null, 2), "utf-8");
-      console.log(`Saved output to ${outputFilePath}`);
+      console.log(`${tab2}  💾 Saved output to ${outputFilePath}`);
     } catch (error) {
-      console.error(`Error processing ${file}: ${(error as Error).message}`);
+      console.log(`${tab2}  ❌ Error processing ${file}: ${(error as Error).message}`);
     }
   }
 };
 
 describe("LLM Endpoint Tests", () => {
 
-  const endpoint = "http://127.0.0.1:8000";
-  //const stamp = new Date().toISOString();
-  const stamp = "last";
-
-  const tests: TestConfig[] = [
-    {
-      name: "Small Model - One Shot Prompt",
-      description: "mall Model - One Shot Prompt",
-      model: "qwen3-14b",
-      promptPath: path.join(__dirname, "../prompts/sap-sam/one-shot/one-shot.txt"),
-      inputFolder: path.join(__dirname, "../data/sap-sam/"),
-      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/one-shot/${stamp}`),
-    },
-    {
-      name: "Small Model - Zero Shot Prompt",
-      description: "Small Model - Zero Shot Prompt",
-      model: "qwen3-14b",
-      promptPath: path.join(__dirname, "../prompts/sap-sam/zero-shot/zero-shot.txt"),
-      inputFolder: path.join(__dirname, "../data/sap-sam/"),
-      outputFolder: path.join(__dirname, `../log/llm/sap-sam/qwen3-14b/zero-shot/${stamp}`),
-    }
-  ];
-
   for (const testConfig of tests) {
-    it(`should run ${testConfig.name}`, async () => {
+    it(`should run: ${testConfig.name}`, async () => {
       await runTest(testConfig, endpoint);
     });
   }
-  
+
 });

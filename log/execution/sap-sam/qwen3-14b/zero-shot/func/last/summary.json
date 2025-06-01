@@ -1,0 +1,44 @@
+{
+  "name": "Small Model - Zero Shot - Multiple Functions",
+  "timestamp": "2025-05-31T20:11:29.835Z",
+  "model": "qwen3-14b",
+  "gascost": 0,
+  "processes": [
+    {
+      "id": "Choreography",
+      "correct": 0,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "Choreography",
+        "correct": 0,
+        "total": 3
+      }
+    },
+    {
+      "id": "PizzaDelivery",
+      "correct": 0,
+      "total": 2,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "PizzaDelivery",
+        "correct": 0,
+        "total": 2
+      }
+    },
+    {
+      "id": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
+      "correct": 1,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
+        "correct": 1,
+        "total": 3
+      }
+    }
+  ]
+}

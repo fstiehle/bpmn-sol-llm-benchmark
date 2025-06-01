@@ -8,15 +8,14 @@ The different taskIDs for the function must equal the ones from the model as fol
 
 Outgoing flows from an exclusiveGateway which are not the default flow, need to enforce a condition.
 The conditions are present in the model as "conditionExpression". Enforce them based on the flow given in the diagram.
-The contracts needs a function "setconditions(uint _conditions)".
+The contracts needs a function "setConditions(uint _conditions)" and a corresponding public conditions variable.
 
 Also, enforce the correct initiator (initiatingParticipantRef) of a task by comparing the address.
 Participants' addresses are set in the constructor "constructor(address[n] memory _participants)", 
 where n stands for the number of participants. You must encode them like follows: 
-{{parIDs}}
+{{parIDs}}.
 
 The current state (or marking) of the contract must be encoded in the "tokenState" variable.
-If the end of the contract is reached, set tokenState to 0.
 Just output the smart contract, do not output additional, redundant text. In case of 
 problems write "ERROR" followed by a precise diagnosis of the problem.
 

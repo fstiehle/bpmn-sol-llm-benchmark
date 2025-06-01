@@ -184,7 +184,8 @@ describe('XML Files in data/raw', () => {
     sim.contractDir = "./contracts/chorpiler";
     sim.xesDir = "./xes";
 
-    return sim.generate("comp_");
+    return sim.generate("comp_", 
+      chorpiler.generators.sol.DefaultContractGenerator, 
+      { unfoldSubNets: true, loopProtection: false});
   });
-
 })

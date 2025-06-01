@@ -9,7 +9,7 @@ contract comp_Choreography {
   constructor(address[3] memory _participants) {
     participants = _participants;
   }
-  function setconditions(uint _conditions) external {
+  function setConditions(uint _conditions) external {
     conditions = _conditions;
   }
 
@@ -18,62 +18,53 @@ contract comp_Choreography {
 
     while(_tokenState != 0) {
       if (_tokenState & 1 == 1) {
-        // <--- ChoreographyTask_1vnykqp Check availability of goods --->
-        if (1 == id && msg.sender == participants[0]) {
+        // <--- ChoreographyTask_1vnykqp Order goods --->
+        if (0 == id && msg.sender == participants[0]) {
         // <--- custom code for task here --->
         _tokenState &= ~uint(1);
-        _tokenState |= 2;
-        id = 0;
+        _tokenState |= 6;
+        continue; 
+        }
+      }
+      if (_tokenState & 2 == 2) {
+        // <--- ChoreographyTask_16lc74v Produce goods --->
+        if (1 == id && msg.sender == participants[1]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(2);
+        _tokenState |= 8;
         continue; 
         }
       }
       if (_tokenState & 4 == 4) {
-        // <--- ChoreographyTask_16lc74v Produce goods --->
+        // <--- ChoreographyTask_07t2zjo Inform customer --->
         if (2 == id && msg.sender == participants[1]) {
         // <--- custom code for task here --->
         _tokenState &= ~uint(4);
-        _tokenState |= 8;
-        id = 0;
+        _tokenState |= 16;
         continue; 
         }
       }
-      if (_tokenState & 16 == 16) {
-        // <--- ChoreographyTask_07t2zjo Inform customer --->
+      if (_tokenState & 32 == 32) {
+        // <--- ChoreographyTask_056ylqg Ship goods --->
         if (3 == id && msg.sender == participants[1]) {
         // <--- custom code for task here --->
-        _tokenState &= ~uint(16);
-        _tokenState |= 32;
-        id = 0;
-        continue; 
-        }
-      }
-      if (_tokenState & 64 == 64) {
-        // <--- ChoreographyTask_056ylqg Ship goods --->
-        if (4 == id && msg.sender == participants[1]) {
-        // <--- custom code for task here --->
-        _tokenState &= ~uint(64);
+        _tokenState &= ~uint(32);
         _tokenState |= 0;
         break; // is end
         }
       }
-      if (_tokenState & 2 == 2) {
+      if (_tokenState & 6 == 6) {
         if (conditions & 1 == 1) {
           // <---  auto transition  --->
-          _tokenState &= ~uint(2);
-          _tokenState |= 64;
-          continue; 
-        }
-        else {
-          // <---  auto transition  --->
-          _tokenState &= ~uint(2);
-          _tokenState |= 20;
+          _tokenState &= ~uint(6);
+          _tokenState |= 32;
           continue; 
         }
       }
-      if (_tokenState & 40 == 40) {
+      if (_tokenState & 24 == 24) {
         // <---  auto transition  --->
-        _tokenState &= ~uint(40);
-        _tokenState |= 64;
+        _tokenState &= ~uint(24);
+        _tokenState |= 32;
         continue; 
       }
       break;

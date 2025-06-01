@@ -1,10 +1,10 @@
 {
-  "name": "experiment name",
-  "description": "experiment description",
-  "timestamp": "timestamp",
-  "model": "technical name of model",
+  "name": "",
+  "timestamp": "",
+  "model": "",
+  "prompt": "",
+  "input": "",
+  "output": "",
   "processID": "",
-  "prompt": "prompt used",
-  "input": "input .bpmn or textual description",
-  "output": "model output"
+  "compiled": true
 }

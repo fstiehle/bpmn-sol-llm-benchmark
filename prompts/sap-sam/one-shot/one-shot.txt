@@ -1,22 +1,25 @@
-Above is a BPMN 2.0 choreography. Generate a solidity smart contract from this.
-Name the contract by the choreography ID.
-The contract must implement the function "enact(uint taskID)", which lets a participant execute a task.
-The function enforces the order of tasks. Extract the order based on the flow given in the diagram. 
-Only tasks are executed by participants, gateways are executed by the smart contract automatically.
-The different taskIDs for the function must equal the ones from the model as follows:
-{{taskIDs}}.
-
-Outgoing flows from an exclusiveGateway which are not the default flow, need to enforce a condition.
-The conditions are present in the model as "conditionExpression". Enforce them based on the flow given in the diagram.
-The contracts needs a function "setconditions(uint _conditions)".
-
-Also, enforce the correct initiator (initiatingParticipantRef) of a task by comparing the address.
-Participants' addresses are set in the constructor "constructor(address[n] memory _participants)", 
-where n stands for the number of participants. You must encode them like follows: 
+Generate a Solidity smart contract from the BPMN 2.0 choreography model XML provided above. 
+Use the following implementation rules:
+- The contract name must be the id of the choreography in the model.
+- Implement the function `enact(uint taskID) external` which allows a participant to execute a task.
+- Enforce the order of task execution based on the <sequenceFlow> and their incoming and outgoing elements in the BPMN model.
+- Only choreography tasks (not gateways or events) are executable via enact.
+Use the following mapping of taskID to `choreographyTask` id of the model:
+```json
+{{taskIDs}}
+```
+- Gateways are evaluated automatically inside the contract.
+- All outgoing flow from an `exclusiveGateway` must enforce a condition, except the default flow.
+- The conditions are given as `conditionExpression`. If no condition is met, the default flow is taken.
+- Use the variable `uint public conditions` and include a setter function: `setConditions(uint _conditions) external`.
+- Use the constructor `constructor(address[n] memory _participants)`, where n is the number of participants.
+- Enforce that `msg.sender` equals the correct `initiatingParticipantRef` for each task.
+- Use the following mapping of index of the address array to the participant id in the model:
+```json
 {{parIDs}}
+```
+- Use a variable `tokenState` to encode the current control flow position.
 
-The current state (or marking) of the contract must be encoded in the "tokenState" variable.
-If the end of the contract is reached, set tokenState to 0.
 Just output the smart contract, do not output additional, redundant text. In case of 
 problems write "ERROR" followed by a precise diagnosis of the problem.
 
@@ -110,7 +113,7 @@ A correct implementation is:
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-contract comp_Choreography {
+contract Choreography {
   uint public tokenState = 1;
   address[3] public participants;
   uint public conditions;
@@ -118,7 +121,7 @@ contract comp_Choreography {
   constructor(address[3] memory _participants) {
     participants = _participants;
   }
-  function setconditions(uint _conditions) external {
+  function setConditions(uint _conditions) external {
     conditions = _conditions;
   }
 
@@ -127,62 +130,53 @@ contract comp_Choreography {
 
     while(_tokenState != 0) {
       if (_tokenState & 1 == 1) {
-        // <--- ChoreographyTask_1vnykqp Check availability of goods --->
-        if (1 == id && msg.sender == participants[0]) {
+        // <--- ChoreographyTask_1vnykqp Order goods --->
+        if (0 == id && msg.sender == participants[0]) {
         // <--- custom code for task here --->
         _tokenState &= ~uint(1);
-        _tokenState |= 2;
-        id = 0;
+        _tokenState |= 6;
+        continue; 
+        }
+      }
+      if (_tokenState & 2 == 2) {
+        // <--- ChoreographyTask_16lc74v Produce goods --->
+        if (1 == id && msg.sender == participants[1]) {
+        // <--- custom code for task here --->
+        _tokenState &= ~uint(2);
+        _tokenState |= 8;
         continue; 
         }
       }
       if (_tokenState & 4 == 4) {
-        // <--- ChoreographyTask_16lc74v Produce goods --->
+        // <--- ChoreographyTask_07t2zjo Inform customer --->
         if (2 == id && msg.sender == participants[1]) {
         // <--- custom code for task here --->
         _tokenState &= ~uint(4);
-        _tokenState |= 8;
-        id = 0;
+        _tokenState |= 16;
         continue; 
         }
       }
-      if (_tokenState & 16 == 16) {
-        // <--- ChoreographyTask_07t2zjo Inform customer --->
+      if (_tokenState & 32 == 32) {
+        // <--- ChoreographyTask_056ylqg Ship goods --->
         if (3 == id && msg.sender == participants[1]) {
         // <--- custom code for task here --->
-        _tokenState &= ~uint(16);
-        _tokenState |= 32;
-        id = 0;
-        continue; 
-        }
-      }
-      if (_tokenState & 64 == 64) {
-        // <--- ChoreographyTask_056ylqg Ship goods --->
-        if (4 == id && msg.sender == participants[1]) {
-        // <--- custom code for task here --->
-        _tokenState &= ~uint(64);
+        _tokenState &= ~uint(32);
         _tokenState |= 0;
         break; // is end
         }
       }
-      if (_tokenState & 2 == 2) {
+      if (_tokenState & 6 == 6) {
         if (conditions & 1 == 1) {
           // <---  auto transition  --->
-          _tokenState &= ~uint(2);
-          _tokenState |= 64;
-          continue; 
-        }
-        else {
-          // <---  auto transition  --->
-          _tokenState &= ~uint(2);
-          _tokenState |= 20;
+          _tokenState &= ~uint(6);
+          _tokenState |= 32;
           continue; 
         }
       }
-      if (_tokenState & 40 == 40) {
+      if (_tokenState & 24 == 24) {
         // <---  auto transition  --->
-        _tokenState &= ~uint(40);
-        _tokenState |= 64;
+        _tokenState &= ~uint(24);
+        _tokenState |= 32;
         continue; 
       }
       break;
@@ -191,5 +185,5 @@ contract comp_Choreography {
     tokenState = _tokenState;
   }
 
-}```
-Start writing the smart contract:
+}
+```

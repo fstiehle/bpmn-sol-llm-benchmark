@@ -1,0 +1,44 @@
+{
+  "name": "Small Model - One Shot with Multiple Functions and Easier Example",
+  "timestamp": "2025-06-01T02:34:08.240Z",
+  "model": "qwen3-14b",
+  "gascost": 0,
+  "processes": [
+    {
+      "id": "ChoreographyExample",
+      "correct": 2,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample",
+        "correct": 2,
+        "total": 3
+      }
+    },
+    {
+      "id": "ChoreographyExample2",
+      "correct": 1,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample2",
+        "correct": 1,
+        "total": 3
+      }
+    },
+    {
+      "id": "PizzaDelivery",
+      "correct": 1,
+      "total": 2,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "PizzaDelivery",
+        "correct": 1,
+        "total": 2
+      }
+    }
+  ]
+}
