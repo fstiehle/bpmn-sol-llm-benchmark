@@ -5,7 +5,10 @@ import chorpiler, { TriggerEncoding } from "chorpiler";
 import { ethers } from "hardhat";
 import { execSync } from "child_process";
 
-import { TestConfig, run} from "../test.config";
+import { run} from "../test.config";
+import { TestConfig } from "./TestConfig";
+
+const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
 
 const xesParser = new chorpiler.utils.XESParser();
 const contractDir = "./contracts/chorpiler";
@@ -15,7 +18,7 @@ export const capitalize = (name: string): string => {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
-const processLogsToSol = (logFolder: string, solFolder: string) => {
+const processLogsToSol = (logFolder: string, solFolder: string, prefix="LLM_") => {
   const logFiles = fs.readdirSync(logFolder).filter((file) => file.endsWith(".json"));
 
   for (const logFile of logFiles) {
@@ -24,7 +27,7 @@ const processLogsToSol = (logFolder: string, solFolder: string) => {
 
     if (logContent.compiled === false) continue;
 
-    const contractName = `LLM_${path.basename(logFile, path.extname(logFile))}`;
+    const contractName = `${prefix}${path.basename(logFile, path.extname(logFile))}`;
 
     if (logContent.output && logContent.processID) {
       const solFilePath = path.join(solFolder, `${logContent.processID}.sol`);
@@ -35,14 +38,12 @@ const processLogsToSol = (logFolder: string, solFolder: string) => {
         .replace(/\n/g, "\n")
         .replace(/contract\s+\w+\s*{/, `contract ${contractName} {`);
       fs.writeFileSync(solFilePath, header + cleanedSolidity, "utf-8");
-      console.log(`Saved Solidity file to ${solFilePath}`);
+      logDebug(`Saved Solidity file to ${solFilePath}`);
     } else {
       console.error(`Log file ${logFile} is missing required fields.`);
     }
   }
 };
-
-const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
 
 function logDebug(...args: any[]) {
   if (DEBUG) {
@@ -79,10 +80,16 @@ const replayTraces = async (solDir: string, test: TestConfig, contractPrefix: st
     // replay log
     for (const [i, trace] of eventLog.traces.entries()) {
       // deploy
-      const contract = await ethers.deployContract(
-        `${contractPrefix}${name}`,
-        [[...wallets.values()].map(v => v.address)]
-      );
+      let contract;
+      try {
+        contract = await ethers.deployContract(
+          `${contractPrefix}${name}`,
+          [[...wallets.values()].map(v => v.address)]
+        );
+      } catch (error) {
+        console.log(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
+        continue;
+      }
 
       const contracts = new Map<string, any>();
       for (const [id, num] of triggerEncoding.participants) {
@@ -230,7 +237,7 @@ const replayTraces = async (solDir: string, test: TestConfig, contractPrefix: st
       "execution trace": r }))
   };
 
-  const outDir = path.join("log", "execution", test.stamp(), );
+  const outDir = path.join("log", "execution", test.stamp, );
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
@@ -249,7 +256,9 @@ const replayTraces = async (solDir: string, test: TestConfig, contractPrefix: st
   console.table(summaryTable);
 };
 
-describe("Chorpiler", () => {
+describe.skip("Chorpiler", () => {
+  execSync("npx hardhat compile", { stdio: "inherit" });
+
   it(`Replay traces`, async () => {
     const test = new TestConfig({
       name: "Chorpiler",
@@ -258,7 +267,6 @@ describe("Chorpiler", () => {
       promptPath: "",
       model: "Chorpiler",
       inputFolder: "",
-      outputFolder: "",
       multipleFunc: false
     });
     await replayTraces(contractDir, test, "comp_");
@@ -266,21 +274,28 @@ describe("Chorpiler", () => {
 });
 
 describe("LLM", () => {
-  for (const test of run) {
-    it(`prepares contracts for ${test.name}`, async () => {
-      const solFolder = path.join(__dirname, "../contracts/llm");
 
+  run.forEach(test => {
+    it(`test ${test.name}`, async () => {
+      console.log(`Execute contracts for ${test.name}`);
+
+      //execSync("npm run clean-llm", { stdio: "inherit" });
+
+      const solFolder = path.join(__dirname, `../contracts/llm/${test.stamp}`);
       if (!fs.existsSync(solFolder)) {
         fs.mkdirSync(solFolder, { recursive: true });
       }
 
-      execSync("npm run clean-llm", { stdio: "inherit" });
-      processLogsToSol(test.outputFolder, solFolder);
+      processLogsToSol(test.outputFolder, solFolder, test.slug);
 
-      // Compile contracts after processing logs
-      execSync("npx hardhat compile", { stdio: "inherit" });
-
-      await replayTraces("./contracts/llm", test, "LLM_");
+      try {
+        execSync("npm run compile", { stdio: "inherit" });
+        await replayTraces(solFolder, test, test.slug);
+      } catch (error) {
+        console.log(error instanceof Error ? error.message : String(error));
+      }
     });
-  }
+  });
+
+  //execSync("npm run clean-llm", { stdio: "inherit" });
 });

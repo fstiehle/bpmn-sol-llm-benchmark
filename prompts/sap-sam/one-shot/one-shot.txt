@@ -1,17 +1,20 @@
-Generate a Solidity smart contract from the BPMN 2.0 choreography model XML provided above. 
+Generate a Solidity smart contract from the BPMN 2.0 choreography model XML provided above.
 Use the following implementation rules:
-- The contract name must be the id of the choreography in the model.
-- Implement the function `enact(uint taskID) external` which allows a participant to execute a task.
-- Enforce the order of task execution based on the <sequenceFlow> and their incoming and outgoing elements in the BPMN model.
-- Only choreography tasks (not gateways or events) are executable via enact.
+- The contract name must be the `id` of the `<choreography>` element in the model.
+- Implement the function `enact(uint taskID) external` which allows a participant to execute a choreography task.
+- Only `<choreographyTask>` elements are executable via `enact()`. Gateways and start and end events are handled internally.
+- Enforce the order of task execution based on `<sequenceFlow>` elements and the choreography's control flow.
 Use the following mapping of taskID to `choreographyTask` id of the model:
 ```json
 {{taskIDs}}
 ```
-- Gateways are evaluated automatically inside the contract.
-- All outgoing flow from an `exclusiveGateway` must enforce a condition, except the default flow.
-- The conditions are given as `conditionExpression`. If no condition is met, the default flow is taken.
-- Use the variable `uint public conditions` and include a setter function: `setConditions(uint _conditions) external`.
+- Implement exclusive gateways using Solidity conditional logic.
+- All `<sequenceFlow>` with a `conditionExpression` must be implemented exactly as defined in the model inside `<conditionExpression>...</conditionExpression>`, and should only be evaluated when their source gateway is active.
+- Ensure that each conditional branch must check its associated condition before permitting task execution.
+- Default branches from exclusive gateways (i.e., the `default` attribute) must be treated as fallback paths if none of the conditions are satisfied.
+- All outgoing flows from a `exclusiveGateway` must enforce a condition, except the default flow.
+- The condition for an outgoing flow is found in the model as `conditionExpression` (Each flow has its own condition).
+- Use a variable `uint public conditions` and include a setter: `function setConditions(uint _conditions) external`.
 - Use the constructor `constructor(address[n] memory _participants)`, where n is the number of participants.
 - Enforce that `msg.sender` equals the correct `initiatingParticipantRef` for each task.
 - Use the following mapping of index of the address array to the participant id in the model:
@@ -19,12 +22,13 @@ Use the following mapping of taskID to `choreographyTask` id of the model:
 {{parIDs}}
 ```
 - Use a variable `tokenState` to encode the current control flow position.
+- At the end of the process, set the `tokenState` variable to zero.
 
-Just output the smart contract, do not output additional, redundant text. In case of 
-problems write "ERROR" followed by a precise diagnosis of the problem.
+Just output the smart contract, do not output additional, redundant text.
 
 An example.
 Given the choreography
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions id="_tTv5YOycEeiHGOQ2NkJZNQ" targetNamespace="http://bpmn.io/schema/bpmn">
   <message id="Message_032z8ml"></message>
@@ -108,7 +112,8 @@ Given the choreography
     </endEvent>
   </choreography>
 </definitions>
-A correct implementation is:
+```
+A correct implementation is (Note: The example code uses bitmasking for the current state, as it is more efficient and has optimised the control flow):
 ```solidity
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;

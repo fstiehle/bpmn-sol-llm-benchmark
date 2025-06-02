@@ -4,7 +4,8 @@ import * as path from "path";
 import axios from "axios";
 import FormData from "form-data";
 
-import { endpoint, TestConfig, tests} from "../test.config";
+import { endpoint, llms} from "../test.config";
+import { TestConfig } from "./TestConfig";
 
 const indent = (level: number) => "  ".repeat(level);
 
@@ -131,7 +132,7 @@ const runTest = async (config: TestConfig, endpoint: string) => {
 
 describe("LLM Endpoint Tests", () => {
 
-  for (const testConfig of tests) {
+  for (const testConfig of llms) {
     it(`should run: ${testConfig.name}`, async () => {
       await runTest(testConfig, endpoint);
     });

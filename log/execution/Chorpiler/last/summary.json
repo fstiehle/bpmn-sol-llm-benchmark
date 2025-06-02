@@ -1,6 +1,6 @@
 {
   "name": "Chorpiler",
-  "timestamp": "2025-06-01T02:34:02.029Z",
+  "timestamp": "2025-06-02T17:55:56.841Z",
   "model": "Chorpiler",
   "gascost": 0,
   "processes": [
@@ -29,6 +29,30 @@
       }
     },
     {
+      "id": "ChoreographyExample0",
+      "correct": 3,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample0",
+        "correct": 3,
+        "total": 3
+      }
+    },
+    {
+      "id": "ChoreographyExample1",
+      "correct": 3,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample1",
+        "correct": 3,
+        "total": 3
+      }
+    },
+    {
       "id": "ChoreographyExample2",
       "correct": 3,
       "total": 3,
@@ -36,6 +60,18 @@
       "not_rejected": 0,
       "execution trace": {
         "process": "ChoreographyExample2",
+        "correct": 3,
+        "total": 3
+      }
+    },
+    {
+      "id": "ChoreographyExample3",
+      "correct": 3,
+      "total": 3,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample3",
         "correct": 3,
         "total": 3
       }
