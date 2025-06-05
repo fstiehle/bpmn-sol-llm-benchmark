@@ -1,0 +1,223 @@
+Generate a Solidity smart contract from the BPMN 2.0 choreography model XML provided above.
+Use the following implementation rules:
+- The contract name must be the `id` of the `<choreography>` element in the model.
+- Implement the function `enact(uint taskID) external` which allows a participant to execute a choreography task.
+- Only `<choreographyTask>` elements are executable via `enact()`. Gateways and start and end events are handled internally.
+- Enforce the order of task execution based on `<sequenceFlow>` elements and the choreography's control flow.
+Use the following mapping of taskID to `choreographyTask` id of the model:
+```json
+{{taskIDs}}
+```
+- Implement exclusive gateways (`exclusiveGateway`s) using Solidity conditional logic.
+- All outgoing flows (`<sequenceFlow>`s) from an exclusive gateway must enforce a condition, except the default flow.
+- All `<sequenceFlow>`s with a `conditionExpression` must be implemented exactly as in `<conditionExpression>...</conditionExpression>`, 
+and should only be evaluated when their source gateway is active.
+- Conditions must not be shared or reused between gateways unless they are defined identically in multiple <sequenceFlow> elements. 
+- Ensure that each conditional branch must check its associated condition before permitting task execution.
+- Default branches from exclusive gateways (i.e., the `default` attribute) must be treated as fallback paths if none of the conditions are satisfied.
+- Use a variable `uint public conditions` and include a setter: `function setConditions(uint _conditions) external`.
+- For parallel gateways, the following tasks can be taken in any order but it has to wait for all incoming flows before continuing.
+- Use the constructor `constructor(address[n] memory _participants)`, where n is the number of participants.
+- Allow execution of each task only by the correct initiating participant by enforcing that `msg.sender` equals the correct `initiatingParticipantRef`.
+- Use the following mapping of index of the address array to the participant id in the model:
+```json
+{{parIDs}}
+```
+- Use a variable `tokenState` to encode the current control flow position.
+Just output the smart contract, do not output additional, redundant text. 
+
+An example.
+Given the choreography
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions id="_tTv5YOycEeiHGOQ2NkJZNQ" targetNamespace="http://bpmn.io/schema/bpmn">
+  <message id="Message_032z8ml"></message>
+  <message id="Message_19qrd5q"></message>
+  <message id="Message_0vnm1wq"></message>
+  <message id="Message_085o98p"></message>
+  <choreography id="ChoreographyExample">
+    <participant id="Participant_1tzf68i" name="Customer"></participant>
+    <participant id="Participant_198pz14" name="Seller"></participant>
+    <participant id="Participant_0378t5g" name="Manufacturer"></participant>
+    <messageFlow id="MessageFlow_0r98f9o" sourceRef="Participant_198pz14" targetRef="Participant_1tzf68i" messageRef="Message_032z8ml"></messageFlow>
+    <messageFlow id="MessageFlow_18xf3u6" sourceRef="Participant_198pz14" targetRef="Participant_1tzf68i" messageRef="Message_19qrd5q"></messageFlow>
+    <messageFlow id="MessageFlow_0r00txu" sourceRef="Participant_198pz14" targetRef="Participant_0378t5g" messageRef="Message_0vnm1wq"></messageFlow>
+    <messageFlow id="MessageFlow_1cx9rl4" sourceRef="Participant_1tzf68i" targetRef="Participant_198pz14" messageRef="Message_085o98p"></messageFlow>
+    <startEvent id="Event_0y1sdn3">
+      <outgoing>Flow_0e2c805</outgoing>
+    </startEvent>
+    <choreographyTask id="ChoreographyTask_1vnykqp" name="Order goods" initiatingParticipantRef="Participant_1tzf68i">
+      <incoming>Flow_0e2c805</incoming>
+      <outgoing>Flow_0d6j7vb</outgoing>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <participantRef>Participant_198pz14</participantRef>
+      <messageFlowRef>MessageFlow_1cx9rl4</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_16lc74v" name="Produce goods" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_0ybxbuc</incoming>
+      <outgoing>Flow_14ulro8</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_0378t5g</participantRef>
+      <messageFlowRef>MessageFlow_0r00txu</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_07t2zjo" name="Inform customer" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_02gqwyg</incoming>
+      <outgoing>Flow_1kim4vq</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <messageFlowRef>MessageFlow_18xf3u6</messageFlowRef>
+    </choreographyTask>
+    <choreographyTask id="ChoreographyTask_056ylqg" name="Ship goods" initiatingParticipantRef="Participant_198pz14">
+      <incoming>Flow_11zi7qu</incoming>
+      <outgoing>Flow_04lnqsf</outgoing>
+      <participantRef>Participant_198pz14</participantRef>
+      <participantRef>Participant_1tzf68i</participantRef>
+      <messageFlowRef>MessageFlow_0r98f9o</messageFlowRef>
+    </choreographyTask>
+    <sequenceFlow id="Flow_0e2c805" sourceRef="Event_0y1sdn3" targetRef="ChoreographyTask_1vnykqp"></sequenceFlow>
+    <sequenceFlow id="Flow_0d6j7vb" sourceRef="ChoreographyTask_1vnykqp" targetRef="Gateway_1bpkhpg"></sequenceFlow>
+    <sequenceFlow id="Flow_0ymdsa2" name="unavailable" sourceRef="Gateway_1bpkhpg" targetRef="Gateway_1klfaw3"></sequenceFlow>
+    <sequenceFlow id="Flow_0ybxbuc" sourceRef="Gateway_1klfaw3" targetRef="ChoreographyTask_16lc74v"></sequenceFlow>
+    <sequenceFlow id="Flow_02gqwyg" sourceRef="Gateway_1klfaw3" targetRef="ChoreographyTask_07t2zjo"></sequenceFlow>
+    <sequenceFlow id="Flow_1kim4vq" sourceRef="ChoreographyTask_07t2zjo" targetRef="Gateway_0xcnzox"></sequenceFlow>
+    <sequenceFlow id="Flow_14ulro8" sourceRef="ChoreographyTask_16lc74v" targetRef="Gateway_0xcnzox"></sequenceFlow>
+    <sequenceFlow id="Flow_067nql1" name="available" sourceRef="Gateway_1bpkhpg" targetRef="Gateway_1yl9mch">
+      <conditionExpression xsi:type="bpmn2:tFormalExpression" language="Solidity">conditions &amp; 1 == 1</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_198zju1" sourceRef="Gateway_0xcnzox" targetRef="Gateway_1yl9mch"></sequenceFlow>
+    <sequenceFlow id="Flow_11zi7qu" sourceRef="Gateway_1yl9mch" targetRef="ChoreographyTask_056ylqg"></sequenceFlow>
+    <sequenceFlow id="Flow_04lnqsf" sourceRef="ChoreographyTask_056ylqg" targetRef="Event_1ezlk4g"></sequenceFlow>
+    <exclusiveGateway id="Gateway_1bpkhpg" default="Flow_0ymdsa2">
+      <incoming>Flow_0d6j7vb</incoming>
+      <outgoing>Flow_0ymdsa2</outgoing>
+      <outgoing>Flow_067nql1</outgoing>
+    </exclusiveGateway>
+    <exclusiveGateway id="Gateway_1yl9mch" default="Flow_11zi7qu">
+      <incoming>Flow_067nql1</incoming>
+      <incoming>Flow_198zju1</incoming>
+      <outgoing>Flow_11zi7qu</outgoing>
+    </exclusiveGateway>
+    <parallelGateway id="Gateway_1klfaw3">
+      <incoming>Flow_0ymdsa2</incoming>
+      <outgoing>Flow_0ybxbuc</outgoing>
+      <outgoing>Flow_02gqwyg</outgoing>
+    </parallelGateway>
+    <parallelGateway id="Gateway_0xcnzox">
+      <incoming>Flow_1kim4vq</incoming>
+      <incoming>Flow_14ulro8</incoming>
+      <outgoing>Flow_198zju1</outgoing>
+    </parallelGateway>
+    <endEvent id="Event_1ezlk4g">
+      <incoming>Flow_04lnqsf</incoming>
+    </endEvent>
+  </choreography>
+</definitions>
+```
+A correct implementation is:
+```solidity
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.9;
+
+contract comp_ChoreographyExample {
+    // State machine using model element IDs for clarity
+    enum State {
+        Event_0y1sdn3,
+        ChoreographyTask_1vnykqp,
+        Gateway_1bpkhpg,
+        Gateway_1klfaw3,
+        ChoreographyTask_16lc74v,
+        ChoreographyTask_07t2zjo,
+        Gateway_0xcnzox,
+        Gateway_1yl9mch,
+        ChoreographyTask_056ylqg,
+        Event_1ezlk4g
+    }
+
+    State public tokenState = State.Event_0y1sdn3;
+
+    // Participants: [Customer, Seller, Manufacturer]
+    address[3] public participants;
+
+    // External condition flags
+    uint public conditions;
+
+    // Track if parallel tasks are completed
+    bool public taskProduced = false;
+    bool public taskInformed = false;
+
+    constructor(address[3] memory _participants) {
+        participants = _participants;
+    }
+
+    function setConditions(uint _conditions) external {
+        conditions = _conditions;
+    }
+
+    function enact(uint taskID) external {
+        // automatic start
+        if (tokenState == State.Event_0y1sdn3) {
+            // Start -> Order goods
+            tokenState = State.ChoreographyTask_1vnykqp;
+        }
+
+        if (tokenState == State.ChoreographyTask_1vnykqp) {
+            require(taskID == 0); // Invalid taskID for Order goods
+            require(msg.sender == participants[0]); // Only Customer can enact Order goods
+
+            // Task executed...
+            tokenState = State.Gateway_1bpkhpg;
+            return;
+        }
+
+        // automatic gateway evaluation
+        if (tokenState == State.Gateway_1bpkhpg) {
+            if ((conditions & 1) == 1) {
+                // Condition met: available -> Ship goods
+                tokenState = State.Gateway_1yl9mch;
+            } else {
+                // Default: unavailable -> parallel path
+                tokenState = State.Gateway_1klfaw3;
+            }
+        }
+
+        if (tokenState == State.Gateway_1klfaw3) {
+            // Parallel: Produce goods or Inform customer
+            if (taskID == 1 && !taskProduced) {
+                require(msg.sender == participants[1]); // Only Seller can enact Produce goods
+                taskProduced = true;
+            } else if (taskID == 2 && !taskInformed) {
+                require(msg.sender == participants[1]); // Only Seller can enact Inform customer
+                taskInformed = true;
+            }
+
+            if (taskProduced && taskInformed) {
+                tokenState = State.Gateway_0xcnzox;
+            }
+            return;
+        }
+
+        // automatic gateway evaluation
+        if (tokenState == State.Gateway_0xcnzox) {
+            // Join parallel tasks -> Gateway_1yl9mch
+            tokenState = State.Gateway_1yl9mch;
+        }
+
+        // automatic gateway evaluation
+        if (tokenState == State.Gateway_1yl9mch) {
+            // All leads converge -> Ship goods
+            tokenState = State.ChoreographyTask_056ylqg;
+        }
+
+        if (tokenState == State.ChoreographyTask_056ylqg) {
+            require(taskID == 3); // Invalid taskID for Ship goods
+            require(msg.sender == participants[1]); // Only Seller can enact Ship goods
+
+            // Task executed...
+            tokenState = State.Event_1ezlk4g;
+            return;
+        }
+
+        require(tokenState != State.Event_1ezlk4g); // Choreography is complete
+    }
+}
+```

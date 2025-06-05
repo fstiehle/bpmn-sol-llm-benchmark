@@ -44,12 +44,28 @@ const gpt_oneShot = new TestConfig({
   promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot.txt"),
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
-const gpt_oneShot_easier = new TestConfig({
-  name: "GPT 4.1 - One Shot with easier example",
+const gpt_revisedShot = new TestConfig({
+  name: "GPT 4.1 - One Shot Revised",
   dataSet: "sap-sam",
-  promptType: "one-shot/easier",
+  promptType: "one-shot/rev",
   model: "gpt-4.1-2025-04-14",
-  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-easier.txt"),
+  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/revised.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const gpt_oneShot_adv = new TestConfig({
+  name: "GPT Model - One Shot with advanced example",
+  dataSet: "sap-sam",
+  promptType: "one-shot/adv",
+  model: "gpt-4.1-2025-04-14",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-adv.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const gpt_twoShot = new TestConfig({
+  name: "GPT Model - Two Shot",
+  dataSet: "sap-sam",
+  promptType: "two-shot",
+  model: "gpt-4.1-2025-04-14",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/two-shot/two-shot.txt"),
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
 const l_oneShot = new TestConfig({
@@ -60,12 +76,44 @@ const l_oneShot = new TestConfig({
   promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot.txt"),
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
-const l_oneShot_easier = new TestConfig({
-  name: "large Model - One Shot with easier example",
+const l_twoShot = new TestConfig({
+  name: "large Model - Two Shot",
   dataSet: "sap-sam",
-  promptType: "one-shot/easier",
+  promptType: "two-shot",
   model: "qwen3-235b-a22b",
-  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-easier.txt"),
+  promptPath: path.join(__dirname, "/prompts/sap-sam/two-shot/two-shot.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const l_threeShot = new TestConfig({
+  name: "large Model - Three Shot",
+  dataSet: "sap-sam",
+  promptType: "three-shot",
+  model: "qwen3-235b-a22b",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/three-shot/three-shot.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const l_oneShot_adv = new TestConfig({
+  name: "large Model - One Shot with advanced example",
+  dataSet: "sap-sam",
+  promptType: "one-shot/adv",
+  model: "qwen3-235b-a22b",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-adv.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const l_oneShot_naive = new TestConfig({
+  name: "large Model - One Shot with naive implementation example",
+  dataSet: "sap-sam",
+  promptType: "one-shot/naive",
+  model: "qwen3-235b-a22b",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-naive.txt"),
+  inputFolder: path.join(__dirname, "/data/sap-sam/")
+});
+const l_revisedShot = new TestConfig({
+  name: "GPT 4.1 - One Shot Revised",
+  dataSet: "sap-sam",
+  promptType: "one-shot/rev",
+  model: "qwen3-235b-a22b",
+  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/revised.txt"),
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
 
@@ -91,5 +139,5 @@ const test3 = new TestConfig({
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
 
-export const llms: TestConfig[] = [gpt_oneShot, gpt_oneShot_easier, l_oneShot];
-export const run: TestConfig[] = [gpt_oneShot, gpt_oneShot_easier];
+export const llms: TestConfig[] = [gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot];
+export const run: TestConfig[] = [gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot];

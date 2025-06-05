@@ -3,18 +3,20 @@ import * as path from 'path';
 import { expect } from "chai";
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import chorpiler from 'chorpiler';
+import { Simulation } from 'chorpiler/lib/Simulator/Simulator';
 
 describe('XML Files in data/raw', () => {
   const rawDataPath = path.join(__dirname, '../data/sap-sam/raw');
   const intDataPath = path.join(__dirname, '../data/sap-sam/int');
   const outputDataPath = path.join(__dirname, '../data/sap-sam/');
 
+  // TODO: Drop all extension elements!
   const processExclusiveGateways = (process: any) => {
     const exclusiveGateways = Array.isArray(process['exclusiveGateway'])
       ? process['exclusiveGateway']
       : [process['exclusiveGateway']];
 
-    const numberOfConds = 0;
+    let numberOfConds = 0;
 
     exclusiveGateways.forEach((gateway) => {
       if (gateway && gateway['outgoing']) {
@@ -42,7 +44,8 @@ describe('XML Files in data/raw', () => {
               (flow) => flow['@_id'] === outgoingId
             );
             if (sequenceFlow) {
-              const conditionID = 1 << numberOfConds;
+              const conditionID = 1 << numberOfConds++;
+              sequenceFlow['@_name'] = `conditions & ${conditionID} == ${conditionID}`;
               sequenceFlow['conditionExpression'] = {
                 '@_xsi:type': 'bpmn2:tFormalExpression',
                 '@_language': 'Solidity',
@@ -53,6 +56,22 @@ describe('XML Files in data/raw', () => {
         }
       }
     });
+
+    // Recursively remove all `extensionElements`
+    const removeExtensionElements = (node: any) => {
+      if (Array.isArray(node)) {
+        node.forEach(removeExtensionElements);
+      } else if (typeof node === 'object' && node !== null) {
+        delete node['extensionElements'];
+        for (const key in node) {
+          if (Object.prototype.hasOwnProperty.call(node, key)) {
+            removeExtensionElements(node[key]);
+          }
+        }
+      }
+    };
+
+    removeExtensionElements(process);
   };
 
   const mergeEndEvents = (process: any) => {
@@ -185,7 +204,10 @@ describe('XML Files in data/raw', () => {
     sim.xesDir = "./xes";
 
     return sim.generate("comp_", 
-      chorpiler.generators.sol.DefaultContractGenerator, 
-      { unfoldSubNets: true, loopProtection: false});
+      new Simulation({
+        unfoldSubNets: true,
+        loopProtection: false,
+        parseConditions: true
+      }));
   });
 })

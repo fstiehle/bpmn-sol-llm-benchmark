@@ -1,6 +1,6 @@
 {
   "name": "GPT 4.1 - One Shot",
-  "timestamp": "2025-06-02T19:56:18.974Z",
+  "timestamp": "2025-06-05T16:11:45.637Z",
   "model": "gpt-4.1-2025-04-14",
   "gascost": 0,
   "processes": [
@@ -18,13 +18,13 @@
     },
     {
       "id": "ChoreographyExample2",
-      "correct": 3,
+      "correct": 0,
       "total": 3,
       "rejected": 0,
       "not_rejected": 0,
       "execution trace": {
         "process": "ChoreographyExample2",
-        "correct": 3,
+        "correct": 0,
         "total": 3
       }
     },
@@ -41,6 +41,18 @@
       }
     },
     {
+      "id": "ChoreographyExample4",
+      "correct": 6,
+      "total": 6,
+      "rejected": 0,
+      "not_rejected": 0,
+      "execution trace": {
+        "process": "ChoreographyExample4",
+        "correct": 6,
+        "total": 6
+      }
+    },
+    {
       "id": "PizzaDelivery",
       "correct": 2,
       "total": 2,
@@ -54,13 +66,13 @@
     },
     {
       "id": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
-      "correct": 2,
+      "correct": 3,
       "total": 3,
       "rejected": 0,
       "not_rejected": 0,
       "execution trace": {
         "process": "sid_e4dcee7a_9a78_4f70_be4f_4d29d48b92fb",
-        "correct": 2,
+        "correct": 3,
         "total": 3
       }
     },
@@ -78,13 +90,13 @@
     },
     {
       "id": "sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1",
-      "correct": 2,
+      "correct": 4,
       "total": 4,
       "rejected": 0,
       "not_rejected": 0,
       "execution trace": {
         "process": "sid_fcc8b91c_8ddf_4dfa_9dbe_c492016f54f1",
-        "correct": 2,
+        "correct": 4,
         "total": 4
       }
     }

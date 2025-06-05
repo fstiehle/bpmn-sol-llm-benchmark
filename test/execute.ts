@@ -279,17 +279,12 @@ describe("LLM", () => {
     it(`test ${test.name}`, async () => {
       console.log(`Execute contracts for ${test.name}`);
 
-      //execSync("npm run clean-llm", { stdio: "inherit" });
-
       const solFolder = path.join(__dirname, `../contracts/llm/${test.stamp}`);
       if (!fs.existsSync(solFolder)) {
-        fs.mkdirSync(solFolder, { recursive: true });
+        throw new Error("Source folder doesn't exist yet, did you run 'npm run compile' before?");
       }
 
-      processLogsToSol(test.outputFolder, solFolder, test.slug);
-
       try {
-        execSync("npm run compile", { stdio: "inherit" });
         await replayTraces(solFolder, test, test.slug);
       } catch (error) {
         console.log(error instanceof Error ? error.message : String(error));
@@ -297,5 +292,4 @@ describe("LLM", () => {
     });
   });
 
-  //execSync("npm run clean-llm", { stdio: "inherit" });
 });

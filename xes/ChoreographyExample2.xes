@@ -10,28 +10,6 @@
       <string key="concept:name" value="Order goods"/>
       <string key="id" value="ChoreographyTask_1vnykqp"/>
       <string key="sourceRef" value="Participant_1tzf68i"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Produce goods"/>
-      <string key="id" value="ChoreographyTask_16lc74v"/>
-      <string key="sourceRef" value="Participant_198pz14"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Inform customer"/>
-      <string key="id" value="ChoreographyTask_07t2zjo"/>
-      <string key="sourceRef" value="Participant_198pz14"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ship goods"/>
-      <string key="id" value="ChoreographyTask_056ylqg"/>
-      <string key="sourceRef" value="Participant_198pz14"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Order goods"/>
-      <string key="id" value="ChoreographyTask_1vnykqp"/>
-      <string key="sourceRef" value="Participant_1tzf68i"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -59,6 +37,28 @@
     <event>
       <string key="concept:name" value="Produce goods"/>
       <string key="id" value="ChoreographyTask_16lc74v"/>
+      <string key="sourceRef" value="Participant_198pz14"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ship goods"/>
+      <string key="id" value="ChoreographyTask_056ylqg"/>
+      <string key="sourceRef" value="Participant_198pz14"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Order goods"/>
+      <string key="id" value="ChoreographyTask_1vnykqp"/>
+      <string key="sourceRef" value="Participant_1tzf68i"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Produce goods"/>
+      <string key="id" value="ChoreographyTask_16lc74v"/>
+      <string key="sourceRef" value="Participant_198pz14"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform customer"/>
+      <string key="id" value="ChoreographyTask_07t2zjo"/>
       <string key="sourceRef" value="Participant_198pz14"/>
     </event>
     <event>
