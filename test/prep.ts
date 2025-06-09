@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from "child_process";
 
-import { run} from "../test.config";
+import { run} from "../bench.config";
 
 const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
 

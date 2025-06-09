@@ -16,7 +16,6 @@ Use the following mapping of taskID to `choreographyTask` id of the model:
   - If at least one condition is satisfied, activate the target task.
   - If none are satisfied, follow the `default` sequenceFlow.
   - Each condition must be evaluated only when the gateway's bit is active in `tokenState`.
-  - Do not share or reuse conditions across unrelated gateways unless identical.
   - Use a variable `uint public conditions` and include a setter: `function setConditions(uint _conditions) external`.
 
 - Implement parallel gateways (`<parallelGateway>`) as:

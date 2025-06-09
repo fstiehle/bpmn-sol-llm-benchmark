@@ -5,8 +5,8 @@ import chorpiler, { TriggerEncoding } from "chorpiler";
 import { ethers } from "hardhat";
 import { execSync } from "child_process";
 
-import { run} from "../test.config";
-import { TestConfig } from "./TestConfig";
+import { run} from "../bench.config";
+import { TestConfig } from "../src/TestConfig";
 
 const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
 
@@ -261,11 +261,11 @@ describe.skip("Chorpiler", () => {
 
   it(`Replay traces`, async () => {
     const test = new TestConfig({
-      name: "Chorpiler",
-      dataSet: "",
+      name: "Baseline Rule-Based Generation",
+      dataSet: "sap-sam",
       promptType: "",
       promptPath: "",
-      model: "Chorpiler",
+      model: "chorpiler",
       inputFolder: "",
       multipleFunc: false
     });

@@ -1,39 +1,22 @@
+/**
+ * @file bench.config.ts
+ * @description
+ * This configuration file defines various test scenarios for benchmarking different large language models (LLMs) on the "sap-sam" dataset.
+ * It exports constants and arrays of `TestConfig` instances, each representing a specific prompt type, model, and configuration for running
+ *
+ * @module bench.config
+ */
 import * as path from "path";
-import { TestConfig } from "./test/TestConfig";
+import { TestConfig } from "./src/TestConfig";
 
 export const stamp = "last";
-export const endpoint = "http://127.0.0.1:8000";
+export const endpoint = "https://openrouter.ai/api/v1/chat/completions";
+export const systemPrompt = `You are a helpful assistant that generates Solidity smart contracts based on the provided requirements. 
+Make sure to follow best practices for Solidity development, including security considerations and gas optimization.`;
 //const stamp = new Date().toISOString();
 
 // -----------------------------------------------
 // ONE SHOTs
-// ---------------
-// SMALL MODEL
-const s_oneShot = new TestConfig({
-  name: "Small Model - One Shot",
-  dataSet: "sap-sam",
-  promptType: "one-shot",
-  model: "qwen3-14b",
-  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot.txt"),
-  inputFolder: path.join(__dirname, "/data/sap-sam/")
-});
-const s_oneShotFunc = new TestConfig({
-  name: "Small Model - One Shot with Multiple Functions and Easier Example",
-  dataSet: "sap-sam",
-  promptType: "one-shot/func",
-  model: "qwen3-14b",
-  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/TODO-one-shot-func.txt"),
-  inputFolder: path.join(__dirname, "/data/sap-sam/"),
-  multipleFunc: true
-});
-const s_oneShotNaiv = new TestConfig({
-  name: "Small Model - One Shot with Easier Implementation Example",
-  dataSet: "sap-sam",
-  promptType: "one-shot/naive",
-  model: "qwen3-14b",
-  promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/TODO-one-shot-naive.txt"),
-  inputFolder: path.join(__dirname, "/data/sap-sam/")
-});
 // ---------------
 // BIG MODEL
 const gpt_oneShot = new TestConfig({
@@ -72,7 +55,7 @@ const l_oneShot = new TestConfig({
   name: "large Model - One Shot",
   dataSet: "sap-sam",
   promptType: "one-shot",
-  model: "qwen3-235b-a22b",
+  model: "anthropic/claude-3.5-sonnet",
   promptPath: path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot.txt"),
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
@@ -139,5 +122,14 @@ const test3 = new TestConfig({
   inputFolder: path.join(__dirname, "/data/sap-sam/")
 });
 
-export const llms: TestConfig[] = [gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot];
-export const run: TestConfig[] = [gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot];
+// -----------------------------------------------
+// Define which models tasks to run
+export const llms: TestConfig[] = [
+  l_oneShot
+];
+
+// -----------------------------------------------
+// Define which benchmark tasks to run
+export const run: TestConfig[] = [
+  gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot
+];
