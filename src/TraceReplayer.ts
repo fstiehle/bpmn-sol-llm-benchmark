@@ -326,13 +326,25 @@ export class TraceReplayer {
     fs.writeFileSync(outPath, JSON.stringify(experimentSummary, null, 2), "utf-8");
     console.log(`${tab(1)}💾 Saved run summary to ${outPath}`);
 
-    const summaryTable = results.map(r => ({
-      "📦 Process": r.process,
-      "✅ True Positives": `${r.true_positives} / ${r.number_positives}`,
-      "❌ False Positives": `${r.number_positives - r.true_positives}`,
-      "✅ True Negatives": `${r.true_negative} / ${r.number_negatives}`,
-      "❌ False Negatives": `${r.number_negatives - r.true_negative}`
-    }));
+    const summaryTable = results.map(r => {
+      const tp = r.true_positives;
+      const tn = r.true_negative;
+      const fp = r.number_positives - r.true_positives;
+      const fn = r.number_negatives - r.true_negative;
+
+      const precision = tp + fp === 0 ? 0 : tp / (tp + fp);
+      const recall = tp + fn === 0 ? 0 : tp / (tp + fn);
+      const f1 = precision + recall === 0 ? 0 : (2 * precision * recall) / (precision + recall);
+
+      return {
+        "📦 Process": r.process,
+        "✅ True Positives": `${tp} / ${r.number_positives}`,
+        "❌ False Positives": `${fp}`,
+        "✅ True Negatives": `${tn} / ${r.number_negatives}`,
+        "❌ False Negatives": `${fn}`,
+        "🎯 F1 Score": f1.toFixed(2)
+      };
+    });
 
     console.log("\n" + "=".repeat(60));
     console.log(`${tab(1)}📊 Experiment Summary ${this.test.name}`);

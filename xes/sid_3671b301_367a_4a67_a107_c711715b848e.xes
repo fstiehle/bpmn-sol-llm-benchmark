@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Pizza bestellen"/>
+      <string key="id" value="sid-70719FD1-1348-40DB-A065-457E488DDAC4"/>
+      <string key="sourceRef" value="sid-821CF910-E035-4D49-B948-8F65BB454A51"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pizza liefern"/>
+      <string key="id" value="sid-87C5FDC5-7D42-4F15-B0D5-983F71ED806F"/>
+      <string key="sourceRef" value="sid-32934551-C23E-48A1-81C6-D44D062E5D66"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Geld kassieren"/>
+      <string key="id" value="sid-99ABCD46-49C9-4AD1-94B2-788BA9ACA06A"/>
+      <string key="sourceRef" value="sid-C730CE7E-408D-4080-BEB6-EB72716BA52F"/>
+    </event>
+  </trace>
+</log>

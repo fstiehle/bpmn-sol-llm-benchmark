@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Ware reklamieren"/>
+      <string key="id" value="sid-108E4ABE-4DB0-44C2-8647-91EC4B6524B7"/>
+      <string key="sourceRef" value="sid-542B723D-54C8-4F75-A184-75CEFBFA1660"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Retour-Etikett erstellen"/>
+      <string key="id" value="sid-813DE3BA-8680-45CB-925D-ED87F741FA23"/>
+      <string key="sourceRef" value="sid-03CE4CFC-435B-46A2-9C2D-26DF75AA742C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware abschicken"/>
+      <string key="id" value="sid-EEE1B15D-5719-483C-8B5A-55043DDC82FA"/>
+      <string key="sourceRef" value="sid-76BDB844-6489-4B09-9BA5-BDF084E1A8CE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Geld zurück"/>
+      <string key="id" value="sid-429BDAF2-1423-458C-B9EB-EBC8FE1DA435"/>
+      <string key="sourceRef" value="sid-8F06F078-D1A5-4F05-A007-32E02892A86A"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Ware reklamieren"/>
+      <string key="id" value="sid-108E4ABE-4DB0-44C2-8647-91EC4B6524B7"/>
+      <string key="sourceRef" value="sid-542B723D-54C8-4F75-A184-75CEFBFA1660"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Retour-Etikett erstellen"/>
+      <string key="id" value="sid-813DE3BA-8680-45CB-925D-ED87F741FA23"/>
+      <string key="sourceRef" value="sid-03CE4CFC-435B-46A2-9C2D-26DF75AA742C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware abschicken"/>
+      <string key="id" value="sid-EEE1B15D-5719-483C-8B5A-55043DDC82FA"/>
+      <string key="sourceRef" value="sid-76BDB844-6489-4B09-9BA5-BDF084E1A8CE"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware zurück"/>
+      <string key="id" value="sid-FB127610-7505-4F9E-ACA7-836BB1D685A4"/>
+      <string key="sourceRef" value="sid-11E6DB0A-DE4E-4FB7-8128-58F627AFA1F4"/>
+    </event>
+  </trace>
+</log>
