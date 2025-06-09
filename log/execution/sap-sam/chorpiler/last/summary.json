@@ -1,7 +1,7 @@
 {
-  "name": "GPT 4.1 - One Shot",
-  "timestamp": "2025-06-09T19:04:32.806Z",
-  "model": "gpt-4.1-2025-04-14",
+  "name": "Baseline Rule-Based Generation",
+  "timestamp": "2025-06-09T19:04:32.009Z",
+  "model": "chorpiler",
   "gascost": 0,
   "processes": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "process": "ChoreographyExample2",
-      "true_positives": 0,
+      "true_positives": 3,
       "number_positives": 3,
       "true_negative": 14,
       "number_negatives": 14
@@ -29,7 +29,7 @@
       "process": "ChoreographyExample4",
       "true_positives": 6,
       "number_positives": 6,
-      "true_negative": 11,
+      "true_negative": 14,
       "number_negatives": 14
     },
     {

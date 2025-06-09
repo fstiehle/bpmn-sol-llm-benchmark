@@ -2,9 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from "child_process";
 
-import { run} from "../bench.config";
-
-const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
+import { DEBUG, run } from "../bench.config";
 
 export const capitalize = (name: string): string => {
   return name.charAt(0).toUpperCase() + name.slice(1);

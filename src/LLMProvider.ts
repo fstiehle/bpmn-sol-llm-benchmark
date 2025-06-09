@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as dotenv from "dotenv";
-import { endpoint, systemPrompt } from "../bench.config";
+import { ENDPOINT, SYSTEM_PROMPT } from "../bench.config";
 
 dotenv.config();
 
@@ -22,7 +22,7 @@ export class LLMProvider {
 
   constructor() {
     this.apiKey = process.env.OPENROUTER_SC_API_KEY || "";
-    this.apiUrl = endpoint;
+    this.apiUrl = ENDPOINT;
   }
 
   async generate(queryData: QueryData): Promise<SmartContractResponse> {
@@ -31,7 +31,7 @@ export class LLMProvider {
     const payload = {
       model: queryData.model,
       messages: [
-        { role: "system", content: systemPrompt },
+        { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: prompt },
       ],
       usage: {

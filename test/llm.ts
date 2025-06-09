@@ -58,6 +58,7 @@ const runTest = async (config: TestConfig) => {
 
       expect(result && typeof result.smart_contract === "string" && result.smart_contract.length > 0).to.be.true;
       console.log(`${tab2}  🤖 LLM call successful`);
+      console.log(result.usage);
 
       // Prepare the JSON output
       const outputJson = {

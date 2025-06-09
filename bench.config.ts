@@ -7,13 +7,25 @@
  * @module bench.config
  */
 import * as path from "path";
+import chorpiler from "chorpiler";
 import { TestConfig } from "./src/TestConfig";
+import * as dotenv from "dotenv";
 
-export const stamp = "last";
-export const endpoint = "https://openrouter.ai/api/v1/chat/completions";
-export const systemPrompt = `You are a helpful assistant that generates Solidity smart contracts based on the provided requirements. 
+dotenv.config();
+
+export  const DEBUG = process.env.DEBUG === "1" || process.env.DEBUG === "true";
+export  const NR_NON_CONFORMING_TRACES = 20;
+
+export  const XES_PARSER = new chorpiler.utils.XESParser();
+export  const XES_DIR = "./xes";
+export  const ENCODINGS_DIR = "./contracts/chorpiler";
+
+export const ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
+export const SYSTEM_PROMPT = `You are a helpful assistant that generates Solidity smart contracts based on the provided requirements. 
 Make sure to follow best practices for Solidity development, including security considerations and gas optimization.`;
+
 //const stamp = new Date().toISOString();
+export const stamp = "last";
 
 // -----------------------------------------------
 // ONE SHOTs
@@ -131,5 +143,5 @@ export const llms: TestConfig[] = [
 // -----------------------------------------------
 // Define which benchmark tasks to run
 export const run: TestConfig[] = [
-  gpt_oneShot, gpt_twoShot, gpt_revisedShot, l_oneShot, l_twoShot, l_revisedShot
+  gpt_oneShot, gpt_twoShot, gpt_revisedShot
 ];

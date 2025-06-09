@@ -14,14 +14,12 @@
     "clean-llm": "find contracts/llm -type f -delete && hardhat clean"
   },
   "dependencies": {
-    "chorpiler": "^0.2.0-alpha.28",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chorpiler": "^0.2.0-alpha.29",
     "dotenv": "^16.5.0",
     "fast-xml-parser": "^5.2.2",
     "hardhat": "^2.23.0",
     "ts-mocha": "^11.1.0",
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "tsx": "^4.19.4"
-  },
-  "devDependencies": {
   }
 }
