@@ -6,7 +6,7 @@ type ModelSizeMap = {
 // The model-size map
 export const myModelsWithSizes: ModelSizeMap = {
   // Llama 3.1
-  "meta-llama/llama-3.1-405b:free": 405.0,
+  //"meta-llama/llama-3.1-405b:free": 405.0,
   "meta-llama/llama-3.1-405b-instruct": 405,
   "meta-llama/llama-3.1-70b-instruct": 70.0,
   "meta-llama/llama-3.1-8b-instruct:free": 8,

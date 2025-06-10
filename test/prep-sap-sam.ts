@@ -350,7 +350,7 @@ describe('XML Files in data/raw', () => {
   });
 
   it('should extract element type counts for each BPMN model and save to CSV (with gatewayDirection)', async () => {
-    const files = fs.readdirSync(rawDataPath);
+    const files = fs.readdirSync(outputDataPath);
     const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: false });
     const results: any[] = [];
     const allTypes = new Set<string>();
@@ -358,7 +358,7 @@ describe('XML Files in data/raw', () => {
 
     for (const file of files) {
       if (file.endsWith('.xml') || file.endsWith('.bpmn')) {
-        const filePath = path.join(rawDataPath, file);
+        const filePath = path.join(outputDataPath, file);
         const xmlContent = fs.readFileSync(filePath, 'utf-8');
         const jsonObj = parser.parse(xmlContent);
         const prefix = detectPrefix(jsonObj);

@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import * as fs from "fs";
 import * as path from "path";
-import { llms } from "../bench.config";
+import { llms, NR_PROCESS_MODELS } from "../bench.config";
 import { TestConfig } from "../src/TestConfig";
 import { LLMProvider } from "../src/LLMProvider"; // <-- Use the provider class
 
@@ -20,8 +20,12 @@ const runTest = async (config: TestConfig) => {
     console.log(`${tab2}🗑️ Deleted existing output folder: ${config.outputFolder}`);
   }
 
-  // Process all .bpmn files in the input folder
-  const files = fs.readdirSync(config.inputFolder).filter((file) => file.endsWith(".bpmn"));
+  // Limit the number of process models if NR_PROCESS_MODELS is set to a number
+  // Process all or NR_PROCESS_MODELS .bpmn files in the input folder
+  let files = fs.readdirSync(config.inputFolder).filter((file) => file.endsWith(".bpmn"));
+  if (typeof NR_PROCESS_MODELS === "number") {
+    files = files.slice(0, NR_PROCESS_MODELS);
+  }
 
   for (const file of files) {
     const filePath = path.join(config.inputFolder, file);

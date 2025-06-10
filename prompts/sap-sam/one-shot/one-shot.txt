@@ -1,30 +1,44 @@
 Generate a Solidity smart contract from the BPMN 2.0 choreography model XML provided above.
+
 Use the following implementation rules:
+
 - The contract name must be the `id` of the `<choreography>` element in the model.
 - Implement the function `enact(uint taskID) external` which allows a participant to execute a choreography task.
-- Only `<choreographyTask>` elements are executable via `enact()`. Gateways and start and end events are handled internally.
+- Only `<choreographyTask>` elements are executable via `enact()`. Gateways and start/end events are handled internally.
 - Enforce the order of task execution based on `<sequenceFlow>` elements and the choreography's control flow.
 Use the following mapping of taskID to `choreographyTask` id of the model:
 ```json
 {{taskIDs}}
 ```
-- Implement exclusive gateways (`exclusiveGateway`s) using Solidity conditional logic.
-- All outgoing flows (`<sequenceFlow>`s) from an exclusive gateway must enforce a condition, except the default flow.
-- All `<sequenceFlow>`s with a `conditionExpression` must be implemented exactly as in `<conditionExpression>...</conditionExpression>`, 
-and should only be evaluated when their source gateway is active.
-- Ensure that each conditional branch must check its associated condition before permitting task execution.
-- Default branches from exclusive gateways (i.e., the `default` attribute) must be treated as fallback paths if none of the conditions are satisfied.
-- Use a variable `uint public conditions` and include a setter: `function setConditions(uint _conditions) external`.
-- For parallel gateways, the following tasks can be taken in any order but it has to wait for all incoming flows before continuing.
-- Use the constructor `constructor(address[n] memory _participants)`, where n is the number of participants.
-- Allow execution of each task only by the correct initiating participant by enforcing that `msg.sender` equals the correct `initiatingParticipantRef`.
-- Use the following mapping of index of the address array to the participant id in the model:
+- Implement exclusive gateways (`<exclusiveGateway>`) using Solidity conditional logic.
+  - Each exclusive gateway must evaluate all conditional `<sequenceFlow>` elements when active.
+  - Use Solidity `if (conditions & N == N)` syntax, exactly as defined in the `<conditionExpression>`.
+  - If at least one condition is satisfied, activate the target task.
+  - If none are satisfied, follow the `default` sequenceFlow.
+  - Each condition must be evaluated only when the gateway's bit is active in `tokenState`.
+  - Use a variable `uint public conditions` and include a setter: `function setConditions(uint _conditions) external`.
+
+- Implement parallel gateways (`<parallelGateway>`) as:
+  - Join: wait for all incoming tokens to activate.
+  - Split: activate all outgoing tasks concurrently.
+
+- Use `uint public tokenState` to encode current control flow positions:
+  - Each active task or gateway is tracked using a unique bit (e.g., 1, 2, 4, 8...).
+  - Use bitmasking (`&`, `|`, `~`) to activate or deactivate paths.
+  - Transitions may activate multiple concurrent paths.
+
+- Use the constructor: `constructor(address[n] memory _participants)` where `n` is the number of participants.
+- Allow execution of each task only by the correct initiating participant, using:
+  ```solidity
+  require(msg.sender == participants[i]);
+  ```
+- Use this mapping of participant index to participant ID:
 ```json
 {{parIDs}}
 ```
-- Use a variable `tokenState` to encode the current control flow position.
-- At the end of the process, set the `tokenState` variable to zero.
-Just output the smart contract, do not output additional, redundant text. 
+
+- At the end of the process, set `tokenState = 0` to indicate termination.
+- Do not output any text other than the Solidity contract itself.
 
 An example.
 Given the choreography

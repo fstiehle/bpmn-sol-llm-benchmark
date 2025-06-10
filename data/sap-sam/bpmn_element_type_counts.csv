@@ -1,7 +1,5 @@
-model,ns0:participant,ns0:messageFlow,ns0:choreographyTask,ns0:startEvent,ns0:endEvent,ns0:sequenceFlow,ns0:exclusiveGateway__Diverging,ns0:parallelGateway__Diverging,ns0:exclusiveGateway__Mixed,ns0:exclusiveGateway__Converging,ns0:eventBasedGateway__Diverging
-sid-3671b301-367a-4a67-a107-c711715b848e,6,4,3,1,1,4,0,0,0,0,0
-sid-a451ac4c-9f1c-4c6c-8bba-955fbad275cd,10,5,5,1,2,8,1,0,0,0,0
-sid-e5e88a9a-0cee-46fa-b4fe-59d363721337,10,6,5,0,1,9,0,1,1,0,0
-sid-fe670116-e806-49f4-836f-380a95822a4b,12,6,6,1,2,12,2,0,0,1,0
-sid-9b39ba7e-8b63-4260-adf3-38821e08491a,4,1,1,0,0,0,0,0,0,0,0
-sid-328a2509-2c20-498a-96e7-5cc2a7fa12c0,8,4,4,1,1,10,0,1,0,1,1
+model,ns0:participant,ns0:messageFlow,ns0:choreographyTask,ns0:endEvent,ns0:startEvent,ns0:sequenceFlow,ns0:exclusiveGateway__Converging,ns0:parallelGateway__Diverging,ns0:eventBasedGateway__Diverging,ns0:exclusiveGateway__Diverging
+sid_328a2509_2c20_498a_96e7_5cc2a7fa12c0,8,4,4,1,1,10,1,1,1,0
+sid_3671b301_367a_4a67_a107_c711715b848e,6,4,3,1,1,4,0,0,0,0
+sid_a451ac4c_9f1c_4c6c_8bba_955fbad275cd,10,5,5,1,1,8,0,0,0,1
+sid_fe670116_e806_49f4_836f_380a95822a4b,12,6,6,1,1,12,1,0,0,2

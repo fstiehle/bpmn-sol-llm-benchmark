@@ -26,6 +26,11 @@ describe("Chorpiler", () => {
 });
 
 describe("LLM", () => {
+  console.log("The following benchmarks will run:");
+  run.forEach(config => {
+    console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
+  });
+
   run.forEach(test => {
     it(`test ${test.name}`, async () => {
       console.log(`Execute contracts for ${test.name}`);
