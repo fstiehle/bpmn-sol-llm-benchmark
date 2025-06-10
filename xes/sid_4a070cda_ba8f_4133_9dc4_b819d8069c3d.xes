@@ -17,6 +17,43 @@
       <string key="sourceRef" value="sid-EC524BAC-990C-49F1-B40F-254799906137"/>
     </event>
     <event>
+      <string key="concept:name" value="send shipment information"/>
+      <string key="id" value="sid-FA1EC6B2-A97F-451B-848C-2653F126F817"/>
+      <string key="sourceRef" value="sid-95BB54CB-7A95-434B-8170-AAE504F8D58D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="issue&amp;#10;shipment"/>
+      <string key="id" value="sid-0B14E175-63F6-4EA0-A1A3-3EBC30E807B7"/>
+      <string key="sourceRef" value="sid-C034C4A3-A037-4F0B-B650-2C79B4836FCC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send invoice"/>
+      <string key="id" value="sid-A9CAF9F4-C96A-433F-A9E2-B1852E424450"/>
+      <string key="sourceRef" value="sid-27D8F0D0-E83C-4CAA-B62E-3A96092A9554"/>
+    </event>
+    <event>
+      <string key="concept:name" value="deliver shipment"/>
+      <string key="id" value="sid-FDFE5AC6-2C1C-4A5D-8208-747618BC9359"/>
+      <string key="sourceRef" value="sid-EEE83D59-DF17-4036-B45F-0EF4694AC5F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send payment"/>
+      <string key="id" value="sid-05AA275D-E5B4-4A74-BA38-E31D1EC4EDB9"/>
+      <string key="sourceRef" value="sid-58CE303D-252F-493A-B6F1-9868956B084B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="place &amp;#10;book order"/>
+      <string key="id" value="sid-8382BE04-333B-4CFB-8F63-AF54B9DC4243"/>
+      <string key="sourceRef" value="sid-6DF26A7A-1B69-4D6B-A782-59F3408784B2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="place &amp; confirm&amp;#10;back order"/>
+      <string key="id" value="sid-6F700DF7-4544-413A-8DED-F158468BA83E"/>
+      <string key="sourceRef" value="sid-EC524BAC-990C-49F1-B40F-254799906137"/>
+    </event>
+    <event>
       <string key="concept:name" value="send invoice"/>
       <string key="id" value="sid-A9CAF9F4-C96A-433F-A9E2-B1852E424450"/>
       <string key="sourceRef" value="sid-27D8F0D0-E83C-4CAA-B62E-3A96092A9554"/>
@@ -64,14 +101,14 @@
       <string key="sourceRef" value="sid-C034C4A3-A037-4F0B-B650-2C79B4836FCC"/>
     </event>
     <event>
-      <string key="concept:name" value="send invoice"/>
-      <string key="id" value="sid-A9CAF9F4-C96A-433F-A9E2-B1852E424450"/>
-      <string key="sourceRef" value="sid-27D8F0D0-E83C-4CAA-B62E-3A96092A9554"/>
-    </event>
-    <event>
       <string key="concept:name" value="deliver shipment"/>
       <string key="id" value="sid-FDFE5AC6-2C1C-4A5D-8208-747618BC9359"/>
       <string key="sourceRef" value="sid-EEE83D59-DF17-4036-B45F-0EF4694AC5F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send invoice"/>
+      <string key="id" value="sid-A9CAF9F4-C96A-433F-A9E2-B1852E424450"/>
+      <string key="sourceRef" value="sid-27D8F0D0-E83C-4CAA-B62E-3A96092A9554"/>
     </event>
     <event>
       <string key="concept:name" value="send payment"/>
@@ -109,43 +146,6 @@
       <string key="concept:name" value="deliver shipment"/>
       <string key="id" value="sid-FDFE5AC6-2C1C-4A5D-8208-747618BC9359"/>
       <string key="sourceRef" value="sid-EEE83D59-DF17-4036-B45F-0EF4694AC5F2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="send payment"/>
-      <string key="id" value="sid-05AA275D-E5B4-4A74-BA38-E31D1EC4EDB9"/>
-      <string key="sourceRef" value="sid-58CE303D-252F-493A-B6F1-9868956B084B"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="place &amp;#10;book order"/>
-      <string key="id" value="sid-8382BE04-333B-4CFB-8F63-AF54B9DC4243"/>
-      <string key="sourceRef" value="sid-6DF26A7A-1B69-4D6B-A782-59F3408784B2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="place &amp; confirm&amp;#10;back order"/>
-      <string key="id" value="sid-6F700DF7-4544-413A-8DED-F158468BA83E"/>
-      <string key="sourceRef" value="sid-EC524BAC-990C-49F1-B40F-254799906137"/>
-    </event>
-    <event>
-      <string key="concept:name" value="send shipment information"/>
-      <string key="id" value="sid-FA1EC6B2-A97F-451B-848C-2653F126F817"/>
-      <string key="sourceRef" value="sid-95BB54CB-7A95-434B-8170-AAE504F8D58D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="issue&amp;#10;shipment"/>
-      <string key="id" value="sid-0B14E175-63F6-4EA0-A1A3-3EBC30E807B7"/>
-      <string key="sourceRef" value="sid-C034C4A3-A037-4F0B-B650-2C79B4836FCC"/>
-    </event>
-    <event>
-      <string key="concept:name" value="deliver shipment"/>
-      <string key="id" value="sid-FDFE5AC6-2C1C-4A5D-8208-747618BC9359"/>
-      <string key="sourceRef" value="sid-EEE83D59-DF17-4036-B45F-0EF4694AC5F2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="send invoice"/>
-      <string key="id" value="sid-A9CAF9F4-C96A-433F-A9E2-B1852E424450"/>
-      <string key="sourceRef" value="sid-27D8F0D0-E83C-4CAA-B62E-3A96092A9554"/>
     </event>
     <event>
       <string key="concept:name" value="send payment"/>

@@ -20,11 +20,7 @@
       <string key="concept:name" value="pitanje podrske I nivoa"/>
       <string key="id" value="sid-5C750F54-16AD-4A32-A02C-07F46C268212"/>
       <string key="sourceRef" value="sid-3345C51F-87C6-471C-ABD8-65F91ABF544F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="pitanje podrske II nivoa"/>
-      <string key="id" value="sid-3DBA653A-A8C1-46DC-8C99-212183AA9096"/>
-      <string key="sourceRef" value="sid-647BB620-6D2C-463C-9227-625168AD65E6"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
       <string key="concept:name" value="slanje resenja operateru"/>
@@ -70,7 +66,11 @@
       <string key="concept:name" value="pitanje podrske I nivoa"/>
       <string key="id" value="sid-5C750F54-16AD-4A32-A02C-07F46C268212"/>
       <string key="sourceRef" value="sid-3345C51F-87C6-471C-ABD8-65F91ABF544F"/>
-      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="pitanje podrske II nivoa"/>
+      <string key="id" value="sid-3DBA653A-A8C1-46DC-8C99-212183AA9096"/>
+      <string key="sourceRef" value="sid-647BB620-6D2C-463C-9227-625168AD65E6"/>
     </event>
     <event>
       <string key="concept:name" value="slanje resenja operateru"/>

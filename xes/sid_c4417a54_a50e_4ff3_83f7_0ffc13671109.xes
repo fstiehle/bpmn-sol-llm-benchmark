@@ -77,12 +77,11 @@
       <string key="concept:name" value="Receive Appropriate Letter"/>
       <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
       <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Decline offer"/>
-      <string key="id" value="sid-45926A43-910E-427C-89DF-88246692C7D0"/>
-      <string key="sourceRef" value="sid-8d56f8c3-ae58-403e-a011-6a6d056e105e"/>
+      <string key="concept:name" value="Accept Offer"/>
+      <string key="id" value="sid-1057EE16-1EDB-4341-9611-ABF7A02F8AA0"/>
+      <string key="sourceRef" value="sid-d6c07e9b-bb71-4806-bcd6-bb325416e72f"/>
     </event>
   </trace>
   <trace>
@@ -125,11 +124,12 @@
       <string key="concept:name" value="Receive Appropriate Letter"/>
       <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
       <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Accept Offer"/>
-      <string key="id" value="sid-1057EE16-1EDB-4341-9611-ABF7A02F8AA0"/>
-      <string key="sourceRef" value="sid-d6c07e9b-bb71-4806-bcd6-bb325416e72f"/>
+      <string key="concept:name" value="Decline offer"/>
+      <string key="id" value="sid-45926A43-910E-427C-89DF-88246692C7D0"/>
+      <string key="sourceRef" value="sid-8d56f8c3-ae58-403e-a011-6a6d056e105e"/>
     </event>
   </trace>
 </log>

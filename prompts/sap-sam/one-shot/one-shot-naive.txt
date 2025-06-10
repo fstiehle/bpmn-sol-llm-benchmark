@@ -21,8 +21,9 @@ Use the following mapping of taskID to `choreographyTask` id of the model:
 - Implement parallel gateways (`<parallelGateway>`) as:
   - Join: wait for all incoming tokens to activate.
   - Split: activate all outgoing tasks concurrently.
-  
+
 - Use a variable tokenState to encode current control flow positions.
+- The flow may include loops. 
 - Use the constructor: `constructor(address[n] memory _participants)` where `n` is the number of participants.
 - Allow execution of each task only by the correct initiating participant, using:
   ```solidity

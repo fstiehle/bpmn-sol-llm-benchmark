@@ -15,11 +15,7 @@
       <string key="concept:name" value="Istraživanje problema"/>
       <string key="id" value="sid-5A4ADFFF-1BB4-4EB8-A933-FE6DE6BF79FF"/>
       <string key="sourceRef" value="sid-F83BC644-EF52-4D2C-8D52-296FBBA3FCCE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Detaljno istraživanje problema"/>
-      <string key="id" value="sid-73121FA6-3845-470E-A214-0579501D074D"/>
-      <string key="sourceRef" value="sid-5DA71F4F-3AFF-4314-8A18-F9B3FAD9E0F7"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje rješenja"/>
@@ -37,7 +33,11 @@
       <string key="concept:name" value="Istraživanje problema"/>
       <string key="id" value="sid-5A4ADFFF-1BB4-4EB8-A933-FE6DE6BF79FF"/>
       <string key="sourceRef" value="sid-F83BC644-EF52-4D2C-8D52-296FBBA3FCCE"/>
-      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Detaljno istraživanje problema"/>
+      <string key="id" value="sid-73121FA6-3845-470E-A214-0579501D074D"/>
+      <string key="sourceRef" value="sid-5DA71F4F-3AFF-4314-8A18-F9B3FAD9E0F7"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje rješenja"/>

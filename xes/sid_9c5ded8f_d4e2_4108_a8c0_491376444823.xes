@@ -17,9 +17,14 @@
       <string key="sourceRef" value="sid-33a55a77-cfa0-436f-8767-787dab586de5"/>
     </event>
     <event>
-      <string key="concept:name" value="Poczekaj na decyzję dotyczącą gotowości zespołu"/>
-      <string key="id" value="sid-2B07B286-2482-4BFA-95A9-59CFD87112F0"/>
-      <string key="sourceRef" value="sid-9de73603-f332-4095-b36e-3529b82658d8"/>
+      <string key="concept:name" value="Poczekaj na gotowość zespołu"/>
+      <string key="id" value="sid-BA78A708-DDDF-456A-BF00-5A762D0F7D35"/>
+      <string key="sourceRef" value="sid-2d2735a3-f462-4725-bf31-7d6b5bd648ae"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Przetransportuj organ"/>
+      <string key="id" value="sid-AB42C175-3483-4A91-A939-0CC7F6045F09"/>
+      <string key="sourceRef" value="sid-c1dd33bc-6268-4fb8-aa0f-c0469a4750ce"/>
     </event>
   </trace>
   <trace>
@@ -34,14 +39,9 @@
       <string key="sourceRef" value="sid-33a55a77-cfa0-436f-8767-787dab586de5"/>
     </event>
     <event>
-      <string key="concept:name" value="Poczekaj na gotowość zespołu"/>
-      <string key="id" value="sid-BA78A708-DDDF-456A-BF00-5A762D0F7D35"/>
-      <string key="sourceRef" value="sid-2d2735a3-f462-4725-bf31-7d6b5bd648ae"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Przetransportuj organ"/>
-      <string key="id" value="sid-AB42C175-3483-4A91-A939-0CC7F6045F09"/>
-      <string key="sourceRef" value="sid-c1dd33bc-6268-4fb8-aa0f-c0469a4750ce"/>
+      <string key="concept:name" value="Poczekaj na decyzję dotyczącą gotowości zespołu"/>
+      <string key="id" value="sid-2B07B286-2482-4BFA-95A9-59CFD87112F0"/>
+      <string key="sourceRef" value="sid-9de73603-f332-4095-b36e-3529b82658d8"/>
     </event>
   </trace>
 </log>

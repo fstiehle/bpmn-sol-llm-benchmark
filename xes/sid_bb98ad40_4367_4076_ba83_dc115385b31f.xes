@@ -26,6 +26,11 @@
       <string key="id" value="sid-DFCBB94B-43EB-4AF6-9E65-CE539A4F5143"/>
       <string key="sourceRef" value="sid-39E5327A-67DB-47C1-BF6C-A48C6968FCB5"/>
     </event>
+    <event>
+      <string key="concept:name" value="Hyväksy palautus"/>
+      <string key="id" value="sid-CD955ECD-DF05-404E-9C19-88C7DD9D0453"/>
+      <string key="sourceRef" value="sid-F77E2CB1-0E3D-475E-A767-C657432CCC22"/>
+    </event>
   </trace>
   <trace>
     <event>
@@ -64,11 +69,6 @@
       <string key="concept:name" value="Syötä tunnukset"/>
       <string key="id" value="sid-DFCBB94B-43EB-4AF6-9E65-CE539A4F5143"/>
       <string key="sourceRef" value="sid-39E5327A-67DB-47C1-BF6C-A48C6968FCB5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hyväksy palautus"/>
-      <string key="id" value="sid-CD955ECD-DF05-404E-9C19-88C7DD9D0453"/>
-      <string key="sourceRef" value="sid-F77E2CB1-0E3D-475E-A767-C657432CCC22"/>
     </event>
   </trace>
 </log>

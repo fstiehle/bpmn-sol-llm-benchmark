@@ -10,12 +10,21 @@
       <string key="concept:name" value="Pronalaženje dostupnog primjerka knjige"/>
       <string key="id" value="sid-A6663D7A-4D36-4E24-B402-3B6D0CD89938"/>
       <string key="sourceRef" value="sid-74A49ABE-427E-4530-8B41-06A6BC1B5022"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Rezerviranje knjige"/>
-      <string key="id" value="sid-4459D276-4952-4A89-8151-505064149A15"/>
-      <string key="sourceRef" value="sid-8E284737-B4FD-41B6-AF1B-52A3A2D27D6C"/>
+      <string key="concept:name" value="Posuđivanje knjige"/>
+      <string key="id" value="sid-6DEC977C-0B4C-4233-A772-FF484BCFBD0C"/>
+      <string key="sourceRef" value="sid-9DBE4BB6-070A-4CB2-A0A7-533BCFF89CF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Registriranje &amp;#10;gubitka knjige"/>
+      <string key="id" value="sid-5E955D68-8136-4843-BDD6-B30855E7FF76"/>
+      <string key="sourceRef" value="sid-0D1291D1-3F4C-4417-80EA-1CCDCB891EAC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Plaćanje vrijednosti izgubljene knjiige"/>
+      <string key="id" value="sid-0179BFA8-211F-4289-91B1-A5A18BF65DF5"/>
+      <string key="sourceRef" value="sid-1F9706D3-B182-48FA-9CE5-AF6821F24D55"/>
     </event>
   </trace>
   <trace>
@@ -53,14 +62,9 @@
       <string key="sourceRef" value="sid-9DBE4BB6-070A-4CB2-A0A7-533BCFF89CF2"/>
     </event>
     <event>
-      <string key="concept:name" value="Registriranje &amp;#10;gubitka knjige"/>
-      <string key="id" value="sid-5E955D68-8136-4843-BDD6-B30855E7FF76"/>
-      <string key="sourceRef" value="sid-0D1291D1-3F4C-4417-80EA-1CCDCB891EAC"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Plaćanje vrijednosti izgubljene knjiige"/>
-      <string key="id" value="sid-0179BFA8-211F-4289-91B1-A5A18BF65DF5"/>
-      <string key="sourceRef" value="sid-1F9706D3-B182-48FA-9CE5-AF6821F24D55"/>
+      <string key="concept:name" value="Vraćanje posuđene knjige"/>
+      <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
+      <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
     </event>
   </trace>
   <trace>
@@ -68,16 +72,12 @@
       <string key="concept:name" value="Pronalaženje dostupnog primjerka knjige"/>
       <string key="id" value="sid-A6663D7A-4D36-4E24-B402-3B6D0CD89938"/>
       <string key="sourceRef" value="sid-74A49ABE-427E-4530-8B41-06A6BC1B5022"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Posuđivanje knjige"/>
-      <string key="id" value="sid-6DEC977C-0B4C-4233-A772-FF484BCFBD0C"/>
-      <string key="sourceRef" value="sid-9DBE4BB6-070A-4CB2-A0A7-533BCFF89CF2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Vraćanje posuđene knjige"/>
-      <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
-      <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
+      <string key="concept:name" value="Rezerviranje knjige"/>
+      <string key="id" value="sid-4459D276-4952-4A89-8151-505064149A15"/>
+      <string key="sourceRef" value="sid-8E284737-B4FD-41B6-AF1B-52A3A2D27D6C"/>
     </event>
   </trace>
 </log>

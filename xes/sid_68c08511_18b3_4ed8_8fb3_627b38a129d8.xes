@@ -10,6 +10,14 @@
       <string key="concept:name" value="Solicitar cotización"/>
       <string key="id" value="sid-64207994-D12D-429F-B981-FC3AF1F538AD"/>
       <string key="sourceRef" value="sid-9E5FA5D4-A97C-4981-A5A0-B4B2EB2E4320"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitar cotización"/>
+      <string key="id" value="sid-64207994-D12D-429F-B981-FC3AF1F538AD"/>
+      <string key="sourceRef" value="sid-9E5FA5D4-A97C-4981-A5A0-B4B2EB2E4320"/>
     </event>
     <event>
       <string key="concept:name" value="Comprar productos"/>
@@ -25,14 +33,6 @@
       <string key="concept:name" value="Enviar productos"/>
       <string key="id" value="sid-393B71C1-5AD9-41AD-B3BA-D9BF2B1B7ECD"/>
       <string key="sourceRef" value="sid-589E7D52-8500-4F86-96FF-0214B1DA9572"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Solicitar cotización"/>
-      <string key="id" value="sid-64207994-D12D-429F-B981-FC3AF1F538AD"/>
-      <string key="sourceRef" value="sid-9E5FA5D4-A97C-4981-A5A0-B4B2EB2E4320"/>
-      <boolean key="conditions" value="1"/>
     </event>
   </trace>
 </log>

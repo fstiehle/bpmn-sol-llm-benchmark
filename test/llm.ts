@@ -35,8 +35,8 @@ const runTest = async (config: TestConfig) => {
     // Read the corresponding .json file from contracts/chorpiler
     const jsonFilePath = path.join(__dirname, "../contracts/chorpiler", `${fileNameWithoutExt}.json`);
     if (!fs.existsSync(jsonFilePath)) {
-      console.log(`${tab2} ❌ JSON config file not found: ${jsonFilePath}`);
-      throw new Error(`JSON config file not found: ${jsonFilePath}`);
+      console.log(`JSON encoding file not found: ${jsonFilePath}, skipping`);
+      continue;
     }
 
     const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf-8"));
@@ -99,6 +99,8 @@ describe("LLM Endpoint Tests", () => {
   llms.forEach(config => {
     console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
   });
+
+  console.log(`Running for ${NR_PROCESS_MODELS} files.`);
 
   for (const testConfig of llms) {
     it(`should run: ${testConfig.name}`, async () => {

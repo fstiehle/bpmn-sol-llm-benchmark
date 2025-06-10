@@ -11,7 +11,7 @@ describe('XML Files in data/raw', () => {
   const outputDataPath = path.join(__dirname, '../data/sap-sam/');
 
   // Toggle to control BPMNDiagram removal
-  const REMOVE_BPMN_VISUAL_DIAGRAM = false; // Set to false to keep diagrams
+  const REMOVE_BPMN_VISUAL_DIAGRAM = true; // Set to false to keep diagrams
 
   // Helper to detect the BPMN prefix from the parsed JSON object
   function detectPrefix(jsonObj: any): string {
@@ -344,7 +344,7 @@ describe('XML Files in data/raw', () => {
       const values = header.map(h => h === 'model' ? row.model : (row[h] || 0));
       csvRows.push(values.join(','));
     }
-    const csvPath = path.join(outputDataPath, 'bpmn_element_type_counts.csv');
+    const csvPath = path.join(outputDataPath, 'meta_data.csv');
     fs.writeFileSync(csvPath, csvRows.join('\n'), 'utf-8');
     console.log(`Element type counts written to ${csvPath}`);
   });

@@ -38,17 +38,6 @@
       <string key="concept:name" value="Pitanje podrske prvog nivoa"/>
       <string key="id" value="sid-7626F4C0-564C-4869-A6D7-2540D55E5360"/>
       <string key="sourceRef" value="sid-D87A253B-1F50-4D6A-919E-BE902C39C3E2"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Pitanje podrske II nivoa"/>
-      <string key="id" value="sid-D68FC3ED-F557-4118-ADE0-BEFEE27D4FD2"/>
-      <string key="sourceRef" value="sid-2E356818-7B98-46E1-9EC1-2C59A850840D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Slanje resenja"/>
-      <string key="id" value="sid-0D7629F1-CA9A-490A-9642-3AE48DAF9070"/>
-      <string key="sourceRef" value="sid-55170532-9F4A-41EC-9855-DEC79A90D006"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>
@@ -77,6 +66,17 @@
       <string key="concept:name" value="Pitanje podrske prvog nivoa"/>
       <string key="id" value="sid-7626F4C0-564C-4869-A6D7-2540D55E5360"/>
       <string key="sourceRef" value="sid-D87A253B-1F50-4D6A-919E-BE902C39C3E2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pitanje podrske II nivoa"/>
+      <string key="id" value="sid-D68FC3ED-F557-4118-ADE0-BEFEE27D4FD2"/>
+      <string key="sourceRef" value="sid-2E356818-7B98-46E1-9EC1-2C59A850840D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-0D7629F1-CA9A-490A-9642-3AE48DAF9070"/>
+      <string key="sourceRef" value="sid-55170532-9F4A-41EC-9855-DEC79A90D006"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>

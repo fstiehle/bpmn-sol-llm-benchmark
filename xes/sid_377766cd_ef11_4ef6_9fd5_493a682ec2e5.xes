@@ -15,6 +15,72 @@
       <string key="concept:name" value="Check Order Status"/>
       <string key="id" value="oryx_C94079F4-D673-4D03-86CA-841A4120001E"/>
       <string key="sourceRef" value="oryx_167A77AE-3992-4ABC-85C3-1382013CF59E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify arrival"/>
+      <string key="id" value="oryx_386066EF-69B6-4A9D-8270-E32873438891"/>
+      <string key="sourceRef" value="oryx_31048080-90EC-404E-A09B-25E6F9B4DB84"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Package delivered"/>
+      <string key="id" value="oryx_4089513A-8987-431B-AFD2-372DCC5842F2"/>
+      <string key="sourceRef" value="oryx_1E82DECB-2C60-4311-A32C-67023F7652F0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Payment confirmation"/>
+      <string key="id" value="oryx_58F5A854-AF92-44FA-9196-50C74C4D4B73"/>
+      <string key="sourceRef" value="oryx_B80B75F0-6AD1-4CF2-9A19-89AAF0994BEB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="oryx_B692D74B-D8AA-47E5-8504-6EA9E4FA08BE"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Submit a &quot;digital&quot; order"/>
+      <string key="id" value="oryx_5F252A9D-C258-42C7-89BF-5A20AD869050"/>
+      <string key="sourceRef" value="oryx_B4F893A3-DF8A-43CF-B623-885959C08440"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Check Order Status"/>
+      <string key="id" value="oryx_C94079F4-D673-4D03-86CA-841A4120001E"/>
+      <string key="sourceRef" value="oryx_167A77AE-3992-4ABC-85C3-1382013CF59E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify arrival"/>
+      <string key="id" value="oryx_386066EF-69B6-4A9D-8270-E32873438891"/>
+      <string key="sourceRef" value="oryx_31048080-90EC-404E-A09B-25E6F9B4DB84"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Package delivered"/>
+      <string key="id" value="oryx_4089513A-8987-431B-AFD2-372DCC5842F2"/>
+      <string key="sourceRef" value="oryx_1E82DECB-2C60-4311-A32C-67023F7652F0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Payment confirmation"/>
+      <string key="id" value="oryx_58F5A854-AF92-44FA-9196-50C74C4D4B73"/>
+      <string key="sourceRef" value="oryx_B80B75F0-6AD1-4CF2-9A19-89AAF0994BEB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="oryx_B692D74B-D8AA-47E5-8504-6EA9E4FA08BE"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Submit a &quot;digital&quot; order"/>
+      <string key="id" value="oryx_5F252A9D-C258-42C7-89BF-5A20AD869050"/>
+      <string key="sourceRef" value="oryx_B4F893A3-DF8A-43CF-B623-885959C08440"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Check Order Status"/>
+      <string key="id" value="oryx_C94079F4-D673-4D03-86CA-841A4120001E"/>
+      <string key="sourceRef" value="oryx_167A77AE-3992-4ABC-85C3-1382013CF59E"/>
       <boolean key="conditions" value="2"/>
     </event>
     <event>
@@ -30,75 +96,9 @@
   </trace>
   <trace>
     <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="oryx_B692D74B-D8AA-47E5-8504-6EA9E4FA08BE"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Submit a &quot;digital&quot; order"/>
-      <string key="id" value="oryx_5F252A9D-C258-42C7-89BF-5A20AD869050"/>
-      <string key="sourceRef" value="oryx_B4F893A3-DF8A-43CF-B623-885959C08440"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Check Order Status"/>
-      <string key="id" value="oryx_C94079F4-D673-4D03-86CA-841A4120001E"/>
-      <string key="sourceRef" value="oryx_167A77AE-3992-4ABC-85C3-1382013CF59E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Notify arrival"/>
-      <string key="id" value="oryx_386066EF-69B6-4A9D-8270-E32873438891"/>
-      <string key="sourceRef" value="oryx_31048080-90EC-404E-A09B-25E6F9B4DB84"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Package delivered"/>
-      <string key="id" value="oryx_4089513A-8987-431B-AFD2-372DCC5842F2"/>
-      <string key="sourceRef" value="oryx_1E82DECB-2C60-4311-A32C-67023F7652F0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Payment confirmation"/>
-      <string key="id" value="oryx_58F5A854-AF92-44FA-9196-50C74C4D4B73"/>
-      <string key="sourceRef" value="oryx_B80B75F0-6AD1-4CF2-9A19-89AAF0994BEB"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
       <string key="concept:name" value="Submit a &quot;physical&quot; order"/>
       <string key="id" value="oryx_3CC394C6-8CE0-404C-B2B7-96B3F010E4AE"/>
       <string key="sourceRef" value="oryx_B692D74B-D8AA-47E5-8504-6EA9E4FA08BE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Check Order Status"/>
-      <string key="id" value="oryx_C94079F4-D673-4D03-86CA-841A4120001E"/>
-      <string key="sourceRef" value="oryx_167A77AE-3992-4ABC-85C3-1382013CF59E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Notify arrival"/>
-      <string key="id" value="oryx_386066EF-69B6-4A9D-8270-E32873438891"/>
-      <string key="sourceRef" value="oryx_31048080-90EC-404E-A09B-25E6F9B4DB84"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Package delivered"/>
-      <string key="id" value="oryx_4089513A-8987-431B-AFD2-372DCC5842F2"/>
-      <string key="sourceRef" value="oryx_1E82DECB-2C60-4311-A32C-67023F7652F0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Payment confirmation"/>
-      <string key="id" value="oryx_58F5A854-AF92-44FA-9196-50C74C4D4B73"/>
-      <string key="sourceRef" value="oryx_B80B75F0-6AD1-4CF2-9A19-89AAF0994BEB"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="oryx_B692D74B-D8AA-47E5-8504-6EA9E4FA08BE"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Submit a &quot;digital&quot; order"/>
-      <string key="id" value="oryx_5F252A9D-C258-42C7-89BF-5A20AD869050"/>
-      <string key="sourceRef" value="oryx_B4F893A3-DF8A-43CF-B623-885959C08440"/>
     </event>
     <event>
       <string key="concept:name" value="Check Order Status"/>

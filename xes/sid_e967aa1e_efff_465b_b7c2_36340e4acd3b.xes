@@ -52,16 +52,7 @@
       <string key="concept:name" value="Przetworzenie przelewu i wysłanie potwierdzania pizzerni"/>
       <string key="id" value="sid-79A92117-2B37-4B77-944F-98219EEB8D3E"/>
       <string key="sourceRef" value="sid-95bc0b22-462b-4761-add2-d96b7b0615a0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Przygotowanie zamówienia"/>
-      <string key="id" value="sid-B8D34349-B9FC-4558-BB6F-835BD169E53B"/>
-      <string key="sourceRef" value="sid-51e5b152-1f7b-489c-8b00-7916bc111877"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Odebranie zamówienia"/>
-      <string key="id" value="sid-FFC62C06-5B46-46D9-A63B-B84B0D605720"/>
-      <string key="sourceRef" value="sid-310b8dc0-2a84-4cba-bfbe-7980db3aa7c1"/>
+      <boolean key="conditions" value="4"/>
     </event>
   </trace>
   <trace>
@@ -80,7 +71,16 @@
       <string key="concept:name" value="Przetworzenie przelewu i wysłanie potwierdzania pizzerni"/>
       <string key="id" value="sid-79A92117-2B37-4B77-944F-98219EEB8D3E"/>
       <string key="sourceRef" value="sid-95bc0b22-462b-4761-add2-d96b7b0615a0"/>
-      <boolean key="conditions" value="4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Przygotowanie zamówienia"/>
+      <string key="id" value="sid-B8D34349-B9FC-4558-BB6F-835BD169E53B"/>
+      <string key="sourceRef" value="sid-51e5b152-1f7b-489c-8b00-7916bc111877"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Odebranie zamówienia"/>
+      <string key="id" value="sid-FFC62C06-5B46-46D9-A63B-B84B0D605720"/>
+      <string key="sourceRef" value="sid-310b8dc0-2a84-4cba-bfbe-7980db3aa7c1"/>
     </event>
   </trace>
 </log>

@@ -10,6 +10,12 @@
       <string key="concept:name" value="Bewerbungsunterlagen senden &amp; bestätigen&amp;#10;"/>
       <string key="id" value="sid-2C952487-1897-4703-BD14-C00233174A01"/>
       <string key="sourceRef" value="sid-1BB4CA3B-CFEB-4524-B398-A76744D955D4"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen anfordern &amp; senden"/>
+      <string key="id" value="sid-AFF80938-EACE-4704-B168-6FD41D6291B8"/>
+      <string key="sourceRef" value="sid-F406D65F-B283-413B-987C-3C5B7A154513"/>
     </event>
     <event>
       <string key="concept:name" value="Absage senden"/>
@@ -54,12 +60,6 @@
       <string key="concept:name" value="Bewerbungsunterlagen senden &amp; bestätigen&amp;#10;"/>
       <string key="id" value="sid-2C952487-1897-4703-BD14-C00233174A01"/>
       <string key="sourceRef" value="sid-1BB4CA3B-CFEB-4524-B398-A76744D955D4"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Fehlende Unterlagen anfordern &amp; senden"/>
-      <string key="id" value="sid-AFF80938-EACE-4704-B168-6FD41D6291B8"/>
-      <string key="sourceRef" value="sid-F406D65F-B283-413B-987C-3C5B7A154513"/>
     </event>
     <event>
       <string key="concept:name" value="Absage senden"/>

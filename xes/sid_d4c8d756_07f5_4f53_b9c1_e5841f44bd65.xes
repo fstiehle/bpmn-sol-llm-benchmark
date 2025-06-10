@@ -10,18 +10,6 @@
       <string key="concept:name" value="Make an offer"/>
       <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
       <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Notiffy of rejection"/>
-      <string key="id" value="sid-FB98D4EA-6C0C-444C-A72F-D26AB9A063D3"/>
-      <string key="sourceRef" value="sid-74377F5E-A697-4461-AA9B-89B7E21FC41F"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Make an offer"/>
-      <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
-      <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -44,6 +32,18 @@
       <string key="concept:name" value="Refuse payment"/>
       <string key="id" value="sid-EA43C3B0-C88F-4343-A837-2282644D7B6B"/>
       <string key="sourceRef" value="sid-8B1CB9B3-9698-4F25-BA37-313F6597CF00"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make an offer"/>
+      <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
+      <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notiffy of rejection"/>
+      <string key="id" value="sid-FB98D4EA-6C0C-444C-A72F-D26AB9A063D3"/>
+      <string key="sourceRef" value="sid-74377F5E-A697-4461-AA9B-89B7E21FC41F"/>
     </event>
   </trace>
   <trace>

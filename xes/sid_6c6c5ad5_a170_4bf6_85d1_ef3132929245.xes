@@ -15,6 +15,23 @@
       <string key="concept:name" value="Trazi detaljniji opis"/>
       <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
       <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje"/>
+      <string key="id" value="sid-E38463B9-D82B-4189-851B-1B9A3309F090"/>
+      <string key="sourceRef" value="sid-35AA86D9-B023-4DA1-9342-E22127AC041B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Saopstava problem"/>
+      <string key="id" value="sid-DCB7D1E5-2848-4BC5-8D21-94BB7871D1E1"/>
+      <string key="sourceRef" value="sid-BECE52B0-501E-4B49-A033-5944D48E5E40"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi detaljniji opis"/>
+      <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
+      <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -65,23 +82,6 @@
       <string key="concept:name" value="Saopstava resenje problema"/>
       <string key="id" value="sid-8804897F-A178-4B50-B16F-90AD4B890E31"/>
       <string key="sourceRef" value="sid-5B1DE9A6-ACF2-4EBD-BF19-7FCE429189AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Saopstava resenje"/>
-      <string key="id" value="sid-E38463B9-D82B-4189-851B-1B9A3309F090"/>
-      <string key="sourceRef" value="sid-35AA86D9-B023-4DA1-9342-E22127AC041B"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Saopstava problem"/>
-      <string key="id" value="sid-DCB7D1E5-2848-4BC5-8D21-94BB7871D1E1"/>
-      <string key="sourceRef" value="sid-BECE52B0-501E-4B49-A033-5944D48E5E40"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Trazi detaljniji opis"/>
-      <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
-      <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
     </event>
     <event>
       <string key="concept:name" value="Saopstava resenje"/>

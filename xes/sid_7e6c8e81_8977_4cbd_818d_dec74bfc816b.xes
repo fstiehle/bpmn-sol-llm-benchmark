@@ -38,49 +38,6 @@
       <string key="concept:name" value="Applications verified"/>
       <string key="id" value="sid-CD6AB0BE-9B3F-434A-8700-6D824685A462"/>
       <string key="sourceRef" value="sid-C0C1B9E8-B671-4F15-B686-0843D5B23EB1"/>
-      <boolean key="conditions" value="4"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Receive final &amp;#10;ranking list&amp;#10;"/>
-      <string key="id" value="sid-87287EEC-75F1-4AC8-AE7E-9C391703EE55"/>
-      <string key="sourceRef" value="sid-30B5FF42-BFBF-4455-BFA7-1BFAF3596C1D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Notify Applicants"/>
-      <string key="id" value="sid-BB62FAA9-D601-4BF1-A772-3A4380DD1A5B"/>
-      <string key="sourceRef" value="sid-641F0C0B-29FC-489F-B282-B80881645F2F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Reject offer"/>
-      <string key="id" value="sid-7A241CBE-2575-4DCA-95BC-28BAB9EEFF81"/>
-      <string key="sourceRef" value="sid-14F1815C-1974-4FE7-9DC1-11EE5B2B0AE1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Confirmation of applicants"/>
-      <string key="id" value="sid-4B89B8DF-8AF8-4325-81E7-8C70BB23A15D"/>
-      <string key="sourceRef" value="sid-6DFE9AF7-2CC7-4531-9699-539A44C0E1F2"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Receive documents&amp;#10;"/>
-      <string key="id" value="sid-30A5461D-7588-4ED8-ADC2-E4128343C522"/>
-      <string key="sourceRef" value="sid-62362F8F-1E4A-4890-842B-03432E258CCA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Application contains errors"/>
-      <string key="id" value="sid-3D723944-9B34-40D6-A39C-EAB0CA933734"/>
-      <string key="sourceRef" value="sid-27FA050E-B4AF-4DDF-AC4A-11EF43930C58"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Application resubmissions"/>
-      <string key="id" value="sid-6DBA4DBC-8A77-4C66-93CB-4834A500751F"/>
-      <string key="sourceRef" value="sid-CB23BAF0-7E38-4AC6-8415-21795E97F079"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Applications verified"/>
-      <string key="id" value="sid-CD6AB0BE-9B3F-434A-8700-6D824685A462"/>
-      <string key="sourceRef" value="sid-C0C1B9E8-B671-4F15-B686-0843D5B23EB1"/>
     </event>
     <event>
       <string key="concept:name" value="Reject application&amp;#10;&amp;#10;"/>
@@ -125,6 +82,49 @@
       <string key="concept:name" value="Accept offer"/>
       <string key="id" value="sid-02B3BAAB-F46E-4E03-8DEB-ED35AD89343F"/>
       <string key="sourceRef" value="sid-9FAA0B4B-926F-4729-9CB9-E5EF0FE68DBB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirmation of applicants"/>
+      <string key="id" value="sid-4B89B8DF-8AF8-4325-81E7-8C70BB23A15D"/>
+      <string key="sourceRef" value="sid-6DFE9AF7-2CC7-4531-9699-539A44C0E1F2"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Receive documents&amp;#10;"/>
+      <string key="id" value="sid-30A5461D-7588-4ED8-ADC2-E4128343C522"/>
+      <string key="sourceRef" value="sid-62362F8F-1E4A-4890-842B-03432E258CCA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Application contains errors"/>
+      <string key="id" value="sid-3D723944-9B34-40D6-A39C-EAB0CA933734"/>
+      <string key="sourceRef" value="sid-27FA050E-B4AF-4DDF-AC4A-11EF43930C58"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Application resubmissions"/>
+      <string key="id" value="sid-6DBA4DBC-8A77-4C66-93CB-4834A500751F"/>
+      <string key="sourceRef" value="sid-CB23BAF0-7E38-4AC6-8415-21795E97F079"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Applications verified"/>
+      <string key="id" value="sid-CD6AB0BE-9B3F-434A-8700-6D824685A462"/>
+      <string key="sourceRef" value="sid-C0C1B9E8-B671-4F15-B686-0843D5B23EB1"/>
+      <boolean key="conditions" value="4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive final &amp;#10;ranking list&amp;#10;"/>
+      <string key="id" value="sid-87287EEC-75F1-4AC8-AE7E-9C391703EE55"/>
+      <string key="sourceRef" value="sid-30B5FF42-BFBF-4455-BFA7-1BFAF3596C1D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify Applicants"/>
+      <string key="id" value="sid-BB62FAA9-D601-4BF1-A772-3A4380DD1A5B"/>
+      <string key="sourceRef" value="sid-641F0C0B-29FC-489F-B282-B80881645F2F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Reject offer"/>
+      <string key="id" value="sid-7A241CBE-2575-4DCA-95BC-28BAB9EEFF81"/>
+      <string key="sourceRef" value="sid-14F1815C-1974-4FE7-9DC1-11EE5B2B0AE1"/>
     </event>
     <event>
       <string key="concept:name" value="Confirmation of applicants"/>

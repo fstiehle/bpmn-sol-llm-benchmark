@@ -21,43 +21,4 @@
     <ns0:sequenceFlow id="sid-5FF18C4A-9832-44F2-94A4-1BD24060F2EF" name="" sourceRef="sid-69013E8D-631E-44AB-A030-716250ECDC26" targetRef="sid-60D9F063-1A0D-4038-B63C-8CF1B2DEF680"></ns0:sequenceFlow>
     <ns0:sequenceFlow id="sid-52AFE5C4-1C06-4DB2-8B73-7A9E30304DA2" name="" sourceRef="sid-318230DD-8823-4E5B-99E8-66D22DEB792B" targetRef="sid-69013E8D-631E-44AB-A030-716250ECDC26"></ns0:sequenceFlow>
   </ns0:choreography>
-  <ns3:BPMNDiagram id="sid-54994506-1984-413c-a648-b220cb30d2e7">
-    <ns3:BPMNPlane bpmnElement="sid_cdcc177e_d782_4c04_99a0_6bd30bb2bd16" id="sid-bf4d8cde-67fa-478f-b38c-f1ee1e6644ca">
-      <ns3:BPMNShape bpmnElement="sid-69013E8D-631E-44AB-A030-716250ECDC26" id="sid-69013E8D-631E-44AB-A030-716250ECDC26_gui">
-        <ns4:Bounds height="84.0" width="129.0" x="146.75" y="148.5"></ns4:Bounds>
-        <ns3:BPMNLabel labelStyle="sid-6692ff4e-f986-4886-bb69-3c2cdcb16292">
-          <ns4:Bounds height="12.0" width="72.5142822265625" x="174.99285888671875" y="182.5"></ns4:Bounds>
-        </ns3:BPMNLabel>
-      </ns3:BPMNShape>
-      <ns3:BPMNShape bpmnElement="sid-35961B16-3C86-4C79-976E-062397B3CFD7" choreographyActivityShape="sid-69013E8D-631E-44AB-A030-716250ECDC26_gui" id="sid-35961B16-3C86-4C79-976E-062397B3CFD7_gui" isMessageVisible participantBandKind="top_initiating">
-        <ns4:Bounds height="20.0" width="129.0" x="146.75" y="148.5"></ns4:Bounds>
-        <ns3:BPMNLabel labelStyle="sid-6692ff4e-f986-4886-bb69-3c2cdcb16292">
-          <ns4:Bounds height="12.0" width="66.34286499023438" x="178.0785675048828" y="150.5"></ns4:Bounds>
-        </ns3:BPMNLabel>
-      </ns3:BPMNShape>
-      <ns3:BPMNShape bpmnElement="sid-4D14F804-484C-4126-AD24-5BDF3F313564" choreographyActivityShape="sid-69013E8D-631E-44AB-A030-716250ECDC26_gui" id="sid-4D14F804-484C-4126-AD24-5BDF3F313564_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
-        <ns4:Bounds height="20.0" width="129.0" x="146.75" y="212.5"></ns4:Bounds>
-        <ns3:BPMNLabel labelStyle="sid-6692ff4e-f986-4886-bb69-3c2cdcb16292">
-          <ns4:Bounds height="12.0" width="43.19999694824219" x="189.6500015258789" y="214.5"></ns4:Bounds>
-        </ns3:BPMNLabel>
-      </ns3:BPMNShape>
-      <ns3:BPMNShape bpmnElement="sid-60D9F063-1A0D-4038-B63C-8CF1B2DEF680" id="sid-60D9F063-1A0D-4038-B63C-8CF1B2DEF680_gui">
-        <ns4:Bounds height="28.0" width="28.0" x="315.0" y="176.5"></ns4:Bounds>
-      </ns3:BPMNShape>
-      <ns3:BPMNShape bpmnElement="sid-318230DD-8823-4E5B-99E8-66D22DEB792B" id="sid-318230DD-8823-4E5B-99E8-66D22DEB792B_gui">
-        <ns4:Bounds height="30.0" width="30.0" x="45.0" y="175.5"></ns4:Bounds>
-      </ns3:BPMNShape>
-      <ns3:BPMNEdge bpmnElement="sid-5FF18C4A-9832-44F2-94A4-1BD24060F2EF" id="sid-5FF18C4A-9832-44F2-94A4-1BD24060F2EF_gui">
-        <ns5:waypoint x="275.75" y="190.5"></ns5:waypoint>
-        <ns5:waypoint x="315.0" y="190.5"></ns5:waypoint>
-      </ns3:BPMNEdge>
-      <ns3:BPMNEdge bpmnElement="sid-52AFE5C4-1C06-4DB2-8B73-7A9E30304DA2" id="sid-52AFE5C4-1C06-4DB2-8B73-7A9E30304DA2_gui">
-        <ns5:waypoint x="75.0" y="190.5"></ns5:waypoint>
-        <ns5:waypoint x="146.75" y="190.5"></ns5:waypoint>
-      </ns3:BPMNEdge>
-    </ns3:BPMNPlane>
-    <ns3:BPMNLabelStyle id="sid-6692ff4e-f986-4886-bb69-3c2cdcb16292">
-      <ns4:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"></ns4:Font>
-    </ns3:BPMNLabelStyle>
-  </ns3:BPMNDiagram>
 </ns0:definitions>

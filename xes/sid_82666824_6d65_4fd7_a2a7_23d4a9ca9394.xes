@@ -54,9 +54,9 @@
       <string key="sourceRef" value="sid-43946E0D-327D-4AC0-B25F-01429023F59E"/>
     </event>
     <event>
-      <string key="concept:name" value="Reject complaint&#x2F;return"/>
-      <string key="id" value="sid-5DFB9625-36C4-4410-AACF-2E57231E1B52"/>
-      <string key="sourceRef" value="sid-003CEEBC-2D5B-4C4F-86CF-3AEA98CF9AF6"/>
+      <string key="concept:name" value="Send money to client"/>
+      <string key="id" value="sid-3F98CB79-F885-47D5-BD69-C6355DDCF23C"/>
+      <string key="sourceRef" value="sid-D43FD103-C6FE-4A43-93D3-19FDB2FEC3C7"/>
     </event>
   </trace>
   <trace>
@@ -76,9 +76,9 @@
       <string key="sourceRef" value="sid-43946E0D-327D-4AC0-B25F-01429023F59E"/>
     </event>
     <event>
-      <string key="concept:name" value="Send money to client"/>
-      <string key="id" value="sid-3F98CB79-F885-47D5-BD69-C6355DDCF23C"/>
-      <string key="sourceRef" value="sid-D43FD103-C6FE-4A43-93D3-19FDB2FEC3C7"/>
+      <string key="concept:name" value="Reject complaint&#x2F;return"/>
+      <string key="id" value="sid-5DFB9625-36C4-4410-AACF-2E57231E1B52"/>
+      <string key="sourceRef" value="sid-003CEEBC-2D5B-4C4F-86CF-3AEA98CF9AF6"/>
     </event>
   </trace>
 </log>
