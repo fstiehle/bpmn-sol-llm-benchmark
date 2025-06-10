@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Issue Report to Client"/>
+      <string key="id" value="sid-998BF84A-5A1B-4FC1-8D9D-35B23405CB1E"/>
+      <string key="sourceRef" value="sid-57E74C1C-6EF5-4A70-9970-EBE894D2A611"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to accounts receivable"/>
+      <string key="id" value="sid-78E1385A-0AF4-4CDC-967C-072B15693036"/>
+      <string key="sourceRef" value="sid-81D5B139-9C4C-4391-B648-3C183A237C32"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Issue report to registry"/>
+      <string key="id" value="sid-840A8FCC-2211-467B-B180-1E77580E3EDF"/>
+      <string key="sourceRef" value="sid-D383EDFB-D24A-45D3-A6B2-9B8B3EF84B7B"/>
+    </event>
+  </trace>
+</log>

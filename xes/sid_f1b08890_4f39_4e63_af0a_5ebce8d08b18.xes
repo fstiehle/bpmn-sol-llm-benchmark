@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Auktion einstellen"/>
+      <string key="id" value="sid-CB92D8FB-550E-4C94-B6FC-98912CFD2806"/>
+      <string key="sourceRef" value="sid-B539B3D1-3FB3-4EDE-9416-0A9F789851D8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auktion bestätigen"/>
+      <string key="id" value="sid-F7358A37-3824-43BE-9C8E-8A0567B311F4"/>
+      <string key="sourceRef" value="sid-2DF782B5-5D83-43EA-9FC9-F9DB6058BB02"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auf Auktion bieten"/>
+      <string key="id" value="sid-4FA0E9CE-8B47-4951-A78E-E161347EC4E0"/>
+      <string key="sourceRef" value="sid-F0E716D2-F0C0-48C5-83FD-ED97CBABC6DE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren"/>
+      <string key="id" value="sid-2B25DC31-BDA4-4EF1-A089-7A9C6EC035FF"/>
+      <string key="sourceRef" value="sid-C43B3AF1-A338-49E2-B434-1F22598AA75A"/>
+      <boolean key="conditions" value="4"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auktion einstellen"/>
+      <string key="id" value="sid-CB92D8FB-550E-4C94-B6FC-98912CFD2806"/>
+      <string key="sourceRef" value="sid-B539B3D1-3FB3-4EDE-9416-0A9F789851D8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auktion bestätigen"/>
+      <string key="id" value="sid-F7358A37-3824-43BE-9C8E-8A0567B311F4"/>
+      <string key="sourceRef" value="sid-2DF782B5-5D83-43EA-9FC9-F9DB6058BB02"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auf Auktion bieten"/>
+      <string key="id" value="sid-4FA0E9CE-8B47-4951-A78E-E161347EC4E0"/>
+      <string key="sourceRef" value="sid-F0E716D2-F0C0-48C5-83FD-ED97CBABC6DE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren"/>
+      <string key="id" value="sid-2B25DC31-BDA4-4EF1-A089-7A9C6EC035FF"/>
+      <string key="sourceRef" value="sid-C43B3AF1-A338-49E2-B434-1F22598AA75A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren"/>
+      <string key="id" value="sid-A43F5015-5CCA-4A61-A724-EA48984F7806"/>
+      <string key="sourceRef" value="sid-983336E7-EC9E-45D6-9F2E-6CDCC4401F4E"/>
+    </event>
+  </trace>
+</log>

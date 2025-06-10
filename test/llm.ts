@@ -95,6 +95,11 @@ const runTest = async (config: TestConfig) => {
 };
 
 describe("LLM Endpoint Tests", () => {
+  console.log("The following LLMs are configured:");
+  llms.forEach(config => {
+    console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
+  });
+
   for (const testConfig of llms) {
     it(`should run: ${testConfig.name}`, async () => {
       await runTest(testConfig);

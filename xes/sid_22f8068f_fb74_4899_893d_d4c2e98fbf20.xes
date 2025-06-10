@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Generate Purchase Request"/>
+      <string key="id" value="sid-E5490C4B-C24A-431D-B77A-49760BB4CCB8"/>
+      <string key="sourceRef" value="sid-754E99F0-0994-476D-823C-2C1A39391380"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Generate Purchase&amp;#10;Order"/>
+      <string key="id" value="sid-AB28E743-A241-4766-9C91-DAFABA0E39D1"/>
+      <string key="sourceRef" value="sid-EF9FA2F7-0202-454F-AD43-62121D8FC112"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Generate Invoice"/>
+      <string key="id" value="sid-A91EF0BA-F5C4-42CE-8076-0197BA6E0E9D"/>
+      <string key="sourceRef" value="sid-CDD9E3CF-CEE3-4E7D-8641-01141312DAB7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Process Payment"/>
+      <string key="id" value="sid-2150BBD8-18C8-4D8C-A164-2D07C84B7011"/>
+      <string key="sourceRef" value="sid-404F0001-C260-4194-A758-95D5B517C895"/>
+    </event>
+  </trace>
+</log>

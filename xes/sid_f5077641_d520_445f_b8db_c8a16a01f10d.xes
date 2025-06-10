@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-BC973045-8C1F-4517-B4A6-2822D4A7B431"/>
+      <string key="sourceRef" value="sid-F230680A-220A-40C3-A81C-D1227D932943"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lagerbestand mitteilen"/>
+      <string key="id" value="sid-A49B4766-A0EC-4174-A7CD-240AD5545A33"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende &amp;#10;Ware vermerken"/>
+      <string key="id" value="sid-431BECEE-2F25-47A2-A70D-9BD371C4A2B9"/>
+      <string key="sourceRef" value="sid-F2799D3B-E340-4E1E-AAFD-DA6D633A64E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-D9F1FFFF-3E21-4FEB-9FC8-E328CB7F8405"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware bestellen"/>
+      <string key="id" value="sid-F323C320-7F85-4E52-94A3-393D130B82C4"/>
+      <string key="sourceRef" value="sid-9DF425A5-DA61-41DA-9C74-71CFD445C685"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfen und annehmen der Ware"/>
+      <string key="id" value="sid-4BE3146B-16BF-4846-95FE-CDD5838F8B97"/>
+      <string key="sourceRef" value="sid-1D6BE90D-0BDC-4ABF-A921-B12E6D429158"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang im System registrieren"/>
+      <string key="id" value="sid-EDB7D7A2-8700-4ED6-AE92-4826D0DB0D5D"/>
+      <string key="sourceRef" value="sid-D7BC8302-16CB-47FD-89EF-6A30D3B805E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware einlagern"/>
+      <string key="id" value="sid-4B0E3B5A-ADAB-411A-874F-DD75A315611B"/>
+      <string key="sourceRef" value="sid-A9E5076C-03D1-4BC1-822A-78E5EA6FC741"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Auftrag bearbeiten"/>
+      <string key="id" value="sid-F30115AC-8F4D-459E-9469-2121FF706FFF"/>
+      <string key="sourceRef" value="sid-1A7DD52C-3EA6-47AB-A7AD-620DCE7BD6B1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware verladen"/>
+      <string key="id" value="sid-2435F6AD-9DD0-44F4-9CB4-EE9C954A85FA"/>
+      <string key="sourceRef" value="sid-2E36112A-B97B-4F1E-84B7-7F7141496627"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware versenden"/>
+      <string key="id" value="sid-8DE5D3EB-F715-451B-B446-A5851DE6C19E"/>
+      <string key="sourceRef" value="sid-8BFD0BFB-E27B-4722-9467-DC625135A529"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Data provisioning"/>
+      <string key="id" value="sid-DEE2F2A9-335C-4459-AA65-EA374A890662"/>
+      <string key="sourceRef" value="sid-EF8B8F29-269D-4640-A653-FDA7E4F49ED4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Planning of maintenance"/>
+      <string key="id" value="sid-DAF951B2-9243-45A8-A90E-98E34F7AFA85"/>
+      <string key="sourceRef" value="sid-E1B0C75D-55A3-4ED2-8FB1-3199535AB921"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Preperation for &amp;#10;maintenance"/>
+      <string key="id" value="sid-75FA8FEE-6D99-45CB-8AE9-DC5BB0B56453"/>
+      <string key="sourceRef" value="sid-8F1125FB-7583-4E92-81A4-FF7E209DD15F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Performing of &amp;#10;maintenance"/>
+      <string key="id" value="sid-A1BFDB2F-FE5F-4200-8988-21D95EB63AF3"/>
+      <string key="sourceRef" value="sid-3011DEAE-F99A-4B32-AD0D-4CC419C159F4"/>
+    </event>
+  </trace>
+</log>

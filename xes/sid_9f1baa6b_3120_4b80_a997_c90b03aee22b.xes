@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-B42E1B08-155A-4A95-9B09-E46F90D9B584"/>
+      <string key="sourceRef" value="sid-D9D19C73-7BC9-492B-B40F-B70F0D1370FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Place order"/>
+      <string key="id" value="sid-EFD4788E-A1A4-40E5-A500-0970010990DD"/>
+      <string key="sourceRef" value="sid-4423C966-6184-4AF3-88F4-A57461F1E744"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Reject Order"/>
+      <string key="id" value="sid-1FD8BD65-616D-4C0C-92A1-E591AA72FAD0"/>
+      <string key="sourceRef" value="sid-5F54F226-7969-4666-BDCC-9DA3A68CEE12"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-B42E1B08-155A-4A95-9B09-E46F90D9B584"/>
+      <string key="sourceRef" value="sid-D9D19C73-7BC9-492B-B40F-B70F0D1370FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Place order"/>
+      <string key="id" value="sid-EFD4788E-A1A4-40E5-A500-0970010990DD"/>
+      <string key="sourceRef" value="sid-4423C966-6184-4AF3-88F4-A57461F1E744"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Apply order"/>
+      <string key="id" value="sid-FBCC0E56-C042-4E45-917E-0E8620D644D3"/>
+      <string key="sourceRef" value="sid-C289FD68-1EE9-4132-AC09-A3A2BB8DC4D6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm booking"/>
+      <string key="id" value="sid-6676D52C-DF78-4BB4-885E-3E6236D6B9D3"/>
+      <string key="sourceRef" value="sid-929A3C56-3A90-44FC-9457-1E737C72A93E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pay travel"/>
+      <string key="id" value="sid-6EE679BB-748F-4253-B501-87CCF2E0D7D0"/>
+      <string key="sourceRef" value="sid-6D33D522-4D18-4056-98C4-B3D925076A9C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order ticket"/>
+      <string key="id" value="sid-8D8EFFEB-C49E-4DC9-B6B6-8AC520B8A50C"/>
+      <string key="sourceRef" value="sid-17D6B910-2D68-4583-A5FD-B7BE1C8F5A2B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-49741E13-1B13-422C-8AD2-6B8241F6E32E"/>
+      <string key="sourceRef" value="sid-03B40862-FAB7-4A86-BA9B-FAB4BAF28EBB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-B42E1B08-155A-4A95-9B09-E46F90D9B584"/>
+      <string key="sourceRef" value="sid-D9D19C73-7BC9-492B-B40F-B70F0D1370FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Place order"/>
+      <string key="id" value="sid-EFD4788E-A1A4-40E5-A500-0970010990DD"/>
+      <string key="sourceRef" value="sid-4423C966-6184-4AF3-88F4-A57461F1E744"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Apply order"/>
+      <string key="id" value="sid-FBCC0E56-C042-4E45-917E-0E8620D644D3"/>
+      <string key="sourceRef" value="sid-C289FD68-1EE9-4132-AC09-A3A2BB8DC4D6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm booking"/>
+      <string key="id" value="sid-6676D52C-DF78-4BB4-885E-3E6236D6B9D3"/>
+      <string key="sourceRef" value="sid-929A3C56-3A90-44FC-9457-1E737C72A93E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pay travel"/>
+      <string key="id" value="sid-6EE679BB-748F-4253-B501-87CCF2E0D7D0"/>
+      <string key="sourceRef" value="sid-6D33D522-4D18-4056-98C4-B3D925076A9C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order ticket"/>
+      <string key="id" value="sid-8D8EFFEB-C49E-4DC9-B6B6-8AC520B8A50C"/>
+      <string key="sourceRef" value="sid-17D6B910-2D68-4583-A5FD-B7BE1C8F5A2B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Refuse payment"/>
+      <string key="id" value="sid-795C6F26-3630-45A8-BAB6-DE8820B8DBB0"/>
+      <string key="sourceRef" value="sid-40989FC0-63FA-49CB-A6F6-B2E2CF1BA110"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="enviar orden de compra"/>
+      <string key="id" value="sid-0BA1CF17-3DB0-4F87-BB9B-9744CAD35C0E"/>
+      <string key="sourceRef" value="sid-39213E64-B620-485B-B859-71BCB28C2FB7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="comprar materia prima"/>
+      <string key="id" value="sid-218B56E6-2B14-4C26-9C7B-0EC315282FB5"/>
+      <string key="sourceRef" value="sid-7AA4B406-3759-430A-BF25-51F9DF77FC12"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirmación de orden"/>
+      <string key="id" value="sid-5C74E58D-D02E-4C79-88CD-14DA7AE9BD6F"/>
+      <string key="sourceRef" value="sid-4C27B32E-1D2D-421F-993A-BF8ED7179ADE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Factura al cliente"/>
+      <string key="id" value="sid-2C0B5580-D8B0-4B48-B6E9-A0061B409231"/>
+      <string key="sourceRef" value="sid-B958C7F1-3EF2-4938-9D5C-D0147EF91FBA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Envío del producto"/>
+      <string key="id" value="sid-E8A13914-8E0A-406E-BC57-139A04D44273"/>
+      <string key="sourceRef" value="sid-D47D98BC-7D8B-43A5-92B4-167875687DEA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="enviar orden de compra"/>
+      <string key="id" value="sid-0BA1CF17-3DB0-4F87-BB9B-9744CAD35C0E"/>
+      <string key="sourceRef" value="sid-39213E64-B620-485B-B859-71BCB28C2FB7"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirmación de orden"/>
+      <string key="id" value="sid-5C74E58D-D02E-4C79-88CD-14DA7AE9BD6F"/>
+      <string key="sourceRef" value="sid-4C27B32E-1D2D-421F-993A-BF8ED7179ADE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Envío del producto"/>
+      <string key="id" value="sid-E8A13914-8E0A-406E-BC57-139A04D44273"/>
+      <string key="sourceRef" value="sid-D47D98BC-7D8B-43A5-92B4-167875687DEA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Factura al cliente"/>
+      <string key="id" value="sid-2C0B5580-D8B0-4B48-B6E9-A0061B409231"/>
+      <string key="sourceRef" value="sid-B958C7F1-3EF2-4938-9D5C-D0147EF91FBA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="enviar orden de compra"/>
+      <string key="id" value="sid-0BA1CF17-3DB0-4F87-BB9B-9744CAD35C0E"/>
+      <string key="sourceRef" value="sid-39213E64-B620-485B-B859-71BCB28C2FB7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="comprar materia prima"/>
+      <string key="id" value="sid-218B56E6-2B14-4C26-9C7B-0EC315282FB5"/>
+      <string key="sourceRef" value="sid-7AA4B406-3759-430A-BF25-51F9DF77FC12"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirmación de orden"/>
+      <string key="id" value="sid-5C74E58D-D02E-4C79-88CD-14DA7AE9BD6F"/>
+      <string key="sourceRef" value="sid-4C27B32E-1D2D-421F-993A-BF8ED7179ADE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Envío del producto"/>
+      <string key="id" value="sid-E8A13914-8E0A-406E-BC57-139A04D44273"/>
+      <string key="sourceRef" value="sid-D47D98BC-7D8B-43A5-92B4-167875687DEA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Factura al cliente"/>
+      <string key="id" value="sid-2C0B5580-D8B0-4B48-B6E9-A0061B409231"/>
+      <string key="sourceRef" value="sid-B958C7F1-3EF2-4938-9D5C-D0147EF91FBA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="enviar orden de compra"/>
+      <string key="id" value="sid-0BA1CF17-3DB0-4F87-BB9B-9744CAD35C0E"/>
+      <string key="sourceRef" value="sid-39213E64-B620-485B-B859-71BCB28C2FB7"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirmación de orden"/>
+      <string key="id" value="sid-5C74E58D-D02E-4C79-88CD-14DA7AE9BD6F"/>
+      <string key="sourceRef" value="sid-4C27B32E-1D2D-421F-993A-BF8ED7179ADE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Factura al cliente"/>
+      <string key="id" value="sid-2C0B5580-D8B0-4B48-B6E9-A0061B409231"/>
+      <string key="sourceRef" value="sid-B958C7F1-3EF2-4938-9D5C-D0147EF91FBA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Envío del producto"/>
+      <string key="id" value="sid-E8A13914-8E0A-406E-BC57-139A04D44273"/>
+      <string key="sourceRef" value="sid-D47D98BC-7D8B-43A5-92B4-167875687DEA"/>
+    </event>
+  </trace>
+</log>

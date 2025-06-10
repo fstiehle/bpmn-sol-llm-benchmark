@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="List Batches&amp;#10;"/>
+      <string key="id" value="sid-34D6BA20-2030-44C1-BAE4-FC02D2526085"/>
+      <string key="sourceRef" value="sid-C21F8CFF-8F3F-4B44-98F5-45A19EBC4C85"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Create Program"/>
+      <string key="id" value="sid-A1D8F530-6882-4DF3-845A-92F397C6C6CB"/>
+      <string key="sourceRef" value="sid-330D9C40-F496-4D02-9C25-27665213920A"/>
+    </event>
+  </trace>
+</log>

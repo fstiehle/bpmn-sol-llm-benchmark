@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="information &amp;#10;provisioning"/>
+      <string key="id" value="sid-AEDB73BB-92E6-4564-8B44-EE751BEB80CF"/>
+      <string key="sourceRef" value="sid-3B2A07BF-4CEC-4924-BE59-CF53291BEBFD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="transport &amp;#10;planning"/>
+      <string key="id" value="sid-38A2ABC5-7D34-46EA-BF68-7973BF247805"/>
+      <string key="sourceRef" value="sid-AC4BBAB0-63E9-4387-A16E-2989C5574C5D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="mobility"/>
+      <string key="id" value="sid-63CB05A3-1BA5-4EA3-ADB3-7F09DEB9612B"/>
+      <string key="sourceRef" value="sid-16E2185A-3302-4760-886F-E57004EA1E4B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="transport &amp;#10;provisioning"/>
+      <string key="id" value="sid-7EBB105C-E4CC-4A43-AA9C-0D1BD6E0B56F"/>
+      <string key="sourceRef" value="sid-8D74A3A9-EC4A-49B1-9900-16871229F320"/>
+    </event>
+    <event>
+      <string key="concept:name" value="transport &amp;#10;orchestration"/>
+      <string key="id" value="sid-514BAA35-A121-4A2B-87BC-5C74548083F6"/>
+      <string key="sourceRef" value="sid-5A35FF5B-B8C2-49D9-A575-D9212E0C4813"/>
+    </event>
+  </trace>
+</log>

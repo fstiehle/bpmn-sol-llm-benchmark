@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="M1"/>
+      <string key="id" value="sid-A7638941-30FE-45AC-A612-C227C72D5F76"/>
+      <string key="sourceRef" value="sid-57ED3BD0-4FE0-4C7B-A604-E56E6CA41702"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M2"/>
+      <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
+      <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M3"/>
+      <string key="id" value="sid-116E070A-B0D8-4BCD-B082-AE9D3968F94E"/>
+      <string key="sourceRef" value="sid-B64F9FCF-4C3E-4655-85AD-A88B9F20D01F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M4"/>
+      <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
+      <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M5"/>
+      <string key="id" value="sid-6FFFC22F-E9A9-41C4-BA64-65C72CF1EE31"/>
+      <string key="sourceRef" value="sid-9BCD8204-93B0-4D62-B878-6BF212948D71"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="M1"/>
+      <string key="id" value="sid-A7638941-30FE-45AC-A612-C227C72D5F76"/>
+      <string key="sourceRef" value="sid-57ED3BD0-4FE0-4C7B-A604-E56E6CA41702"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M4"/>
+      <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
+      <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M2"/>
+      <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
+      <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M3"/>
+      <string key="id" value="sid-116E070A-B0D8-4BCD-B082-AE9D3968F94E"/>
+      <string key="sourceRef" value="sid-B64F9FCF-4C3E-4655-85AD-A88B9F20D01F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M5"/>
+      <string key="id" value="sid-6FFFC22F-E9A9-41C4-BA64-65C72CF1EE31"/>
+      <string key="sourceRef" value="sid-9BCD8204-93B0-4D62-B878-6BF212948D71"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="M1"/>
+      <string key="id" value="sid-A7638941-30FE-45AC-A612-C227C72D5F76"/>
+      <string key="sourceRef" value="sid-57ED3BD0-4FE0-4C7B-A604-E56E6CA41702"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M2"/>
+      <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
+      <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M4"/>
+      <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
+      <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M3"/>
+      <string key="id" value="sid-116E070A-B0D8-4BCD-B082-AE9D3968F94E"/>
+      <string key="sourceRef" value="sid-B64F9FCF-4C3E-4655-85AD-A88B9F20D01F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M5"/>
+      <string key="id" value="sid-6FFFC22F-E9A9-41C4-BA64-65C72CF1EE31"/>
+      <string key="sourceRef" value="sid-9BCD8204-93B0-4D62-B878-6BF212948D71"/>
+    </event>
+  </trace>
+</log>

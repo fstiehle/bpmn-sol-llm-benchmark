@@ -25,7 +25,7 @@ describe("Chorpiler", () => {
   });
 });
 
-describe("LLM", () => {
+describe.skip("LLM", () => {
   console.log("The following benchmarks will run:");
   run.forEach(config => {
     console.log(`- ${config.name} (Prompt: ${config.promptPath})`);

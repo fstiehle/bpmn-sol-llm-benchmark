@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Wohnungsart-Bedarfserhebung"/>
+      <string key="id" value="sid-35A24E50-1F69-4524-A80D-935E58B57FD3"/>
+      <string key="sourceRef" value="sid-99679AB0-1FB3-4FDA-8178-1002FB0631FC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Klärung der Rechtsform vom Objekt"/>
+      <string key="id" value="sid-E52B44B4-2691-4CED-BB06-162931FCA8E1"/>
+      <string key="sourceRef" value="sid-03E2556C-CAAD-46C2-9C9F-CAD77741DBC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Baufeldentwicklung"/>
+      <string key="id" value="sid-535AEDAB-AD89-4EAD-8D6A-8FF0C132539D"/>
+      <string key="sourceRef" value="sid-97F9B5EB-B121-433E-9A13-5C5B1BF21E52"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Abstimmung (Bedarf)"/>
+      <string key="id" value="sid-957E2833-CF7C-4D58-8DDE-36568CBD7A96"/>
+      <string key="sourceRef" value="sid-98258312-9470-4E50-998C-2D0C885F9AA6"/>
+    </event>
+  </trace>
+</log>

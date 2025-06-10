@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-36C0040E-7810-4DE4-BB7B-C312FB7C51F0"/>
+      <string key="sourceRef" value="sid-3E930ED8-3E24-4824-A4F2-45E0076D04F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Detaljnije opisivanje problema"/>
+      <string key="id" value="sid-663EA2D1-A326-4D98-A4DE-2D130817DE4D"/>
+      <string key="sourceRef" value="sid-C36707DA-AA82-45DF-8930-634ECFB30519"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pitanje podrske prvog nivoa"/>
+      <string key="id" value="sid-BD677F30-8130-47F2-8E95-1D4769FB1F47"/>
+      <string key="sourceRef" value="sid-EDA966B4-8789-4F32-B58F-46DE2AE87109"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pitanje podrske drugog nivoa"/>
+      <string key="id" value="sid-CCF9A421-42C3-43D0-A441-374253CCCA89"/>
+      <string key="sourceRef" value="sid-953697B6-9148-4340-9663-F9B08FA535F1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resenja podrsci prvog nivoa"/>
+      <string key="id" value="sid-2173A2F1-5CB3-47EE-8C89-BFCF203F248A"/>
+      <string key="sourceRef" value="sid-02617919-7637-40A6-9629-D53A3BA7E05C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resera operateru"/>
+      <string key="id" value="sid-415D7F49-1116-4014-9313-6F5CF696EF08"/>
+      <string key="sourceRef" value="sid-B3F368F3-E092-484B-8CB2-59AF6FBF061F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resenja"/>
+      <string key="id" value="sid-EBC1C952-4F4E-4F3B-A435-993EC8C7A873"/>
+      <string key="sourceRef" value="sid-C2824894-BA68-4D16-BDD0-C780CA2ABE8E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-36C0040E-7810-4DE4-BB7B-C312FB7C51F0"/>
+      <string key="sourceRef" value="sid-3E930ED8-3E24-4824-A4F2-45E0076D04F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Detaljnije opisivanje problema"/>
+      <string key="id" value="sid-663EA2D1-A326-4D98-A4DE-2D130817DE4D"/>
+      <string key="sourceRef" value="sid-C36707DA-AA82-45DF-8930-634ECFB30519"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resenja"/>
+      <string key="id" value="sid-EBC1C952-4F4E-4F3B-A435-993EC8C7A873"/>
+      <string key="sourceRef" value="sid-C2824894-BA68-4D16-BDD0-C780CA2ABE8E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-36C0040E-7810-4DE4-BB7B-C312FB7C51F0"/>
+      <string key="sourceRef" value="sid-3E930ED8-3E24-4824-A4F2-45E0076D04F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Detaljnije opisivanje problema"/>
+      <string key="id" value="sid-663EA2D1-A326-4D98-A4DE-2D130817DE4D"/>
+      <string key="sourceRef" value="sid-C36707DA-AA82-45DF-8930-634ECFB30519"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pitanje podrske prvog nivoa"/>
+      <string key="id" value="sid-BD677F30-8130-47F2-8E95-1D4769FB1F47"/>
+      <string key="sourceRef" value="sid-EDA966B4-8789-4F32-B58F-46DE2AE87109"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resera operateru"/>
+      <string key="id" value="sid-415D7F49-1116-4014-9313-6F5CF696EF08"/>
+      <string key="sourceRef" value="sid-B3F368F3-E092-484B-8CB2-59AF6FBF061F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Objasnjavanje resenja"/>
+      <string key="id" value="sid-EBC1C952-4F4E-4F3B-A435-993EC8C7A873"/>
+      <string key="sourceRef" value="sid-C2824894-BA68-4D16-BDD0-C780CA2ABE8E"/>
+    </event>
+  </trace>
+</log>

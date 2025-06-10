@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota tilaus"/>
+      <string key="id" value="sid-C28C91EC-838A-4095-A24B-B9E19CACAC61"/>
+      <string key="sourceRef" value="sid-76E030B6-6653-4A4E-93EC-8786F265B132"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Vastaanota käännös"/>
+      <string key="id" value="sid-14DCA816-48EB-4673-8D7C-0EAE5FD23AC4"/>
+      <string key="sourceRef" value="sid-F755AC09-B7CD-485B-B733-EB584A4585B9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Vastaanota lasku"/>
+      <string key="id" value="sid-31415059-2B36-4351-A0F2-B25C8F2C3C70"/>
+      <string key="sourceRef" value="sid-D91BF956-A130-47C7-8994-A15E3B1565A8"/>
+    </event>
+  </trace>
+</log>

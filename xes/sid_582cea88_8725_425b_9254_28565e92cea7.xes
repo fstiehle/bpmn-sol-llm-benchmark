@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="send Credit Card Application"/>
+      <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
+      <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Application rejection"/>
+      <string key="id" value="sid-04D38013-6E3C-4B41-ABB6-7322759E40D7"/>
+      <string key="sourceRef" value="sid-935740D9-BFDC-4981-934C-7C68B0F19869"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="send Credit Card Application"/>
+      <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
+      <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Credt File request"/>
+      <string key="id" value="sid-8FF1ED8F-5296-456F-A095-9C13C881D5D1"/>
+      <string key="sourceRef" value="sid-85FA3FA5-6029-45CA-895C-54F2F37FEFE3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Credit File"/>
+      <string key="id" value="sid-D68AD0BC-AE79-411E-A3E0-5B6EF2DC32E1"/>
+      <string key="sourceRef" value="sid-81485826-C2DF-4EEE-AAA0-0440A9A86584"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Application rejection"/>
+      <string key="id" value="sid-04D38013-6E3C-4B41-ABB6-7322759E40D7"/>
+      <string key="sourceRef" value="sid-935740D9-BFDC-4981-934C-7C68B0F19869"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="send Credit Card Application"/>
+      <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
+      <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Credt File request"/>
+      <string key="id" value="sid-8FF1ED8F-5296-456F-A095-9C13C881D5D1"/>
+      <string key="sourceRef" value="sid-85FA3FA5-6029-45CA-895C-54F2F37FEFE3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Credit File"/>
+      <string key="id" value="sid-D68AD0BC-AE79-411E-A3E0-5B6EF2DC32E1"/>
+      <string key="sourceRef" value="sid-81485826-C2DF-4EEE-AAA0-0440A9A86584"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Application Acceptance"/>
+      <string key="id" value="sid-2C0F233E-EB17-4C7B-8E3A-02D33BA6BDA2"/>
+      <string key="sourceRef" value="sid-242B9403-FE85-4BAD-89DE-6E698D90242A"/>
+    </event>
+  </trace>
+</log>

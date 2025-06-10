@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="fdsagragr"/>
+      <string key="id" value="sid-8A3C47CF-9A10-43C8-905F-A5396A03A63B"/>
+      <string key="sourceRef" value="sid-054E8532-A342-430A-854E-DBA889E1B9CB"/>
+    </event>
+  </trace>
+</log>

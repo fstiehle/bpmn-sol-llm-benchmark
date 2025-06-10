@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="First contact"/>
+      <string key="id" value="sid-1ED0DF23-B541-4FA6-8580-D03802881F5C"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inform Publisher"/>
+      <string key="id" value="sid-08335AEB-B1BF-426B-99AB-8C8530EEF0FB"/>
+      <string key="sourceRef" value="sid-22CBDBF9-4AE0-4D72-9BD8-D555C2DDBA6F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instructions for publication"/>
+      <string key="id" value="sid-EEFBB567-306F-49EC-8788-5EB90B7063D7"/>
+      <string key="sourceRef" value="sid-47D1A311-6153-4029-9E0C-DBFFE359C4E3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-FAC6782A-B693-4D00-BC5A-7E81C734CBD0"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="drafts"/>
+      <string key="id" value="sid-F3EC0F07-56AB-43B6-8395-E9067794DC02"/>
+      <string key="sourceRef" value="sid-5BC99656-8545-48AA-8F23-CC0AF6491504"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for publishing"/>
+      <string key="id" value="sid-879015FA-6568-4923-9101-3F50983FBBBE"/>
+      <string key="sourceRef" value="sid-02D0D044-BB60-440F-BB01-28C81837F414"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="cancel publishing&amp;#10;"/>
+      <string key="id" value="sid-4876DF19-BE6D-402C-864F-A93BA7F6B786"/>
+      <string key="sourceRef" value="sid-798D06FB-58C2-4B17-9C26-E5AE6EE91D2E"/>
+    </event>
+  </trace>
+</log>

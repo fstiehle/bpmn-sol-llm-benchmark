@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Unterlagen von LV anfordern"/>
+      <string key="id" value="sid-3864AF81-D77E-4BDF-B04A-37A36CDA95AB"/>
+      <string key="sourceRef" value="sid-5B77DF90-D80B-44A3-8E6F-1031F6981B8B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Unterlagen für Bank bearbeiten &amp;#10;&amp;#10;(Pfandurkunde, Darlehensvertrag)"/>
+      <string key="id" value="sid-2AE8694D-5220-4899-B2AF-129CDEF92152"/>
+      <string key="sourceRef" value="sid-7760DDCA-316E-47F9-AF19-E7CDF722C1AA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pfandrecht, Eintragung ins Grundbuch"/>
+      <string key="id" value="sid-364C20F3-8EC5-4B6E-A1BE-B3D4754B613E"/>
+      <string key="sourceRef" value="sid-DF306085-50BA-45CA-A489-1387CFDA0548"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zuzählung nach Baufortschritt (einfordern)"/>
+      <string key="id" value="sid-9843D9F4-7039-4AFB-BA38-B021D8E5DD43"/>
+      <string key="sourceRef" value="sid-B553BEAF-7408-4165-8E14-277BDCAA4B5D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Endabrechnung mit Land OÖ"/>
+      <string key="id" value="sid-7C24CC5A-BF7B-4DCC-A22D-39AF6BC6D02B"/>
+      <string key="sourceRef" value="sid-F3D5A8EE-DE60-4653-B1F6-937157D261CF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Sondertilgung berechnen und buchen"/>
+      <string key="id" value="sid-27232A43-7505-4987-8DCE-A6C9EF8849FF"/>
+      <string key="sourceRef" value="sid-965A4174-E86F-4C7A-806B-554767FEAA0D"/>
+    </event>
+  </trace>
+</log>

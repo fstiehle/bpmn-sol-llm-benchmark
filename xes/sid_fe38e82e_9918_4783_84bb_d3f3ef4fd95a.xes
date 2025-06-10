@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Get Game"/>
+      <string key="id" value="sid-5806A066-37B3-401B-A7A5-CE1EE9900892"/>
+      <string key="sourceRef" value="sid-71684050-816B-43F1-8B81-EA5CDB0109CB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Update Game"/>
+      <string key="id" value="sid-ED3945FD-DCCD-4BFD-86EB-8B2C5313C311"/>
+      <string key="sourceRef" value="sid-077DEFA4-C8A9-4477-A2E5-DCE42AF476AA"/>
+    </event>
+  </trace>
+</log>

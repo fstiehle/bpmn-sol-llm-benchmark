@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="anfrage stellen"/>
+      <string key="id" value="sid-BC676960-23F9-4F7B-9EA9-EFD75EF13174"/>
+      <string key="sourceRef" value="sid-6726FC66-380C-4636-9C98-63D2C38F61E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot vorlegen"/>
+      <string key="id" value="sid-83B3553F-084D-4DB3-AE67-CDA14502E47B"/>
+      <string key="sourceRef" value="sid-ECBFD29E-91A5-484A-92D2-064F25B391A8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="angebot ablehnen"/>
+      <string key="id" value="sid-294C7BB5-AE35-45CD-88C4-BEEC829E3391"/>
+      <string key="sourceRef" value="sid-F9DD05E4-CF3A-4BAF-9FBA-E350221FC42C"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="anfrage stellen"/>
+      <string key="id" value="sid-BC676960-23F9-4F7B-9EA9-EFD75EF13174"/>
+      <string key="sourceRef" value="sid-6726FC66-380C-4636-9C98-63D2C38F61E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot vorlegen"/>
+      <string key="id" value="sid-83B3553F-084D-4DB3-AE67-CDA14502E47B"/>
+      <string key="sourceRef" value="sid-ECBFD29E-91A5-484A-92D2-064F25B391A8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="angebot annehmen"/>
+      <string key="id" value="sid-FD9325D9-C67E-4CEB-A961-7D37B3FD6822"/>
+      <string key="sourceRef" value="sid-9284E625-37F9-4E01-B275-3E37B5C91FEA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verfügbarkeit prüfen"/>
+      <string key="id" value="sid-BAD12DD8-61E5-43CE-AF0A-15F217994338"/>
+      <string key="sourceRef" value="sid-20DAB174-05B3-49B7-BA67-A8C7F2A425D8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="kaffebohnen bestellen"/>
+      <string key="id" value="sid-0A67D3C3-2A37-4E8C-B339-B9FB95D1E7D3"/>
+      <string key="sourceRef" value="sid-55151A4A-ABE6-47F8-9CAC-0387CFBA0F94"/>
+    </event>
+    <event>
+      <string key="concept:name" value="kaffebohnen an gmbh schoicken"/>
+      <string key="id" value="sid-AEE98631-784A-44AE-B5FB-9AA162840E22"/>
+      <string key="sourceRef" value="sid-F99D78CB-751F-4172-BC0B-C0FE999E30FD"/>
+    </event>
+  </trace>
+</log>

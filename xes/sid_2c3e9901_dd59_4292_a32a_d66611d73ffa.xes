@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota tilaus"/>
+      <string key="id" value="sid-4A166C13-1A80-4F15-8144-B00BB9EB0B27"/>
+      <string key="sourceRef" value="sid-AC77AB54-19F3-4581-8028-3CEDF9DA10BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informoi asiakasta"/>
+      <string key="id" value="sid-6E4D3B42-B6A3-460A-BFEA-16916482A898"/>
+      <string key="sourceRef" value="sid-898AD74C-65F9-493A-A986-7C6423E016C8"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota tilaus"/>
+      <string key="id" value="sid-4A166C13-1A80-4F15-8144-B00BB9EB0B27"/>
+      <string key="sourceRef" value="sid-AC77AB54-19F3-4581-8028-3CEDF9DA10BA"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lähetä lasku"/>
+      <string key="id" value="sid-3CC56E18-ED4C-4707-967E-8C4C476067C0"/>
+      <string key="sourceRef" value="sid-55887EBE-0C8F-431D-A7F6-952D8ADF9D84"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Vastaanota maksu"/>
+      <string key="id" value="sid-51D6AEC7-B161-4529-9AF1-3965EB576E91"/>
+      <string key="sourceRef" value="sid-3AF74648-BA85-41F0-A4BF-34190554EC4A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lähetä tilaus"/>
+      <string key="id" value="sid-C3D62CC0-1119-4F36-AF35-7852DB9F7A5F"/>
+      <string key="sourceRef" value="sid-97C2B275-482E-410D-866C-9F894918494B"/>
+    </event>
+  </trace>
+</log>

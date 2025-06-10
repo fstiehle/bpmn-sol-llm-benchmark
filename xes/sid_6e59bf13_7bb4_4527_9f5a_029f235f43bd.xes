@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Prijavljivanje problema"/>
+      <string key="id" value="sid-FEB1E7DE-541C-4759-ADDF-D0FCB36AB7C4"/>
+      <string key="sourceRef" value="sid-C34BCD6C-FB52-4F3D-924E-8DC0236C4266"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-CF6CD4A9-274F-48D2-A788-6131CDA1B213"/>
+      <string key="sourceRef" value="sid-586F3962-67E8-4165-9281-D376DC39A9DA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prosledjivanje problema tehničkoj podršci"/>
+      <string key="id" value="sid-99843370-A4A0-430E-87F6-9629601054A6"/>
+      <string key="sourceRef" value="sid-65BED33C-6EAF-43DB-BB47-2CD559858BC4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dostavljanje rešenja problema"/>
+      <string key="id" value="sid-6D089489-260C-4F14-A989-F2D3BF5BE36B"/>
+      <string key="sourceRef" value="sid-CD751EA4-2D2C-4BF1-B419-CC540B84532C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Davanje instrukcija za rešavanje problema"/>
+      <string key="id" value="sid-472D6D96-F451-4FD9-BF4C-51039C9D1080"/>
+      <string key="sourceRef" value="sid-CCD66E18-81BE-4B88-B916-647142B841D2"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Prijavljivanje problema"/>
+      <string key="id" value="sid-FEB1E7DE-541C-4759-ADDF-D0FCB36AB7C4"/>
+      <string key="sourceRef" value="sid-C34BCD6C-FB52-4F3D-924E-8DC0236C4266"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-CF6CD4A9-274F-48D2-A788-6131CDA1B213"/>
+      <string key="sourceRef" value="sid-586F3962-67E8-4165-9281-D376DC39A9DA"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Davanje instrukcija za rešavanje problema"/>
+      <string key="id" value="sid-472D6D96-F451-4FD9-BF4C-51039C9D1080"/>
+      <string key="sourceRef" value="sid-CCD66E18-81BE-4B88-B916-647142B841D2"/>
+    </event>
+  </trace>
+</log>

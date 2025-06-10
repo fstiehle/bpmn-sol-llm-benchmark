@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="order trip"/>
+      <string key="id" value="sid-BE0DD976-22AE-4BE7-8028-8BECA9607D1B"/>
+      <string key="sourceRef" value="sid-07D8B3D8-E3FD-4443-92A3-67D1721B6FEA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="search flights"/>
+      <string key="id" value="sid-AFF2D2C4-C3B7-4301-9215-D181ED9D0E69"/>
+      <string key="sourceRef" value="sid-AD843E17-30A7-4C93-8C03-FD22640A4342"/>
+    </event>
+    <event>
+      <string key="concept:name" value="flights result&amp;#10;"/>
+      <string key="id" value="sid-2A684B07-006B-48C5-8F55-B6F0A3D96C0E"/>
+      <string key="sourceRef" value="sid-CB545601-213A-4BAC-AD53-C6A24EB3E598"/>
+    </event>
+    <event>
+      <string key="concept:name" value="trip result"/>
+      <string key="id" value="sid-D32DEB2A-79BC-4C3B-BAF0-1962CC4DED9A"/>
+      <string key="sourceRef" value="sid-4601F1B8-E493-4592-846F-71F0022B8E3A"/>
+    </event>
+  </trace>
+</log>

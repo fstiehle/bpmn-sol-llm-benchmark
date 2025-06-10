@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Auftrag erteilen"/>
+      <string key="id" value="sid-A9DBCBEB-71EB-4A90-86B8-4676D95762EB"/>
+      <string key="sourceRef" value="sid-70B2FCC1-11A6-4077-9103-ADEBFB7859BE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verfügbarkeit abfragen"/>
+      <string key="id" value="sid-CC4E33D0-6E56-411B-BD6F-F11B54C48E5E"/>
+      <string key="sourceRef" value="sid-5A336101-176B-4A79-9BA8-B67CE9982599"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Grafik erstellen lassen"/>
+      <string key="id" value="sid-B1AB9EFD-4CA1-4AC8-9D82-A88F0A159E6D"/>
+      <string key="sourceRef" value="sid-F856521B-3A6D-4739-945A-8F5389DB8008"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Freigabe einholen"/>
+      <string key="id" value="sid-87A4B69E-0217-4000-B6C4-3E27D9FF8E2D"/>
+      <string key="sourceRef" value="sid-E6D50D76-89CD-49B6-B193-96579B71099C"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-1EEA8E35-38D9-4FA1-AD89-1380EF74F425"/>
+      <string key="sourceRef" value="sid-400CACE6-5861-476A-911D-585D3D638A17"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa"/>
+      <string key="id" value="sid-7DA2D550-BF2F-4BE1-A17F-72BEFA131839"/>
+      <string key="sourceRef" value="sid-689939C8-1489-4005-8710-FA9149720B96"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-0C6B5BE7-D2C2-48E8-94C3-DE5D1AA9CDFD"/>
+      <string key="sourceRef" value="sid-4090AA62-EE8E-48A8-972A-A52A2F6465E5"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-61410FD0-64FC-4D89-BBAF-C6EDE6861197"/>
+      <string key="sourceRef" value="sid-28D2A3C6-8883-4A50-8DCA-75F86E2C4C5D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-77FF34A1-BFC9-406C-B7BC-C8DD53FB2187"/>
+      <string key="sourceRef" value="sid-20BF912A-C173-491F-AFC9-E5EE232085DB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-1EEA8E35-38D9-4FA1-AD89-1380EF74F425"/>
+      <string key="sourceRef" value="sid-400CACE6-5861-476A-911D-585D3D638A17"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa"/>
+      <string key="id" value="sid-7DA2D550-BF2F-4BE1-A17F-72BEFA131839"/>
+      <string key="sourceRef" value="sid-689939C8-1489-4005-8710-FA9149720B96"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-0C6B5BE7-D2C2-48E8-94C3-DE5D1AA9CDFD"/>
+      <string key="sourceRef" value="sid-4090AA62-EE8E-48A8-972A-A52A2F6465E5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-2C0C7772-B797-4324-8FB6-4D73E6242CB4"/>
+      <string key="sourceRef" value="sid-3317E3DE-6A0C-45DC-A498-AB1A1B53B798"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-C7F2CE33-2A7A-4B81-BF90-98D5373BC5B5"/>
+      <string key="sourceRef" value="sid-EA70D163-3754-48D5-8F90-9141211F330E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-61410FD0-64FC-4D89-BBAF-C6EDE6861197"/>
+      <string key="sourceRef" value="sid-28D2A3C6-8883-4A50-8DCA-75F86E2C4C5D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-77FF34A1-BFC9-406C-B7BC-C8DD53FB2187"/>
+      <string key="sourceRef" value="sid-20BF912A-C173-491F-AFC9-E5EE232085DB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-1EEA8E35-38D9-4FA1-AD89-1380EF74F425"/>
+      <string key="sourceRef" value="sid-400CACE6-5861-476A-911D-585D3D638A17"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa"/>
+      <string key="id" value="sid-7DA2D550-BF2F-4BE1-A17F-72BEFA131839"/>
+      <string key="sourceRef" value="sid-689939C8-1489-4005-8710-FA9149720B96"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-77FF34A1-BFC9-406C-B7BC-C8DD53FB2187"/>
+      <string key="sourceRef" value="sid-20BF912A-C173-491F-AFC9-E5EE232085DB"/>
+    </event>
+  </trace>
+</log>

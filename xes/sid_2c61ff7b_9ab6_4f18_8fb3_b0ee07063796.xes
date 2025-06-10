@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Hotline-Nummer anrufen"/>
+      <string key="id" value="sid-F8B59DBC-ED47-4B8F-ACA3-20D0F0DF5912"/>
+      <string key="sourceRef" value="sid-271238A6-F12B-4752-A129-6E3616E36FDA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-E6FB3735-4DCA-4351-B664-1DB8C2A399ED"/>
+      <string key="sourceRef" value="sid-CE535615-AC85-4768-B4F6-A3A47297BEC5"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-C94BD69F-B1D0-4B2C-AA74-F9642D192B77"/>
+      <string key="sourceRef" value="sid-B454BEBE-46B9-41EE-A07C-4157D879D609"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dauer und Kosten notieren"/>
+      <string key="id" value="sid-44C6DF0F-F542-48D3-AA84-060FB3AA84AC"/>
+      <string key="sourceRef" value="sid-0889D7F4-0585-42DA-9219-3E091D9CAF40"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Hotline-Nummer anrufen"/>
+      <string key="id" value="sid-F8B59DBC-ED47-4B8F-ACA3-20D0F0DF5912"/>
+      <string key="sourceRef" value="sid-271238A6-F12B-4752-A129-6E3616E36FDA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-E6FB3735-4DCA-4351-B664-1DB8C2A399ED"/>
+      <string key="sourceRef" value="sid-CE535615-AC85-4768-B4F6-A3A47297BEC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem gelöst"/>
+      <string key="id" value="sid-55992533-D483-47A2-A8EB-A57D54E90671"/>
+      <string key="sourceRef" value="sid-F05E496B-787B-472F-8752-BD364D1A2603"/>
+    </event>
+  </trace>
+</log>

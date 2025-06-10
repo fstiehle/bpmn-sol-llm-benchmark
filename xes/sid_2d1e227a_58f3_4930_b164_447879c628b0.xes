@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-5343FBBE-1949-4189-834C-AF7944006D10"/>
+      <string key="sourceRef" value="sid-3C6D36FF-42E9-4CB8-8E2B-4987E019C92F"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lösung erklären"/>
+      <string key="id" value="sid-0DA543ED-E104-44FD-828B-4D8D3F76BA93"/>
+      <string key="sourceRef" value="sid-28875857-A66D-486F-A062-B154F10AEAAA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-5343FBBE-1949-4189-834C-AF7944006D10"/>
+      <string key="sourceRef" value="sid-3C6D36FF-42E9-4CB8-8E2B-4987E019C92F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem weitergeben"/>
+      <string key="id" value="sid-D1D080CD-56C8-404E-BC5B-10F44648B5C8"/>
+      <string key="sourceRef" value="sid-8948F4C3-BABA-46A6-8442-5A06057E1F42"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Service-Techniker anrufen"/>
+      <string key="id" value="sid-6E64DF59-42FE-4D07-B24B-39C00BAA57CF"/>
+      <string key="sourceRef" value="sid-81B42E8F-36A2-45F6-958F-FDA8DED9F081"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zu Kunde fahren"/>
+      <string key="id" value="sid-2ABDB270-FA4E-4B15-A8A2-DAC816309C9C"/>
+      <string key="sourceRef" value="sid-1A9470DE-B10E-4795-BA69-5E6AEF7D81FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-7A508341-210E-493A-8EC3-B0E2D57D81F2"/>
+      <string key="sourceRef" value="sid-9FD74E5D-4146-4616-9776-F0F591F823B9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Formular unterschreiben lassen"/>
+      <string key="id" value="sid-F69420E0-7365-4D69-9A71-ADB0BF7BC50D"/>
+      <string key="sourceRef" value="sid-682D1AFE-D345-46ED-836C-818F92F6F3B4"/>
+    </event>
+  </trace>
+</log>

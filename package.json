@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "chorpiler": "^0.2.0-alpha.29",
+    "chorpiler": "^0.2.0-alpha.39",
     "dotenv": "^16.5.0",
     "fast-xml-parser": "^5.2.2",
     "hardhat": "^2.23.0",

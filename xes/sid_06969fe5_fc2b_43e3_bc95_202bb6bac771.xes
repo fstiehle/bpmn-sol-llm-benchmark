@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Sharing files"/>
+      <string key="id" value="sid-F1E6C57F-8A72-4DC8-BF87-42B45DA8CD93"/>
+      <string key="sourceRef" value="sid-4F818FF8-8142-4DB3-B2FB-D7D89580C693"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rating&amp;#10;information&amp;#10;"/>
+      <string key="id" value="sid-DBA2078F-6FA5-481D-83B4-325BE4500E3F"/>
+      <string key="sourceRef" value="sid-94438FDD-AFA0-4E09-92E0-45D15F5053A2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Retrieving information"/>
+      <string key="id" value="sid-F590B4CD-096E-44CC-9DF4-6CB5984F4D0E"/>
+      <string key="sourceRef" value="sid-DA50A713-A0F0-4A4A-A30C-D42FA410110E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Sharing files"/>
+      <string key="id" value="sid-F1E6C57F-8A72-4DC8-BF87-42B45DA8CD93"/>
+      <string key="sourceRef" value="sid-4F818FF8-8142-4DB3-B2FB-D7D89580C693"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Retrieving information"/>
+      <string key="id" value="sid-F590B4CD-096E-44CC-9DF4-6CB5984F4D0E"/>
+      <string key="sourceRef" value="sid-DA50A713-A0F0-4A4A-A30C-D42FA410110E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Sharing files"/>
+      <string key="id" value="sid-F1E6C57F-8A72-4DC8-BF87-42B45DA8CD93"/>
+      <string key="sourceRef" value="sid-4F818FF8-8142-4DB3-B2FB-D7D89580C693"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Enriching information"/>
+      <string key="id" value="sid-E53918A0-21BF-446B-B821-F5F45B4E3861"/>
+      <string key="sourceRef" value="sid-C3CECF7B-3588-4D85-92BC-1A458AE03146"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Retrieving information"/>
+      <string key="id" value="sid-F590B4CD-096E-44CC-9DF4-6CB5984F4D0E"/>
+      <string key="sourceRef" value="sid-DA50A713-A0F0-4A4A-A30C-D42FA410110E"/>
+    </event>
+  </trace>
+</log>

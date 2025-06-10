@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Receive cancel request"/>
+      <string key="id" value="sid-955E5290-E3D0-40E1-93E5-02CD7548D841"/>
+      <string key="sourceRef" value="sid-E8987506-7F3C-4516-87D5-E18CFB271CD6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive cancel request processed notification"/>
+      <string key="id" value="sid-96719258-A235-4848-886C-7E1C342956DB"/>
+      <string key="sourceRef" value="sid-F73EB934-7C12-45C2-95ED-6080E02CAF2E"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Submit court calender"/>
+      <string key="id" value="sid-7C6D774B-A2D5-40D3-8506-ED08CB0237DD"/>
+      <string key="sourceRef" value="sid-A59278D0-2DED-4546-A8D2-A91C8CD5ED0B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request Sitting List"/>
+      <string key="id" value="sid-0466CAE4-E6BE-4CE2-BA81-CBCAC435899C"/>
+      <string key="sourceRef" value="sid-2BC94732-F70D-4EF8-8E6C-2966228D85C4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Sitting List"/>
+      <string key="id" value="sid-AC0808FE-57CA-48BD-9D58-6520D5E05CC8"/>
+      <string key="sourceRef" value="sid-03AA3430-5293-4C7A-9A5C-EFE842BC37AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Availability"/>
+      <string key="id" value="sid-0A966CF4-53FC-48F8-A94F-91E458630A5E"/>
+      <string key="sourceRef" value="sid-601C6B0E-EA8B-4EB5-A759-CE7A4D5DAE28"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Change Schedules"/>
+      <string key="id" value="sid-1595AB2C-8133-40EF-95DE-895E16933E1F"/>
+      <string key="sourceRef" value="sid-CFE7E6B0-AFE2-4777-8028-17500EBDCBA6"/>
+    </event>
+  </trace>
+</log>

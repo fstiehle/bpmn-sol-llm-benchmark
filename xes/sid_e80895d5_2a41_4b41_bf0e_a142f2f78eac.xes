@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Distribute Calendar"/>
+      <string key="id" value="sid-AA9DD5EA-114A-45CC-BE20-185DD4AB3BFA"/>
+      <string key="sourceRef" value="sid-348CCFC2-AF65-42A9-B0E4-7F15FB2F20C1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Check Judge Availability"/>
+      <string key="id" value="sid-C92BA613-A370-47FF-9857-A7CFB9469541"/>
+      <string key="sourceRef" value="sid-D81298D1-601E-425C-8333-EBE7D192A3A9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Update Calendar"/>
+      <string key="id" value="sid-94F56C15-1986-4322-B3CE-8AE3205D4099"/>
+      <string key="sourceRef" value="sid-6873CB49-892D-441A-ACC6-07173D72AA63"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Publish Schedule"/>
+      <string key="id" value="sid-9ABB72CA-CF11-4AA8-A7B5-C2C44E0F4FA0"/>
+      <string key="sourceRef" value="sid-0DA5C6A5-3607-415D-AD9A-C06179A8AC8A"/>
+    </event>
+  </trace>
+</log>

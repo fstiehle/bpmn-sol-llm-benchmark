@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-679D0305-B6E0-4E58-90A7-65F71C959523"/>
+      <string key="sourceRef" value="sid-4512EEAA-9AAF-4F70-BFE3-B71B691B1CCC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem analysieren"/>
+      <string key="id" value="sid-FD70D51F-BA7F-40A9-9154-9DDC364BAC6D"/>
+      <string key="sourceRef" value="sid-3B32482F-E17A-4CE7-84C1-CE86D7B8FC54"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem weiterleiten"/>
+      <string key="id" value="sid-164C9B7A-A1E4-49FA-BD80-474895E787BF"/>
+      <string key="sourceRef" value="sid-49A139E5-93A5-46BA-9F4F-D88373D702BF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem übermitteln"/>
+      <string key="id" value="sid-528263A0-769D-4C63-AD6C-BE72456E0888"/>
+      <string key="sourceRef" value="sid-71ECFAC4-671F-4583-95CB-02C77BBA9AD3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-7AD65D28-6CA5-43C1-8B36-BBB39A620E5A"/>
+      <string key="sourceRef" value="sid-60D2413C-469A-4D13-9B5E-CCB57450FBDF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zeit und Kosten erfassen"/>
+      <string key="id" value="sid-E60887BF-A736-4531-926C-C6316CBC1A10"/>
+      <string key="sourceRef" value="sid-09F16BF2-CA7E-485E-BEA7-B865C462F79B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Formular unterschreiben"/>
+      <string key="id" value="sid-72D3C0FD-9775-4B90-BCB8-A816D0043095"/>
+      <string key="sourceRef" value="sid-F539E9A7-C040-4662-B305-19FBFD472B45"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-679D0305-B6E0-4E58-90A7-65F71C959523"/>
+      <string key="sourceRef" value="sid-4512EEAA-9AAF-4F70-BFE3-B71B691B1CCC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem analysieren"/>
+      <string key="id" value="sid-FD70D51F-BA7F-40A9-9154-9DDC364BAC6D"/>
+      <string key="sourceRef" value="sid-3B32482F-E17A-4CE7-84C1-CE86D7B8FC54"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lösung übermitteln"/>
+      <string key="id" value="sid-F5EA1FDA-6D80-4211-A079-D014E4C6DAD5"/>
+      <string key="sourceRef" value="sid-39DBB554-070A-4512-A003-DF6153845A17"/>
+    </event>
+  </trace>
+</log>

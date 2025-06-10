@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Neues Ticket wird angelegt"/>
+      <string key="id" value="sid-CC04E9FF-9B18-42B9-8659-9795E407D833"/>
+      <string key="sourceRef" value="sid-B03C693C-8B9A-49E7-8B85-2DA9E71BC9FB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verschickt Nummer des Tickets als Bestätigung"/>
+      <string key="id" value="sid-69D7C076-711B-4D8C-940B-54C78B465664"/>
+      <string key="sourceRef" value="sid-80774C14-2B66-4D0F-9177-88011AE92CAE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Beginnt mit Anfragebearbeitung"/>
+      <string key="id" value="sid-8307F677-3914-4976-BB3B-46E91FEF8124"/>
+      <string key="sourceRef" value="sid-ECB2C5B1-EE87-40EC-BEC4-BE3FA4420EED"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="sendet Lösung an Kunde"/>
+      <string key="id" value="sid-E6E6D035-AA1B-48DA-A8A4-C8E2AF2029D5"/>
+      <string key="sourceRef" value="sid-282B46A3-41CF-476C-927A-627AE5D02BFF"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Neues Ticket wird angelegt"/>
+      <string key="id" value="sid-CC04E9FF-9B18-42B9-8659-9795E407D833"/>
+      <string key="sourceRef" value="sid-B03C693C-8B9A-49E7-8B85-2DA9E71BC9FB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verschickt Nummer des Tickets als Bestätigung"/>
+      <string key="id" value="sid-69D7C076-711B-4D8C-940B-54C78B465664"/>
+      <string key="sourceRef" value="sid-80774C14-2B66-4D0F-9177-88011AE92CAE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Beginnt mit Anfragebearbeitung"/>
+      <string key="id" value="sid-8307F677-3914-4976-BB3B-46E91FEF8124"/>
+      <string key="sourceRef" value="sid-ECB2C5B1-EE87-40EC-BEC4-BE3FA4420EED"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert Informationen beim Kunden an"/>
+      <string key="id" value="sid-5F138745-7938-4217-836B-B96910ECB793"/>
+      <string key="sourceRef" value="sid-27BD1829-A2E4-44A7-9783-049191BE6DB1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="sendet erforderliche Informationen"/>
+      <string key="id" value="sid-7280E92C-ECF4-46A5-A5E2-63309CC974E5"/>
+      <string key="sourceRef" value="sid-459521FE-B557-4D5F-8D15-963FADEB45F1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="sendet Lösung an Kunde"/>
+      <string key="id" value="sid-E6E6D035-AA1B-48DA-A8A4-C8E2AF2029D5"/>
+      <string key="sourceRef" value="sid-282B46A3-41CF-476C-927A-627AE5D02BFF"/>
+    </event>
+  </trace>
+</log>

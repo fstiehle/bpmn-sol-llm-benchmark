@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Bestellknopf drücken"/>
+      <string key="id" value="sid-4B3ECD74-1D9C-4430-A457-8B72E38B10FD"/>
+      <string key="sourceRef" value="sid-B95D6B57-73B5-4AAE-820C-625777FDCE04"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informiert über Bestellung"/>
+      <string key="id" value="sid-38A39E8F-5B1F-46CD-A7A3-7C71137383E6"/>
+      <string key="sourceRef" value="sid-87D9CD73-54EC-41FA-B3C1-C3FCCBC5062A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="geht zum Tisch"/>
+      <string key="id" value="sid-F1E75F36-A3A8-4A56-9C96-85F5CCD11D12"/>
+      <string key="sourceRef" value="sid-18CCC71E-4B20-4FAB-B6DE-AE6F4CB309E0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Bestellt"/>
+      <string key="id" value="sid-E94EF6B4-AC04-46EA-834A-FD0AE23781C0"/>
+      <string key="sourceRef" value="sid-1F58DF94-1DD2-4350-A53B-48E7CCF78D1B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="gibt Bestellung ein"/>
+      <string key="id" value="sid-EB252737-D08A-481E-8CF5-B6222911541C"/>
+      <string key="sourceRef" value="sid-57CF0687-9B66-4748-A410-28786BC3CCC8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informiert"/>
+      <string key="id" value="sid-87491312-B858-48B4-ADB8-705EE96D1E69"/>
+      <string key="sourceRef" value="sid-536B11E9-D96F-4DC5-B9C8-5CC7862E63B9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bearbeitet Bestellung"/>
+      <string key="id" value="sid-F24925AF-54C1-4F4A-970A-CF58C7FBEA39"/>
+      <string key="sourceRef" value="sid-9B5C7CF7-1225-45F5-BE5C-D1F95A114E37"/>
+    </event>
+    <event>
+      <string key="concept:name" value="meldet fertige Bestellung"/>
+      <string key="id" value="sid-DFCB693D-6872-4303-BAEA-59EF4B8B6B54"/>
+      <string key="sourceRef" value="sid-33D2B7B4-764C-4861-8A36-D1B74C406F71"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informiert"/>
+      <string key="id" value="sid-5B33B74D-A983-4FDC-93B8-9047159D1E43"/>
+      <string key="sourceRef" value="sid-943E0A41-AFBC-47DE-B683-A475DE247ADB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Holt Bestellung ab"/>
+      <string key="id" value="sid-19608D35-5BBF-4BEA-8ECD-A92D2493303A"/>
+      <string key="sourceRef" value="sid-458565A1-C0A3-49DA-B032-A727E45EA701"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Bringt Bestellung zum Tisch"/>
+      <string key="id" value="sid-56AA5D29-29B5-470F-AF0F-DA7A9EFCFBFE"/>
+      <string key="sourceRef" value="sid-61BEA57F-E3DF-4B65-918D-54F50F25957D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="übergibt Bestellung"/>
+      <string key="id" value="sid-E280D42C-AC69-4910-8644-03126F28FEFD"/>
+      <string key="sourceRef" value="sid-C112F98C-4516-4B61-8F71-50C828D1F628"/>
+    </event>
+  </trace>
+</log>

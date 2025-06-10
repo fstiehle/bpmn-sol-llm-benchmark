@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Antrag verschicken"/>
+      <string key="id" value="sid-318B7DE9-B76B-4BF1-873D-AA8D0B979925"/>
+      <string key="sourceRef" value="sid-971E65A7-4D12-48AD-BA50-0F149A2AF256"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Annehmen"/>
+      <string key="id" value="sid-73CAEE4D-3B51-4B1E-8204-231D4AC0C13B"/>
+      <string key="sourceRef" value="sid-EBDDA5CD-EDE0-423C-AB50-C6CFC9016949"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Antrag verschicken"/>
+      <string key="id" value="sid-318B7DE9-B76B-4BF1-873D-AA8D0B979925"/>
+      <string key="sourceRef" value="sid-971E65A7-4D12-48AD-BA50-0F149A2AF256"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ablehnen"/>
+      <string key="id" value="sid-4700529E-F434-4F38-9D0A-AE6D75F71C17"/>
+      <string key="sourceRef" value="sid-CE5FA789-6AB4-4356-924D-D995CCBBF2CB"/>
+    </event>
+  </trace>
+</log>

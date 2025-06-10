@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Kunde stellt Antragsformular"/>
+      <string key="id" value="sid-3C58D5A9-4A5D-4784-93F5-2EEAD658E4F7"/>
+      <string key="sourceRef" value="sid-C936A877-3443-4A0E-85EE-B4B22AF59A94"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren über zustimmen"/>
+      <string key="id" value="sid-05B396A1-4772-44AB-B4E2-21384E0A5D44"/>
+      <string key="sourceRef" value="sid-3C6076B7-3D0A-431E-AC1A-58BA1AE352D5"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kunde stellt Antragsformular"/>
+      <string key="id" value="sid-3C58D5A9-4A5D-4784-93F5-2EEAD658E4F7"/>
+      <string key="sourceRef" value="sid-C936A877-3443-4A0E-85EE-B4B22AF59A94"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren über Ablehnung"/>
+      <string key="id" value="sid-D836F160-E1FA-4B10-9270-C224CAAA4139"/>
+      <string key="sourceRef" value="sid-DFE0D044-E997-4587-8BC0-E1822D8163D2"/>
+    </event>
+  </trace>
+</log>

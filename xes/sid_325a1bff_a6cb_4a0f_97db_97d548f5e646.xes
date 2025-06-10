@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Envío de facturas de los reportajes y exclusivas"/>
+      <string key="id" value="sid-A1EADF1D-3C3A-42C6-83DF-1703AE75B073"/>
+      <string key="sourceRef" value="sid-E3ABF494-B1ED-43C2-9445-D4BE9ECA787D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pago de reportajes"/>
+      <string key="id" value="sid-A96A3CA9-D477-4CA2-83CC-1A3ABE9B2060"/>
+      <string key="sourceRef" value="sid-CFFBC4E3-8C72-4876-9396-7419755A6295"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Entrega de cheque nominal"/>
+      <string key="id" value="sid-15522BFB-9AC3-485D-BBA9-81B6611C982D"/>
+      <string key="sourceRef" value="sid-4C808E99-E9BC-47B6-9094-0A77AF004644"/>
+    </event>
+  </trace>
+</log>

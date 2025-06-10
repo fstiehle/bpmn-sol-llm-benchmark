@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Termin ausmachen"/>
+      <string key="id" value="sid-7022C348-D09E-4F95-B819-26BB3F9BDA77"/>
+      <string key="sourceRef" value="sid-77EA4F10-588B-4C8E-A6E0-2452EA7B82C0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Termin und Ort verifizieren"/>
+      <string key="id" value="sid-B7F015A5-D636-416D-9257-A87971F74589"/>
+      <string key="sourceRef" value="sid-BE035008-5A07-483D-93B7-EB6ECD93AD08"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotoauswahl (digital, gedruckt + Anzahl) und Sonderwünsche"/>
+      <string key="id" value="sid-73A19B14-D898-44EF-928B-79832C150CC9"/>
+      <string key="sourceRef" value="sid-901246A8-F5DC-493E-B5CF-DC986FF0C1B3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos festlegen und Sonderwünsche"/>
+      <string key="id" value="sid-263E55DE-655C-4354-9267-B923AB819ADA"/>
+      <string key="sourceRef" value="sid-D29E60EA-43E8-43A3-BE4D-4E3115CC30A3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechnung austellen"/>
+      <string key="id" value="sid-7FD2DF6B-AA9B-4DB9-8A4A-BB8B78D10B0E"/>
+      <string key="sourceRef" value="sid-64FB001C-E883-48FF-84AD-FA6295CB90FB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos bezahlen"/>
+      <string key="id" value="sid-2BA251C1-F838-4861-B938-22F4BE0320B2"/>
+      <string key="sourceRef" value="sid-CD6A11B8-EA8B-40AB-9CB1-CACA9180B346"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos abholen"/>
+      <string key="id" value="sid-DB65A7A4-7642-48A2-8798-44DC7F968623"/>
+      <string key="sourceRef" value="sid-915B6780-6534-405B-9FD1-B0C78D3B5B1E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Termin ausmachen"/>
+      <string key="id" value="sid-7022C348-D09E-4F95-B819-26BB3F9BDA77"/>
+      <string key="sourceRef" value="sid-77EA4F10-588B-4C8E-A6E0-2452EA7B82C0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Termin und Ort verifizieren"/>
+      <string key="id" value="sid-B7F015A5-D636-416D-9257-A87971F74589"/>
+      <string key="sourceRef" value="sid-BE035008-5A07-483D-93B7-EB6ECD93AD08"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotoauswahl (digital, gedruckt + Anzahl) und Sonderwünsche"/>
+      <string key="id" value="sid-73A19B14-D898-44EF-928B-79832C150CC9"/>
+      <string key="sourceRef" value="sid-901246A8-F5DC-493E-B5CF-DC986FF0C1B3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos festlegen und Sonderwünsche"/>
+      <string key="id" value="sid-263E55DE-655C-4354-9267-B923AB819ADA"/>
+      <string key="sourceRef" value="sid-D29E60EA-43E8-43A3-BE4D-4E3115CC30A3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechnung austellen"/>
+      <string key="id" value="sid-7FD2DF6B-AA9B-4DB9-8A4A-BB8B78D10B0E"/>
+      <string key="sourceRef" value="sid-64FB001C-E883-48FF-84AD-FA6295CB90FB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos bezahlen"/>
+      <string key="id" value="sid-2BA251C1-F838-4861-B938-22F4BE0320B2"/>
+      <string key="sourceRef" value="sid-CD6A11B8-EA8B-40AB-9CB1-CACA9180B346"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fotos geschickt bekommen"/>
+      <string key="id" value="sid-D0AC8191-ECED-4E83-ACF3-28B83E1C53E2"/>
+      <string key="sourceRef" value="sid-18ECE3B7-DCF9-4380-9ED7-245901D6A440"/>
+    </event>
+  </trace>
+</log>

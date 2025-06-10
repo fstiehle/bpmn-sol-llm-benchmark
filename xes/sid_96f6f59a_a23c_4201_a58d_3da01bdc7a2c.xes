@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Gewünschte Weinmenge mitteilen"/>
+      <string key="id" value="sid-62A9B9D5-B633-40F0-8E04-3A6E523AFFAF"/>
+      <string key="sourceRef" value="sid-7D33ED0C-DA8F-4C1B-B977-84246C950B24"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Gewünschte Weinmenge abfüllen"/>
+      <string key="id" value="sid-F2111C67-1C3F-49BB-A1BF-1E78A41A9177"/>
+      <string key="sourceRef" value="sid-0851AEB1-E6EC-4CB8-AEDD-1D6172464D06"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wein bezahlen"/>
+      <string key="id" value="sid-7F56B815-49C3-47A2-84DE-F79CD248C77F"/>
+      <string key="sourceRef" value="sid-38A12C05-1D67-40CA-81B7-BDB34702031D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlung abschließen"/>
+      <string key="id" value="sid-ECAFED60-673E-4A4F-9A9A-A9EC6DA6A495"/>
+      <string key="sourceRef" value="sid-A307AB1A-1B6C-4770-92D0-311EE8FF96A6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Abgefüllten Wein übergeben"/>
+      <string key="id" value="sid-3C4EECB9-2417-439B-9702-6AEE1A724774"/>
+      <string key="sourceRef" value="sid-9A016DA2-1E5F-4F41-82E7-A716383BD2AF"/>
+    </event>
+  </trace>
+</log>

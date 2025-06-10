@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-AD3AC946-D856-49B3-84D3-15FA20766A38"/>
+      <string key="sourceRef" value="sid-AB8B1BF3-D06E-4C88-8728-0D46BEE542DB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Reject offer"/>
+      <string key="id" value="sid-BC4E8CE6-BD62-4973-9EAF-8E4B2B8EF42D"/>
+      <string key="sourceRef" value="sid-EDFDF619-BFF8-416E-BD9C-FB039E32AFAF"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-AD3AC946-D856-49B3-84D3-15FA20766A38"/>
+      <string key="sourceRef" value="sid-AB8B1BF3-D06E-4C88-8728-0D46BEE542DB"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Book &amp; pay travel"/>
+      <string key="id" value="sid-C4526333-1307-4ED3-B008-1880D7063C2C"/>
+      <string key="sourceRef" value="sid-153F968D-DD33-49D3-8DA3-D7D427E42F9C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order ticket"/>
+      <string key="id" value="sid-0F6BDC11-E996-4A5D-A3D7-740892D7B241"/>
+      <string key="sourceRef" value="sid-A6AD12D9-CBB5-4C3D-8D5F-12E2F82835C4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify payment success"/>
+      <string key="id" value="sid-34741397-4A3E-4573-B901-4AEEA5CAA933"/>
+      <string key="sourceRef" value="sid-AE1BB421-7852-4BCF-8D54-D36683B492DB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-AD3AC946-D856-49B3-84D3-15FA20766A38"/>
+      <string key="sourceRef" value="sid-AB8B1BF3-D06E-4C88-8728-0D46BEE542DB"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Book &amp; pay travel"/>
+      <string key="id" value="sid-C4526333-1307-4ED3-B008-1880D7063C2C"/>
+      <string key="sourceRef" value="sid-153F968D-DD33-49D3-8DA3-D7D427E42F9C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order ticket"/>
+      <string key="id" value="sid-0F6BDC11-E996-4A5D-A3D7-740892D7B241"/>
+      <string key="sourceRef" value="sid-A6AD12D9-CBB5-4C3D-8D5F-12E2F82835C4"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify payment error&amp;#10;"/>
+      <string key="id" value="sid-089B934E-544B-4D95-A189-63B5A88B0778"/>
+      <string key="sourceRef" value="sid-40D64CA2-9F97-4F40-8E3E-265F27D79993"/>
+    </event>
+  </trace>
+</log>

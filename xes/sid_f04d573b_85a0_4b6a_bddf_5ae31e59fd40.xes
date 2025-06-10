@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Neuer Kundenvorgang"/>
+      <string key="id" value="sid-252F628C-9454-4046-8976-E9F99908B848"/>
+      <string key="sourceRef" value="sid-F5B29A50-8ECD-4F89-9C8E-84EF8105497A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Datensatztyp Eingang, Seitenlayout Eingangserfassung&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-DF2DC366-0EB8-4C2F-9E53-D8C9CD344082"/>
+      <string key="sourceRef" value="sid-EF21D9D7-7C51-435F-8870-23A3B2FF0BC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Eingangserfassung"/>
+      <string key="id" value="sid-786FCBC5-CE52-4971-B144-FC6344430D71"/>
+      <string key="sourceRef" value="sid-D23E4420-5B92-4745-955D-526D8F599102"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kategorie Öffnungszeiten"/>
+      <string key="id" value="sid-54737FC1-15A4-454E-939F-F8BC29C80695"/>
+      <string key="sourceRef" value="sid-8867B6E4-42A9-4181-AF0E-599C047942F5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Workflow-Regel Kategoriegruppe setzen"/>
+      <string key="id" value="sid-C08036F0-F326-473F-B280-95EDAD880D36"/>
+      <string key="sourceRef" value="sid-9BBD2A8B-BC74-4EEE-98B9-F80FCF6766FC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Workflow Regel&amp;#10;Datensatztyp Filiale-Anfrage, Seitenlayout Filiale-Anfrage"/>
+      <string key="id" value="sid-B67AC949-F979-4196-B873-7676FB144C58"/>
+      <string key="sourceRef" value="sid-2A18D026-A89B-4A13-B36A-306699ECF743"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Bearbeiten"/>
+      <string key="id" value="sid-F1A3849A-367B-48A7-AB86-8DD8C8F614E8"/>
+      <string key="sourceRef" value="sid-6AF2E2B8-FF04-4FB6-9D97-93A9429D4A09"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Sofortantwort"/>
+      <string key="id" value="sid-56CA19DF-05D4-4BB1-B72D-2493BA9C68F9"/>
+      <string key="sourceRef" value="sid-99FEDB0B-767B-46E3-913B-4AEFDAB0E0D6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Status &#x3D; Geschlossen"/>
+      <string key="id" value="sid-DD95B437-B292-4041-9BA5-518B6259179E"/>
+      <string key="sourceRef" value="sid-960E9A58-1FE6-4ECF-9578-1448552D0B55"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Workflow Regel&amp;#10;E-Mail an Kunde senden"/>
+      <string key="id" value="sid-9F6807C2-8A92-4C78-ADC3-EABD203B8938"/>
+      <string key="sourceRef" value="sid-3A539EBD-0A49-4F4C-8277-06CB23AFCA4C"/>
+    </event>
+  </trace>
+</log>

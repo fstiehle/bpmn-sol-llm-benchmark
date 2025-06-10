@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="CAN-Signal senden"/>
+      <string key="id" value="sid-F8DBFF58-2EFC-4411-A0B5-997E69BFC28C"/>
+      <string key="sourceRef" value="sid-0F5F3EE3-6A99-426E-B92F-BD85AC08EC37"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem im Lkw melden"/>
+      <string key="id" value="sid-E362A37E-E15E-48DA-8AA7-415E1695773A"/>
+      <string key="sourceRef" value="sid-BE45A12F-3F40-4EA0-8011-E3D54A35112C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="kontaktieren"/>
+      <string key="id" value="sid-7ADFA00A-0013-4B13-86A8-4A548E7F69D3"/>
+      <string key="sourceRef" value="sid-0F4DBDCB-8461-4197-AD4B-FD1703F561B0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informationen zum Problem senden"/>
+      <string key="id" value="sid-8ABAFDC0-B014-44F3-87DB-D5CEAF80F3F7"/>
+      <string key="sourceRef" value="sid-A65F4B1E-60CF-4D60-BB48-A342231CFC6B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlermeldung weiterleiten"/>
+      <string key="id" value="sid-F1C0F7EC-6FD8-4F2F-BDF2-A9F327A09D15"/>
+      <string key="sourceRef" value="sid-94834F69-2C70-4BC2-8687-6FBA1315556D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlermeldung übermitteln"/>
+      <string key="id" value="sid-24BE8A82-43CA-49B3-80A8-C98EAB25D793"/>
+      <string key="sourceRef" value="sid-68F9FD56-D6C3-41D6-B4DF-8420FFB79719"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbungsunterlagen und Eingangsbestätigung senden"/>
+      <string key="id" value="sid-215DC95A-93B5-413A-AB1E-2F338613104E"/>
+      <string key="sourceRef" value="sid-1C4D524B-D1C0-4081-875F-B275CEC06895"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen anfordern"/>
+      <string key="id" value="sid-9725A64A-D835-4253-B110-39D1C284FCDA"/>
+      <string key="sourceRef" value="sid-2388360E-3FD6-48D2-8A87-2BFAFCC8AC76"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen senden"/>
+      <string key="id" value="sid-4896C1F1-80B6-487C-8760-9570F4EC600D"/>
+      <string key="sourceRef" value="sid-E8AC2BF3-B28D-4BA5-93AA-F5189265D4E9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage senden"/>
+      <string key="id" value="sid-9E380B04-D373-4C51-9452-380C0D8E0464"/>
+      <string key="sourceRef" value="sid-FD64ABD7-106E-4F63-A52F-568D216DBDCC"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbungsunterlagen und Eingangsbestätigung senden"/>
+      <string key="id" value="sid-215DC95A-93B5-413A-AB1E-2F338613104E"/>
+      <string key="sourceRef" value="sid-1C4D524B-D1C0-4081-875F-B275CEC06895"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage senden"/>
+      <string key="id" value="sid-9E380B04-D373-4C51-9452-380C0D8E0464"/>
+      <string key="sourceRef" value="sid-FD64ABD7-106E-4F63-A52F-568D216DBDCC"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbungsunterlagen und Eingangsbestätigung senden"/>
+      <string key="id" value="sid-215DC95A-93B5-413A-AB1E-2F338613104E"/>
+      <string key="sourceRef" value="sid-1C4D524B-D1C0-4081-875F-B275CEC06895"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zusagen senden"/>
+      <string key="id" value="sid-20672D5B-1670-49D8-BEC8-BF326281D420"/>
+      <string key="sourceRef" value="sid-1FF76679-18D7-4630-8F2A-323FF8CE9AA3"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbungsunterlagen und Eingangsbestätigung senden"/>
+      <string key="id" value="sid-215DC95A-93B5-413A-AB1E-2F338613104E"/>
+      <string key="sourceRef" value="sid-1C4D524B-D1C0-4081-875F-B275CEC06895"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen anfordern"/>
+      <string key="id" value="sid-9725A64A-D835-4253-B110-39D1C284FCDA"/>
+      <string key="sourceRef" value="sid-2388360E-3FD6-48D2-8A87-2BFAFCC8AC76"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen senden"/>
+      <string key="id" value="sid-4896C1F1-80B6-487C-8760-9570F4EC600D"/>
+      <string key="sourceRef" value="sid-E8AC2BF3-B28D-4BA5-93AA-F5189265D4E9"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zusagen senden"/>
+      <string key="id" value="sid-20672D5B-1670-49D8-BEC8-BF326281D420"/>
+      <string key="sourceRef" value="sid-1FF76679-18D7-4630-8F2A-323FF8CE9AA3"/>
+    </event>
+  </trace>
+</log>

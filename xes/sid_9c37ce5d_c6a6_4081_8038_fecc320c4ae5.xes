@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Send Transcription Request"/>
+      <string key="id" value="sid-4F7B8C9B-B728-4743-A6A1-8B0D37A9E487"/>
+      <string key="sourceRef" value="sid-868FFA39-F8BB-4A9A-9961-24599783527E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Transcription"/>
+      <string key="id" value="sid-E2260B7C-2453-4ED3-8F1F-458552A96F90"/>
+      <string key="sourceRef" value="sid-FFBBBE43-8E34-42F1-A5B5-8D9A2C160792"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Transcription"/>
+      <string key="id" value="sid-5DFD2925-5FC4-49A5-A532-6E1895707F23"/>
+      <string key="sourceRef" value="sid-850FEFB6-7E37-4C41-A343-5C3E1CEED8F3"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung abschicken"/>
+      <string key="id" value="oryx_2D87C0AD-1C70-4B00-90C1-B406D0CB1CAF"/>
+      <string key="sourceRef" value="oryx_7D752C54-9DCB-44E7-8FF1-F68197396E2B"/>
+      <boolean key="conditions" value="1"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage zuschicken"/>
+      <string key="id" value="oryx_8F147659-7E2E-4F5D-8F4D-EB397F99AD09"/>
+      <string key="sourceRef" value="oryx_58BED12F-142E-44BB-8CE5-224366ABB9D7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung abschicken"/>
+      <string key="id" value="oryx_2D87C0AD-1C70-4B00-90C1-B406D0CB1CAF"/>
+      <string key="sourceRef" value="oryx_7D752C54-9DCB-44E7-8FF1-F68197396E2B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zusage zuschicken"/>
+      <string key="id" value="oryx_2CD79A54-4137-492B-87F1-FACBA5D0E864"/>
+      <string key="sourceRef" value="oryx_A3235708-9D69-4983-A5F9-7E0B2A389CAB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung abschicken"/>
+      <string key="id" value="oryx_2D87C0AD-1C70-4B00-90C1-B406D0CB1CAF"/>
+      <string key="sourceRef" value="oryx_7D752C54-9DCB-44E7-8FF1-F68197396E2B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen anfordern"/>
+      <string key="id" value="oryx_6C8BD963-B2F4-47DB-ADA8-2ADC0ED9B691"/>
+      <string key="sourceRef" value="oryx_0FE14C4D-3256-4984-8992-F17A35EE024B"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage zuschicken"/>
+      <string key="id" value="oryx_8F147659-7E2E-4F5D-8F4D-EB397F99AD09"/>
+      <string key="sourceRef" value="oryx_58BED12F-142E-44BB-8CE5-224366ABB9D7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung abschicken"/>
+      <string key="id" value="oryx_2D87C0AD-1C70-4B00-90C1-B406D0CB1CAF"/>
+      <string key="sourceRef" value="oryx_7D752C54-9DCB-44E7-8FF1-F68197396E2B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fehlende Unterlagen anfordern"/>
+      <string key="id" value="oryx_6C8BD963-B2F4-47DB-ADA8-2ADC0ED9B691"/>
+      <string key="sourceRef" value="oryx_0FE14C4D-3256-4984-8992-F17A35EE024B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zusage zuschicken"/>
+      <string key="id" value="oryx_2CD79A54-4137-492B-87F1-FACBA5D0E864"/>
+      <string key="sourceRef" value="oryx_A3235708-9D69-4983-A5F9-7E0B2A389CAB"/>
+    </event>
+  </trace>
+</log>

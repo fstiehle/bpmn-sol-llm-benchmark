@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Message 1"/>
+      <string key="id" value="sid-64746EC4-A158-4AE0-B4FC-8463464FABB8"/>
+      <string key="sourceRef" value="sid-c7337cbd-f624-4077-96dc-58962b8019b9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Message 2"/>
+      <string key="id" value="sid-2CC1E296-BC71-4CC8-9910-DB213486212F"/>
+      <string key="sourceRef" value="sid-e2969d86-7b31-42dc-9fc1-aad3dbf1e68d"/>
+    </event>
+  </trace>
+</log>

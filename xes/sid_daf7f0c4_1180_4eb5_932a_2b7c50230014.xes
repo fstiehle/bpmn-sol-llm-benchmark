@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Receive invoice"/>
+      <string key="id" value="sid-BC4CA2FF-0AAB-4A86-8117-CD6E255C120F"/>
+      <string key="sourceRef" value="sid-8698B37A-A159-4C98-ACE6-94CDC7C4B8EF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Get Confirmation&amp;#10; for invoice that can be paid"/>
+      <string key="id" value="sid-B403FDF3-5668-4311-8AC0-A9495DF83033"/>
+      <string key="sourceRef" value="sid-7338136B-D6BC-409F-A766-FFE2F8BA22E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Get client to add the relevant cost centre"/>
+      <string key="id" value="sid-4F47FE5C-11B4-459C-BF80-F9D6BB03E80C"/>
+      <string key="sourceRef" value="sid-FDA86F6F-8E7D-4792-B1D2-FFACAED6E3F6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Check  invoice completeness"/>
+      <string key="id" value="sid-59CB47F2-EE88-4D92-882B-081C79CDAF1C"/>
+      <string key="sourceRef" value="sid-87332D59-AB7B-4784-A132-B8BD48745D0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="requesting the information complete for  invoice compliance"/>
+      <string key="id" value="sid-6DDD6952-FEB2-4990-95BE-08FBD80A7877"/>
+      <string key="sourceRef" value="sid-463AC786-15E7-4D78-B444-D3F7EA9C25E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Generate a report"/>
+      <string key="id" value="sid-85B7A91F-12FD-499E-BB49-CD90301389EB"/>
+      <string key="sourceRef" value="sid-0701AFE0-D415-46D7-9ACC-3416D4E057DD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Generate monthly invoice  for clients"/>
+      <string key="id" value="sid-D3960B47-F7D8-4971-AE01-F062E738A991"/>
+      <string key="sourceRef" value="sid-58BDF142-2023-4AA8-980C-E8C49F427623"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Charge the client  per invoice"/>
+      <string key="id" value="sid-176F0CE8-42DD-4C06-8049-4484E56FB921"/>
+      <string key="sourceRef" value="sid-49796AA6-5302-4A69-A78E-99690145350E"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Valitse käyttöaika"/>
+      <string key="id" value="sid-48207A66-8348-43A5-915D-FE839FE1BFF3"/>
+      <string key="sourceRef" value="sid-79C2F7DB-1884-4C0A-B9E6-E2CA4139F704"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Syötä tiedot"/>
+      <string key="id" value="sid-8513FB9A-DBE1-49B1-AF54-A596EB8F37EC"/>
+      <string key="sourceRef" value="sid-550619D5-6A1D-4AC0-A234-CFC45F0408BB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lähetä pyöräilijätunnukset"/>
+      <string key="id" value="sid-0F5B9688-B0E0-425D-9436-57910725C809"/>
+      <string key="sourceRef" value="sid-F296DCF7-93EC-4CBF-8674-1ABEFC0BC1E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aktivoi pyörä"/>
+      <string key="id" value="sid-0A9FE965-EFF4-4CCB-8D3A-71E24CBC4E7F"/>
+      <string key="sourceRef" value="sid-CCFA1A2D-DC19-4D29-A688-EC2BA1E7AB5B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anna OK-kuittaus"/>
+      <string key="id" value="sid-DFC42619-850B-4516-B3D6-E5C868E24A57"/>
+      <string key="sourceRef" value="sid-5889A625-7901-4416-A4A5-216B2B5E33B6"/>
+    </event>
+  </trace>
+</log>

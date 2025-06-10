@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-1C226C51-E363-4826-BA85-0F703F531C64"/>
+      <string key="sourceRef" value="sid-188D17DD-6578-47CC-86E4-CDD82760AD2E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-B693B53E-A351-4847-9941-52BDE15E747B"/>
+      <string key="sourceRef" value="sid-720F1C81-2A1E-4E7F-97AE-F5D462D6EBAF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje pomoci"/>
+      <string key="id" value="sid-F7291B89-FE8B-473D-B610-791411865F5E"/>
+      <string key="sourceRef" value="sid-E19FD4C9-B409-4C8C-89D1-41CBDA7415CD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje pomoci"/>
+      <string key="id" value="sid-7413834A-8E39-4E40-85A2-38B4562914F7"/>
+      <string key="sourceRef" value="sid-BEF56F6E-0BE2-45A3-80B9-2C627CEEF957"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-9C89324C-4B6B-46F0-876E-F192CA444D22"/>
+      <string key="sourceRef" value="sid-9309CEE9-6326-4EF8-BF9C-2C081D255324"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-46DD2450-9E9B-445D-814D-C554364C7F81"/>
+      <string key="sourceRef" value="sid-C5420CA9-EC6B-481A-9A31-F06F5D858040"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-A23868C2-A1D7-4BBA-A3EE-D9A6EC69A0DD"/>
+      <string key="sourceRef" value="sid-3E5A32A8-25C4-4360-9353-B68DD2B324A3"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-1C226C51-E363-4826-BA85-0F703F531C64"/>
+      <string key="sourceRef" value="sid-188D17DD-6578-47CC-86E4-CDD82760AD2E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-B693B53E-A351-4847-9941-52BDE15E747B"/>
+      <string key="sourceRef" value="sid-720F1C81-2A1E-4E7F-97AE-F5D462D6EBAF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje pomoci"/>
+      <string key="id" value="sid-F7291B89-FE8B-473D-B610-791411865F5E"/>
+      <string key="sourceRef" value="sid-E19FD4C9-B409-4C8C-89D1-41CBDA7415CD"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-46DD2450-9E9B-445D-814D-C554364C7F81"/>
+      <string key="sourceRef" value="sid-C5420CA9-EC6B-481A-9A31-F06F5D858040"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-A23868C2-A1D7-4BBA-A3EE-D9A6EC69A0DD"/>
+      <string key="sourceRef" value="sid-3E5A32A8-25C4-4360-9353-B68DD2B324A3"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Klijent ima problem"/>
+      <string key="id" value="sid-1C226C51-E363-4826-BA85-0F703F531C64"/>
+      <string key="sourceRef" value="sid-188D17DD-6578-47CC-86E4-CDD82760AD2E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-B693B53E-A351-4847-9941-52BDE15E747B"/>
+      <string key="sourceRef" value="sid-720F1C81-2A1E-4E7F-97AE-F5D462D6EBAF"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resavanje problema"/>
+      <string key="id" value="sid-A23868C2-A1D7-4BBA-A3EE-D9A6EC69A0DD"/>
+      <string key="sourceRef" value="sid-3E5A32A8-25C4-4360-9353-B68DD2B324A3"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Make Travel Offer"/>
+      <string key="id" value="sid-12F8A9A9-1BBA-4189-B2BB-50302A8DAE12"/>
+      <string key="sourceRef" value="sid-7B0E5935-1E69-407B-9BD7-42424EAA6311"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Book travel"/>
+      <string key="id" value="sid-6729643A-010F-42B7-9B5C-B7CC2F46F517"/>
+      <string key="sourceRef" value="sid-F49A0198-8A84-4342-8CF9-C3AA3BA000B8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm booking"/>
+      <string key="id" value="sid-0EB774D6-DAE9-4EAB-8D9B-C96479746F2D"/>
+      <string key="sourceRef" value="sid-C2EEBB23-2321-4B40-BADA-DA95338844A7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pay travel"/>
+      <string key="id" value="sid-19A99E16-1C90-4C88-9D6A-393CEC7C2937"/>
+      <string key="sourceRef" value="sid-B6B54BAB-99D2-4857-939D-E55F5662F781"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order Ticket"/>
+      <string key="id" value="sid-4219CAE4-9942-44EB-8A02-58EFD4D1A79B"/>
+      <string key="sourceRef" value="sid-C65A0880-A0DC-4FA1-A355-F840D8BBCCA8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-BC9B7450-D485-4E95-A47D-53C52B27515E"/>
+      <string key="sourceRef" value="sid-ED69D61C-D2A9-4132-A4EA-EEB35E6D1256"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make Travel Offer"/>
+      <string key="id" value="sid-12F8A9A9-1BBA-4189-B2BB-50302A8DAE12"/>
+      <string key="sourceRef" value="sid-7B0E5935-1E69-407B-9BD7-42424EAA6311"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Cancel Offer"/>
+      <string key="id" value="sid-3AAF6F9A-764B-4E6B-A5E6-64A0BB764BF5"/>
+      <string key="sourceRef" value="sid-04845D12-6A91-4E59-98A7-F460FBFE006F"/>
+    </event>
+  </trace>
+</log>

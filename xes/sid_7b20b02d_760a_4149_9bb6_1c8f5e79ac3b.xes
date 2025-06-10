@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitar pizza (Call Center - Website)"/>
+      <string key="id" value="sid-53CFA203-CC6E-41C0-9C41-6E453F1AC64A"/>
+      <string key="sourceRef" value="sid-3047D38E-6724-4B78-AFEB-FB0B272D035C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Coordinar el despacho"/>
+      <string key="id" value="sid-A5665F74-7A87-4BF9-8F86-9C93D02C1B16"/>
+      <string key="sourceRef" value="sid-528F73E9-EE80-4A90-878A-F58D88C84B0B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informar de pedido"/>
+      <string key="id" value="sid-55CFE69A-8F1B-4CCB-8373-57B63BE493DD"/>
+      <string key="sourceRef" value="sid-7B1BDDFC-355D-4306-A7F2-0DDFD36B9BA2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Buscar Producto terminado"/>
+      <string key="id" value="sid-8ED357F8-405A-4F6E-8249-BE9D8049BE4C"/>
+      <string key="sourceRef" value="sid-6239132C-E3EB-4D17-9F15-12E1C72FB6C7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Despachar y cobrar pedido"/>
+      <string key="id" value="sid-8F33ABD4-ABBF-476D-B143-B2B498E7AFD2"/>
+      <string key="sourceRef" value="sid-C2C6485C-7183-49D2-9AFD-9A9A59F0AAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informar correcta entrega"/>
+      <string key="id" value="sid-22B98510-5E3D-4621-9650-A39D2FC695AF"/>
+      <string key="sourceRef" value="sid-4EF62796-DBB3-4895-9264-8FD4BF27C90B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitar pizza (Call Center - Website)"/>
+      <string key="id" value="sid-53CFA203-CC6E-41C0-9C41-6E453F1AC64A"/>
+      <string key="sourceRef" value="sid-3047D38E-6724-4B78-AFEB-FB0B272D035C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informar de pedido"/>
+      <string key="id" value="sid-55CFE69A-8F1B-4CCB-8373-57B63BE493DD"/>
+      <string key="sourceRef" value="sid-7B1BDDFC-355D-4306-A7F2-0DDFD36B9BA2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Coordinar el despacho"/>
+      <string key="id" value="sid-A5665F74-7A87-4BF9-8F86-9C93D02C1B16"/>
+      <string key="sourceRef" value="sid-528F73E9-EE80-4A90-878A-F58D88C84B0B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Buscar Producto terminado"/>
+      <string key="id" value="sid-8ED357F8-405A-4F6E-8249-BE9D8049BE4C"/>
+      <string key="sourceRef" value="sid-6239132C-E3EB-4D17-9F15-12E1C72FB6C7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Despachar y cobrar pedido"/>
+      <string key="id" value="sid-8F33ABD4-ABBF-476D-B143-B2B498E7AFD2"/>
+      <string key="sourceRef" value="sid-C2C6485C-7183-49D2-9AFD-9A9A59F0AAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informar correcta entrega"/>
+      <string key="id" value="sid-22B98510-5E3D-4621-9650-A39D2FC695AF"/>
+      <string key="sourceRef" value="sid-4EF62796-DBB3-4895-9264-8FD4BF27C90B"/>
+    </event>
+  </trace>
+</log>

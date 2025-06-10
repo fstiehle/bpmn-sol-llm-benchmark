@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-AD74E23D-6D70-4941-9114-C2A9AE812386"/>
+      <string key="sourceRef" value="sid-9F0183B6-7AA4-487D-BF5C-C241E133C603"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-98FBCA10-0820-49F0-BCE5-73950F33DF03"/>
+      <string key="sourceRef" value="sid-33CBE9B2-D6EA-4C27-B1F6-5DAE333D8C53"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-0174419F-56DC-4BDD-90B4-FED8789180E4"/>
+      <string key="sourceRef" value="sid-8329D4FD-FB73-491D-9ECF-06962A484114"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-AD74E23D-6D70-4941-9114-C2A9AE812386"/>
+      <string key="sourceRef" value="sid-9F0183B6-7AA4-487D-BF5C-C241E133C603"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-98FBCA10-0820-49F0-BCE5-73950F33DF03"/>
+      <string key="sourceRef" value="sid-33CBE9B2-D6EA-4C27-B1F6-5DAE333D8C53"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-4DC770E3-8BE9-487F-BA09-20DA760F80FD"/>
+      <string key="sourceRef" value="sid-B2257561-15EF-4552-BD7F-11FC0A701629"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-A608F0E5-61C5-4C6B-95BD-3B764B7F6D1C"/>
+      <string key="sourceRef" value="sid-F9434B53-AEAB-478A-9DEB-CCC6C03CAABC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-57C02DC5-E10C-4152-8DA3-6CC6B2365315"/>
+      <string key="sourceRef" value="sid-807A8A40-B5DA-4D43-8391-0AB72FCEE9E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-0174419F-56DC-4BDD-90B4-FED8789180E4"/>
+      <string key="sourceRef" value="sid-8329D4FD-FB73-491D-9ECF-06962A484114"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje problema"/>
+      <string key="id" value="sid-AD74E23D-6D70-4941-9114-C2A9AE812386"/>
+      <string key="sourceRef" value="sid-9F0183B6-7AA4-487D-BF5C-C241E133C603"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-98FBCA10-0820-49F0-BCE5-73950F33DF03"/>
+      <string key="sourceRef" value="sid-33CBE9B2-D6EA-4C27-B1F6-5DAE333D8C53"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-4DC770E3-8BE9-487F-BA09-20DA760F80FD"/>
+      <string key="sourceRef" value="sid-B2257561-15EF-4552-BD7F-11FC0A701629"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-57C02DC5-E10C-4152-8DA3-6CC6B2365315"/>
+      <string key="sourceRef" value="sid-807A8A40-B5DA-4D43-8391-0AB72FCEE9E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-0174419F-56DC-4BDD-90B4-FED8789180E4"/>
+      <string key="sourceRef" value="sid-8329D4FD-FB73-491D-9ECF-06962A484114"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-984B95C1-C450-4BCC-A703-06A3F1E372B8"/>
+      <string key="sourceRef" value="sid-97E79EA0-A3DE-4350-A738-5646A5F370BE"/>
+    </event>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-74D17AC8-A5F1-49EC-AD9E-66623C00824A"/>
+      <string key="sourceRef" value="sid-E35AAE6F-A87C-4891-B586-EF62BAA6399F"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-74D17AC8-A5F1-49EC-AD9E-66623C00824A"/>
+      <string key="sourceRef" value="sid-E35AAE6F-A87C-4891-B586-EF62BAA6399F"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-74D17AC8-A5F1-49EC-AD9E-66623C00824A"/>
+      <string key="sourceRef" value="sid-E35AAE6F-A87C-4891-B586-EF62BAA6399F"/>
+    </event>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-984B95C1-C450-4BCC-A703-06A3F1E372B8"/>
+      <string key="sourceRef" value="sid-97E79EA0-A3DE-4350-A738-5646A5F370BE"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-984B95C1-C450-4BCC-A703-06A3F1E372B8"/>
+      <string key="sourceRef" value="sid-97E79EA0-A3DE-4350-A738-5646A5F370BE"/>
+    </event>
+  </trace>
+</log>

@@ -6,13 +6,178 @@ import * as fs from "fs";
 import chorpiler from "chorpiler";
 import { TestConfig } from "./TestConfig";
 import { ENCODINGS_DIR, NR_NON_CONFORMING_TRACES, XES_DIR, XES_PARSER } from "../bench.config";
-import { logDebug } from "./util";
+import { Wallet, HDNodeWallet } from "ethers";
 
-export const capitalize = (name: string): string => {
+// Helper to capitalize a string (global)
+export function capitalize(name: string): string {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
+// Helper for debug logging (global)
+export function logDebug(...args: any[]) {
+  if (process.env.DEBUG === '1' || process.env.DEBUG === 'true') {
+    console.log(...args);
+  }
+}
+
 const tab = (n: number) => "  ".repeat(n);
+
+export const randomSigners = async (amount: number, funder: any, provider: any): Promise<HDNodeWallet[]> => {
+  const signers: HDNodeWallet[] = [];
+  for (let i = 0; i < amount; i++) {
+    let wallet = Wallet.createRandom().connect(provider);
+    // Send ETH to the new wallet so it can perform a tx
+    await funder.sendTransaction({
+      to: wallet.address,
+      value: ethers.parseEther("1")
+    });
+    signers.push(wallet);
+  }
+  return signers;
+};
+
+// Helper to apply data changes to a contract
+async function applyDataChanges(contract: any, dataChanges: any[], tab3: string): Promise<boolean> {
+  let allTokenStatesChanged = true;
+  for (const el of dataChanges) {
+    let preConditionState;
+    try {
+      preConditionState = await contract.conditions();
+    } catch (error) {
+      logDebug(`${tab3}⚠️`, error instanceof Error ? error.message : String(error));
+      allTokenStatesChanged = false;
+      continue;
+    }
+    let updatedState = Number(preConditionState);
+    if (Number(el.val) != 0) {
+      updatedState |= Number(el.val);
+    } else {
+      updatedState = 0;
+    }
+    const methodName = "set" + capitalize(el.variable);
+    logDebug(`${tab3}🛠️ Try:`, methodName, updatedState);
+    try {
+      await (await contract[methodName](updatedState)).wait(1);
+    } catch (error) {
+      logDebug(`${tab3}⚠️`, error instanceof Error ? error.message : String(error));
+      allTokenStatesChanged = false;
+      continue;
+    }
+  }
+  return allTokenStatesChanged;
+}
+
+// Modular function to replay a single trace (conforming or non-conforming)
+async function replayTrace({
+  contract,
+  trace,
+  contracts,
+  triggerEncoding,
+  tab3,
+  traceIndex,
+  isConforming
+}: {
+  contract: any,
+  trace: any,
+  contracts: Map<string, any>,
+  triggerEncoding: any,
+  tab3: string,
+  traceIndex: number,
+  isConforming: boolean
+}) {
+  let allTokenStatesChanged = true;
+  let eventsRejected = 0;
+  const report: {
+    traceIndex: number;
+    eventName: string;
+    taskID: number;
+    preTokenState: any;
+    postTokenState: any;
+    tokenStateChanged: boolean;
+    error?: string;
+  }[] = [];
+
+  for (const event of trace) {
+    if (event.dataChange && event.dataChange.length > 0) {
+      const changed = await applyDataChanges(contract, event.dataChange, tab3);
+      if (isConforming) {
+        allTokenStatesChanged = allTokenStatesChanged && changed;
+      }
+    }
+
+    if (event.id === "Instance Data Change") continue;
+
+    if (!isConforming) {
+      // do a NOOP to trigger als automatic transitions. So we can check thatt
+      // the next token change is indeed because of a task being executed.
+      try {
+        const methodToCall = "enact";
+        if (typeof contract[methodToCall] !== "function") {
+          throw new Error(`Method ${methodToCall} does not exist on the contract`);
+        }
+        await (await contract[methodToCall](0)).wait(1);
+      } catch (error) {
+        throw error
+      }
+    }
+
+    const participant = contracts.get(event.source);
+    const taskID = triggerEncoding.tasks.get(event.id);
+    if (participant === undefined || taskID === undefined) {
+      throw new Error(
+        `source (participant) '${event.source}' for event '${event.name}' not found (${participant},${taskID}).`
+      );
+    }
+    const preTokenState = await contract.tokenState();
+    logDebug(`${tab3}🔎 Try: TaskID:`, taskID, `"${event.name}"`);
+    let postTokenState;
+    try {
+      const methodToCall = "enact";
+      if (typeof participant[methodToCall] !== "function") {
+        throw new Error(`Method ${methodToCall} does not exist on the contract`);
+      }
+      await (await participant[methodToCall](taskID)).wait(1);
+      postTokenState = await contract.tokenState();
+    } catch (error) {
+      postTokenState = await contract.tokenState();
+      report.push({
+        traceIndex,
+        eventName: event.name,
+        taskID,
+        preTokenState: preTokenState.toString(),
+        postTokenState: postTokenState.toString(),
+        tokenStateChanged: postTokenState !== preTokenState,
+        error: (error instanceof Error ? error.message : String(error)).slice(0, 30)
+      });
+      logDebug(`${tab3}❌`, error instanceof Error ? error.message : String(error));
+      if (isConforming) {
+        allTokenStatesChanged = false;
+      } else {
+        eventsRejected++;
+      }
+      continue;
+    }
+    if (postTokenState !== preTokenState) {
+      logDebug(`${tab3}🔄 Token state changed: ${preTokenState} -> ${postTokenState}`);
+    } else {
+      if (isConforming) {
+        allTokenStatesChanged = false;
+      } else {
+        eventsRejected++;
+        logDebug(`${tab3}✅ Token state did not change.`);
+      }
+    }
+    report.push({
+      traceIndex,
+      eventName: event.name,
+      taskID,
+      preTokenState: preTokenState.toString(),
+      postTokenState: postTokenState.toString(),
+      tokenStateChanged: postTokenState !== preTokenState
+    });
+  }
+  return { allTokenStatesChanged, eventsRejected, report };
+}
 
 export class TraceReplayer {
   constructor(
@@ -24,6 +189,7 @@ export class TraceReplayer {
   async replay() {
     const solFiles = fs.readdirSync(this.solDir).filter(file => file.endsWith('.sol'));
     const results: { process: string; true_positives: number; number_positives: number; true_negative: number; number_negatives: number }[] = [];
+    let totalTracesReplayed = 0; // <-- Add counter
 
     for (const file of solFiles) {
       const name = path.basename(file, '.sol');
@@ -32,28 +198,40 @@ export class TraceReplayer {
       const eventLog = await XES_PARSER.fromXML(
         fs.readFileSync(path.join(XES_DIR, name + '.xes'))
       );
+      if (!eventLog.traces || eventLog.traces.length === 0) {
+        throw new Error(`No traces found in event log for process "${name}".`);
+      }
 
       const triggerEncodingData = JSON.parse(
         fs.readFileSync(path.join(ENCODINGS_DIR, name + '.json'), 'utf-8')
       );
       const triggerEncoding = TriggerEncoding.fromJSON(triggerEncodingData);
+      if (!triggerEncoding.participants || triggerEncoding.participants.size === 0) {
+        throw new Error(`No participants found in trigger encoding for process "${name}".`);
+      }
+      if (!triggerEncoding.tasks || triggerEncoding.tasks.size === 0) {
+        throw new Error(`No tasks found in trigger encoding for process "${name}".`);
+      }
 
-      const wallets = (await ethers.getSigners())
-        .slice(0, triggerEncoding.participants.size);
+      // Use randomSigners instead of ethers.getSigners
+      const wallets = await randomSigners(
+        triggerEncoding.participants.size, 
+        (await ethers.getSigners())[0], 
+        ethers.provider);
 
       let correctTraceCount = 0;
-
       // replay log
       for (const [i, trace] of eventLog.traces.entries()) {
+        totalTracesReplayed++; // <-- Increment for each replayed trace
         let contract;
         try {
           contract = await ethers.deployContract(
             `${this.contractPrefix}${name}`,
-            [[...wallets.values()].map(v => v.address)]
+            [wallets.map(v => v.address)]
           );
         } catch (error) {
           console.log(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-          continue;
+          throw error;
         }
 
         const contracts = new Map<string, any>();
@@ -61,94 +239,16 @@ export class TraceReplayer {
           contracts.set(id, contract.connect(wallets[num]));
         }
 
-        const report: {
-          traceIndex: number;
-          eventName: string;
-          taskID: number;
-          preTokenState: any;
-          postTokenState: any;
-          tokenStateChanged: boolean;
-          error?: string;
-        }[] = [];
-
         console.log(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
-        let allTokenStatesChanged = true;
-
-        for (const event of trace) {
-          if (event.dataChange && event.dataChange.length > 0) {
-            for (const el of event.dataChange) {
-              let preConditionState;
-              try {
-                preConditionState = await contract.conditions();
-              } catch (error) {
-                logDebug(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-                allTokenStatesChanged = false;
-                continue;
-              }
-              let updatedState = Number(preConditionState);
-              updatedState |= Number(el.val);
-              const methodName = "set" + capitalize(el.variable);
-              logDebug(`${tab(3)}🛠️ Try:`, methodName, updatedState);
-              try {
-                await (await contract[methodName](updatedState)).wait(1);
-              } catch (error) {
-                logDebug(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-                allTokenStatesChanged = false;
-                continue;
-              }
-            }
-          }
-
-          const participant = contracts.get(event.source);
-          const taskID = triggerEncoding.tasks.get(event.id);
-          assert(participant !== undefined && taskID !== undefined, 
-            `source (participant) '${event.source}' for event '${event.name}' not found`);
-
-          const preTokenState = await contract.tokenState();
-          logDebug(`${tab(3)}🔎 Try: TaskID:`, taskID, `"${event.name}"`);
-          let postTokenState;
-          try {
-            const methodToCall = this.test.multipleFunc ? event.id : "enact";
-            if (typeof participant[methodToCall] !== "function") {
-              throw new Error(`Method ${methodToCall} does not exist on the contract`);
-            }
-            if (this.test.multipleFunc) {
-              await (await participant[methodToCall]()).wait(1);
-            } else {
-              await (await participant[methodToCall](taskID)).wait(1);
-            }
-            postTokenState = await contract.tokenState();
-          } catch (error) {
-            postTokenState = await contract.tokenState();
-            report.push({
-              traceIndex: i,
-              eventName: event.name,
-              taskID,
-              preTokenState: preTokenState.toString(),
-              postTokenState: postTokenState.toString(),
-              tokenStateChanged: postTokenState !== preTokenState,
-              error: (error instanceof Error ? error.message : String(error)).slice(0, 30)
-            });
-            logDebug(`${tab(3)}❌`, error instanceof Error ? error.message : String(error));
-            allTokenStatesChanged = false;
-            continue;
-          }
-
-          if (postTokenState !== preTokenState) {
-            logDebug(`${tab(3)}🔄 Token state changed: ${preTokenState} -> ${postTokenState}`);
-          } else {
-            allTokenStatesChanged = false;
-          }
-
-          report.push({
-            traceIndex: i,
-            eventName: event.name,
-            taskID,
-            preTokenState: preTokenState.toString(),
-            postTokenState: postTokenState.toString(),
-            tokenStateChanged: postTokenState !== preTokenState
-          });
-        }
+        const { allTokenStatesChanged, report } = await replayTrace({
+          contract,
+          trace,
+          contracts,
+          triggerEncoding,
+          tab3: tab(3),
+          traceIndex: i,
+          isConforming: true
+        });
 
         const finalTokenState = await contract.tokenState();
         if (Number(finalTokenState) !== 0) {
@@ -178,17 +278,18 @@ export class TraceReplayer {
 
       // --- Non-conforming traces ---
       const badLog = chorpiler.utils.EventLog.genNonConformingLog(
-        eventLog, triggerEncoding, NR_NON_CONFORMING_TRACES
+        eventLog, triggerEncoding, NR_NON_CONFORMING_TRACES, "b", 2
       );
       let rejectedTraces = 0; // <-- Track rejected traces
 
       for (const [i, trace] of badLog.traces.entries()) {
+        totalTracesReplayed++; // <-- Increment for each replayed trace (non-conforming)
         console.log(`Replay Non-Conforming Trace ${i} (${name})`);
         let contract;
         try {
           contract = await ethers.deployContract(
             `${this.contractPrefix}${name}`,
-            [[...wallets.values()].map(v => v.address)]
+            [wallets.map(v => v.address)]
           );
         } catch (error) {
           console.log(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
@@ -199,93 +300,22 @@ export class TraceReplayer {
         for (const [id, num] of triggerEncoding.participants) {
           contracts.set(id, contract.connect(wallets[num]));
         }
-        let eventsRejected = 0;
-        const report: {
-          traceIndex: number;
-          eventName: string;
-          taskID: number;
-          preTokenState: any;
-          postTokenState: any;
-          tokenStateChanged: boolean;
-          error?: string;
-        }[] = [];
-
-        for (const event of trace) {
-          if (event.dataChange && event.dataChange.length > 0) {
-            for (const el of event.dataChange) {
-              let preConditionState;
-              try {
-                preConditionState = await contract.conditions();
-              } catch (error) {
-                logDebug(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-                continue;
-              }
-              let updatedState = Number(preConditionState);
-              updatedState |= Number(el.val);
-              const methodName = "set" + capitalize(el.variable);
-              logDebug(`${tab(3)}🛠️ Try:`, methodName, updatedState);
-              try {
-                await (await contract[methodName](updatedState)).wait(1);
-              } catch (error) {
-                logDebug(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-                continue;
-              }
-            }
-          }
-
-          const participant = contracts.get(event.source);
-          const taskID = triggerEncoding.tasks.get(event.id);
-          assert(participant !== undefined && taskID !== undefined, 
-            `source (participant) '${event.source}' for event '${event.name}' not found`);
-
-          const preTokenState = await contract.tokenState();
-          logDebug(`${tab(3)}🔎 Try: TaskID:`, taskID, `"${event.name}"`);
-          let postTokenState;
-          try {
-            const methodToCall = this.test.multipleFunc ? event.id : "enact";
-            if (typeof participant[methodToCall] !== "function") {
-              throw new Error(`Method ${methodToCall} does not exist on the contract`);
-            }
-            if (this.test.multipleFunc) {
-              await (await participant[methodToCall]()).wait(1);
-            } else {
-              await (await participant[methodToCall](taskID)).wait(1);
-            }
-            postTokenState = await contract.tokenState();
-          } catch (error) {
-            postTokenState = await contract.tokenState();
-            logDebug(`${tab(3)}❌`, error instanceof Error ? error.message : String(error));
-            report.push({
-              traceIndex: i,
-              eventName: event.name,
-              taskID,
-              preTokenState: preTokenState.toString(),
-              postTokenState: postTokenState.toString(),
-              tokenStateChanged: postTokenState !== preTokenState,
-              error: (error instanceof Error ? error.message : String(error)).slice(0, 30)
-            });
-            continue;
-          }
-          if (postTokenState !== preTokenState) {
-            logDebug(`${tab(3)}🔄 Token state changed: ${preTokenState} -> ${postTokenState}`);
-          } else {
-            eventsRejected++;
-            logDebug(`${tab(3)}✅ Token state did not change.`);
-          }
-          report.push({
-            traceIndex: i,
-            eventName: event.name,
-            taskID,
-            preTokenState: preTokenState.toString(),
-            postTokenState: postTokenState.toString(),
-            tokenStateChanged: postTokenState !== preTokenState
-          });
-        }
+        const { eventsRejected, report } = await replayTrace({
+          contract,
+          trace,
+          contracts,
+          triggerEncoding,
+          tab3: tab(3),
+          traceIndex: i,
+          isConforming: false
+        });
         // At least one event should be rejected or process not finished
-        logDebug(`${tab(3)} ${eventsRejected}`);
-        const traceRejected = eventsRejected > 0 || !((await contract.tokenState()).toString() === "0");
-        if (traceRejected) {
+        const end = Number((await contract.tokenState()));
+        if (eventsRejected > 0 || end != 0) {
+          logDebug(`${tab(3)} ✅ Trace rejected as ${eventsRejected} events rejected or end event (state = ${end}) not reached`);
           rejectedTraces++;
+        } else {
+          logDebug(`${tab(3)} ❌ Trace not rejected! (${eventsRejected} events rejected, state = ${end}`);
         }
 
         // Print non-conforming trace report
@@ -329,8 +359,8 @@ export class TraceReplayer {
     const summaryTable = results.map(r => {
       const tp = r.true_positives;
       const tn = r.true_negative;
-      const fp = r.number_positives - r.true_positives;
-      const fn = r.number_negatives - r.true_negative;
+      const fn = r.number_positives - r.true_positives;
+      const fp = r.number_negatives - r.true_negative;
 
       const precision = tp + fp === 0 ? 0 : tp / (tp + fp);
       const recall = tp + fn === 0 ? 0 : tp / (tp + fn);
@@ -339,17 +369,36 @@ export class TraceReplayer {
       return {
         "📦 Process": r.process,
         "✅ True Positives": `${tp} / ${r.number_positives}`,
-        "❌ False Positives": `${fp}`,
+        "❌ False (Accept)Positives": `${fp}`,
         "✅ True Negatives": `${tn} / ${r.number_negatives}`,
-        "❌ False Negatives": `${fn}`,
+        "❌ False (Reject)Negatives": `${fn}`,
         "🎯 F1 Score": f1.toFixed(2)
       };
     });
+
+    // Calculate overall F1 score
+    const totalTP = results.reduce((sum, r) => sum + r.true_positives, 0);
+    const totalFP = results.reduce((sum, r) => sum + (r.number_positives - r.true_positives), 0);
+    const totalFN = results.reduce((sum, r) => sum + (r.number_negatives - r.true_negative), 0);
+
+    const overallPrecision = totalTP + totalFP === 0 ? 0 : totalTP / (totalTP + totalFP);
+    const overallRecall = totalTP + totalFN === 0 ? 0 : totalTP / (totalTP + totalFN);
+    const overallF1 = overallPrecision + overallRecall === 0 ? 0 : (2 * overallPrecision * overallRecall) / (overallPrecision + overallRecall);
+
+    console.log(`${tab(1)}🏆 Overall F1 Score: ${overallF1.toFixed(2)}`);
+    for (const r of results) {
+      if (r.true_positives < r.number_positives || r.true_negative < r.number_negatives) {
+        console.log(`${tab(1)}⚠️ Model "${r.process}" has false positives or false negatives.`);
+      }
+    }
 
     console.log("\n" + "=".repeat(60));
     console.log(`${tab(1)}📊 Experiment Summary ${this.test.name}`);
     console.log("=".repeat(60));
     console.table(summaryTable);
     console.log("=".repeat(60) + "\n");
+
+    // At the end, log the total number of replayed traces
+    console.log(`${tab(1)}🔢 Total traces replayed: ${totalTracesReplayed}`);
   }
 }

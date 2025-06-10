@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitud de cubrir una exclusiva"/>
+      <string key="id" value="sid-B75BD5E2-708F-4FE7-BF07-C064B732A534"/>
+      <string key="sourceRef" value="sid-B7345C48-9EFA-407B-B828-5CB90A88090F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Asignar la solicitud"/>
+      <string key="id" value="sid-2C0FE83C-2B5E-46E3-B209-3D9E0D685400"/>
+      <string key="sourceRef" value="sid-FCD5998A-E13E-4491-A8EA-F141AE6C4545"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Entregar la exclusiva"/>
+      <string key="id" value="sid-840CECE5-3871-4B5A-AB17-DCFC24707FAF"/>
+      <string key="sourceRef" value="sid-2E67E0F1-CD78-47CE-8770-B92D6A9EDFF2"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitud de cubrir una exclusiva"/>
+      <string key="id" value="sid-B75BD5E2-708F-4FE7-BF07-C064B732A534"/>
+      <string key="sourceRef" value="sid-B7345C48-9EFA-407B-B828-5CB90A88090F"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+  </trace>
+</log>

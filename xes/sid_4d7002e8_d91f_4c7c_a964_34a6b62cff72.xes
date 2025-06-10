@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-EC41FCC8-D686-462C-9493-2F2CDFA9052F"/>
+      <string key="sourceRef" value="sid-35086FAB-55D4-4E9F-90A0-33ABF6E7C155"/>
+    </event>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-B3B704F6-A4D9-4A05-AC7E-148AD86F62BA"/>
+      <string key="sourceRef" value="sid-715E95D3-1AE7-4D97-9EC4-A5CBEDEB6B04"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-EC41FCC8-D686-462C-9493-2F2CDFA9052F"/>
+      <string key="sourceRef" value="sid-35086FAB-55D4-4E9F-90A0-33ABF6E7C155"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-FF1E089C-C290-4134-BBB5-49D2DB25CCF2"/>
+      <string key="sourceRef" value="sid-BED60034-6808-440D-88F5-7DD0894DD0F1"/>
+    </event>
+  </trace>
+</log>

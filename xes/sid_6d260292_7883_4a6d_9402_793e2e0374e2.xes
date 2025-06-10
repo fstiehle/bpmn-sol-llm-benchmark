@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="T1"/>
+      <string key="id" value="sid-23AC13FC-2149-455A-B3BD-0AAE42B65E19"/>
+      <string key="sourceRef" value="sid-634FB33F-2D37-4760-B6A6-4F0EE097828C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="T2&amp;#10;"/>
+      <string key="id" value="sid-7F1513B0-C957-4B85-B9F9-B8E3A4247123"/>
+      <string key="sourceRef" value="sid-4EBEF34B-8123-4A8A-A69C-5BC1034F1D71"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-634FB33F-2D37-4760-B6A6-4F0EE097828C"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="T3"/>
+      <string key="id" value="sid-B1284174-413A-49C0-9CB0-12564D20E00F"/>
+      <string key="sourceRef" value="sid-FC0004DB-004F-45B2-835C-6B82DCC01491"/>
+    </event>
+    <event>
+      <string key="concept:name" value="T4"/>
+      <string key="id" value="sid-39C5F9D9-295C-4FA1-91CB-3AB98F3EBD94"/>
+      <string key="sourceRef" value="sid-59FE5BF8-19A8-403A-8231-856E482C97DB"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="eröffnet Konferenz und lädt Gutachter ein"/>
+      <string key="id" value="sid-B2637F90-7C26-4326-A98B-CC7716F057B5"/>
+      <string key="sourceRef" value="sid-39E26BD3-F76A-4ACA-9F63-5DD88E06A7AA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Interessen eintragen"/>
+      <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
+      <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="veröffentlicht CfP"/>
+      <string key="id" value="sid-92E7E7B5-33E5-4A91-9475-46F467DE7B9E"/>
+      <string key="sourceRef" value="sid-878382D5-3071-4FA2-AB72-8B771CD73F21"/>
+    </event>
+    <event>
+      <string key="concept:name" value="reicht Paper ein"/>
+      <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
+      <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
+    </event>
+    <event>
+      <string key="concept:name" value="teilt Paper den Gutachtern zu und fordert zur fristgerechten Abgabe auf"/>
+      <string key="id" value="sid-4219A247-23E0-4712-9F1E-F40D9B45BF28"/>
+      <string key="sourceRef" value="sid-258990C9-0FDA-4FAC-8A9F-DDB8493F8E04"/>
+    </event>
+    <event>
+      <string key="concept:name" value="begutachtet Paper und trägt Ergebnis ein"/>
+      <string key="id" value="sid-2B8EAFC8-D911-4339-8879-A880BD1D028D"/>
+      <string key="sourceRef" value="sid-DD2E9297-59F3-4874-ACA6-CBCC42D2CD8F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="entscheidet über Annahme"/>
+      <string key="id" value="sid-012F2B4A-D805-45FF-A552-E363B0211104"/>
+      <string key="sourceRef" value="sid-D2A9DEE0-0757-4E44-9586-47A304485CA0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="benachrichtigt über Annahme&#x2F;Ablehnung"/>
+      <string key="id" value="sid-44BD4E07-0F32-4C6A-94CD-C611847E6F84"/>
+      <string key="sourceRef" value="sid-F9C14F5F-F81F-4003-BE15-B025580BDA56"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="eröffnet Konferenz und lädt Gutachter ein"/>
+      <string key="id" value="sid-B2637F90-7C26-4326-A98B-CC7716F057B5"/>
+      <string key="sourceRef" value="sid-39E26BD3-F76A-4ACA-9F63-5DD88E06A7AA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="veröffentlicht CfP"/>
+      <string key="id" value="sid-92E7E7B5-33E5-4A91-9475-46F467DE7B9E"/>
+      <string key="sourceRef" value="sid-878382D5-3071-4FA2-AB72-8B771CD73F21"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Interessen eintragen"/>
+      <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
+      <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="reicht Paper ein"/>
+      <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
+      <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
+    </event>
+    <event>
+      <string key="concept:name" value="teilt Paper den Gutachtern zu und fordert zur fristgerechten Abgabe auf"/>
+      <string key="id" value="sid-4219A247-23E0-4712-9F1E-F40D9B45BF28"/>
+      <string key="sourceRef" value="sid-258990C9-0FDA-4FAC-8A9F-DDB8493F8E04"/>
+    </event>
+    <event>
+      <string key="concept:name" value="begutachtet Paper und trägt Ergebnis ein"/>
+      <string key="id" value="sid-2B8EAFC8-D911-4339-8879-A880BD1D028D"/>
+      <string key="sourceRef" value="sid-DD2E9297-59F3-4874-ACA6-CBCC42D2CD8F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="entscheidet über Annahme"/>
+      <string key="id" value="sid-012F2B4A-D805-45FF-A552-E363B0211104"/>
+      <string key="sourceRef" value="sid-D2A9DEE0-0757-4E44-9586-47A304485CA0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="benachrichtigt über Annahme&#x2F;Ablehnung"/>
+      <string key="id" value="sid-44BD4E07-0F32-4C6A-94CD-C611847E6F84"/>
+      <string key="sourceRef" value="sid-F9C14F5F-F81F-4003-BE15-B025580BDA56"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="eröffnet Konferenz und lädt Gutachter ein"/>
+      <string key="id" value="sid-B2637F90-7C26-4326-A98B-CC7716F057B5"/>
+      <string key="sourceRef" value="sid-39E26BD3-F76A-4ACA-9F63-5DD88E06A7AA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="veröffentlicht CfP"/>
+      <string key="id" value="sid-92E7E7B5-33E5-4A91-9475-46F467DE7B9E"/>
+      <string key="sourceRef" value="sid-878382D5-3071-4FA2-AB72-8B771CD73F21"/>
+    </event>
+    <event>
+      <string key="concept:name" value="reicht Paper ein"/>
+      <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
+      <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Interessen eintragen"/>
+      <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
+      <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="teilt Paper den Gutachtern zu und fordert zur fristgerechten Abgabe auf"/>
+      <string key="id" value="sid-4219A247-23E0-4712-9F1E-F40D9B45BF28"/>
+      <string key="sourceRef" value="sid-258990C9-0FDA-4FAC-8A9F-DDB8493F8E04"/>
+    </event>
+    <event>
+      <string key="concept:name" value="begutachtet Paper und trägt Ergebnis ein"/>
+      <string key="id" value="sid-2B8EAFC8-D911-4339-8879-A880BD1D028D"/>
+      <string key="sourceRef" value="sid-DD2E9297-59F3-4874-ACA6-CBCC42D2CD8F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="entscheidet über Annahme"/>
+      <string key="id" value="sid-012F2B4A-D805-45FF-A552-E363B0211104"/>
+      <string key="sourceRef" value="sid-D2A9DEE0-0757-4E44-9586-47A304485CA0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="benachrichtigt über Annahme&#x2F;Ablehnung"/>
+      <string key="id" value="sid-44BD4E07-0F32-4C6A-94CD-C611847E6F84"/>
+      <string key="sourceRef" value="sid-F9C14F5F-F81F-4003-BE15-B025580BDA56"/>
+    </event>
+  </trace>
+</log>

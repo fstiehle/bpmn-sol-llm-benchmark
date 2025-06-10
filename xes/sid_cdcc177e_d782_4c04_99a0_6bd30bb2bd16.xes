@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Envia Factura"/>
+      <string key="id" value="sid-69013E8D-631E-44AB-A030-716250ECDC26"/>
+      <string key="sourceRef" value="sid-35961B16-3C86-4C79-976E-062397B3CFD7"/>
+    </event>
+  </trace>
+</log>

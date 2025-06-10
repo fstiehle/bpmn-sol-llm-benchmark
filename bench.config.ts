@@ -17,7 +17,7 @@ export const DEBUG =
   process.env.DEBUG === "1" || process.env.DEBUG === "true";
 
 // Number of non-conforming traces to generate and replay
-export const NR_NON_CONFORMING_TRACES = 20;
+export const NR_NON_CONFORMING_TRACES = 50;
 
 // only take the first 20 process models from data
 // good for pre-testing

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="zalba klijenta"/>
+      <string key="id" value="sid-DF67452A-989F-4F33-87F8-438B6F16243B"/>
+      <string key="sourceRef" value="sid-828708F9-4DE6-4572-A8F3-7B4927183501"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje opisa problema"/>
+      <string key="id" value="sid-242FE696-0F88-42E3-B45C-C1AD2AA7AD53"/>
+      <string key="sourceRef" value="sid-3FA44564-236A-4811-A96E-9C1E46AC8186"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prijem opisa problema"/>
+      <string key="id" value="sid-34A0885C-3235-486C-B849-BF25825415F1"/>
+      <string key="sourceRef" value="sid-E730831B-FEA0-4B29-AE5B-8FE0E4771BC0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="davanje resenja"/>
+      <string key="id" value="sid-820191DB-10E2-4E1C-A79B-8DB617424AB8"/>
+      <string key="sourceRef" value="sid-AC09D8FD-B03C-4F1A-89E6-9A384EF8D950"/>
+    </event>
+    <event>
+      <string key="concept:name" value="saopstavanje resenja"/>
+      <string key="id" value="sid-96788805-59B5-4833-9AD2-282BBFEADD08"/>
+      <string key="sourceRef" value="sid-C98A8E7B-A495-4D32-BBBF-AF0F6DF49C0F"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="zalba klijenta"/>
+      <string key="id" value="sid-DF67452A-989F-4F33-87F8-438B6F16243B"/>
+      <string key="sourceRef" value="sid-828708F9-4DE6-4572-A8F3-7B4927183501"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje opisa problema"/>
+      <string key="id" value="sid-242FE696-0F88-42E3-B45C-C1AD2AA7AD53"/>
+      <string key="sourceRef" value="sid-3FA44564-236A-4811-A96E-9C1E46AC8186"/>
+    </event>
+    <event>
+      <string key="concept:name" value="saopstavanje resenja"/>
+      <string key="id" value="sid-96788805-59B5-4833-9AD2-282BBFEADD08"/>
+      <string key="sourceRef" value="sid-C98A8E7B-A495-4D32-BBBF-AF0F6DF49C0F"/>
+    </event>
+  </trace>
+</log>

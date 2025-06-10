@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Kunde wählt Buch und Format aus"/>
+      <string key="id" value="sid-74F24634-34F0-494E-A706-23BC894C0697"/>
+      <string key="sourceRef" value="sid-8AEDEE96-5249-4E6A-B98A-0B373B10B3C6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunde schickt Bestellung ab"/>
+      <string key="id" value="sid-7469A3A2-BD63-41C6-B182-0F8CEFD310F4"/>
+      <string key="sourceRef" value="sid-C492AB9F-CB75-45F5-B939-346756B8DA22"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Buch und Rechnung werden verschickt"/>
+      <string key="id" value="sid-C9FCF239-9F87-4957-84F1-B6A0D94B83D3"/>
+      <string key="sourceRef" value="sid-D7DEC763-37BC-4AE4-A0B5-E80441146243"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunde gibt Buch zurück und zahlt Rechnung"/>
+      <string key="id" value="sid-1B37E09B-E590-4C3D-BF04-A177026B321D"/>
+      <string key="sourceRef" value="sid-D0743E94-A53E-4DC5-9B27-57F0D1D913EB"/>
+    </event>
+  </trace>
+</log>

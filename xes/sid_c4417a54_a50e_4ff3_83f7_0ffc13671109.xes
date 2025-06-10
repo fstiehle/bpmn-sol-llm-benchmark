@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Apply for admission"/>
+      <string key="id" value="sid-49B69D9F-32C2-441F-A81A-CED290BF926C"/>
+      <string key="sourceRef" value="sid-81d609b5-e2a7-4fb5-a0cb-809a168a6424"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send notifications"/>
+      <string key="id" value="sid-A7A4DD1C-96DD-4B8B-BEAA-17D152E3C38C"/>
+      <string key="sourceRef" value="sid-2f359ac8-3f8e-4d31-bba7-e0ddd4ef7473"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Submit documents"/>
+      <string key="id" value="sid-2884A811-FD0D-4DD0-8CE9-FCE61D6BA0A9"/>
+      <string key="sourceRef" value="sid-3777a0b8-f770-4b2c-b84c-f7c17fee813c"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send PDF"/>
+      <string key="id" value="sid-AEF55E16-7212-4772-8B90-C229DBCA5302"/>
+      <string key="sourceRef" value="sid-88e27098-a0d7-406b-806c-cf93bf4fa896"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Post PDF and certified transcripts"/>
+      <string key="id" value="sid-29C7B435-456C-440B-A175-D431CEDA1B58"/>
+      <string key="sourceRef" value="sid-36658d4d-b1b9-40eb-8a30-84b601e180ac"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Cancel Application"/>
+      <string key="id" value="sid-2F841D2F-49A5-4996-9D1C-11AE37C3E9F7"/>
+      <string key="sourceRef" value="sid-1ab9faa6-687a-4869-84ec-f81279d890d3"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Apply for admission"/>
+      <string key="id" value="sid-49B69D9F-32C2-441F-A81A-CED290BF926C"/>
+      <string key="sourceRef" value="sid-81d609b5-e2a7-4fb5-a0cb-809a168a6424"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send notifications"/>
+      <string key="id" value="sid-A7A4DD1C-96DD-4B8B-BEAA-17D152E3C38C"/>
+      <string key="sourceRef" value="sid-2f359ac8-3f8e-4d31-bba7-e0ddd4ef7473"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Submit documents"/>
+      <string key="id" value="sid-2884A811-FD0D-4DD0-8CE9-FCE61D6BA0A9"/>
+      <string key="sourceRef" value="sid-3777a0b8-f770-4b2c-b84c-f7c17fee813c"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send PDF"/>
+      <string key="id" value="sid-AEF55E16-7212-4772-8B90-C229DBCA5302"/>
+      <string key="sourceRef" value="sid-88e27098-a0d7-406b-806c-cf93bf4fa896"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Post PDF and certified transcripts"/>
+      <string key="id" value="sid-29C7B435-456C-440B-A175-D431CEDA1B58"/>
+      <string key="sourceRef" value="sid-36658d4d-b1b9-40eb-8a30-84b601e180ac"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive PDF and certified transcripts"/>
+      <string key="id" value="sid-52A5B39F-573A-4335-BE6C-8017868EF356"/>
+      <string key="sourceRef" value="sid-9d464ce3-962f-4af4-bcd9-352eb82a595f"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Appropriate Letter"/>
+      <string key="id" value="sid-C2636CD9-CC8B-4073-9CF9-69EFEC5B3475"/>
+      <string key="sourceRef" value="sid-a2217407-ece2-41ca-8678-2e55959cd147"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Appropriate Letter"/>
+      <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
+      <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Decline offer"/>
+      <string key="id" value="sid-45926A43-910E-427C-89DF-88246692C7D0"/>
+      <string key="sourceRef" value="sid-8d56f8c3-ae58-403e-a011-6a6d056e105e"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Apply for admission"/>
+      <string key="id" value="sid-49B69D9F-32C2-441F-A81A-CED290BF926C"/>
+      <string key="sourceRef" value="sid-81d609b5-e2a7-4fb5-a0cb-809a168a6424"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send notifications"/>
+      <string key="id" value="sid-A7A4DD1C-96DD-4B8B-BEAA-17D152E3C38C"/>
+      <string key="sourceRef" value="sid-2f359ac8-3f8e-4d31-bba7-e0ddd4ef7473"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Submit documents"/>
+      <string key="id" value="sid-2884A811-FD0D-4DD0-8CE9-FCE61D6BA0A9"/>
+      <string key="sourceRef" value="sid-3777a0b8-f770-4b2c-b84c-f7c17fee813c"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send PDF"/>
+      <string key="id" value="sid-AEF55E16-7212-4772-8B90-C229DBCA5302"/>
+      <string key="sourceRef" value="sid-88e27098-a0d7-406b-806c-cf93bf4fa896"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Post PDF and certified transcripts"/>
+      <string key="id" value="sid-29C7B435-456C-440B-A175-D431CEDA1B58"/>
+      <string key="sourceRef" value="sid-36658d4d-b1b9-40eb-8a30-84b601e180ac"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive PDF and certified transcripts"/>
+      <string key="id" value="sid-52A5B39F-573A-4335-BE6C-8017868EF356"/>
+      <string key="sourceRef" value="sid-9d464ce3-962f-4af4-bcd9-352eb82a595f"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Appropriate Letter"/>
+      <string key="id" value="sid-C2636CD9-CC8B-4073-9CF9-69EFEC5B3475"/>
+      <string key="sourceRef" value="sid-a2217407-ece2-41ca-8678-2e55959cd147"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Appropriate Letter"/>
+      <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
+      <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Accept Offer"/>
+      <string key="id" value="sid-1057EE16-1EDB-4341-9611-ABF7A02F8AA0"/>
+      <string key="sourceRef" value="sid-d6c07e9b-bb71-4806-bcd6-bb325416e72f"/>
+    </event>
+  </trace>
+</log>

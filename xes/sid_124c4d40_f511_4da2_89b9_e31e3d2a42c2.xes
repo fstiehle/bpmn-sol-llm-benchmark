@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota korvaushakemus"/>
+      <string key="id" value="sid-D8555B72-6BD1-4CB3-A08C-30B797457ED0"/>
+      <string key="sourceRef" value="sid-D65C1A44-D687-4C62-BFDC-497B59249AC7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lähetä kirje"/>
+      <string key="id" value="sid-5C7DD1FE-1B2E-407E-A681-B6F3E3B52681"/>
+      <string key="sourceRef" value="sid-D9524030-AB5D-45CB-A4D3-6FE9BEA783D2"/>
+    </event>
+  </trace>
+</log>

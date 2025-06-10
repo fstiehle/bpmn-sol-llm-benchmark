@@ -1,0 +1,117 @@
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.signavio.com" xmlns:ns3="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:ns4="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns5="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="19.1.2" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-a0960762-0eb1-4f0b-9790-e5e16f281669" name="Choreography" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <ns0:message id="sid-066b3313-9e33-4ad5-94e9-d534edcb9d6b"></ns0:message>
+  <ns0:message id="sid-a772756f-e53e-4c40-930a-fe8017f5c12f"></ns0:message>
+  <ns0:message id="sid-823f62dc-7188-4556-a635-0c26ca99a322"></ns0:message>
+  <ns0:choreography id="sid_51ce2cc1_ec9c_49a8_900b_62d5dea1183a" isClosed="false" name="Choreography">
+    <ns0:participant id="P1275674669272" name="Participant 1"></ns0:participant>
+    <ns0:participant id="P1275674669273" name="Participant 2"></ns0:participant>
+    <ns0:participant id="P1275674669274" name="Participant 1"></ns0:participant>
+    <ns0:participant id="P1275674669275" name="Participant 2"></ns0:participant>
+    <ns0:messageFlow id="sid-c068ad2a-ea44-4b0b-9095-ebeeb9029a7c" messageRef="sid-066b3313-9e33-4ad5-94e9-d534edcb9d6b" sourceRef="P1275674669273" targetRef="P1275674669272"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-df57347c-4a4e-4b1b-b750-6307bf94fddb" messageRef="sid-a772756f-e53e-4c40-930a-fe8017f5c12f" sourceRef="P1275674669272" targetRef="P1275674669273"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-109cd555-772a-4185-93b0-a1a736a4c143" messageRef="sid-823f62dc-7188-4556-a635-0c26ca99a322" sourceRef="P1275674669275" targetRef="P1275674669274"></ns0:messageFlow>
+    <ns0:startEvent id="StartEvent_StartEvent" name="StartEvent">
+      <ns0:outgoing>SequenceFlow_a</ns0:outgoing>
+    </ns0:startEvent>
+    <ns0:choreographyTask id="ChoreographyTask_CT1" initiatingParticipantRef="P1275674669273" loopType="None" name="CT 1">
+      <ns0:incoming>SequenceFlow_a</ns0:incoming>
+      <ns0:outgoing>SequenceFlow_b</ns0:outgoing>
+      <ns0:participantRef>P1275674669272</ns0:participantRef>
+      <ns0:participantRef>P1275674669273</ns0:participantRef>
+      <ns0:messageFlowRef>sid-c068ad2a-ea44-4b0b-9095-ebeeb9029a7c</ns0:messageFlowRef>
+      <ns0:messageFlowRef>sid-df57347c-4a4e-4b1b-b750-6307bf94fddb</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="ChoreographyTask_CT2" initiatingParticipantRef="P1275674669275" loopType="None" name="CT 2">
+      <ns0:incoming>SequenceFlow_b</ns0:incoming>
+      <ns0:outgoing>SequenceFlow_c</ns0:outgoing>
+      <ns0:participantRef>P1275674669274</ns0:participantRef>
+      <ns0:participantRef>P1275674669275</ns0:participantRef>
+      <ns0:messageFlowRef>sid-109cd555-772a-4185-93b0-a1a736a4c143</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:endEvent id="EndEvent_EndEvent" name="EndEvent">
+      <ns0:incoming>SequenceFlow_c</ns0:incoming>
+    </ns0:endEvent>
+    <ns0:sequenceFlow id="SequenceFlow_b" isImmediate name="b" sourceRef="ChoreographyTask_CT1" targetRef="ChoreographyTask_CT2"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="SequenceFlow_a" isImmediate name="a" sourceRef="StartEvent_StartEvent" targetRef="ChoreographyTask_CT1"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="SequenceFlow_c" isImmediate name="c" sourceRef="ChoreographyTask_CT2" targetRef="EndEvent_EndEvent"></ns0:sequenceFlow>
+  </ns0:choreography>
+  <ns3:BPMNDiagram id="sid-fc812d9b-0d4d-4517-98b4-b44f7cfbd94d" name="Choreography">
+    <ns3:BPMNPlane bpmnElement="sid_51ce2cc1_ec9c_49a8_900b_62d5dea1183a" id="sid-87974262-7c59-45c4-85b0-d643fa225d9c">
+      <ns3:BPMNShape bpmnElement="StartEvent_StartEvent" id="StartEvent_StartEvent_gui">
+        <ns4:Bounds height="32.0" width="32.0" x="73.0" y="139.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+          <ns4:Bounds height="11.0" width="53.74285888671875" x="61.128570556640625" y="171.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="ChoreographyTask_CT1" id="ChoreographyTask_CT1_gui">
+        <ns4:Bounds height="114.0" width="96.0" x="156.0" y="96.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="25.45714569091797" x="191.27142715454102" y="145.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="P1275674669272" choreographyActivityShape="ChoreographyTask_CT1_gui" id="P1275674669272_gui" isMessageVisible participantBandKind="top_non_initiating">
+        <ns4:Bounds height="20.0" width="96.0" x="156.0" y="96.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="67.11428833007812" x="170.44285583496094" y="98.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="P1275674669273" choreographyActivityShape="ChoreographyTask_CT1_gui" id="P1275674669273_gui" isMessageVisible participantBandKind="bottom_initiating">
+        <ns4:Bounds height="20.0" width="96.0" x="156.0" y="190.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="67.11428833007812" x="170.44285583496094" y="192.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="ChoreographyTask_CT2" id="ChoreographyTask_CT2_gui">
+        <ns4:Bounds height="114.0" width="96.0" x="312.0" y="96.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="25.45714569091797" x="347.271427154541" y="145.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="P1275674669274" choreographyActivityShape="ChoreographyTask_CT2_gui" id="P1275674669274_gui" isMessageVisible="false" participantBandKind="top_non_initiating">
+        <ns4:Bounds height="20.0" width="96.0" x="312.0" y="96.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="67.11428833007812" x="326.44285583496094" y="98.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="P1275674669275" choreographyActivityShape="ChoreographyTask_CT2_gui" id="P1275674669275_gui" isMessageVisible participantBandKind="bottom_initiating">
+        <ns4:Bounds height="20.0" width="96.0" x="312.0" y="190.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+          <ns4:Bounds height="12.0" width="67.11428833007812" x="326.44285583496094" y="192.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNShape bpmnElement="EndEvent_EndEvent" id="EndEvent_EndEvent_gui">
+        <ns4:Bounds height="28.0" width="28.0" x="452.0" y="139.0"></ns4:Bounds>
+        <ns3:BPMNLabel labelStyle="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+          <ns4:Bounds height="11.0" width="47.378570556640625" x="442.3107147216797" y="169.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNShape>
+      <ns3:BPMNEdge bpmnElement="SequenceFlow_b" id="SequenceFlow_b_gui">
+        <ns5:waypoint x="252.0" y="153.0"></ns5:waypoint>
+        <ns5:waypoint x="312.0" y="153.0"></ns5:waypoint>
+        <ns3:BPMNLabel labelStyle="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+          <ns4:Bounds height="12.0" width="6.94287109375" x="260.5" y="133.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNEdge>
+      <ns3:BPMNEdge bpmnElement="SequenceFlow_a" id="SequenceFlow_a_gui">
+        <ns5:waypoint x="105.0" y="154.52238805970148"></ns5:waypoint>
+        <ns5:waypoint x="156.0" y="153.0"></ns5:waypoint>
+        <ns3:BPMNLabel labelStyle="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+          <ns4:Bounds height="12.178796206203856" width="6.526725419093609" x="110.88967458628588" y="134.15305674476718"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNEdge>
+      <ns3:BPMNEdge bpmnElement="SequenceFlow_c" id="SequenceFlow_c_gui">
+        <ns5:waypoint x="408.0" y="153.0"></ns5:waypoint>
+        <ns5:waypoint x="452.0" y="153.0"></ns5:waypoint>
+        <ns3:BPMNLabel labelStyle="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+          <ns4:Bounds height="12.0" width="5.399993896484375" x="416.5" y="133.0"></ns4:Bounds>
+        </ns3:BPMNLabel>
+      </ns3:BPMNEdge>
+    </ns3:BPMNPlane>
+    <ns3:BPMNLabelStyle id="sid-06290fba-9301-4bb8-90bd-2d3c4259c738">
+      <ns4:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"></ns4:Font>
+    </ns3:BPMNLabelStyle>
+    <ns3:BPMNLabelStyle id="sid-49732152-c37c-414f-94d7-e5caef50cd7e">
+      <ns4:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"></ns4:Font>
+    </ns3:BPMNLabelStyle>
+  </ns3:BPMNDiagram>
+</ns0:definitions>

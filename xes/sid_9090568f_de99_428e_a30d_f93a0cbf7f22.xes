@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Doctor Request"/>
+      <string key="id" value="sid-36C17460-CCA2-4F5A-8A93-4DBEE5A85F56"/>
+      <string key="sourceRef" value="sid-AFA148A9-93CB-4ABF-9779-6236E5F72A18"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Handle Symptoms"/>
+      <string key="id" value="sid-72908014-86E6-4EAD-A1BB-94907B277E65"/>
+      <string key="sourceRef" value="sid-9676D9A8-026D-4E59-991C-D2E90CB06F6B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Handle Prescription"/>
+      <string key="id" value="sid-3BE82C81-1697-457F-A8AB-DB30D781B04C"/>
+      <string key="sourceRef" value="sid-4935DBB4-6577-46D0-9302-297C86F67FA4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Handle Medecine"/>
+      <string key="id" value="sid-AC8B4DA2-7170-4304-8B76-283E2C2FE236"/>
+      <string key="sourceRef" value="sid-6DE68E35-8FA3-4A97-8245-51C284ED8259"/>
+    </event>
+  </trace>
+</log>

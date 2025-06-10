@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Send Court Calendar"/>
+      <string key="id" value="sid-0438451E-B03C-4078-BD63-A35564E8C13E"/>
+      <string key="sourceRef" value="sid-3F7D4970-EE6D-4874-9901-F93EA690ABAB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request for sitting list"/>
+      <string key="id" value="sid-89B76F19-6E10-4164-A58C-02653BD1E2B0"/>
+      <string key="sourceRef" value="sid-CC6680F4-52EB-411D-8F17-C316162F6130"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Request court calendar change"/>
+      <string key="id" value="sid-9D2AFD1C-CCF8-46DA-8FB5-39920C84E558"/>
+      <string key="sourceRef" value="sid-111A47DD-8E0A-468F-88B9-CB323C4165A9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Yearly Schedule"/>
+      <string key="id" value="sid-A65185D7-046D-49D4-98A2-5506A4ED48E2"/>
+      <string key="sourceRef" value="sid-A545F707-8FAE-4979-9341-71CF785C3E12"/>
+    </event>
+  </trace>
+</log>

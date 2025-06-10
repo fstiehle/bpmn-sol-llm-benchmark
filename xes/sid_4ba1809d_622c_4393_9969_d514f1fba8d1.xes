@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Send copies of degree&#x2F;s"/>
+      <string key="id" value="sid-A0E4EED6-258A-49F1-96A3-D14E622529C3"/>
+      <string key="sourceRef" value="sid-5C1C6FAB-31DB-4D01-B4F2-E1F4959D945A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Authenticate degree&#x2F;s"/>
+      <string key="id" value="sid-3280CB09-C0B9-40B8-A144-841FA86E6D28"/>
+      <string key="sourceRef" value="sid-3242A2CD-0269-4497-8E6C-B7B383D19FC4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Assess standardised degree equivalence"/>
+      <string key="id" value="sid-14012455-34FC-42EA-94C0-E76C3190C954"/>
+      <string key="sourceRef" value="sid-F7852231-2E7B-4D28-BCBA-291E43D08F09"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pay accreditation fees"/>
+      <string key="id" value="sid-A8A2F300-7398-4194-8D05-CCAF13F5FB7D"/>
+      <string key="sourceRef" value="sid-2B64BD0E-D847-40A1-9F42-96D2B086E2EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notify transaction"/>
+      <string key="id" value="sid-4C7BCA14-078C-4B2C-9733-D9CD47106CCC"/>
+      <string key="sourceRef" value="sid-3DFB5DFD-5792-4B93-AB5B-7EC4E90E21F2"/>
+    </event>
+  </trace>
+</log>

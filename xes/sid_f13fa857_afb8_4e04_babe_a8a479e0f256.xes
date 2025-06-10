@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="request of examination"/>
+      <string key="id" value="sid-A46D9284-40E7-4012-B3FB-65A1F51DD93F"/>
+      <string key="sourceRef" value="sid-64408CBB-3884-4C64-BED3-D84915AADE4B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="appointment assignment"/>
+      <string key="id" value="sid-C402D32C-1FD8-43C2-B047-5449BD475476"/>
+      <string key="sourceRef" value="sid-C2571B41-0179-4792-920B-AE00FBF4147D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="date selection"/>
+      <string key="id" value="sid-2CA23235-0715-47A4-A817-58AEC43CC544"/>
+      <string key="sourceRef" value="sid-AC1F0D34-B28D-4471-BC88-877BD2F571F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="payment"/>
+      <string key="id" value="sid-601B8AB5-2607-4284-ADDB-9EAD7C71BF95"/>
+      <string key="sourceRef" value="sid-DFF189DA-68C7-415D-BFAA-90974D40E0AB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="confirm payment"/>
+      <string key="id" value="sid-56582E84-07CA-4583-A2E5-5656AB684522"/>
+      <string key="sourceRef" value="sid-F0C3D88B-AD7C-49CC-B09A-BF4B592CA585"/>
+    </event>
+    <event>
+      <string key="concept:name" value="confirmation of&amp;#10;reservation"/>
+      <string key="id" value="sid-7DD3728E-0A58-4434-9806-AA9ACB353F77"/>
+      <string key="sourceRef" value="sid-6025B2DD-D5A2-499D-B132-67F7782610B5"/>
+    </event>
+  </trace>
+</log>

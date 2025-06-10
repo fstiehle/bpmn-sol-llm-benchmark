@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Soitto ravintolaan&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-E4BF5698-26B0-4E53-9134-68F4641D06BE"/>
+      <string key="sourceRef" value="sid-A513D6D9-9D40-4EB6-9717-3E4E79DA4D16"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Merkitse varaus&amp;#10;"/>
+      <string key="id" value="sid-E4C327C5-07CC-4A04-9106-8212468451FB"/>
+      <string key="sourceRef" value="sid-B38F6589-A9B9-438B-81F3-3BD22A5A36E7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Asiakas saapuu ravintolaan&amp;#10;"/>
+      <string key="id" value="sid-13BFFF3F-179A-4144-90F1-7A96B24639B9"/>
+      <string key="sourceRef" value="sid-83509391-E424-48FC-93F5-90D5B4982F7B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Tilaus&amp;#10;"/>
+      <string key="id" value="sid-32FA6611-B7ED-4132-ACCA-8EDED99E85B9"/>
+      <string key="sourceRef" value="sid-9EE82549-90AE-412B-8BF6-70564C1DA9D2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ruokailu&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-75A7D705-28CA-46DE-AC88-687810E8BEC3"/>
+      <string key="sourceRef" value="sid-C2615287-5DF7-4EE8-BDAF-7FB52F431833"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lasku&amp;#10;"/>
+      <string key="id" value="sid-4BB8EBFD-FE07-4324-8F91-9D5FDC116C98"/>
+      <string key="sourceRef" value="sid-79D9E8AC-7CF8-41F7-BD6B-EAFC37890FAE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Asiakas on maksanut laskun&amp;#10;"/>
+      <string key="id" value="sid-7788CFE4-B6C6-4A0C-B971-D820C58A6533"/>
+      <string key="sourceRef" value="sid-C36E0751-1456-44EF-9271-DD6505A87685"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Soitto ravintolaan&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-E4BF5698-26B0-4E53-9134-68F4641D06BE"/>
+      <string key="sourceRef" value="sid-A513D6D9-9D40-4EB6-9717-3E4E79DA4D16"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+  </trace>
+</log>

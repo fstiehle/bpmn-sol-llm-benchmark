@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Korisnik ima problem"/>
+      <string key="id" value="sid-F7F3C968-49FE-4E45-9D23-88A8D6512528"/>
+      <string key="sourceRef" value="sid-8AF7A7C1-C308-4E6B-91D9-BC6E413F652C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
+      <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
+      <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Konsultovanje podrške I nivoa"/>
+      <string key="id" value="sid-43D5C23B-4BAF-4D90-A088-FECE19108670"/>
+      <string key="sourceRef" value="sid-62EEBFD6-19FE-4431-85DF-E299F14DD044"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Konsultovanje podrške II nivoa"/>
+      <string key="id" value="sid-968CBB3E-23E7-4AC0-87A5-75DA650EE511"/>
+      <string key="sourceRef" value="sid-5EA6EF0F-23D2-47A6-BCCF-EA1C684F168D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema podršci I nivoa"/>
+      <string key="id" value="sid-8AC8B7C6-BE9D-4CD0-B309-0D83C70F7C21"/>
+      <string key="sourceRef" value="sid-F46F841C-6116-45E1-AA27-68B82821E7D9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema operateru"/>
+      <string key="id" value="sid-DECE56B3-AD26-4313-9744-49DF2A6C6A9F"/>
+      <string key="sourceRef" value="sid-A94C12ED-2FA9-4AA4-9B3A-1C3937AF9384"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>
+      <string key="id" value="sid-31D3A0CF-717F-4EF7-9B47-774CB8A8215D"/>
+      <string key="sourceRef" value="sid-AFF98A98-EFE6-4D2B-AEA1-440C8B8E4EFB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Korisnik ima problem"/>
+      <string key="id" value="sid-F7F3C968-49FE-4E45-9D23-88A8D6512528"/>
+      <string key="sourceRef" value="sid-8AF7A7C1-C308-4E6B-91D9-BC6E413F652C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
+      <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
+      <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>
+      <string key="id" value="sid-31D3A0CF-717F-4EF7-9B47-774CB8A8215D"/>
+      <string key="sourceRef" value="sid-AFF98A98-EFE6-4D2B-AEA1-440C8B8E4EFB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Korisnik ima problem"/>
+      <string key="id" value="sid-F7F3C968-49FE-4E45-9D23-88A8D6512528"/>
+      <string key="sourceRef" value="sid-8AF7A7C1-C308-4E6B-91D9-BC6E413F652C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
+      <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
+      <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Konsultovanje podrške I nivoa"/>
+      <string key="id" value="sid-43D5C23B-4BAF-4D90-A088-FECE19108670"/>
+      <string key="sourceRef" value="sid-62EEBFD6-19FE-4431-85DF-E299F14DD044"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema operateru"/>
+      <string key="id" value="sid-DECE56B3-AD26-4313-9744-49DF2A6C6A9F"/>
+      <string key="sourceRef" value="sid-A94C12ED-2FA9-4AA4-9B3A-1C3937AF9384"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>
+      <string key="id" value="sid-31D3A0CF-717F-4EF7-9B47-774CB8A8215D"/>
+      <string key="sourceRef" value="sid-AFF98A98-EFE6-4D2B-AEA1-440C8B8E4EFB"/>
+    </event>
+  </trace>
+</log>

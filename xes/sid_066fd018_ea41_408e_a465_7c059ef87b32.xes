@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Einbuchung Forderungen &#x2F; Erlöse"/>
+      <string key="id" value="sid-FBDE4BCA-F588-46B2-B001-A48909222AA7"/>
+      <string key="sourceRef" value="sid-B3945ADB-89C9-499C-B12D-BCBB7136F421"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Erstellen der Datei für die Mieteneinzüge"/>
+      <string key="id" value="sid-37914B55-2E85-4414-8704-95AAA587D253"/>
+      <string key="sourceRef" value="sid-ABFF7216-E9BE-4FA7-AFB7-5387195D31B0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Weiterleitung des Datenträgers an Bank"/>
+      <string key="id" value="sid-0CC207B6-4489-4AFA-B574-48D8551F0614"/>
+      <string key="sourceRef" value="sid-4A7F37E4-9306-4601-B8CC-4FCAE698AEDA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Abbuchungen der Mieten"/>
+      <string key="id" value="sid-7BDBA21B-53A9-4ADC-9D65-A596298ECBA8"/>
+      <string key="sourceRef" value="sid-E3024F85-F72E-4AB3-8312-4C6FAEBF7B27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungseingang"/>
+      <string key="id" value="sid-39618A3C-58A6-44AC-9142-66016323280F"/>
+      <string key="sourceRef" value="sid-179BA752-F932-4F9C-BF71-A3F286921344"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ausbuchen der Forderung"/>
+      <string key="id" value="sid-C7C013AB-E8A8-46E7-8835-19E028888F5B"/>
+      <string key="sourceRef" value="sid-418525D0-D9C1-4B84-AF6A-A534F22666D8"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einbuchung Forderungen &#x2F; Erlöse"/>
+      <string key="id" value="sid-FBDE4BCA-F588-46B2-B001-A48909222AA7"/>
+      <string key="sourceRef" value="sid-B3945ADB-89C9-499C-B12D-BCBB7136F421"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Erstellen der Datei für die Mieteneinzüge"/>
+      <string key="id" value="sid-37914B55-2E85-4414-8704-95AAA587D253"/>
+      <string key="sourceRef" value="sid-ABFF7216-E9BE-4FA7-AFB7-5387195D31B0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Weiterleitung des Datenträgers an Bank"/>
+      <string key="id" value="sid-0CC207B6-4489-4AFA-B574-48D8551F0614"/>
+      <string key="sourceRef" value="sid-4A7F37E4-9306-4601-B8CC-4FCAE698AEDA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Abbuchungen der Mieten"/>
+      <string key="id" value="sid-7BDBA21B-53A9-4ADC-9D65-A596298ECBA8"/>
+      <string key="sourceRef" value="sid-E3024F85-F72E-4AB3-8312-4C6FAEBF7B27"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rückbuchung Bank"/>
+      <string key="id" value="sid-BEE7DB4D-D839-41F6-8AE3-201B0F3C19C6"/>
+      <string key="sourceRef" value="sid-05422DA4-DFD4-43C5-85FB-692E343ECB9C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Versand Zahlschein"/>
+      <string key="id" value="sid-67E70492-5F82-4F91-84FF-139376BD187D"/>
+      <string key="sourceRef" value="sid-B84354B3-9E95-4373-B812-4A9059659984"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+  </trace>
+</log>

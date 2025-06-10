@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Show the identification&amp;#10; bar code"/>
+      <string key="id" value="sid-B0088207-16F2-4C56-AC8F-494C5DBA1D67"/>
+      <string key="sourceRef" value="sid-C7AAF2EB-D483-4C3A-A0D1-EC8EE6414ED3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prepare&amp;#10;Pacient"/>
+      <string key="id" value="sid-A6349677-B303-4D32-B0BF-F557E65B4413"/>
+      <string key="sourceRef" value="sid-881BF79D-C726-45CE-910B-0F13C94FDDFF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Measure&amp;#10;Height"/>
+      <string key="id" value="sid-8951E658-7F6E-4C78-9DFA-0759D97C0BFB"/>
+      <string key="sourceRef" value="sid-8B87E355-A6E3-46C5-A22B-1D1723F332BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Save Measure"/>
+      <string key="id" value="sid-1B5AC045-4A0A-469C-9621-4018F96D49BF"/>
+      <string key="sourceRef" value="sid-D3226239-954E-48C8-B910-EDD7B361BFED"/>
+    </event>
+  </trace>
+</log>

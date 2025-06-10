@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Make an offer"/>
+      <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
+      <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Notiffy of rejection"/>
+      <string key="id" value="sid-FB98D4EA-6C0C-444C-A72F-D26AB9A063D3"/>
+      <string key="sourceRef" value="sid-74377F5E-A697-4461-AA9B-89B7E21FC41F"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make an offer"/>
+      <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
+      <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ofert acceptance"/>
+      <string key="id" value="sid-F0E86181-6E4F-42BC-9ADE-D49F0DAEB01A"/>
+      <string key="sourceRef" value="sid-F47A2A60-43AB-47C8-95DB-2AED6ED60987"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send payment"/>
+      <string key="id" value="sid-E77CA8AF-C54A-443A-AB59-A20CDC80FFDF"/>
+      <string key="sourceRef" value="sid-E3750227-B174-452A-B6A9-264DA2528329"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order Tickets"/>
+      <string key="id" value="sid-E2611CBC-6268-4CD6-BF50-87C97DA377B1"/>
+      <string key="sourceRef" value="sid-028E2AD5-6966-4DA7-9D28-AE259787191F"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Refuse payment"/>
+      <string key="id" value="sid-EA43C3B0-C88F-4343-A837-2282644D7B6B"/>
+      <string key="sourceRef" value="sid-8B1CB9B3-9698-4F25-BA37-313F6597CF00"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make an offer"/>
+      <string key="id" value="sid-BED6AF96-81D6-45A0-8342-CEF67F272812"/>
+      <string key="sourceRef" value="sid-9815551E-33D4-47DF-BB12-0F44BE83741B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ofert acceptance"/>
+      <string key="id" value="sid-F0E86181-6E4F-42BC-9ADE-D49F0DAEB01A"/>
+      <string key="sourceRef" value="sid-F47A2A60-43AB-47C8-95DB-2AED6ED60987"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send payment"/>
+      <string key="id" value="sid-E77CA8AF-C54A-443A-AB59-A20CDC80FFDF"/>
+      <string key="sourceRef" value="sid-E3750227-B174-452A-B6A9-264DA2528329"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order Tickets"/>
+      <string key="id" value="sid-E2611CBC-6268-4CD6-BF50-87C97DA377B1"/>
+      <string key="sourceRef" value="sid-028E2AD5-6966-4DA7-9D28-AE259787191F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-4C0438B6-A91D-453A-9333-C4DAA34EB409"/>
+      <string key="sourceRef" value="sid-18E72038-EE21-4A4E-9F06-A8175EC14E38"/>
+    </event>
+  </trace>
+</log>

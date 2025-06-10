@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Anfrage&amp;#10; bearbeiten"/>
+      <string key="id" value="sid-657E8C44-DCCB-449F-8033-52706A33F26A"/>
+      <string key="sourceRef" value="sid-2C0C0735-7590-4FA8-B3EE-6994C162A95C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot&amp;#10; erstellen"/>
+      <string key="id" value="sid-40E67A20-F07D-4E8C-AE12-1F4FB27B91EF"/>
+      <string key="sourceRef" value="sid-57A8F85A-5367-47F7-8E01-DE298FDFB314"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Buchung &amp;#10;durchführen"/>
+      <string key="id" value="sid-BBCE9BD4-F5A9-4F01-8166-1DCD3EBE69D4"/>
+      <string key="sourceRef" value="sid-B86AEAC3-B635-4DDC-808D-3B7C1355E18F"/>
+    </event>
+  </trace>
+</log>

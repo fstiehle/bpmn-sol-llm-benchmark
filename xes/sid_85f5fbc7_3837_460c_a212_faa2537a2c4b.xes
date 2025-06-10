@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="prijavljivanje problema"/>
+      <string key="id" value="sid-62144C98-56C7-4D51-9930-6185865EF924"/>
+      <string key="sourceRef" value="sid-51320B84-5D0B-4A27-BD68-1EF6AC6C68C1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-FE51912A-8320-4763-8606-42CC18A7C84A"/>
+      <string key="sourceRef" value="sid-2514E99F-3643-4E64-BC1C-49534275891B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prosledjivane problema podrsci"/>
+      <string key="id" value="sid-AE5730CF-5C7A-45D9-AD7D-182C260E2A2F"/>
+      <string key="sourceRef" value="sid-5647E949-C829-4F14-9C5E-CC5E00CB077D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dostavljanje resenja problema"/>
+      <string key="id" value="sid-4F9692D5-AF9B-4D10-8BB6-2950149B3559"/>
+      <string key="sourceRef" value="sid-5D78B48A-38D6-4BD2-98A4-C769B29BF281"/>
+    </event>
+    <event>
+      <string key="concept:name" value="davanje instrukcija za resavanje problema"/>
+      <string key="id" value="sid-C2D72027-CC9C-43BA-9465-97AE1B827EAC"/>
+      <string key="sourceRef" value="sid-6BAFDC95-3E7E-4943-96A5-A185C641002D"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="prijavljivanje problema"/>
+      <string key="id" value="sid-62144C98-56C7-4D51-9930-6185865EF924"/>
+      <string key="sourceRef" value="sid-51320B84-5D0B-4A27-BD68-1EF6AC6C68C1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-FE51912A-8320-4763-8606-42CC18A7C84A"/>
+      <string key="sourceRef" value="sid-2514E99F-3643-4E64-BC1C-49534275891B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="davanje instrukcija za resavanje problema"/>
+      <string key="id" value="sid-C2D72027-CC9C-43BA-9465-97AE1B827EAC"/>
+      <string key="sourceRef" value="sid-6BAFDC95-3E7E-4943-96A5-A185C641002D"/>
+    </event>
+  </trace>
+</log>

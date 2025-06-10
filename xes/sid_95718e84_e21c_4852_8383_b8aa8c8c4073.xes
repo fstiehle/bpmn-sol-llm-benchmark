@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="View Application Status"/>
+      <string key="id" value="sid-944D7F52-9327-43FF-A082-7C5F472722FA"/>
+      <string key="sourceRef" value="sid-2550FB2A-BD68-428E-8BBD-3048AC5EBA94"/>
+    </event>
+  </trace>
+</log>

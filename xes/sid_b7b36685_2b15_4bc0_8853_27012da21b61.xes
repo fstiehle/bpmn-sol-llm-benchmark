@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give normal access"/>
+      <string key="id" value="sid-BFF58372-6AE9-4CC7-BDBF-E88E97950CF8"/>
+      <string key="sourceRef" value="sid-84209E6A-69AA-45DC-9B20-6C76D13CD63B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="search car"/>
+      <string key="id" value="sid-7E766AF1-82D6-492C-9F5F-82E19BEA2E4B"/>
+      <string key="sourceRef" value="sid-6C9684B0-4316-4F44-BFD2-79D8704E724C"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give staff access"/>
+      <string key="id" value="sid-929FD353-B390-4631-820A-150410142285"/>
+      <string key="sourceRef" value="sid-D3BFD648-61AC-4396-A57B-CAD88E790BEC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check return car list"/>
+      <string key="id" value="sid-055127F3-55F4-4144-AF6E-B9C6016A0441"/>
+      <string key="sourceRef" value="sid-0E7A6211-D62D-4B6E-B847-7EDCE448D7AD"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give staff access"/>
+      <string key="id" value="sid-929FD353-B390-4631-820A-150410142285"/>
+      <string key="sourceRef" value="sid-D3BFD648-61AC-4396-A57B-CAD88E790BEC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="manage users"/>
+      <string key="id" value="sid-2ECC1D34-1057-46B0-BF25-ABAAD55AFEFF"/>
+      <string key="sourceRef" value="sid-8781B23E-0D30-4815-8C63-CD1930850033"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give normal access"/>
+      <string key="id" value="sid-BFF58372-6AE9-4CC7-BDBF-E88E97950CF8"/>
+      <string key="sourceRef" value="sid-84209E6A-69AA-45DC-9B20-6C76D13CD63B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="edit personal information"/>
+      <string key="id" value="sid-EF340667-79A9-4721-856B-A58CFCAC23E4"/>
+      <string key="sourceRef" value="sid-B6EE646C-4A38-421A-87AC-5DECB3417E19"/>
+    </event>
+    <event>
+      <string key="concept:name" value="notify changes are updated"/>
+      <string key="id" value="sid-08B2CDC1-2AA7-4DB6-B1D3-10AF5751E52A"/>
+      <string key="sourceRef" value="sid-509A35D2-3FCD-4544-92FD-24C699B950B7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give normal access"/>
+      <string key="id" value="sid-BFF58372-6AE9-4CC7-BDBF-E88E97950CF8"/>
+      <string key="sourceRef" value="sid-84209E6A-69AA-45DC-9B20-6C76D13CD63B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="access FAQ page"/>
+      <string key="id" value="sid-F1FBD02F-9DDE-417E-B558-E15BD64B2ED6"/>
+      <string key="sourceRef" value="sid-2EFA3F07-EBD1-417E-A6E0-D51BC49F7B6D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="access contact us page and send issues"/>
+      <string key="id" value="sid-A399A183-B390-4276-94F5-128CA0FD2733"/>
+      <string key="sourceRef" value="sid-C8E91064-09E4-4A75-A466-DCC30DE9ADF5"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give staff access"/>
+      <string key="id" value="sid-929FD353-B390-4631-820A-150410142285"/>
+      <string key="sourceRef" value="sid-D3BFD648-61AC-4396-A57B-CAD88E790BEC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="manage employees"/>
+      <string key="id" value="sid-988EA705-FAE3-41B4-B9DF-E71DA7A1E317"/>
+      <string key="sourceRef" value="sid-2B927FD7-AAAA-4028-BE93-2EC872C27B89"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="interacted by homepage"/>
+      <string key="id" value="sid-F70D8A73-10FB-44F9-9331-D9AB914BFE28"/>
+      <string key="sourceRef" value="sid-669324DD-C28A-478C-80D5-13DB8EAF4621"/>
+    </event>
+    <event>
+      <string key="concept:name" value="login"/>
+      <string key="id" value="sid-F8BB6627-A6C1-4E25-BDF7-D7A978D2B2D5"/>
+      <string key="sourceRef" value="sid-8ACA665D-36EC-4640-960F-87BF994E6B93"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="give normal access"/>
+      <string key="id" value="sid-BFF58372-6AE9-4CC7-BDBF-E88E97950CF8"/>
+      <string key="sourceRef" value="sid-84209E6A-69AA-45DC-9B20-6C76D13CD63B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="recommend car"/>
+      <string key="id" value="sid-70E19713-D1EA-4E40-A6AA-3E0484338C20"/>
+      <string key="sourceRef" value="sid-66956D56-78DE-4139-A904-6887D85F2D53"/>
+    </event>
+  </trace>
+</log>

@@ -53,7 +53,6 @@ describe("LLM", () => {
       }
 
       processLogsToSol(test.outputFolder, solFolder, test.slug);
-
     });
   });
 });

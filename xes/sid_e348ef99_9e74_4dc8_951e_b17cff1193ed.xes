@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Kyyti tilataan"/>
+      <string key="id" value="sid-F23D032E-0E6D-4390-B797-2E82D7BF1673"/>
+      <string key="sourceRef" value="sid-3D064F54-F1FC-4396-8544-974B33374E74"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kuski hakee asiakkaan"/>
+      <string key="id" value="sid-0C4B9D5D-2CD6-4E60-A784-FECB3988BACC"/>
+      <string key="sourceRef" value="sid-140EF4BD-1FC1-4423-978F-3065B2DEC5D4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Asiakas maksaa kuskille applikaation kautta"/>
+      <string key="id" value="sid-49D5772F-39F4-4128-99B9-CDBC122764EE"/>
+      <string key="sourceRef" value="sid-27657D20-D2A8-420B-8530-34B496A5C04B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kuski arvioi asiakkaan"/>
+      <string key="id" value="sid-F2F5DEF8-FD95-4EC5-ACF0-6318E83AF3FF"/>
+      <string key="sourceRef" value="sid-E51F380E-3C64-42CE-A80D-B02E9D05ADA4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Asiakas arvioi kuskin"/>
+      <string key="id" value="sid-B99ED5E3-A2AA-493B-818B-5116FD5BE5F6"/>
+      <string key="sourceRef" value="sid-7CAF1344-FC3C-4CE9-9FAC-E272FCCFD762"/>
+    </event>
+  </trace>
+</log>

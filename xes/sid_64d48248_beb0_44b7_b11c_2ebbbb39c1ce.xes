@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Zahlungsmittel&amp;#10;prüfen"/>
+      <string key="id" value="sid-CE6FC14A-131E-46BC-BC22-EB91FC9B3DDC"/>
+      <string key="sourceRef" value="sid-0314F99C-2568-43DA-84B3-E4C6DD51C068"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungsmittel&amp;#10;erhalten"/>
+      <string key="id" value="sid-F2D422F5-0187-4B47-AF88-7E50BA466EE1"/>
+      <string key="sourceRef" value="sid-B4DAB341-FFA7-47AB-BD38-6B5A85B8D7B6"/>
+    </event>
+  </trace>
+</log>

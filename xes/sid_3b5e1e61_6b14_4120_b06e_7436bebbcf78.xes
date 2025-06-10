@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="PREPARE ORDER"/>
+      <string key="id" value="sid-C0851B6B-257A-46E5-A1D0-866B5BC469AD"/>
+      <string key="sourceRef" value="sid-80B5518A-4B52-4056-86DD-0E180B090D99"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="TAKE ORDER"/>
+      <string key="id" value="sid-94F70433-8341-46E2-BDF2-4618E585F5BF"/>
+      <string key="sourceRef" value="sid-FD5BFF89-81BD-4AE4-A991-C3F22EBB68FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-BEA42E4E-8B88-4FFE-BB71-CE36365C328F"/>
+      <string key="sourceRef" value="sid-947D8B92-C839-483D-9B6A-AF47FF35DEDD"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-8C7F3BAF-E55F-4577-B58F-EAEC69892048"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-9220F603-B5F1-4BEB-99A8-BF4786E5CD37"/>
+      <string key="sourceRef" value="sid-DD7EBFAD-7BD9-404D-AC7C-67ECF745866A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ASSESS PREPARED ORDER"/>
+      <string key="id" value="sid-2F7E36B3-59B6-4382-8BD1-91129722202E"/>
+      <string key="sourceRef" value="sid-6DCC58A4-7ECC-41AA-AA4E-14DACED9CAF2"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="SERVE ORDER"/>
+      <string key="id" value="sid-C379B774-4A75-45FB-90E2-803FCA4E186B"/>
+      <string key="sourceRef" value="sid-01E31467-CAE1-407A-90AF-6B4810FA15F2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="RECEIVE ORDER"/>
+      <string key="id" value="sid-3A161C1A-E002-42B1-8D32-B26788B81967"/>
+      <string key="sourceRef" value="sid-046FC010-D862-44CC-AEF5-563DC94643A7"/>
+    </event>
+  </trace>
+</log>

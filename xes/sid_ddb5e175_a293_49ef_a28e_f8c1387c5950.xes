@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Track Invoice"/>
+      <string key="id" value="sid-DE929B07-533B-4044-87BD-A359469AF3F6"/>
+      <string key="sourceRef" value="sid-038CA91C-BC0A-4D71-8BA4-24E1B3B62F44"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Track Invoice"/>
+      <string key="id" value="sid-1B29978D-2685-4B20-8D13-16B19F328B8B"/>
+      <string key="sourceRef" value="sid-8361FF99-8901-4C2C-8409-49F2289755A7"/>
+    </event>
+  </trace>
+</log>

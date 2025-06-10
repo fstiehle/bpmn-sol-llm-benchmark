@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Saopstava problem"/>
+      <string key="id" value="sid-DCB7D1E5-2848-4BC5-8D21-94BB7871D1E1"/>
+      <string key="sourceRef" value="sid-BECE52B0-501E-4B49-A033-5944D48E5E40"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi detaljniji opis"/>
+      <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
+      <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi pomoc"/>
+      <string key="id" value="sid-1BDA005F-A28B-4B00-A678-19F7E437856F"/>
+      <string key="sourceRef" value="sid-C304CC93-F6EE-4EF6-B9B4-1A914D13EF96"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje problema"/>
+      <string key="id" value="sid-8804897F-A178-4B50-B16F-90AD4B890E31"/>
+      <string key="sourceRef" value="sid-5B1DE9A6-ACF2-4EBD-BF19-7FCE429189AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje"/>
+      <string key="id" value="sid-E38463B9-D82B-4189-851B-1B9A3309F090"/>
+      <string key="sourceRef" value="sid-35AA86D9-B023-4DA1-9342-E22127AC041B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Saopstava problem"/>
+      <string key="id" value="sid-DCB7D1E5-2848-4BC5-8D21-94BB7871D1E1"/>
+      <string key="sourceRef" value="sid-BECE52B0-501E-4B49-A033-5944D48E5E40"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi detaljniji opis"/>
+      <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
+      <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi pomoc"/>
+      <string key="id" value="sid-1BDA005F-A28B-4B00-A678-19F7E437856F"/>
+      <string key="sourceRef" value="sid-C304CC93-F6EE-4EF6-B9B4-1A914D13EF96"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi pomoc"/>
+      <string key="id" value="sid-3DC05355-F0EE-4522-9151-7257C96DC99E"/>
+      <string key="sourceRef" value="sid-D2C15417-148B-4CCE-AC52-C41D8236C0A2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava problem"/>
+      <string key="id" value="sid-906F5EDC-1877-44ED-9FD9-9FF3FE91B340"/>
+      <string key="sourceRef" value="sid-FF22BD24-1A44-44B6-BDDE-830D23651DD4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje problema"/>
+      <string key="id" value="sid-8804897F-A178-4B50-B16F-90AD4B890E31"/>
+      <string key="sourceRef" value="sid-5B1DE9A6-ACF2-4EBD-BF19-7FCE429189AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje"/>
+      <string key="id" value="sid-E38463B9-D82B-4189-851B-1B9A3309F090"/>
+      <string key="sourceRef" value="sid-35AA86D9-B023-4DA1-9342-E22127AC041B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Saopstava problem"/>
+      <string key="id" value="sid-DCB7D1E5-2848-4BC5-8D21-94BB7871D1E1"/>
+      <string key="sourceRef" value="sid-BECE52B0-501E-4B49-A033-5944D48E5E40"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazi detaljniji opis"/>
+      <string key="id" value="sid-F3A7F146-41B5-43A4-9C8A-416ED5B41612"/>
+      <string key="sourceRef" value="sid-39462386-B6D5-4BC9-87C7-E8336DCC8791"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopstava resenje"/>
+      <string key="id" value="sid-E38463B9-D82B-4189-851B-1B9A3309F090"/>
+      <string key="sourceRef" value="sid-35AA86D9-B023-4DA1-9342-E22127AC041B"/>
+    </event>
+  </trace>
+</log>

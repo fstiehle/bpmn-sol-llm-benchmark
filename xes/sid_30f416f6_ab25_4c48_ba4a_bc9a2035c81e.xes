@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Übergabe des zu verschickenden Pakets"/>
+      <string key="id" value="sid-7B5BC122-0869-4F8D-9C8A-53BB9CDD2897"/>
+      <string key="sourceRef" value="sid-14B3CAE6-C70B-41DA-949F-846F1C923382"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Einscannen bzw. Übergabe der Paketinformationen"/>
+      <string key="id" value="sid-D8B9D339-1F22-48E5-856A-C07C436E4B4B"/>
+      <string key="sourceRef" value="sid-AD0F93EA-EDBC-4952-B243-A5DA8F26D948"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informationen über die korrekte Versand-Einordnung"/>
+      <string key="id" value="sid-BB314A22-3938-40EC-9374-8B888186124E"/>
+      <string key="sourceRef" value="sid-9B18E725-69F4-4594-833C-F91280265324"/>
+    </event>
+    <event>
+      <string key="concept:name" value="überprüft die Einordnung auf Plausibilität"/>
+      <string key="id" value="sid-1FB7CCE0-5770-41EE-AB7F-1948F6A319F4"/>
+      <string key="sourceRef" value="sid-F4948C07-585B-452B-9691-8988946AAF27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Paket wird dem Zusteller zugeordnet"/>
+      <string key="id" value="sid-6277474B-744C-42D4-A8DC-30790ECDF45F"/>
+      <string key="sourceRef" value="sid-2047B0E6-9F6F-47B3-9CCC-47EA75FA99B5"/>
+    </event>
+  </trace>
+</log>

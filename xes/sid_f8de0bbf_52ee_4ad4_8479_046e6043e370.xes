@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Make Travel Offer"/>
+      <string key="id" value="sid-B7B50A73-55F4-49A9-A11D-02162942186E"/>
+      <string key="sourceRef" value="sid-3780DEB7-56B9-4956-B574-7990724116F7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make Travel Offer"/>
+      <string key="id" value="sid-B7B50A73-55F4-49A9-A11D-02162942186E"/>
+      <string key="sourceRef" value="sid-3780DEB7-56B9-4956-B574-7990724116F7"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Book Travel"/>
+      <string key="id" value="sid-79FF0FDF-CF7B-4E36-B992-8C2551B9F6D6"/>
+      <string key="sourceRef" value="sid-2086AC8E-7195-49A4-BB74-35B8D351DB7F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pay Travel"/>
+      <string key="id" value="sid-B1576925-C4E2-4F66-8EEE-5E227707FC56"/>
+      <string key="sourceRef" value="sid-CDCEFD6B-B6AC-4C15-8B28-4918D43CE8A9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Handle Payment"/>
+      <string key="id" value="sid-878AC1B7-B11E-4A46-A269-4B3A48EE17B1"/>
+      <string key="sourceRef" value="sid-F2CB5537-9FAA-432D-9A2E-F3B7DD6F23CB"/>
+    </event>
+  </trace>
+</log>

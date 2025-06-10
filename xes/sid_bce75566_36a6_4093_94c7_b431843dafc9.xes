@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Customer reports problem"/>
+      <string key="id" value="sid-E9490497-2BF8-40EF-AA19-5DD2A3814375"/>
+      <string key="sourceRef" value="sid-51B335BB-4706-4A51-ACB3-65BBF3DA18BB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Analyze Problem and tryout different solutions"/>
+      <string key="id" value="sid-D13BFCC6-850D-49B1-880B-295073279AA6"/>
+      <string key="sourceRef" value="sid-E4EE6500-1510-46F0-A9D3-E18BFB1124BB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Create Problem Note and forward"/>
+      <string key="id" value="sid-B6770AF6-5158-458A-9C9F-2DA65DBFD06C"/>
+      <string key="sourceRef" value="sid-71B10732-BF89-4447-846F-ECBBB86AC09B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Enquire Service Technicians if free"/>
+      <string key="id" value="sid-C40F07BA-68FC-46DD-BEA2-0475E97ADFA0"/>
+      <string key="sourceRef" value="sid-46684B8E-6082-4DB6-B19F-A2781C8A162E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Explain  service Technician about problem"/>
+      <string key="id" value="sid-45504FB6-1EAD-4133-B15C-967A703E8CF9"/>
+      <string key="sourceRef" value="sid-8FC2E72B-2373-4CD7-8478-4D4A03FD6F0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Solve the customer problem on-site"/>
+      <string key="id" value="sid-395A3D19-0BBB-48CE-BF05-CE0F58BF78F6"/>
+      <string key="sourceRef" value="sid-15803878-A2F6-482F-90BA-BD084C679D2C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Record time and incident report in service form"/>
+      <string key="id" value="sid-59E2CFCD-9D63-49A7-ACD4-BFC6A59E71ED"/>
+      <string key="sourceRef" value="sid-624B46B7-48DB-4C36-A376-F02B2254DF78"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Customer reports problem"/>
+      <string key="id" value="sid-E9490497-2BF8-40EF-AA19-5DD2A3814375"/>
+      <string key="sourceRef" value="sid-51B335BB-4706-4A51-ACB3-65BBF3DA18BB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Analyze Problem and tryout different solutions"/>
+      <string key="id" value="sid-D13BFCC6-850D-49B1-880B-295073279AA6"/>
+      <string key="sourceRef" value="sid-E4EE6500-1510-46F0-A9D3-E18BFB1124BB"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="End the call with a good note"/>
+      <string key="id" value="sid-C57DC0A3-EED2-48A4-A208-AB2FC780F555"/>
+      <string key="sourceRef" value="sid-EC0D5EE0-0ACA-4288-8220-6C021C3AC9B1"/>
+    </event>
+  </trace>
+</log>

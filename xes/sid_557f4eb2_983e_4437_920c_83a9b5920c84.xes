@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Wunsch Helligkeit zu ändern"/>
+      <string key="id" value="oryx_F9D8E2EA-773D-43B8-AC0E-D6944C9FBEE2"/>
+      <string key="sourceRef" value="oryx_F791B808-C96A-4287-AF4F-DB2F3888BC3D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aktuelle Helligkeit anzeigen"/>
+      <string key="id" value="oryx_9DF20607-8500-48FB-B0EF-C63BE005EA5E"/>
+      <string key="sourceRef" value="oryx_75E769B4-F765-455C-96D4-4528477D3FB7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Helligkeit ändern"/>
+      <string key="id" value="oryx_78F3CFC0-6B22-4101-9DE7-61AA524A277A"/>
+      <string key="sourceRef" value="oryx_57D6B600-753A-4227-95B2-5FCCD36746D8"/>
+    </event>
+  </trace>
+</log>

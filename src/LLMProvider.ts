@@ -22,6 +22,9 @@ export class LLMProvider {
 
   constructor() {
     this.apiKey = process.env.OPENROUTER_SC_API_KEY || "";
+    if (!this.apiKey) {
+      throw new Error("OPENROUTER_SC_API_KEY environment variable is not set. Please set it in your environment or .env file.");
+    }
     this.apiUrl = ENDPOINT;
   }
 

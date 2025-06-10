@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Anmelden in der App"/>
+      <string key="id" value="sid-255C7D85-0BDF-41BF-A5AB-FDC3145ACE42"/>
+      <string key="sourceRef" value="sid-6953F03B-5C56-4314-A6B5-89195228CBC2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anmeldung fehlgeschlagen"/>
+      <string key="id" value="sid-45E9AFFD-A781-45E8-8249-C294E338952D"/>
+      <string key="sourceRef" value="sid-6C4E1FBD-9B2E-4B6C-9061-FAEA134DF101"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Anmelden in der App"/>
+      <string key="id" value="sid-255C7D85-0BDF-41BF-A5AB-FDC3145ACE42"/>
+      <string key="sourceRef" value="sid-6953F03B-5C56-4314-A6B5-89195228CBC2"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anmeldung erfolgreich"/>
+      <string key="id" value="sid-76CF605B-88C2-46BE-8DB3-549A7296C8CE"/>
+      <string key="sourceRef" value="sid-4D0B7965-6E6F-4B85-A8EF-00F66DB07859"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Support-Kontakt suchen"/>
+      <string key="id" value="sid-F3211469-475B-4D44-B145-C8EF46DA9A8A"/>
+      <string key="sourceRef" value="sid-7BCFF96B-6F71-4FA1-ABB5-EED2591A39A4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Support anrufen und Schaden melden&amp;#10;"/>
+      <string key="id" value="sid-0FC3E8D1-B5FC-4BC5-854E-152C01FD4981"/>
+      <string key="sourceRef" value="sid-F0B996F3-D751-455C-83EC-17714C8CA3CB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Schaden weiterleiten"/>
+      <string key="id" value="sid-882839CF-964B-41C9-BE45-7D9AC768F2A3"/>
+      <string key="sourceRef" value="sid-B51379CB-E22F-42B1-B133-87B37FC23277"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fahrrad-Standort suchen"/>
+      <string key="id" value="sid-D18D1659-6F68-4FF0-ABF4-8D21BA265F5E"/>
+      <string key="sourceRef" value="sid-3EE1E29E-99EC-48F7-8DDB-486C7DF461EE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fahrrad in der App sperren"/>
+      <string key="id" value="sid-1E11A6C8-0BFD-4A87-BEE5-C1A0CD1B3511"/>
+      <string key="sourceRef" value="sid-154AD67C-A629-474F-BDD0-51F9BE55339D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Schaden reparieren"/>
+      <string key="id" value="sid-BDDE6538-49E6-4DB2-9687-ED99B467FC25"/>
+      <string key="sourceRef" value="sid-CBA56D29-1D79-4062-A795-A391204239F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Fahrrad freistellen"/>
+      <string key="id" value="sid-CFAC808C-29D8-483A-8C38-C3A475F76D99"/>
+      <string key="sourceRef" value="sid-E030054C-C726-4387-AFBD-68AA62B04E23"/>
+    </event>
+  </trace>
+</log>

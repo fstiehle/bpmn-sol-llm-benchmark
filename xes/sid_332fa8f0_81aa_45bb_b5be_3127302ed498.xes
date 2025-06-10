@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Pre-return management"/>
+      <string key="id" value="sid-8D954E41-D56D-47E4-B2B9-ED9E1F703FB9"/>
+      <string key="sourceRef" value="sid-423CE0C5-DA57-488E-989C-160C4F3CE0DC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inbound parcel provisioning"/>
+      <string key="id" value="sid-6E9DC37A-8C06-4EE7-9143-716B61712655"/>
+      <string key="sourceRef" value="sid-1D9B3976-F5BB-461E-BB43-B6ED0740462E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Data analysis"/>
+      <string key="id" value="sid-2FF1B585-29CC-4D04-80BD-161AADC1A3E5"/>
+      <string key="sourceRef" value="sid-4546BD46-7BDA-4988-A24A-7DF9CD29F725"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Process provisioning"/>
+      <string key="id" value="sid-B12E935A-27E2-4F4E-AF8B-F828D13B509C"/>
+      <string key="sourceRef" value="sid-6C6DAA4A-E8F1-4097-A0C9-53A6E1EE0A78"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Return provisioning"/>
+      <string key="id" value="sid-351B7611-EF5D-4A3C-9EA0-0B6F5DBF0F5F"/>
+      <string key="sourceRef" value="sid-59274B68-BF3F-47FE-8946-B3F554FA7746"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inventory provisioning"/>
+      <string key="id" value="sid-4FA3D8A3-1D97-4623-9071-E5B4E7DC50B8"/>
+      <string key="sourceRef" value="sid-6AAEE364-9864-41F4-B925-2E6635539636"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order provisioning"/>
+      <string key="id" value="sid-10D63CD2-32FF-4AD1-966E-5C294D1B0BBB"/>
+      <string key="sourceRef" value="sid-92B1FD7F-C5F5-493C-9919-6FC66EFF9410"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Outbound transport provisioning"/>
+      <string key="id" value="sid-A11B5D52-BC80-4E22-8EF8-D1AEDBC246A4"/>
+      <string key="sourceRef" value="sid-6D54FF4E-F6EC-4350-B628-B7A38777620A"/>
+    </event>
+  </trace>
+</log>

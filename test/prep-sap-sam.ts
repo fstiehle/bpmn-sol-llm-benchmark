@@ -11,7 +11,7 @@ describe('XML Files in data/raw', () => {
   const outputDataPath = path.join(__dirname, '../data/sap-sam/');
 
   // Toggle to control BPMNDiagram removal
-  const REMOVE_BPMN_VISUAL_DIAGRAM = true; // Set to false to keep diagrams
+  const REMOVE_BPMN_VISUAL_DIAGRAM = false; // Set to false to keep diagrams
 
   // Helper to detect the BPMN prefix from the parsed JSON object
   function detectPrefix(jsonObj: any): string {
@@ -298,7 +298,7 @@ describe('XML Files in data/raw', () => {
     return sim.generate("comp_", 
       new Simulation({
         unfoldSubNets: true,
-        loopProtection: false,
+        loopProtection: true,
         parseConditions: true
       }));
   });
@@ -356,6 +356,28 @@ describe('XML Files in data/raw', () => {
     const allTypes = new Set<string>();
     const allGatewayDirections = new Set<string>();
 
+    // Map each model to its original file name from data/raw, and use that as the 'original_file' in meta_data.csv, even if the file name changed in int/output.
+    const fileToOriginal: Record<string, string> = {};
+    // Build a mapping from model name to original file name in data/raw
+    {
+      const rawFiles = fs.readdirSync(rawDataPath);
+      const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: false });
+      for (const file of rawFiles) {
+        if (file.endsWith('.xml') || file.endsWith('.bpmn')) {
+          const filePath = path.join(rawDataPath, file);
+          const xmlContent = fs.readFileSync(filePath, 'utf-8');
+          const jsonObj = parser.parse(xmlContent);
+          const prefix = detectPrefix(jsonObj);
+          const definitionsKey = prefix ? `${prefix}:definitions` : 'definitions';
+          const defs = jsonObj[definitionsKey];
+          const choreographyKey = Object.keys(defs).find(k => k.endsWith(':choreography')) || Object.keys(defs).find(k => k === 'choreography');
+          if (!choreographyKey) continue;
+          const choreography = defs[choreographyKey];
+          const choreographyId = choreography['@_id'] ? choreography['@_id'].replace(/-/g, '_') : file;
+          fileToOriginal[choreographyId] = file;
+        }
+      }
+    }
     for (const file of files) {
       if (file.endsWith('.xml') || file.endsWith('.bpmn')) {
         const filePath = path.join(outputDataPath, file);
@@ -391,17 +413,19 @@ describe('XML Files in data/raw', () => {
           }
         }
         const modelName = choreographyKey && defs[choreographyKey] ? defs[choreographyKey]['@_id'] : file;
-        results.push({ model: modelName, ...typeCounts, ...gatewayDirectionCounts });
+        const modelNameUnderscore = modelName ? modelName.replace(/-/g, '_') : file;
+        const originalFile = fileToOriginal[modelNameUnderscore] || file;
+        results.push({ model: modelName, original_file: originalFile, ...typeCounts, ...gatewayDirectionCounts });
       }
     }
     // Prepare CSV header
-    const header = ['model', ...Array.from(allTypes), ...Array.from(allGatewayDirections)];
+    const header = ['model', 'original_file', ...Array.from(allTypes), ...Array.from(allGatewayDirections)];
     const csvRows = [header.join(',')];
     for (const row of results) {
-      const values = header.map(h => h === 'model' ? row.model : (row[h] || 0));
+      const values = header.map(h => row[h] || 0);
       csvRows.push(values.join(','));
     }
-    const csvPath = path.join(outputDataPath, 'bpmn_element_type_counts.csv');
+    const csvPath = path.join(outputDataPath, 'meta_data.csv');
     fs.writeFileSync(csvPath, csvRows.join('\n'), 'utf-8');
     console.log(`Element type counts (with gatewayDirection) written to ${csvPath}`);
   });

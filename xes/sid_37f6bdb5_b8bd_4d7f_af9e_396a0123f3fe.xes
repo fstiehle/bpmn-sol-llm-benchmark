@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Will App herunterladen"/>
+      <string key="id" value="sid-D082CB9A-9032-4E4F-A774-24587B56EC2C"/>
+      <string key="sourceRef" value="sid-5179EF61-3661-4EAE-A930-85701C481E77"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aufforderung zur Registrierung"/>
+      <string key="id" value="sid-A99EC8AF-2A07-42B8-B705-C349B0697C0A"/>
+      <string key="sourceRef" value="sid-BD07D769-E10D-4DA1-AC83-DFAE9414EEF2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Registrierung"/>
+      <string key="id" value="sid-73C4A4E8-1BF5-44AF-9E6F-56BF193B6006"/>
+      <string key="sourceRef" value="sid-2BB8EC0C-4E2C-4DF7-A7DC-13D773AA89F6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="sucht App im Store"/>
+      <string key="id" value="sid-3692247E-B6E2-4D88-A25C-663B2ECA3078"/>
+      <string key="sourceRef" value="sid-B57AFEFB-6A11-403D-91DC-ECE62C2FD040"/>
+    </event>
+    <event>
+      <string key="concept:name" value="möchte App herunterladen"/>
+      <string key="id" value="sid-1966F81A-52D3-430F-A06C-158E890CF831"/>
+      <string key="sourceRef" value="sid-1973758E-A4A9-4B43-AC44-5569E308D4FB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Datenüberprüfungen"/>
+      <string key="id" value="sid-F3304F4E-5727-4B0C-A448-BF7B0B817EB0"/>
+      <string key="sourceRef" value="sid-5C9F06A6-6904-4B9C-B8BE-2C5261E287FE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="App zum Herunterladen freigeben"/>
+      <string key="id" value="sid-F48B99BF-6D6F-45FD-924D-DF72B4957793"/>
+      <string key="sourceRef" value="sid-8AA7FEBB-86E8-4825-AABF-F1B658B276EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Freigabe zum Herunterladen"/>
+      <string key="id" value="sid-E1BF0A38-F29B-4BB1-9639-3C8E12F20701"/>
+      <string key="sourceRef" value="sid-78802D4B-B09F-4E11-A667-1F061906E70C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungsaufforderung"/>
+      <string key="id" value="sid-B31C9288-7361-40F1-A639-17D9BDC7C7B3"/>
+      <string key="sourceRef" value="sid-640CF89B-1378-4D06-B48E-795D25BDF04E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlung"/>
+      <string key="id" value="sid-5EC4C845-4A7C-4094-A7A3-8CC6E152F5BB"/>
+      <string key="sourceRef" value="sid-8716EF97-0E32-47F5-8C2F-F75C0A490398"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Herunterladen der App"/>
+      <string key="id" value="sid-3A73F6D4-1226-4FDD-B16B-3E5F3C7B6B4B"/>
+      <string key="sourceRef" value="sid-CB002434-14F8-48A1-A8EA-8B8CBD38876B"/>
+    </event>
+  </trace>
+</log>

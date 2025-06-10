@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Prüfe Vollständigkeit der Anfrage"/>
+      <string key="id" value="sid-4513049E-1B4A-4ECD-B6B2-2128DE4722D8"/>
+      <string key="sourceRef" value="sid-A69D304C-A073-441B-AE1C-622F2FEED63B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anfrage ablehnen"/>
+      <string key="id" value="sid-79E7F796-A3FA-443F-81E7-46F319C2053A"/>
+      <string key="sourceRef" value="sid-75B0DE4E-852E-4ACF-AAC3-DD2084202D10"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Prüfe Vollständigkeit der Anfrage"/>
+      <string key="id" value="sid-4513049E-1B4A-4ECD-B6B2-2128DE4722D8"/>
+      <string key="sourceRef" value="sid-A69D304C-A073-441B-AE1C-622F2FEED63B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot erstellen"/>
+      <string key="id" value="sid-3F08F667-1697-4B4B-8B32-49E343BF67BA"/>
+      <string key="sourceRef" value="sid-5F3C7E73-2D8A-464C-94DE-0A9838ED8514"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Buchungen durchführen"/>
+      <string key="id" value="sid-E227F0D6-458E-4922-A634-DAD8E16397C1"/>
+      <string key="sourceRef" value="sid-4F246BAF-C80F-4F1F-BDC2-42AF30BD322A"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Prüfe Vollständigkeit der Anfrage"/>
+      <string key="id" value="sid-4513049E-1B4A-4ECD-B6B2-2128DE4722D8"/>
+      <string key="sourceRef" value="sid-A69D304C-A073-441B-AE1C-622F2FEED63B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot erstellen"/>
+      <string key="id" value="sid-3F08F667-1697-4B4B-8B32-49E343BF67BA"/>
+      <string key="sourceRef" value="sid-5F3C7E73-2D8A-464C-94DE-0A9838ED8514"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot abschließen"/>
+      <string key="id" value="sid-9F0F5E46-643F-4042-89F2-9954894766D8"/>
+      <string key="sourceRef" value="sid-7945A58D-8647-4734-98A4-80740988DC93"/>
+    </event>
+  </trace>
+</log>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Return information provisioning"/>
+      <string key="id" value="sid-44B55E4F-DE9C-4860-8E53-1917B2A0863D"/>
+      <string key="sourceRef" value="sid-8D432089-E9AB-4663-AD24-BC49C328A865"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Data analysis"/>
+      <string key="id" value="sid-8A2CCF09-71BA-4819-80FE-A7C3391471E9"/>
+      <string key="sourceRef" value="sid-FF6EEDC9-D7AF-4A15-9849-F94994930816"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Stock provisioning"/>
+      <string key="id" value="sid-B5425D44-FF60-41FD-A19D-407767378426"/>
+      <string key="sourceRef" value="sid-ACA148A3-54B0-4417-AD23-020ED180626B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Service provisioning"/>
+      <string key="id" value="sid-3A15E5D7-A616-4586-BB9A-0E6975CCAB7E"/>
+      <string key="sourceRef" value="sid-FC44C17F-CE0F-4C1B-9315-966AEBFACDA6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inbound parcel provisioning"/>
+      <string key="id" value="sid-03D58ACE-7B6C-4114-A83E-DE9FF99E2B49"/>
+      <string key="sourceRef" value="sid-314432D5-2E89-4008-93AE-71999BCFDC3E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inbound operations provisioning"/>
+      <string key="id" value="sid-B6ED31E8-50BF-4329-BFA2-0DED6959E4E3"/>
+      <string key="sourceRef" value="sid-1FD8F4AD-EB0F-4B01-B124-766EB17F1C56"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Return process provisioning"/>
+      <string key="id" value="sid-8710E1FF-4C42-43EF-B9E7-982BBCFC7EE0"/>
+      <string key="sourceRef" value="sid-AF10B03B-60B1-4513-888B-A55A1C72A7AD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Grading provisioning"/>
+      <string key="id" value="sid-C15B3C20-46BF-4CAA-9D41-E88FE9943D21"/>
+      <string key="sourceRef" value="sid-67CF7FC5-614D-4A7E-863D-DCB13F3068EB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Inventory provisioning"/>
+      <string key="id" value="sid-716893C1-0C70-4D3C-A021-0ED392950526"/>
+      <string key="sourceRef" value="sid-17C92EA3-2D00-4BB4-B310-087A12A6637C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Order provisioning"/>
+      <string key="id" value="sid-916D3B36-0B94-49C7-81DE-68E29B06433A"/>
+      <string key="sourceRef" value="sid-E0A71579-959E-4DA8-9E46-458AD64CE57D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Outbound operations provisioning"/>
+      <string key="id" value="sid-701C89F6-419F-4AA7-9089-47315823A340"/>
+      <string key="sourceRef" value="sid-0D92EC8F-1D9D-42D9-842D-9F368BD07C57"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Shipment planning"/>
+      <string key="id" value="sid-A08C028D-2ABA-45CC-BC58-61B8C21492A8"/>
+      <string key="sourceRef" value="sid-9A823314-17C5-472B-A0A1-730EDBDD06BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Transportation provisioning"/>
+      <string key="id" value="sid-975DBBF9-416A-469E-8196-E7A0D8B283A2"/>
+      <string key="sourceRef" value="sid-606FD7D1-19B9-45FF-8BFB-E77B507315E0"/>
+    </event>
+  </trace>
+</log>

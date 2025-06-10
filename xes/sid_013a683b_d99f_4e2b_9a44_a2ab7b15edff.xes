@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Hotline Anrufen"/>
+      <string key="id" value="sid-56834B12-7360-4FB0-85FC-AAFCA3D66457"/>
+      <string key="sourceRef" value="sid-DA735824-3537-4BEF-BE6C-6B81666D8C98"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Probleme lösen&amp;#10;"/>
+      <string key="id" value="sid-5447374F-1603-455D-AA0E-905DD400C5ED"/>
+      <string key="sourceRef" value="sid-731773DA-7724-4596-9BCD-FF426175674C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunden besuchen&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-5C3B79C5-F84E-4FF2-A431-824BB133308D"/>
+      <string key="sourceRef" value="sid-C7E3EC78-83FC-49EF-97E7-64A6CB0C64A2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Formular unterschreiben&amp;#10;&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-C8E66024-EF11-45B7-9050-2DA1576005D3"/>
+      <string key="sourceRef" value="sid-73FF50D7-C5A3-4F9C-96B4-D809FA376A08"/>
+    </event>
+  </trace>
+</log>

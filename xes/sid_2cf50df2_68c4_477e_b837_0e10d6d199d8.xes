@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Artikel auswählen"/>
+      <string key="id" value="sid-0F2070B8-DDC3-4F7D-9648-D753C5258B1E"/>
+      <string key="sourceRef" value="sid-7AC2BCBD-32E9-42BD-9A86-370FE9A8FA73"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfung Artikel vorrätig"/>
+      <string key="id" value="sid-DA50E053-B8DC-4AE4-AE8C-B1EDDFC09F7F"/>
+      <string key="sourceRef" value="sid-436BD721-4990-4400-BF21-60EDB49C72F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anschrift eingeben"/>
+      <string key="id" value="sid-4E91FEDA-E6C0-4F29-908A-58E7228A290D"/>
+      <string key="sourceRef" value="sid-158A5C5A-7AF2-4DF9-B10A-A83A30758B6B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Daten überprüfen"/>
+      <string key="id" value="sid-1C93F643-B734-443F-91B2-3C975BD930BB"/>
+      <string key="sourceRef" value="sid-CF9BAF4E-84AD-4769-B218-A3A0C79AD050"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Bestellung absenden"/>
+      <string key="id" value="sid-22A01FBB-1AA7-4730-B91B-EF9F65C9FD61"/>
+      <string key="sourceRef" value="sid-C9BCCDAC-CE04-4CD3-B065-DC6007087DAF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechnung senden"/>
+      <string key="id" value="sid-2B1F6198-4A74-449D-8BF5-AFADBE91BB8F"/>
+      <string key="sourceRef" value="sid-9FEACB4F-CCE3-488F-9B12-18C7D452B72F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechnung bezahlen"/>
+      <string key="id" value="sid-C4535344-53A0-4C08-8F27-335E8D18DCB6"/>
+      <string key="sourceRef" value="sid-571C1A1C-F1E2-47FA-8DA4-7BF2C9256155"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Artikel versenden"/>
+      <string key="id" value="sid-4492D3D8-A38C-4BFE-878E-5E997A891AE3"/>
+      <string key="sourceRef" value="sid-E6E5D293-E176-4F71-8353-FCE60714C8A8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Artikel erhalten"/>
+      <string key="id" value="sid-FF598238-0855-40B9-BEB2-6788E45C12C0"/>
+      <string key="sourceRef" value="sid-133A7BFE-ED1D-4A5E-9D16-D64F79660606"/>
+    </event>
+  </trace>
+</log>
