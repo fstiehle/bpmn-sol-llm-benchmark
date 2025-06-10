@@ -137,7 +137,7 @@ const test3 = new TestConfig({
 // -----------------------------------------------
 // Define which models tasks to run
 export const llms: TestConfig[] = [
-  l_oneShot
+  gpt_oneShot, l_oneShot
 ];
 
 // -----------------------------------------------

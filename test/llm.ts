@@ -31,13 +31,13 @@ const runTest = async (config: TestConfig) => {
     // Read the corresponding .json file from contracts/chorpiler
     const jsonFilePath = path.join(__dirname, "../contracts/chorpiler", `${fileNameWithoutExt}.json`);
     if (!fs.existsSync(jsonFilePath)) {
-      console.log(`${tab2}  ❌ JSON config file not found: ${jsonFilePath}`);
+      console.log(`${tab2} ❌ JSON config file not found: ${jsonFilePath}`);
       throw new Error(`JSON config file not found: ${jsonFilePath}`);
     }
 
     const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf-8"));
     if (!jsonData) {
-      console.log(`${tab2}  ❌ Missing encoding: ${jsonFilePath}`);
+      console.log(`${tab2} ❌ Missing encoding: ${jsonFilePath}`);
       throw new Error(`Missing encoding: ${jsonFilePath}`);
     }
 
@@ -69,7 +69,12 @@ const runTest = async (config: TestConfig) => {
         input: inputText,
         output: result.smart_contract,
         processID: fileNameWithoutExt,
-        compiled: true // can later be set to false
+        usage: {
+          prompt_tokens: result.usage?.prompt_tokens,
+          completion_tokens: result.usage?.completion_tokens,
+          total_tokens: result.usage?.total_tokens,
+          cost: result.usage?.cost,
+        }
       };
 
       // Write the JSON output to the specified output folder
@@ -78,9 +83,9 @@ const runTest = async (config: TestConfig) => {
         fs.mkdirSync(config.outputFolder, { recursive: true });
       }
       fs.writeFileSync(outputFilePath, JSON.stringify(outputJson, null, 2), "utf-8");
-      console.log(`${tab2}  💾 Saved output to ${outputFilePath}`);
+      console.log(`${tab2} 💾 Saved output to ${outputFilePath}`);
     } catch (error) {
-      console.log(`${tab2}  ❌ Error processing ${file}: ${(error as Error).message}`);
+      console.log(`${tab2} ❌ Error processing ${file}: ${(error as Error).message}`);
     }
   }
 };

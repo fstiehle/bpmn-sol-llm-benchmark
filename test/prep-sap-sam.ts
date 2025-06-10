@@ -10,6 +10,9 @@ describe('XML Files in data/raw', () => {
   const intDataPath = path.join(__dirname, '../data/sap-sam/int');
   const outputDataPath = path.join(__dirname, '../data/sap-sam/');
 
+  // Toggle to control BPMNDiagram removal
+  const REMOVE_BPMN_VISUAL_DIAGRAM = true; // Set to false to keep diagrams
+
   // Helper to detect the BPMN prefix from the parsed JSON object
   function detectPrefix(jsonObj: any): string {
     const definitionsKey = Object.keys(jsonObj).find(k => k.endsWith(':definitions')) || Object.keys(jsonObj).find(k => k === 'definitions');
@@ -86,9 +89,11 @@ describe('XML Files in data/raw', () => {
     removeExtensionElements(process);
   };
 
-  const mergeEndEvents = (process: any, prefix: string) => {
+  const mergeEndEvents = (process: any, prefix: string, defs: any) => {
     const endEventKey = prefix ? `${prefix}:endEvent` : 'endEvent';
     const incomingKey = prefix ? `${prefix}:incoming` : 'incoming';
+    const seqFlowKey = prefix ? `${prefix}:sequenceFlow` : 'sequenceFlow';
+
     let endEvents = process[endEventKey];
     if (!endEvents) return;
     endEvents = Array.isArray(endEvents) ? endEvents : [endEvents];
@@ -101,7 +106,61 @@ describe('XML Files in data/raw', () => {
           : [endEvent[incomingKey]]
       );
       mergedEndEvent[incomingKey] = [...new Set(mergedEndEvent[incomingKey])];
-      process[endEventKey] = mergedEndEvent;
+
+      // Collect IDs of all end events except the merged one
+      const mergedEndEventId = mergedEndEvent['@_id'];
+      const toDeleteIds = endEvents.slice(1).map((ev: any) => ev['@_id']);
+
+      // Keep only the merged end event in the process (preserve array/object structure)
+      if (Array.isArray(process[endEventKey])) {
+        process[endEventKey] = [mergedEndEvent];
+      } else {
+        process[endEventKey] = mergedEndEvent;
+      }
+
+      // Update sequenceFlow targetRefs to point to the merged end event
+      const incomingIds = mergedEndEvent[incomingKey];
+      let sequenceFlows = process[seqFlowKey];
+      if (sequenceFlows) {
+        sequenceFlows = Array.isArray(sequenceFlows) ? sequenceFlows : [sequenceFlows];
+        for (const flow of sequenceFlows) {
+          if (incomingIds.includes(flow['@_id'])) {
+            flow['@_targetRef'] = mergedEndEventId;
+          }
+        }
+      }
+
+      // --- Remove old end event shapes from BPMNDiagram(s) ---
+      // Find all diagram keys (e.g. ns3:BPMNDiagram)
+      Object.keys(defs).forEach(diagKey => {
+        if (diagKey.endsWith(':BPMNDiagram') || diagKey === 'BPMNDiagram') {
+          const diagrams = Array.isArray(defs[diagKey]) ? defs[diagKey] : [defs[diagKey]];
+          diagrams.forEach((diagram: any) => {
+            // Find all plane keys (e.g. ns3:BPMNPlane)
+            Object.keys(diagram).forEach(planeKey => {
+              if (planeKey.endsWith(':BPMNPlane') || planeKey === 'BPMNPlane') {
+                const planes = Array.isArray(diagram[planeKey]) ? diagram[planeKey] : [diagram[planeKey]];
+                planes.forEach((plane: any) => {
+                  // Find all shape keys (e.g. ns3:BPMNShape)
+                  Object.keys(plane).forEach(shapeKey => {
+                    if (shapeKey.endsWith(':BPMNShape') || shapeKey === 'BPMNShape') {
+                      let shapes = plane[shapeKey];
+                      if (!shapes) return;
+                      shapes = Array.isArray(shapes) ? shapes : [shapes];
+                      // Filter out shapes whose bpmnElement is in toDeleteIds
+                      const filteredShapes = shapes.filter((shape: any) => !toDeleteIds.includes(shape['@_bpmnElement']));
+                      // Write back, preserving array/object structure
+                      plane[shapeKey] = Array.isArray(plane[shapeKey])
+                        ? filteredShapes
+                        : filteredShapes[0] || null;
+                    }
+                  });
+                });
+              }
+            });
+          });
+        }
+      });
     }
   };
 
@@ -152,7 +211,7 @@ describe('XML Files in data/raw', () => {
 
         // Use prefix for gateways and end events
         processExclusiveGateways(process, prefix);
-        mergeEndEvents(process, prefix);
+        mergeEndEvents(process, prefix, defs);
 
         // Remove extensionElements everywhere (with or without prefix)
         removeExtensionElements(defs);
@@ -166,6 +225,15 @@ describe('XML Files in data/raw', () => {
         const signavioMetaDataKey = Object.keys(defs).find(k => k.endsWith(':signavioMetaData')) || Object.keys(defs).find(k => k === 'signavioMetaData');
         if (signavioMetaDataKey && defs[signavioMetaDataKey]) {
           delete defs[signavioMetaDataKey];
+        }
+
+        // Remove BPMNDiagram(s) if toggle is set
+        if (REMOVE_BPMN_VISUAL_DIAGRAM) {
+          for (const key of Object.keys(defs)) {
+            if (key.endsWith(':BPMNDiagram') || key === 'BPMNDiagram') {
+              delete defs[key];
+            }
+          }
         }
 
         // Convert the modified JSON back to XML
@@ -233,5 +301,108 @@ describe('XML Files in data/raw', () => {
         loopProtection: false,
         parseConditions: true
       }));
+  });
+
+  it('should extract element type counts for each BPMN model and save to CSV', async () => {
+    const files = fs.readdirSync(rawDataPath);
+    const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: false });
+    const results: any[] = [];
+    const allTypes = new Set<string>();
+
+    for (const file of files) {
+      if (file.endsWith('.xml') || file.endsWith('.bpmn')) {
+        const filePath = path.join(rawDataPath, file);
+        const xmlContent = fs.readFileSync(filePath, 'utf-8');
+        const jsonObj = parser.parse(xmlContent);
+        const prefix = detectPrefix(jsonObj);
+        const definitionsKey = prefix ? `${prefix}:definitions` : 'definitions';
+        const defs = jsonObj[definitionsKey];
+        // Find the process or choreography key
+        const processKey = Object.keys(defs).find(k => k.endsWith(':process')) || Object.keys(defs).find(k => k === 'process');
+        const choreographyKey = Object.keys(defs).find(k => k.endsWith(':choreography')) || Object.keys(defs).find(k => k === 'choreography');
+        const rootKey = processKey || choreographyKey;
+        if (!rootKey) continue;
+        const root = defs[rootKey];
+        // Count all element types (direct children)
+        const typeCounts: Record<string, number> = {};
+        for (const key of Object.keys(root)) {
+          // Only count element keys (not attributes)
+          if (!key.startsWith('@_')) {
+            const arr = Array.isArray(root[key]) ? root[key] : [root[key]];
+            typeCounts[key] = arr.length;
+            allTypes.add(key);
+          }
+        }
+        const modelName = choreographyKey && defs[choreographyKey] ? defs[choreographyKey]['@_id'] : file;
+        results.push({ model: modelName, ...typeCounts });
+      }
+    }
+    // Prepare CSV header
+    const header = ['model', ...Array.from(allTypes)];
+    const csvRows = [header.join(',')];
+    for (const row of results) {
+      const values = header.map(h => h === 'model' ? row.model : (row[h] || 0));
+      csvRows.push(values.join(','));
+    }
+    const csvPath = path.join(outputDataPath, 'bpmn_element_type_counts.csv');
+    fs.writeFileSync(csvPath, csvRows.join('\n'), 'utf-8');
+    console.log(`Element type counts written to ${csvPath}`);
+  });
+
+  it('should extract element type counts for each BPMN model and save to CSV (with gatewayDirection)', async () => {
+    const files = fs.readdirSync(rawDataPath);
+    const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: false });
+    const results: any[] = [];
+    const allTypes = new Set<string>();
+    const allGatewayDirections = new Set<string>();
+
+    for (const file of files) {
+      if (file.endsWith('.xml') || file.endsWith('.bpmn')) {
+        const filePath = path.join(rawDataPath, file);
+        const xmlContent = fs.readFileSync(filePath, 'utf-8');
+        const jsonObj = parser.parse(xmlContent);
+        const prefix = detectPrefix(jsonObj);
+        const definitionsKey = prefix ? `${prefix}:definitions` : 'definitions';
+        const defs = jsonObj[definitionsKey];
+        // Find the process or choreography key
+        const processKey = Object.keys(defs).find(k => k.endsWith(':process')) || Object.keys(defs).find(k => k === 'process');
+        const choreographyKey = Object.keys(defs).find(k => k.endsWith(':choreography')) || Object.keys(defs).find(k => k === 'choreography');
+        const rootKey = processKey || choreographyKey;
+        if (!rootKey) continue;
+        const root = defs[rootKey];
+        // Count all element types (direct children)
+        const typeCounts: Record<string, number> = {};
+        const gatewayDirectionCounts: Record<string, number> = {};
+        for (const key of Object.keys(root)) {
+          if (!key.startsWith('@_')) {
+            const arr = Array.isArray(root[key]) ? root[key] : [root[key]];
+            // If this is a gateway, check for gatewayDirection
+            if (key.toLowerCase().includes('gateway')) {
+              arr.forEach((el: any) => {
+                const dir = el['@_gatewayDirection'] || 'unspecified';
+                const colName = `${key}__${dir}`;
+                gatewayDirectionCounts[colName] = (gatewayDirectionCounts[colName] || 0) + 1;
+                allGatewayDirections.add(colName);
+              });
+            } else {
+              typeCounts[key] = arr.length;
+              allTypes.add(key);
+            }
+          }
+        }
+        const modelName = choreographyKey && defs[choreographyKey] ? defs[choreographyKey]['@_id'] : file;
+        results.push({ model: modelName, ...typeCounts, ...gatewayDirectionCounts });
+      }
+    }
+    // Prepare CSV header
+    const header = ['model', ...Array.from(allTypes), ...Array.from(allGatewayDirections)];
+    const csvRows = [header.join(',')];
+    for (const row of results) {
+      const values = header.map(h => h === 'model' ? row.model : (row[h] || 0));
+      csvRows.push(values.join(','));
+    }
+    const csvPath = path.join(outputDataPath, 'bpmn_element_type_counts.csv');
+    fs.writeFileSync(csvPath, csvRows.join('\n'), 'utf-8');
+    console.log(`Element type counts (with gatewayDirection) written to ${csvPath}`);
   });
 })
