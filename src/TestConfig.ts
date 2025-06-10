@@ -12,7 +12,7 @@ export class TestConfig {
   outputFolder: string;
   slug: string;
   multipleFunc: boolean = false;
-  temperature: number = 0.7; 
+  temperature: number = 0; 
 
   constructor(params: {
     name: string;
