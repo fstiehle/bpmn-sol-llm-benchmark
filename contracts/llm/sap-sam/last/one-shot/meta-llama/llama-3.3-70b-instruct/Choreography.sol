@@ -1,16 +1,20 @@
-// test meta-llama/llama-3.3-70b-instruct - one-shot at 2025-06-11T10:58:02.057Z
+// test meta-llama/llama-3.3-70b-instruct - one-shot at 2025-06-11T11:35:28.515Z
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
+
 contract meta_llama_llama_3_3_70b_instruct_one_shot_Choreography {
   uint public tokenState = 1;
   address[3] public participants;
   uint public conditions;
+
   constructor(address[3] memory _participants) {
     participants = _participants;
   }
+
   function setConditions(uint _conditions) external {
     conditions = _conditions;
   }
+
   function enact(uint id) external {
     uint _tokenState = tokenState;
     while(_tokenState != 0) {
@@ -25,14 +29,14 @@ contract meta_llama_llama_3_3_70b_instruct_one_shot_Choreography {
         }
       }
       if (_tokenState & 2 == 2) {
-        // <--- Gateway_1bpkhpg exclusive gateway --->
+        // <--- Gateway_1bpkhpg --->
         if (conditions & 1 == 1) {
-          // <---  auto transition to Gateway_1yl9mch --->
+          // <---  auto transition  --->
           _tokenState &= ~uint(2);
           _tokenState |= 4;
           continue; 
         } else {
-          // <---  auto transition to Gateway_1klfaw3 --->
+          // <---  auto transition  --->
           _tokenState &= ~uint(2);
           _tokenState |= 8;
           continue; 
@@ -59,23 +63,19 @@ contract meta_llama_llama_3_3_70b_instruct_one_shot_Choreography {
         }
       }
       if (_tokenState & 16 == 16) {
-        // <--- ChoreographyTask_056ylqg Ship goods --->
-        if (4 == id && msg.sender == participants[1]) {
-        // <--- custom code for task here --->
+        // <--- Gateway_0xcnzox --->
         _tokenState &= ~uint(16);
-        _tokenState |= 0;
-        break; // is end
-        }
+        _tokenState |= 64;
+        continue; 
       }
       if (_tokenState & 32 == 32) {
-        // <---  auto transition  --->
+        // <--- Gateway_0xcnzox --->
         _tokenState &= ~uint(32);
         _tokenState |= 64;
         continue; 
       }
       if (_tokenState & 64 == 64) {
-        // <--- Gateway_1yl9mch exclusive gateway --->
-        // <---  auto transition to ChoreographyTask_056ylqg --->
+        // <--- Gateway_1yl9mch --->
         _tokenState &= ~uint(64);
         _tokenState |= 128;
         continue; 

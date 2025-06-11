@@ -26,6 +26,8 @@ flat_data <- flat_data %>%
     fp = number_negatives - true_negative
   )
 
+
+
 # Calculate metrics
 flat_data <- flat_data %>%
   mutate(
@@ -41,13 +43,21 @@ flat_data <- flat_data %>%
 print(flat_data)
 
 # Optional: summary stats per shot type
+# Global totals per shot type
 summary_stats <- flat_data %>%
   group_by(name) %>%
   summarise(
-    avg_precision = mean(precision, na.rm = TRUE),
-    avg_recall = mean(recall, na.rm = TRUE),
-    avg_f1 = mean(f1_score, na.rm = TRUE),
+    total_tp = sum(true_positives, na.rm = TRUE),
+    total_fp = sum(fp, na.rm = TRUE),
+    total_fn = sum(fn, na.rm = TRUE),
+    precision = ifelse((total_tp + total_fp) > 0,
+                       total_tp / (total_tp + total_fp), 0),
+    recall = ifelse((total_tp + total_fn) > 0,
+                    total_tp / (total_tp + total_fn), 0),
+    f1_score = ifelse(precision + recall > 0,
+                      2 * precision * recall / (precision + recall), 0),
     .groups = "drop"
   )
+
 
 print(summary_stats)

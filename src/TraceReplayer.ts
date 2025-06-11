@@ -1,4 +1,3 @@
-import assert from "assert";
 import { TriggerEncoding } from "chorpiler";
 import { ethers } from "hardhat";
 import * as path from "path";
