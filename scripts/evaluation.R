@@ -127,5 +127,42 @@ cat("\n--- Average Gas Cost (F1 = 1) ---\n")
 print(avg_gas_cost)
 
 # ===================================================
+# SECTION 4: Combined Metrics per Model
+# ===================================================
+
+# ===================================================
+# SECTION 4: Combined Metrics per Model
+# ===================================================
+
+# Compute percentage compiled per model
+compiled_stats <- flat_data %>%
+  group_by(model) %>%
+  summarise(
+    compiled_pct = mean(compiled, na.rm = TRUE) * 100,
+    .groups = "drop"
+  )
+
+# Combine everything per model
+combined_metrics <- flat_data %>%
+  left_join(avg_usage, by = "name") %>%
+  left_join(summary_stats, by = "name") %>%
+  group_by(name) %>%
+  summarise(
+    avg_cost = mean(avg_cost, na.rm = TRUE),
+    avg_total_tokens = mean(avg_total_tokens, na.rm = TRUE),
+    avg_gascost = mean(gas, na.rm = TRUE),
+    f1_macro = mean(f1_macro, na.rm = TRUE),
+    accuracy = mean(accuracy, na.rm = TRUE),
+    compiled_pct = mean(compiled, na.rm = TRUE) * 100,
+    .groups = "drop"
+  ) %>%
+  arrange(desc(f1_macro))
+
+cat("\n--- Combined Metrics per Model ---\n")
+print(combined_metrics, width = Inf, row.names = FALSE, right = FALSE)
+write.csv(combined_metrics, "combined_model_metrics.csv", row.names = FALSE)
+
+
+# ===================================================
 # END OF SCRIPT
 # ===================================================
