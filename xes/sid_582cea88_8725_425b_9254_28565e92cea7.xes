@@ -10,6 +10,19 @@
       <string key="concept:name" value="send Credit Card Application"/>
       <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
       <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="send Application rejection"/>
+      <string key="id" value="sid-04D38013-6E3C-4B41-ABB6-7322759E40D7"/>
+      <string key="sourceRef" value="sid-935740D9-BFDC-4981-934C-7C68B0F19869"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="send Credit Card Application"/>
+      <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
+      <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
     </event>
     <event>
       <string key="concept:name" value="send Credt File request"/>
@@ -43,19 +56,6 @@
       <string key="id" value="sid-D68AD0BC-AE79-411E-A3E0-5B6EF2DC32E1"/>
       <string key="sourceRef" value="sid-81485826-C2DF-4EEE-AAA0-0440A9A86584"/>
       <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="send Application rejection"/>
-      <string key="id" value="sid-04D38013-6E3C-4B41-ABB6-7322759E40D7"/>
-      <string key="sourceRef" value="sid-935740D9-BFDC-4981-934C-7C68B0F19869"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="send Credit Card Application"/>
-      <string key="id" value="sid-1A1E8E50-B672-4475-B6FD-5DEA9B1225EC"/>
-      <string key="sourceRef" value="sid-F98C5BC6-1C8E-441E-9B14-A1016EDEF79B"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="send Application rejection"/>

@@ -85,90 +85,6 @@
       <string key="concept:name" value="Announce the scores"/>
       <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
       <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-    </event>
-    <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-    </event>
-    <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-    </event>
-    <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-    </event>
-    <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -226,27 +142,6 @@
       <string key="concept:name" value="Request for Tender"/>
       <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
       <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-    </event>
-    <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Make offer"/>
@@ -448,52 +343,6 @@
       <string key="concept:name" value="Announce the scores"/>
       <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
       <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Purchase product part"/>
-      <string key="id" value="sid-663F88C0-8E57-4A4A-B75C-F55BFBFB1127"/>
-      <string key="sourceRef" value="sid-D60BF376-2A30-4F92-82C1-3377DD177348"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Request for Tender"/>
-      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
-      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Purchase product part"/>
-      <string key="id" value="sid-663F88C0-8E57-4A4A-B75C-F55BFBFB1127"/>
-      <string key="sourceRef" value="sid-D60BF376-2A30-4F92-82C1-3377DD177348"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Request for Tender"/>
-      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
-      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Make offer"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Announce the scores"/>
-      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
-      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
     </event>
     <event>
       <string key="concept:name" value="New request for tender"/>
@@ -515,17 +364,19 @@
       <string key="concept:name" value="Announce the scores"/>
       <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
       <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="New request for tender"/>
-      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
-      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+      <string key="concept:name" value="Purchase product part"/>
+      <string key="id" value="sid-663F88C0-8E57-4A4A-B75C-F55BFBFB1127"/>
+      <string key="sourceRef" value="sid-D60BF376-2A30-4F92-82C1-3377DD177348"/>
     </event>
+  </trace>
+  <trace>
     <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
-      <boolean key="conditions" value="0"/>
+      <string key="concept:name" value="Request for Tender"/>
+      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
+      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
     </event>
     <event>
       <string key="concept:name" value="Make offer"/>
@@ -612,6 +463,90 @@
       <string key="concept:name" value="Request for Tender"/>
       <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
       <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Make offer"/>
@@ -1172,6 +1107,48 @@
       <string key="concept:name" value="Announce the scores"/>
       <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
       <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -1227,6 +1204,113 @@
       <string key="id" value="Instance Data Change"/>
       <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
       <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+    </event>
+    <event>
+      <string key="concept:name" value="New request for tender"/>
+      <string key="id" value="sid-30065477-C3FC-44B6-9BAB-45FD254F6CF9"/>
+      <string key="sourceRef" value="sid-9023E66A-E01E-44EA-A278-AB6650A85067"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-33E0513A-B8E6-49AB-ABF5-95A885A8B1CD"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Make offer"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-C83E7D90-019C-4167-8C08-BDF42F0A989D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Announce the scores"/>
+      <string key="id" value="sid-3FD7392B-985E-4CFD-8444-055573C3AD47"/>
+      <string key="sourceRef" value="sid-0F254054-240D-4552-B3B0-E1CD5DF0DA03"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Purchase product part"/>
+      <string key="id" value="sid-663F88C0-8E57-4A4A-B75C-F55BFBFB1127"/>
+      <string key="sourceRef" value="sid-D60BF376-2A30-4F92-82C1-3377DD177348"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Request for Tender"/>
+      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
+      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
     </event>
     <event>
       <string key="concept:name" value="Make offer"/>

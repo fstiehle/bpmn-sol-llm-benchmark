@@ -12,14 +12,14 @@
       <string key="sourceRef" value="sid-3047D38E-6724-4B78-AFEB-FB0B272D035C"/>
     </event>
     <event>
-      <string key="concept:name" value="Coordinar el despacho"/>
-      <string key="id" value="sid-A5665F74-7A87-4BF9-8F86-9C93D02C1B16"/>
-      <string key="sourceRef" value="sid-528F73E9-EE80-4A90-878A-F58D88C84B0B"/>
-    </event>
-    <event>
       <string key="concept:name" value="Informar de pedido"/>
       <string key="id" value="sid-55CFE69A-8F1B-4CCB-8373-57B63BE493DD"/>
       <string key="sourceRef" value="sid-7B1BDDFC-355D-4306-A7F2-0DDFD36B9BA2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Coordinar el despacho"/>
+      <string key="id" value="sid-A5665F74-7A87-4BF9-8F86-9C93D02C1B16"/>
+      <string key="sourceRef" value="sid-528F73E9-EE80-4A90-878A-F58D88C84B0B"/>
     </event>
     <event>
       <string key="concept:name" value="Buscar Producto terminado"/>
@@ -44,14 +44,14 @@
       <string key="sourceRef" value="sid-3047D38E-6724-4B78-AFEB-FB0B272D035C"/>
     </event>
     <event>
-      <string key="concept:name" value="Informar de pedido"/>
-      <string key="id" value="sid-55CFE69A-8F1B-4CCB-8373-57B63BE493DD"/>
-      <string key="sourceRef" value="sid-7B1BDDFC-355D-4306-A7F2-0DDFD36B9BA2"/>
-    </event>
-    <event>
       <string key="concept:name" value="Coordinar el despacho"/>
       <string key="id" value="sid-A5665F74-7A87-4BF9-8F86-9C93D02C1B16"/>
       <string key="sourceRef" value="sid-528F73E9-EE80-4A90-878A-F58D88C84B0B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informar de pedido"/>
+      <string key="id" value="sid-55CFE69A-8F1B-4CCB-8373-57B63BE493DD"/>
+      <string key="sourceRef" value="sid-7B1BDDFC-355D-4306-A7F2-0DDFD36B9BA2"/>
     </event>
     <event>
       <string key="concept:name" value="Buscar Producto terminado"/>

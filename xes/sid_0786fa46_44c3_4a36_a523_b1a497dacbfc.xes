@@ -59,14 +59,14 @@
       <string key="sourceRef" value="sid-878382D5-3071-4FA2-AB72-8B771CD73F21"/>
     </event>
     <event>
-      <string key="concept:name" value="Interessen eintragen"/>
-      <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
-      <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
-    </event>
-    <event>
       <string key="concept:name" value="reicht Paper ein"/>
       <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
       <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Interessen eintragen"/>
+      <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
+      <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
     </event>
     <event>
       <string key="concept:name" value="teilt Paper den Gutachtern zu und fordert zur fristgerechten Abgabe auf"/>
@@ -101,14 +101,14 @@
       <string key="sourceRef" value="sid-878382D5-3071-4FA2-AB72-8B771CD73F21"/>
     </event>
     <event>
-      <string key="concept:name" value="reicht Paper ein"/>
-      <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
-      <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
-    </event>
-    <event>
       <string key="concept:name" value="Interessen eintragen"/>
       <string key="id" value="sid-2B84B913-C24A-4900-827A-67D2E24D1B60"/>
       <string key="sourceRef" value="sid-AAF906F0-DDE9-46F4-88D1-49534520D34C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="reicht Paper ein"/>
+      <string key="id" value="sid-8DC72FFD-BFE4-4C29-9988-E2F6AD7AF422"/>
+      <string key="sourceRef" value="sid-80E035E8-D6F0-49DF-B37A-235616A04F57"/>
     </event>
     <event>
       <string key="concept:name" value="teilt Paper den Gutachtern zu und fordert zur fristgerechten Abgabe auf"/>

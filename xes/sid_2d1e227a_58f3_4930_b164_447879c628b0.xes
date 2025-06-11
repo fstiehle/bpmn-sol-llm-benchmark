@@ -10,19 +10,6 @@
       <string key="concept:name" value="Kundenanruf"/>
       <string key="id" value="sid-5343FBBE-1949-4189-834C-AF7944006D10"/>
       <string key="sourceRef" value="sid-3C6D36FF-42E9-4CB8-8E2B-4987E019C92F"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lösung erklären"/>
-      <string key="id" value="sid-0DA543ED-E104-44FD-828B-4D8D3F76BA93"/>
-      <string key="sourceRef" value="sid-28875857-A66D-486F-A062-B154F10AEAAA"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Kundenanruf"/>
-      <string key="id" value="sid-5343FBBE-1949-4189-834C-AF7944006D10"/>
-      <string key="sourceRef" value="sid-3C6D36FF-42E9-4CB8-8E2B-4987E019C92F"/>
     </event>
     <event>
       <string key="concept:name" value="Problem weitergeben"/>
@@ -48,6 +35,19 @@
       <string key="concept:name" value="Formular unterschreiben lassen"/>
       <string key="id" value="sid-F69420E0-7365-4D69-9A71-ADB0BF7BC50D"/>
       <string key="sourceRef" value="sid-682D1AFE-D345-46ED-836C-818F92F6F3B4"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-5343FBBE-1949-4189-834C-AF7944006D10"/>
+      <string key="sourceRef" value="sid-3C6D36FF-42E9-4CB8-8E2B-4987E019C92F"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lösung erklären"/>
+      <string key="id" value="sid-0DA543ED-E104-44FD-828B-4D8D3F76BA93"/>
+      <string key="sourceRef" value="sid-28875857-A66D-486F-A062-B154F10AEAAA"/>
     </event>
   </trace>
 </log>

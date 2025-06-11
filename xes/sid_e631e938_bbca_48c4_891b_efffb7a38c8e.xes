@@ -38,6 +38,12 @@
       <string key="concept:name" value="Wysłanie informacji o przybyciu kuriera w danym dniu o danej godzinie, próba doręczenia przesyłki"/>
       <string key="id" value="sid-884E65EB-CD77-45E9-A251-AC64A7163CD5"/>
       <string key="sourceRef" value="sid-7aca5398-f7c2-412e-a959-c12d4204672a"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Przekazanie do punktu odbiorczego"/>
+      <string key="id" value="sid-CE1ACF04-6606-4523-8B8D-AB0FBEAED0B5"/>
+      <string key="sourceRef" value="sid-360813bd-e1c4-4eaf-8c6f-793eff2d1e47"/>
     </event>
   </trace>
   <trace>
@@ -66,12 +72,6 @@
       <string key="concept:name" value="Wysłanie informacji o przybyciu kuriera w danym dniu o danej godzinie, próba doręczenia przesyłki"/>
       <string key="id" value="sid-884E65EB-CD77-45E9-A251-AC64A7163CD5"/>
       <string key="sourceRef" value="sid-7aca5398-f7c2-412e-a959-c12d4204672a"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Przekazanie do punktu odbiorczego"/>
-      <string key="id" value="sid-CE1ACF04-6606-4523-8B8D-AB0FBEAED0B5"/>
-      <string key="sourceRef" value="sid-360813bd-e1c4-4eaf-8c6f-793eff2d1e47"/>
     </event>
   </trace>
 </log>

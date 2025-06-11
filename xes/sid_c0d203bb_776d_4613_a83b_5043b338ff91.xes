@@ -7,16 +7,16 @@
 
   <trace>
     <event>
-      <string key="concept:name" value="T2"/>
-      <string key="id" value="sid-0237C4B1-AFFB-416D-ACD6-FEAC17B3CEEC"/>
-      <string key="sourceRef" value="sid-CA4BCEEB-3BB7-42D3-9C77-96196FB2E7F1"/>
+      <string key="concept:name" value="T1"/>
+      <string key="id" value="sid-AB82CBD9-256A-43CF-9C39-9F17C5717E92"/>
+      <string key="sourceRef" value="sid-1C533F75-26C0-4287-8D91-2D81265B0948"/>
     </event>
   </trace>
   <trace>
     <event>
-      <string key="concept:name" value="T1"/>
-      <string key="id" value="sid-AB82CBD9-256A-43CF-9C39-9F17C5717E92"/>
-      <string key="sourceRef" value="sid-1C533F75-26C0-4287-8D91-2D81265B0948"/>
+      <string key="concept:name" value="T2"/>
+      <string key="id" value="sid-0237C4B1-AFFB-416D-ACD6-FEAC17B3CEEC"/>
+      <string key="sourceRef" value="sid-CA4BCEEB-3BB7-42D3-9C77-96196FB2E7F1"/>
     </event>
   </trace>
 </log>

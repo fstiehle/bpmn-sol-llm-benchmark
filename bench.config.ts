@@ -16,12 +16,14 @@ dotenv.config();
 export const DEBUG =
   process.env.DEBUG === "1" || process.env.DEBUG === "true";
 
+export const STAMP = "initial"; // identifier of the current experiment used throughout benchmark
+
 // Number of non-conforming traces to generate and replay
-export const NR_NON_CONFORMING_TRACES = 50;
+export const NR_NON_CONFORMING_TRACES = 5;
 
 // only take the first 20 process models from data
 // good for pre-testing
-export const NR_PROCESS_MODELS: number | "all" = 5;
+export const NR_PROCESS_MODELS: number | "all" = 10;
 
 export const XES_PARSER = new chorpiler.utils.XESParser();
 export const XES_DIR = "./xes";
@@ -30,23 +32,21 @@ export const ENCODINGS_DIR = "./contracts/chorpiler";
 export const ENDPOINT =
   "https://openrouter.ai/api/v1/chat/completions";
 
-export const SYSTEM_PROMPT = `You are a helpful assistant that generates Solidity smart contracts based on the provided requirements. 
+export const SYSTEM_PROMPT = `You are a helpful assistant that generates Solidity (version 0.8.9) smart contracts based on the provided requirements. 
 Make sure to follow best practices for Solidity development, including security considerations and gas optimization.`;
-
-export const STAMP = "last"; // identifier of the current experiment used throughout benchmark
 
 // -----------------------------------------------
 // TESTS
 // List of model names
 export const modelNames = [
-  ///"openai/gpt-4.1",
-  //"anthropic/claude-sonnet-4",
+  "openai/gpt-4.1",
+  "anthropic/claude-sonnet-4",
   //"google/gemini-2.5-pro-preview-05-06", unable to turn off reasoning output
-  //"x-ai/grok-3-beta",
+  "x-ai/grok-3-beta",
   "meta-llama/llama-3.3-70b-instruct",
-  //"meta-llama/llama-3.1-405b-instruct",
-  //"qwen/qwen3-235b-a22b",
-  //"deepseek/deepseek-chat-v3-0324"
+  "meta-llama/llama-3.1-405b-instruct",
+  "qwen/qwen3-235b-a22b",
+  "deepseek/deepseek-chat-v3-0324"
 ];
 
 // List of prompt paths to use for all models

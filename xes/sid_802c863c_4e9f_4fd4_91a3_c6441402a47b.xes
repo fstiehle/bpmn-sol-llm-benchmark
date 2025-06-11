@@ -13,14 +13,23 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
+      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
+      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Vorschlag bearbeiten"/>
       <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
       <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
     </event>
     <event>
-      <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
-      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
-      <boolean key="conditions" value="1"/>
+      <string key="concept:name" value="Besprechung ansetzen"/>
+      <string key="id" value="sid-3BAD666F-D1C4-4B47-9048-BF49D361A4B1"/>
+      <string key="sourceRef" value="sid-08F5410D-0539-43CF-BD81-5F0CC8A23EC1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Information"/>
+      <string key="id" value="sid-E9C763EC-A03F-4549-A09D-A01F35017123"/>
+      <string key="sourceRef" value="sid-BB0CAC4F-BAB1-4BE2-A688-004F89AF772B"/>
     </event>
   </trace>
   <trace>
@@ -31,13 +40,13 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
-      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
+      <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
+      <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
-      <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
+      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
+      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
     </event>
     <event>
       <string key="concept:name" value="Besprechung ansetzen"/>
@@ -72,23 +81,14 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
-      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Vorschlag bearbeiten"/>
       <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
       <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
     </event>
     <event>
-      <string key="concept:name" value="Besprechung ansetzen"/>
-      <string key="id" value="sid-3BAD666F-D1C4-4B47-9048-BF49D361A4B1"/>
-      <string key="sourceRef" value="sid-08F5410D-0539-43CF-BD81-5F0CC8A23EC1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Information"/>
-      <string key="id" value="sid-E9C763EC-A03F-4549-A09D-A01F35017123"/>
-      <string key="sourceRef" value="sid-BB0CAC4F-BAB1-4BE2-A688-004F89AF772B"/>
+      <string key="concept:name" value="Vorschlag bearbeiten"/>
+      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
+      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
+      <boolean key="conditions" value="1"/>
     </event>
   </trace>
   <trace>
@@ -126,13 +126,13 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
-      <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
+      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
+      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten"/>
-      <string key="id" value="sid-2BD93612-BF47-4CC1-A8AF-29908F355C95"/>
-      <string key="sourceRef" value="sid-C2E3BC73-6C6B-419D-B257-C0C01B15A7D7"/>
+      <string key="id" value="sid-A216BD63-B9E5-49FE-9886-390805B714A1"/>
+      <string key="sourceRef" value="sid-55CFB9AE-D9BC-461C-A0D6-7A42BA267A56"/>
     </event>
     <event>
       <string key="concept:name" value="Besprechung ansetzen"/>

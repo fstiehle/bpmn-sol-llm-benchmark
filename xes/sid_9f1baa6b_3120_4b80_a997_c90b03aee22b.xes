@@ -35,12 +35,11 @@
       <string key="concept:name" value="Order ticket"/>
       <string key="id" value="sid-8D8EFFEB-C49E-4DC9-B6B6-8AC520B8A50C"/>
       <string key="sourceRef" value="sid-17D6B910-2D68-4583-A5FD-B7BE1C8F5A2B"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Confirm payment"/>
-      <string key="id" value="sid-49741E13-1B13-422C-8AD2-6B8241F6E32E"/>
-      <string key="sourceRef" value="sid-03B40862-FAB7-4A86-BA9B-FAB4BAF28EBB"/>
+      <string key="concept:name" value="Refuse payment"/>
+      <string key="id" value="sid-795C6F26-3630-45A8-BAB6-DE8820B8DBB0"/>
+      <string key="sourceRef" value="sid-40989FC0-63FA-49CB-A6F6-B2E2CF1BA110"/>
     </event>
   </trace>
   <trace>
@@ -90,11 +89,12 @@
       <string key="concept:name" value="Order ticket"/>
       <string key="id" value="sid-8D8EFFEB-C49E-4DC9-B6B6-8AC520B8A50C"/>
       <string key="sourceRef" value="sid-17D6B910-2D68-4583-A5FD-B7BE1C8F5A2B"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Refuse payment"/>
-      <string key="id" value="sid-795C6F26-3630-45A8-BAB6-DE8820B8DBB0"/>
-      <string key="sourceRef" value="sid-40989FC0-63FA-49CB-A6F6-B2E2CF1BA110"/>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-49741E13-1B13-422C-8AD2-6B8241F6E32E"/>
+      <string key="sourceRef" value="sid-03B40862-FAB7-4A86-BA9B-FAB4BAF28EBB"/>
     </event>
   </trace>
 </log>

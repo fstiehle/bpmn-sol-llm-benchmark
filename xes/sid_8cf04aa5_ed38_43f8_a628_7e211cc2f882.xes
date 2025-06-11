@@ -15,12 +15,11 @@
       <string key="concept:name" value="zapisz pacjenta"/>
       <string key="id" value="sid-0A2B5205-D3C8-4D18-8617-B059BA9DF38D"/>
       <string key="sourceRef" value="sid-4118edb6-0e86-4e8b-8d2c-30510ded7937"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="wyslanie odwolania"/>
-      <string key="id" value="sid-44FA8648-8BD1-4ED3-BB90-1524147E2E12"/>
-      <string key="sourceRef" value="sid-dd8474d3-f751-4a84-9770-d3e662af08b3"/>
+      <string key="concept:name" value="wyslanie organu"/>
+      <string key="id" value="sid-1C994BCF-8067-4CF5-B9A1-1E5E1E24B8AA"/>
+      <string key="sourceRef" value="sid-dbf8d107-f911-405f-873a-ab2b49926951"/>
     </event>
   </trace>
   <trace>
@@ -33,11 +32,12 @@
       <string key="concept:name" value="zapisz pacjenta"/>
       <string key="id" value="sid-0A2B5205-D3C8-4D18-8617-B059BA9DF38D"/>
       <string key="sourceRef" value="sid-4118edb6-0e86-4e8b-8d2c-30510ded7937"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="wyslanie organu"/>
-      <string key="id" value="sid-1C994BCF-8067-4CF5-B9A1-1E5E1E24B8AA"/>
-      <string key="sourceRef" value="sid-dbf8d107-f911-405f-873a-ab2b49926951"/>
+      <string key="concept:name" value="wyslanie odwolania"/>
+      <string key="id" value="sid-44FA8648-8BD1-4ED3-BB90-1524147E2E12"/>
+      <string key="sourceRef" value="sid-dd8474d3-f751-4a84-9770-d3e662af08b3"/>
     </event>
   </trace>
 </log>

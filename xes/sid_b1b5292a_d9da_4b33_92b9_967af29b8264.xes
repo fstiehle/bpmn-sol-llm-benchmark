@@ -10,13 +10,6 @@
       <string key="concept:name" value="Zapłata za towar"/>
       <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
       <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Zapłata za towar"/>
-      <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
-      <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -44,6 +37,13 @@
       <string key="concept:name" value="Przekazanie do punktu odbiorczego"/>
       <string key="id" value="sid-CE1ACF04-6606-4523-8B8D-AB0FBEAED0B5"/>
       <string key="sourceRef" value="sid-a593c2db-4504-4e65-b4f4-840b2d089fca"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Zapłata za towar"/>
+      <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
+      <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
     </event>
   </trace>
   <trace>

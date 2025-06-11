@@ -15,39 +15,6 @@
       <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
       <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
       <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Support nimmt sich dem defekten Gerät an &#x2F; Garantiefall bewilligt"/>
-      <string key="id" value="sid-492CD1C4-81EB-4B4B-B3C1-7BF00708AE5D"/>
-      <string key="sourceRef" value="sid-D287AA88-7697-412D-ADA9-585200CF1D06"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Anfrage an Reparaturdienst; Prüfung, ob Gerät reparierbar ist"/>
-      <string key="id" value="sid-2D44CA56-2A4B-4959-B2A0-7326289F57BD"/>
-      <string key="sourceRef" value="sid-8BEFFC4A-B34A-42D8-84CB-EA69A0C91035"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ablehnung; Gerät ist irreparabel defekt"/>
-      <string key="id" value="sid-C0F110DA-170A-4626-816B-1BFAC6FD1E50"/>
-      <string key="sourceRef" value="sid-0A36F77C-1805-43D7-9165-5E00584A977E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde erhält Kaufbetrag zurückerstattet"/>
-      <string key="id" value="sid-350EC8A3-700F-46EC-AC45-0F67663518EC"/>
-      <string key="sourceRef" value="sid-5CF6EEC3-0941-49A0-AC00-2375FB134B86"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Anfrage auf Reparatur stellen &#x2F; Produkt an reBuy senden"/>
-      <string key="id" value="sid-6E7BC75D-207E-4D80-9AE8-CD7A71E4F01A"/>
-      <string key="sourceRef" value="sid-0F471585-1895-4008-BF83-CD19C3C35B7F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
-      <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
-      <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
     </event>
     <event>
       <string key="concept:name" value="Kunde erhält Gerät zurück erhält eine Absage"/>
@@ -87,6 +54,39 @@
       <string key="concept:name" value="Reparatur erfolgreich; Produkt kann zurück gesendet werden"/>
       <string key="id" value="sid-9A2B984C-85DA-4FDA-A60A-8CDAA4B4F902"/>
       <string key="sourceRef" value="sid-A1F4119B-1D60-45AC-A316-6D57E4DF2DF7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Anfrage auf Reparatur stellen &#x2F; Produkt an reBuy senden"/>
+      <string key="id" value="sid-6E7BC75D-207E-4D80-9AE8-CD7A71E4F01A"/>
+      <string key="sourceRef" value="sid-0F471585-1895-4008-BF83-CD19C3C35B7F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
+      <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Support nimmt sich dem defekten Gerät an &#x2F; Garantiefall bewilligt"/>
+      <string key="id" value="sid-492CD1C4-81EB-4B4B-B3C1-7BF00708AE5D"/>
+      <string key="sourceRef" value="sid-D287AA88-7697-412D-ADA9-585200CF1D06"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Anfrage an Reparaturdienst; Prüfung, ob Gerät reparierbar ist"/>
+      <string key="id" value="sid-2D44CA56-2A4B-4959-B2A0-7326289F57BD"/>
+      <string key="sourceRef" value="sid-8BEFFC4A-B34A-42D8-84CB-EA69A0C91035"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ablehnung; Gerät ist irreparabel defekt"/>
+      <string key="id" value="sid-C0F110DA-170A-4626-816B-1BFAC6FD1E50"/>
+      <string key="sourceRef" value="sid-0A36F77C-1805-43D7-9165-5E00584A977E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunde erhält Kaufbetrag zurückerstattet"/>
+      <string key="id" value="sid-350EC8A3-700F-46EC-AC45-0F67663518EC"/>
+      <string key="sourceRef" value="sid-5CF6EEC3-0941-49A0-AC00-2375FB134B86"/>
     </event>
   </trace>
 </log>

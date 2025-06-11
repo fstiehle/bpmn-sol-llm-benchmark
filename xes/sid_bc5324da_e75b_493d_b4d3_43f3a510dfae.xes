@@ -15,6 +15,24 @@
       <string key="concept:name" value="place offer"/>
       <string key="id" value="sid-5655913E-BE65-4B24-9082-13B8085C6E2B"/>
       <string key="sourceRef" value="sid-076ABFD4-E3E7-4556-888A-BF9299796C4D"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inform about product being not sold"/>
+      <string key="id" value="sid-53D5D8F6-50CD-4D20-9D69-F608FE82F234"/>
+      <string key="sourceRef" value="sid-EB600542-1C15-4817-8613-2AC4B2892B2E"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="publish auction"/>
+      <string key="id" value="sid-7AC60CA4-E3E6-4407-B392-91F0A0DEB9F3"/>
+      <string key="sourceRef" value="sid-5EC66FF7-4F4E-4FE9-91E4-B9E03DDEE5E0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="place offer"/>
+      <string key="id" value="sid-5655913E-BE65-4B24-9082-13B8085C6E2B"/>
+      <string key="sourceRef" value="sid-076ABFD4-E3E7-4556-888A-BF9299796C4D"/>
     </event>
     <event>
       <string key="concept:name" value="inform final price and winning bidder"/>
@@ -30,24 +48,6 @@
       <string key="concept:name" value="send payment confirmation and delivery details"/>
       <string key="id" value="sid-57EE57EF-D977-4A0F-8F44-24D659E0CC85"/>
       <string key="sourceRef" value="sid-1513B842-78BA-4198-BD64-CFD804EF38A4"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="publish auction"/>
-      <string key="id" value="sid-7AC60CA4-E3E6-4407-B392-91F0A0DEB9F3"/>
-      <string key="sourceRef" value="sid-5EC66FF7-4F4E-4FE9-91E4-B9E03DDEE5E0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="place offer"/>
-      <string key="id" value="sid-5655913E-BE65-4B24-9082-13B8085C6E2B"/>
-      <string key="sourceRef" value="sid-076ABFD4-E3E7-4556-888A-BF9299796C4D"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="inform about product being not sold"/>
-      <string key="id" value="sid-53D5D8F6-50CD-4D20-9D69-F608FE82F234"/>
-      <string key="sourceRef" value="sid-EB600542-1C15-4817-8613-2AC4B2892B2E"/>
     </event>
   </trace>
 </log>

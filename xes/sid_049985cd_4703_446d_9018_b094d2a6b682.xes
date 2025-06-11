@@ -27,9 +27,21 @@
       <string key="sourceRef" value="sid-07EB7924-0C14-4F52-B3C4-BC068A7326B4"/>
     </event>
     <event>
-      <string key="concept:name" value="Refuse payment"/>
-      <string key="id" value="sid-85CDD208-375B-493C-808D-239AB05D7F30"/>
-      <string key="sourceRef" value="sid-28ABFC83-A09A-472A-9B65-584A100D415E"/>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-D456077E-5BB6-474E-88EC-5C0B045B5F78"/>
+      <string key="sourceRef" value="sid-A073A2A5-2516-4FA8-BACD-2593EE7AFACE"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-227226E5-6AEA-41EF-A8B0-83C9A219227F"/>
+      <string key="sourceRef" value="sid-3C1DAB8C-5FC2-4015-8511-5A382F0FE956"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Reject offer"/>
+      <string key="id" value="sid-C49AC673-113F-41E0-A8FF-FA0D5D2267FA"/>
+      <string key="sourceRef" value="sid-427857D4-680C-4995-A14C-F58E8785B573"/>
     </event>
   </trace>
   <trace>
@@ -54,21 +66,9 @@
       <string key="sourceRef" value="sid-07EB7924-0C14-4F52-B3C4-BC068A7326B4"/>
     </event>
     <event>
-      <string key="concept:name" value="Confirm payment"/>
-      <string key="id" value="sid-D456077E-5BB6-474E-88EC-5C0B045B5F78"/>
-      <string key="sourceRef" value="sid-A073A2A5-2516-4FA8-BACD-2593EE7AFACE"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Make travel offer"/>
-      <string key="id" value="sid-227226E5-6AEA-41EF-A8B0-83C9A219227F"/>
-      <string key="sourceRef" value="sid-3C1DAB8C-5FC2-4015-8511-5A382F0FE956"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Reject offer"/>
-      <string key="id" value="sid-C49AC673-113F-41E0-A8FF-FA0D5D2267FA"/>
-      <string key="sourceRef" value="sid-427857D4-680C-4995-A14C-F58E8785B573"/>
+      <string key="concept:name" value="Refuse payment"/>
+      <string key="id" value="sid-85CDD208-375B-493C-808D-239AB05D7F30"/>
+      <string key="sourceRef" value="sid-28ABFC83-A09A-472A-9B65-584A100D415E"/>
     </event>
   </trace>
 </log>

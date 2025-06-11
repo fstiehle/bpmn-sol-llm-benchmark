@@ -6,7 +6,6 @@ import { ENCODINGS_DIR, run } from "../bench.config";
 import { TestConfig } from "../src/TestConfig";
 import { TraceReplayer } from '../src/TraceReplayer';
 
-// Usage in Mocha
 describe.skip("Chorpiler", () => {
   execSync("npx hardhat compile", { stdio: "inherit" });
 

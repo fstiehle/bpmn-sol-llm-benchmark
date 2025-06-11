@@ -1,9 +1,8 @@
-import { expect } from "chai";
 import * as fs from "fs";
 import * as path from "path";
 import { llms, NR_PROCESS_MODELS } from "../bench.config";
 import { TestConfig } from "../src/TestConfig";
-import { LLMProvider } from "../src/LLMProvider"; // <-- Use the provider class
+import { LLMProvider } from "../src/LLMProvider";
 
 const indent = (level: number) => "  ".repeat(level);
 
@@ -57,29 +56,34 @@ const runTest = async (config: TestConfig) => {
         process: inputText,
         prompt: updatedPrompt,
         model: config.model,
-        temperature: config.temperature ?? 0.7,
+        temperature: config.temperature ?? 0,
       });
 
-      expect(result && typeof result.smart_contract === "string" && result.smart_contract.length > 0).to.be.true;
-      console.log(`${tab2}  🤖 LLM call successful`);
-      console.log(result.usage);
+      let compiled = true;
+      if (!(result && typeof result.smart_contract === "string" && result.smart_contract.length > 0)) {
+        compiled = false;
+        console.log(`${tab2} ❌ LLM output validation failed: smart_contract is missing or invalid`);
+      } else {
+        console.log(`${tab2}  🤖 LLM call successful`);
+        console.log(result.usage);
+      }
 
       // Prepare the JSON output
       const outputJson = {
         name: config.name,
+        processID: fileNameWithoutExt,
         timestamp: new Date().toISOString(),
         model: config.model,
-        prompt: updatedPrompt,
-        input: inputText,
-        output: result.smart_contract,
-        processID: fileNameWithoutExt,
+        compiled,
         usage: {
           prompt_tokens: result.usage?.prompt_tokens,
           completion_tokens: result.usage?.completion_tokens,
           total_tokens: result.usage?.total_tokens,
           cost: result.usage?.cost,
         },
-        compiled: true
+        prompt: updatedPrompt,
+        input: inputText,
+        output: result.smart_contract,
       };
 
       // Write the JSON output to the specified output folder

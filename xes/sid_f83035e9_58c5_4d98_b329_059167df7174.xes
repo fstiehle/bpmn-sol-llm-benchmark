@@ -15,34 +15,6 @@
       <string key="concept:name" value="dobijanje detaljnijeg opisa"/>
       <string key="id" value="sid-B0A66772-AA01-4B61-BBEE-14ABAD20CB11"/>
       <string key="sourceRef" value="sid-A4BCB7C5-8042-4E5F-95F7-E39D87CEB46C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="pitanje podrske I nivoa"/>
-      <string key="id" value="sid-5C750F54-16AD-4A32-A02C-07F46C268212"/>
-      <string key="sourceRef" value="sid-3345C51F-87C6-471C-ABD8-65F91ABF544F"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="slanje resenja operateru"/>
-      <string key="id" value="sid-70EA598C-E220-4C1F-9800-9960A145687A"/>
-      <string key="sourceRef" value="sid-B92AF629-B994-4626-987D-52672DF4B1BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="slanje resenja klijentu"/>
-      <string key="id" value="sid-6CA948FD-DD94-4492-8B39-97086FF58AAA"/>
-      <string key="sourceRef" value="sid-4830A80D-8CC1-4792-8766-8F786CEC3C44"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="klijent ima problem"/>
-      <string key="id" value="sid-73540F3D-0927-4D1F-8E3C-FE930442FBF5"/>
-      <string key="sourceRef" value="sid-FBAA0A2C-1ADD-4589-AFC3-FE3FE67B7BEB"/>
-    </event>
-    <event>
-      <string key="concept:name" value="dobijanje detaljnijeg opisa"/>
-      <string key="id" value="sid-B0A66772-AA01-4B61-BBEE-14ABAD20CB11"/>
-      <string key="sourceRef" value="sid-A4BCB7C5-8042-4E5F-95F7-E39D87CEB46C"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -71,6 +43,34 @@
       <string key="concept:name" value="pitanje podrske II nivoa"/>
       <string key="id" value="sid-3DBA653A-A8C1-46DC-8C99-212183AA9096"/>
       <string key="sourceRef" value="sid-647BB620-6D2C-463C-9227-625168AD65E6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="slanje resenja operateru"/>
+      <string key="id" value="sid-70EA598C-E220-4C1F-9800-9960A145687A"/>
+      <string key="sourceRef" value="sid-B92AF629-B994-4626-987D-52672DF4B1BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="slanje resenja klijentu"/>
+      <string key="id" value="sid-6CA948FD-DD94-4492-8B39-97086FF58AAA"/>
+      <string key="sourceRef" value="sid-4830A80D-8CC1-4792-8766-8F786CEC3C44"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="klijent ima problem"/>
+      <string key="id" value="sid-73540F3D-0927-4D1F-8E3C-FE930442FBF5"/>
+      <string key="sourceRef" value="sid-FBAA0A2C-1ADD-4589-AFC3-FE3FE67B7BEB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje detaljnijeg opisa"/>
+      <string key="id" value="sid-B0A66772-AA01-4B61-BBEE-14ABAD20CB11"/>
+      <string key="sourceRef" value="sid-A4BCB7C5-8042-4E5F-95F7-E39D87CEB46C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="pitanje podrske I nivoa"/>
+      <string key="id" value="sid-5C750F54-16AD-4A32-A02C-07F46C268212"/>
+      <string key="sourceRef" value="sid-3345C51F-87C6-471C-ABD8-65F91ABF544F"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
       <string key="concept:name" value="slanje resenja operateru"/>

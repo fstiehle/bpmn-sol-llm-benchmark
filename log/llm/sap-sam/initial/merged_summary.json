@@ -1,0 +1,1242 @@
+[
+  {
+    "name": "anthropic/claude-sonnet-4 - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 7102,
+          "completion_tokens": 859,
+          "total_tokens": 7961,
+          "cost": 0.034191
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 9021,
+          "completion_tokens": 698,
+          "total_tokens": 9719,
+          "cost": 0.037533
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 11608,
+          "completion_tokens": 862,
+          "total_tokens": 12470,
+          "cost": 0.047754
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 9133,
+          "completion_tokens": 974,
+          "total_tokens": 10107,
+          "cost": 0.042009
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 6682,
+          "completion_tokens": 449,
+          "total_tokens": 7131,
+          "cost": 0.026781
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 11711,
+          "completion_tokens": 1113,
+          "total_tokens": 12824,
+          "cost": 0.051828
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 9377,
+          "completion_tokens": 920,
+          "total_tokens": 10297,
+          "cost": 0.041931
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 12049,
+          "completion_tokens": 1057,
+          "total_tokens": 13106,
+          "cost": 0.052002
+        }
+      }
+    ]
+  },
+  {
+    "name": "deepseek/deepseek-chat-v3-0324 - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 6502,
+          "completion_tokens": 761,
+          "total_tokens": 7263,
+          "cost": 0.00262028
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 8292,
+          "completion_tokens": 577,
+          "total_tokens": 8869,
+          "cost": 0.0050115
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 10659,
+          "completion_tokens": 953,
+          "total_tokens": 11612,
+          "cost": 0.00874536
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 8349,
+          "completion_tokens": 804,
+          "total_tokens": 9153,
+          "cost": 0.0053805
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 6138,
+          "completion_tokens": 380,
+          "total_tokens": 6518,
+          "cost": 0.0033131
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 10707,
+          "completion_tokens": 939,
+          "total_tokens": 11646,
+          "cost": 0.00403842
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 8576,
+          "completion_tokens": 753,
+          "total_tokens": 9329,
+          "cost": 0.00380898
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 11106,
+          "completion_tokens": 1076,
+          "total_tokens": 12182,
+          "cost": 0.00506378
+        }
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b-instruct - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 6197,
+          "completion_tokens": 861,
+          "total_tokens": 7058,
+          "cost": 0.00878
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 8015,
+          "completion_tokens": 641,
+          "total_tokens": 8656,
+          "cost": 0.0069248
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 10321,
+          "completion_tokens": 1099,
+          "total_tokens": 11420,
+          "cost": 0.009136
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 8088,
+          "completion_tokens": 867,
+          "total_tokens": 8955,
+          "cost": 0.007164
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 5904,
+          "completion_tokens": 481,
+          "total_tokens": 6385,
+          "cost": 0.019155
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 10364,
+          "completion_tokens": 1320,
+          "total_tokens": 11684,
+          "cost": 0.0093472
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 8289,
+          "completion_tokens": 1454,
+          "total_tokens": 9743,
+          "cost": 0.0077944
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 10746,
+          "completion_tokens": 1159,
+          "total_tokens": 11905,
+          "cost": 0.014223
+        }
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/llama-3.3-70b-instruct - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 6216,
+          "completion_tokens": 813,
+          "total_tokens": 7029,
+          "cost": 0.00070341
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 8016,
+          "completion_tokens": 698,
+          "total_tokens": 8714,
+          "cost": 0.00132128
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 10321,
+          "completion_tokens": 1152,
+          "total_tokens": 11473,
+          "cost": 0.00179101
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 8089,
+          "completion_tokens": 811,
+          "total_tokens": 8900,
+          "cost": 0.00136786
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 5903,
+          "completion_tokens": 379,
+          "total_tokens": 6282,
+          "cost": 0.00050796
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 10364,
+          "completion_tokens": 1123,
+          "total_tokens": 11487,
+          "cost": 0.00179652
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 8289,
+          "completion_tokens": 924,
+          "total_tokens": 9213,
+          "cost": 0.00131808
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 10745,
+          "completion_tokens": 1167,
+          "total_tokens": 11912,
+          "cost": 0.0010439
+        }
+      }
+    ]
+  },
+  {
+    "name": "openai/gpt-4.1 - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 11058,
+          "completion_tokens": 744,
+          "total_tokens": 11802,
+          "cost": 0.028068
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 12998,
+          "completion_tokens": 567,
+          "total_tokens": 13565,
+          "cost": 0.019588
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15323,
+          "completion_tokens": 1143,
+          "total_tokens": 16466,
+          "cost": 0.02539
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 13065,
+          "completion_tokens": 925,
+          "total_tokens": 13990,
+          "cost": 0.022586
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 10862,
+          "completion_tokens": 359,
+          "total_tokens": 11221,
+          "cost": 0.016916
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15326,
+          "completion_tokens": 1648,
+          "total_tokens": 16974,
+          "cost": 0.043836
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13263,
+          "completion_tokens": 2072,
+          "total_tokens": 15335,
+          "cost": 0.043102
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 15685,
+          "completion_tokens": 1165,
+          "total_tokens": 16850,
+          "cost": 0.04069
+        }
+      },
+      {
+        "processID": "sid_0d6d63ff_a888_46c1_8a54_c14e911d0d83",
+        "usage": {
+          "prompt_tokens": 11982,
+          "completion_tokens": 728,
+          "total_tokens": 12710,
+          "cost": 0.02038
+        }
+      },
+      {
+        "processID": "sid_0de8854f_07eb_4d06_8e49_148a373df43a",
+        "usage": {
+          "prompt_tokens": 9923,
+          "completion_tokens": 250,
+          "total_tokens": 10173,
+          "cost": 0.01551
+        }
+      },
+      {
+        "processID": "sid_106dc1f8_9c56_4ddc_85fd_0ff7dbd0977b",
+        "usage": {
+          "prompt_tokens": 16213,
+          "completion_tokens": 1500,
+          "total_tokens": 17713,
+          "cost": 0.028682
+        }
+      },
+      {
+        "processID": "sid_11f0cab7_e752_4a13_a29e_8f10522dbf7c",
+        "usage": {
+          "prompt_tokens": 11588,
+          "completion_tokens": 461,
+          "total_tokens": 12049,
+          "cost": 0.018032
+        }
+      },
+      {
+        "processID": "sid_124c4d40_f511_4da2_89b9_e31e3d2a42c2",
+        "usage": {
+          "prompt_tokens": 10701,
+          "completion_tokens": 363,
+          "total_tokens": 11064,
+          "cost": 0.024306
+        }
+      },
+      {
+        "processID": "sid_149e0d98_2d57_4cee_bd14_110839248907",
+        "usage": {
+          "prompt_tokens": 10523,
+          "completion_tokens": 348,
+          "total_tokens": 10871,
+          "cost": 0.016726
+        }
+      },
+      {
+        "processID": "sid_17854d3c_f32e_48b0_ad92_84fdf99d92f7",
+        "usage": {
+          "prompt_tokens": 16935,
+          "completion_tokens": 1343,
+          "total_tokens": 18278,
+          "cost": 0.02791
+        }
+      },
+      {
+        "processID": "sid_1822c7e8_cade_4df0_a6d8_f7f836656cd0",
+        "usage": {
+          "prompt_tokens": 19764,
+          "completion_tokens": 2186,
+          "total_tokens": 21950,
+          "cost": 0.057016
+        }
+      },
+      {
+        "processID": "sid_19396877_be94_440c_98de_2cc3f663a397",
+        "usage": {
+          "prompt_tokens": 13288,
+          "completion_tokens": 1034,
+          "total_tokens": 14322,
+          "cost": 0.02352
+        }
+      },
+      {
+        "processID": "sid_1aff29f9_0098_450b_8f30_defee765cb61",
+        "usage": {
+          "prompt_tokens": 16366,
+          "completion_tokens": 1439,
+          "total_tokens": 17805,
+          "cost": 0.028308
+        }
+      },
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 11067,
+          "completion_tokens": 750,
+          "total_tokens": 11817,
+          "cost": 0.02007
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 13007,
+          "completion_tokens": 553,
+          "total_tokens": 13560,
+          "cost": 0.019494
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15332,
+          "completion_tokens": 1442,
+          "total_tokens": 16774,
+          "cost": 0.0278
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 13074,
+          "completion_tokens": 1011,
+          "total_tokens": 14085,
+          "cost": 0.023292
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 10871,
+          "completion_tokens": 359,
+          "total_tokens": 11230,
+          "cost": 0.024614
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15335,
+          "completion_tokens": 1431,
+          "total_tokens": 16766,
+          "cost": 0.027718
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13272,
+          "completion_tokens": 769,
+          "total_tokens": 14041,
+          "cost": 0.021368
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 15694,
+          "completion_tokens": 1382,
+          "total_tokens": 17076,
+          "cost": 0.027468
+        }
+      }
+    ]
+  },
+  {
+    "name": "openai/gpt-4.1 - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 5957,
+          "completion_tokens": 893,
+          "total_tokens": 6850,
+          "cost": 0.019058
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 7897,
+          "completion_tokens": 556,
+          "total_tokens": 8453,
+          "cost": 0.020242
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 10222,
+          "completion_tokens": 1290,
+          "total_tokens": 11512,
+          "cost": 0.030764
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 7964,
+          "completion_tokens": 1184,
+          "total_tokens": 9148,
+          "cost": 0.0254
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 5761,
+          "completion_tokens": 360,
+          "total_tokens": 6121,
+          "cost": 0.014402
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 10225,
+          "completion_tokens": 1449,
+          "total_tokens": 11674,
+          "cost": 0.032042
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 8162,
+          "completion_tokens": 900,
+          "total_tokens": 9062,
+          "cost": 0.023524
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 10584,
+          "completion_tokens": 1279,
+          "total_tokens": 11863,
+          "cost": 0.0314
+        }
+      }
+    ]
+  },
+  {
+    "name": "qwen/qwen3-235b-a22b - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 6496,
+          "completion_tokens": 8044,
+          "total_tokens": 14540,
+          "cost": 0.0061256
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 9282,
+          "completion_tokens": 4830,
+          "total_tokens": 14112,
+          "cost": 0.01095948
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 12221,
+          "completion_tokens": 10131,
+          "total_tokens": 22352,
+          "cost": 0.0085228
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 9242,
+          "completion_tokens": 5116,
+          "total_tokens": 14358,
+          "cost": 0.00653532
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 6538,
+          "completion_tokens": 1653,
+          "total_tokens": 8191,
+          "cost": 0.00225499
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 12202,
+          "completion_tokens": 9312,
+          "total_tokens": 21514,
+          "cost": 0.00717346
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 9546,
+          "completion_tokens": 9065,
+          "total_tokens": 18611,
+          "cost": 0.0073482
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 12621,
+          "completion_tokens": 14699,
+          "total_tokens": 27320,
+          "cost": 0.01046013
+        }
+      }
+    ]
+  },
+  {
+    "name": "x-ai/grok-3-beta - one-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 5803,
+          "completion_tokens": 898,
+          "total_tokens": 6701,
+          "cost": 0.0308655
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 7744,
+          "completion_tokens": 512,
+          "total_tokens": 8256,
+          "cost": 0.03090075
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 10036,
+          "completion_tokens": 1408,
+          "total_tokens": 11444,
+          "cost": 0.05121675
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 7829,
+          "completion_tokens": 950,
+          "total_tokens": 8779,
+          "cost": 0.03745575
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 5647,
+          "completion_tokens": 615,
+          "total_tokens": 6262,
+          "cost": 0.02571375
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 10064,
+          "completion_tokens": 1105,
+          "total_tokens": 11169,
+          "cost": 0.046758
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 8002,
+          "completion_tokens": 816,
+          "total_tokens": 8818,
+          "cost": 0.03579375
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 10441,
+          "completion_tokens": 1371,
+          "total_tokens": 11812,
+          "cost": 0.051438
+        }
+      }
+    ]
+  },
+  {
+    "name": "anthropic/claude-sonnet-4 - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 12808,
+          "completion_tokens": 801,
+          "total_tokens": 13609,
+          "cost": 0.050439
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 14727,
+          "completion_tokens": 676,
+          "total_tokens": 15403,
+          "cost": 0.054321
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 17314,
+          "completion_tokens": 1129,
+          "total_tokens": 18443,
+          "cost": 0.068877
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 14839,
+          "completion_tokens": 941,
+          "total_tokens": 15780,
+          "cost": 0.058632
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 12388,
+          "completion_tokens": 436,
+          "total_tokens": 12824,
+          "cost": 0.043704
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 17417,
+          "completion_tokens": 1443,
+          "total_tokens": 18860,
+          "cost": 0.073896
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 15083,
+          "completion_tokens": 894,
+          "total_tokens": 15977,
+          "cost": 0.058659
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 17755,
+          "completion_tokens": 1345,
+          "total_tokens": 19100,
+          "cost": 0.07344
+        }
+      }
+    ]
+  },
+  {
+    "name": "deepseek/deepseek-chat-v3-0324 - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 11750,
+          "completion_tokens": 625,
+          "total_tokens": 12375,
+          "cost": 0.00469
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 13537,
+          "completion_tokens": 580,
+          "total_tokens": 14117,
+          "cost": 0.0045715
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15907,
+          "completion_tokens": 971,
+          "total_tokens": 16878,
+          "cost": 0.0085661
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 13594,
+          "completion_tokens": 803,
+          "total_tokens": 14397,
+          "cost": 0.00728165
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 11386,
+          "completion_tokens": 398,
+          "total_tokens": 11784,
+          "cost": 0.00376604
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15955,
+          "completion_tokens": 1221,
+          "total_tokens": 17176,
+          "cost": 0.00586098
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13824,
+          "completion_tokens": 759,
+          "total_tokens": 14583,
+          "cost": 0.00554862
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 16354,
+          "completion_tokens": 1081,
+          "total_tokens": 17435,
+          "cost": 0.00585748
+        }
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b-instruct - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 11348,
+          "completion_tokens": 734,
+          "total_tokens": 12082,
+          "cost": 0.0096656
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 13168,
+          "completion_tokens": 965,
+          "total_tokens": 14133,
+          "cost": 0.0113064
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15472,
+          "completion_tokens": 1301,
+          "total_tokens": 16773,
+          "cost": 0.0134184
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 13241,
+          "completion_tokens": 903,
+          "total_tokens": 14144,
+          "cost": 0.01595
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 11055,
+          "completion_tokens": 538,
+          "total_tokens": 11593,
+          "cost": 0.0092744
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15516,
+          "completion_tokens": 1233,
+          "total_tokens": 16749,
+          "cost": 0.0133992
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13440,
+          "completion_tokens": 1284,
+          "total_tokens": 14724,
+          "cost": 0.0117792
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 15898,
+          "completion_tokens": 1286,
+          "total_tokens": 17184,
+          "cost": 0.019756
+        }
+      }
+    ]
+  },
+  {
+    "name": "meta-llama/llama-3.3-70b-instruct - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 11349,
+          "completion_tokens": 714,
+          "total_tokens": 12063,
+          "cost": 0.00175383
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 13168,
+          "completion_tokens": 917,
+          "total_tokens": 14085,
+          "cost": 0.00207864
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15473,
+          "completion_tokens": 1062,
+          "total_tokens": 16535,
+          "cost": 0.00222846
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 13260,
+          "completion_tokens": 786,
+          "total_tokens": 14046,
+          "cost": 0.00118758
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 11056,
+          "completion_tokens": 370,
+          "total_tokens": 11426,
+          "cost": 0.00158528
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15516,
+          "completion_tokens": 2117,
+          "total_tokens": 17633,
+          "cost": 0.00284271
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13440,
+          "completion_tokens": 776,
+          "total_tokens": 14216,
+          "cost": 0.0011348
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 15897,
+          "completion_tokens": 1394,
+          "total_tokens": 17291,
+          "cost": 0.00146129
+        }
+      }
+    ]
+  },
+  {
+    "name": "qwen/qwen3-235b-a22b - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 12692,
+          "completion_tokens": 12914,
+          "total_tokens": 25606,
+          "cost": 0.0102868
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 15479,
+          "completion_tokens": 2801,
+          "total_tokens": 18280,
+          "cost": 0.00568452
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 18417,
+          "completion_tokens": 11531,
+          "total_tokens": 29948,
+          "cost": 0.01219556
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 15438,
+          "completion_tokens": 4825,
+          "total_tokens": 20263,
+          "cost": 0.00610819
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 12734,
+          "completion_tokens": 984,
+          "total_tokens": 13718,
+          "cost": 0.00249182
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 18397,
+          "completion_tokens": 7096,
+          "total_tokens": 25493,
+          "cost": 0.01676758
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 15742,
+          "completion_tokens": 6902,
+          "total_tokens": 22644,
+          "cost": 0.01019932
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 18817,
+          "completion_tokens": 13320,
+          "total_tokens": 32137,
+          "cost": 0.01043821
+        }
+      }
+    ]
+  },
+  {
+    "name": "x-ai/grok-3-beta - two-shot",
+    "usages": [
+      {
+        "processID": "Choreography",
+        "usage": {
+          "prompt_tokens": 10829,
+          "completion_tokens": 798,
+          "total_tokens": 11627,
+          "cost": 0.04444575
+        }
+      },
+      {
+        "processID": "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff",
+        "usage": {
+          "prompt_tokens": 12770,
+          "completion_tokens": 564,
+          "total_tokens": 13334,
+          "cost": 0.04648875
+        }
+      },
+      {
+        "processID": "sid_049985cd_4703_446d_9018_b094d2a6b682",
+        "usage": {
+          "prompt_tokens": 15062,
+          "completion_tokens": 1050,
+          "total_tokens": 16112,
+          "cost": 0.060486
+        }
+      },
+      {
+        "processID": "sid_04d84a1d_db2d_455e_bc39_0d7a8eaa8f28",
+        "usage": {
+          "prompt_tokens": 12855,
+          "completion_tokens": 837,
+          "total_tokens": 13692,
+          "cost": 0.051102
+        }
+      },
+      {
+        "processID": "sid_0536de2b_aa31_4e5c_9056_a8b841e5281d",
+        "usage": {
+          "prompt_tokens": 10673,
+          "completion_tokens": 358,
+          "total_tokens": 11031,
+          "cost": 0.03737775
+        }
+      },
+      {
+        "processID": "sid_066fd018_ea41_408e_a465_7c059ef87b32",
+        "usage": {
+          "prompt_tokens": 15090,
+          "completion_tokens": 1268,
+          "total_tokens": 16358,
+          "cost": 0.06384
+        }
+      },
+      {
+        "processID": "sid_06969fe5_fc2b_43e3_bc95_202bb6bac771",
+        "usage": {
+          "prompt_tokens": 13028,
+          "completion_tokens": 749,
+          "total_tokens": 13777,
+          "cost": 0.05003775
+        }
+      },
+      {
+        "processID": "sid_0786fa46_44c3_4a36_a523_b1a497dacbfc",
+        "usage": {
+          "prompt_tokens": 15467,
+          "completion_tokens": 1533,
+          "total_tokens": 17000,
+          "cost": 0.068946
+        }
+      }
+    ]
+  }
+]

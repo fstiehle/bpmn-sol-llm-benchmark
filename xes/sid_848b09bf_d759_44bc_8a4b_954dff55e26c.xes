@@ -15,6 +15,23 @@
       <string key="concept:name" value="Prolem am Telefon lösen"/>
       <string key="id" value="sid-482ECE6A-6926-4174-B9E2-1C7B992D32EC"/>
       <string key="sourceRef" value="sid-7341C6F9-65E2-4C8D-9A9C-FA1660411548"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prolem wurde gelöst"/>
+      <string key="id" value="sid-737C1F68-8E64-44F6-9DA9-87F49EC235AB"/>
+      <string key="sourceRef" value="sid-C0A5C14F-C6CB-4199-9DE8-5767C107A3F2"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Anruf"/>
+      <string key="id" value="sid-29382691-CB62-40F3-A6A9-5C643BCD67F4"/>
+      <string key="sourceRef" value="sid-0D758311-08BA-49AC-B8A2-995DF8655BF1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prolem am Telefon lösen"/>
+      <string key="id" value="sid-482ECE6A-6926-4174-B9E2-1C7B992D32EC"/>
+      <string key="sourceRef" value="sid-7341C6F9-65E2-4C8D-9A9C-FA1660411548"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -41,23 +58,6 @@
       <string key="concept:name" value="Formular unterschreiben"/>
       <string key="id" value="sid-48480116-350F-44A4-B921-AA30302FA5E0"/>
       <string key="sourceRef" value="sid-22A61C42-29C4-4BC0-9FA3-D3F1BC27D4CB"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Anruf"/>
-      <string key="id" value="sid-29382691-CB62-40F3-A6A9-5C643BCD67F4"/>
-      <string key="sourceRef" value="sid-0D758311-08BA-49AC-B8A2-995DF8655BF1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Prolem am Telefon lösen"/>
-      <string key="id" value="sid-482ECE6A-6926-4174-B9E2-1C7B992D32EC"/>
-      <string key="sourceRef" value="sid-7341C6F9-65E2-4C8D-9A9C-FA1660411548"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Prolem wurde gelöst"/>
-      <string key="id" value="sid-737C1F68-8E64-44F6-9DA9-87F49EC235AB"/>
-      <string key="sourceRef" value="sid-C0A5C14F-C6CB-4199-9DE8-5767C107A3F2"/>
     </event>
   </trace>
 </log>

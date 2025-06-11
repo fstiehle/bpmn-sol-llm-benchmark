@@ -20,12 +20,11 @@
       <string key="concept:name" value="Anforderung&amp;#10;fehlender Unterlagen&amp;#10;und fehlende&amp;#10;Unterlagen&amp;#10;senden"/>
       <string key="id" value="sid-8E58B1FD-D6B0-4ADA-B23E-BC2C3A57D647"/>
       <string key="sourceRef" value="sid-3E483F34-387D-4C39-A5AE-C46317910D1F"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Absage&amp;#10;senden"/>
-      <string key="id" value="sid-6E0647F7-8CDA-43ED-B9A1-670087E29BA6"/>
-      <string key="sourceRef" value="sid-D66A99AA-A175-44D1-9BB4-9AD86EB7670E"/>
+      <string key="concept:name" value="Zusage&amp;#10;senden"/>
+      <string key="id" value="sid-BDE1D3D8-4D00-4E32-9797-AFB900D98670"/>
+      <string key="sourceRef" value="sid-B6A465E5-94CE-4A4F-8FF9-0BCF8578E1D8"/>
     </event>
   </trace>
   <trace>
@@ -43,11 +42,12 @@
       <string key="concept:name" value="Anforderung&amp;#10;fehlender Unterlagen&amp;#10;und fehlende&amp;#10;Unterlagen&amp;#10;senden"/>
       <string key="id" value="sid-8E58B1FD-D6B0-4ADA-B23E-BC2C3A57D647"/>
       <string key="sourceRef" value="sid-3E483F34-387D-4C39-A5AE-C46317910D1F"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Zusage&amp;#10;senden"/>
-      <string key="id" value="sid-BDE1D3D8-4D00-4E32-9797-AFB900D98670"/>
-      <string key="sourceRef" value="sid-B6A465E5-94CE-4A4F-8FF9-0BCF8578E1D8"/>
+      <string key="concept:name" value="Absage&amp;#10;senden"/>
+      <string key="id" value="sid-6E0647F7-8CDA-43ED-B9A1-670087E29BA6"/>
+      <string key="sourceRef" value="sid-D66A99AA-A175-44D1-9BB4-9AD86EB7670E"/>
     </event>
   </trace>
 </log>

@@ -10,6 +10,13 @@
       <string key="concept:name" value="Solicitar Cotización"/>
       <string key="id" value="sid-CC6038BD-B2B0-4B99-A027-0569C7FE8FD1"/>
       <string key="sourceRef" value="sid-598F79D8-536C-48BE-91F2-B3FD871F654B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Solicitar Cotización"/>
+      <string key="id" value="sid-CC6038BD-B2B0-4B99-A027-0569C7FE8FD1"/>
+      <string key="sourceRef" value="sid-598F79D8-536C-48BE-91F2-B3FD871F654B"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -26,13 +33,6 @@
       <string key="concept:name" value="Enviar Productos"/>
       <string key="id" value="sid-8015FC3A-9884-4B3E-8F94-CDBE345BE0F4"/>
       <string key="sourceRef" value="sid-CD0110FC-0353-4CD5-B2A6-6590BE51993D"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Solicitar Cotización"/>
-      <string key="id" value="sid-CC6038BD-B2B0-4B99-A027-0569C7FE8FD1"/>
-      <string key="sourceRef" value="sid-598F79D8-536C-48BE-91F2-B3FD871F654B"/>
     </event>
   </trace>
 </log>

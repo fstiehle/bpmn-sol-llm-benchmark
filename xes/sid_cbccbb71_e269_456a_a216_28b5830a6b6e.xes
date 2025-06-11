@@ -10,6 +10,13 @@
       <string key="concept:name" value="Meldungen an Energielieferanten"/>
       <string key="id" value="sid-0E0AB809-88BB-4818-98B9-2DD76F51589B"/>
       <string key="sourceRef" value="sid-C0ECA17B-2C0E-4544-8A6E-5AE945322D37"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Meldungen an Energielieferanten"/>
+      <string key="id" value="sid-0E0AB809-88BB-4818-98B9-2DD76F51589B"/>
+      <string key="sourceRef" value="sid-C0ECA17B-2C0E-4544-8A6E-5AE945322D37"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -21,13 +28,6 @@
       <string key="concept:name" value="Scan Unterlagen für Mieterakt"/>
       <string key="id" value="sid-C8C25D75-E4F8-4B79-BDC1-1AC0392BE493"/>
       <string key="sourceRef" value="sid-6FE04B73-5949-4FCC-B17B-4FCCDF96B03D"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Meldungen an Energielieferanten"/>
-      <string key="id" value="sid-0E0AB809-88BB-4818-98B9-2DD76F51589B"/>
-      <string key="sourceRef" value="sid-C0ECA17B-2C0E-4544-8A6E-5AE945322D37"/>
     </event>
   </trace>
 </log>

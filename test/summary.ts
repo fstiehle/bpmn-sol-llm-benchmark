@@ -10,27 +10,37 @@ type Summary = {
   processes: any[];
 };
 
+type UsageEntry = {
+  name: string;
+  usages: Array<{
+    processID: string;
+    usage: any;
+  }>;
+};
+
+function walk(dir: string, jsonOnly: boolean = false): string[] {
+  let results: string[] = [];
+  if (!fs.existsSync(dir)) return results;
+  const list = fs.readdirSync(dir);
+  for (const file of list) {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+    if (stat && stat.isDirectory()) {
+      results = results.concat(walk(filePath, jsonOnly));
+    } else if (file.endsWith('.json')) {
+      results.push(filePath);
+    }
+  }
+  return results;
+}
+
 describe('summary', () => {
   it('should merge all summary.json files in log/execution/sap-sam/last/one-shot and two-shot (including subfolders)', () => {
     const baseFolders = [
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/one-shot`),
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/two-shot`),
+      path.join(__dirname, `../log/execution/sap-sam/${STAMP}/chorpiler`), 
     ];
-    function walk(dir: string): string[] {
-      let results: string[] = [];
-      if (!fs.existsSync(dir)) return results;
-      const list = fs.readdirSync(dir);
-      for (const file of list) {
-        const filePath = path.join(dir, file);
-        const stat = fs.statSync(filePath);
-        if (stat && stat.isDirectory()) {
-          results = results.concat(walk(filePath));
-        } else if (file === 'summary.json') {
-          results.push(filePath);
-        }
-      }
-      return results;
-    }
     // Collect and merge
     const merged: Record<string, Summary> = {};
     for (const folder of baseFolders) {
@@ -82,5 +92,37 @@ describe('summary', () => {
     const outPath = path.join(__dirname, `../log/execution/sap-sam/${STAMP}/merged_summary.json`);
     fs.writeFileSync(outPath, JSON.stringify(mergedArr, null, 2), 'utf-8');
     console.log(`Merged summary saved to ${outPath}`);
+  });
+});
+
+describe('llm usage summary', () => {
+  it('should merge all JSON files in log/llm/sap-sam/${STAMP}/one-shot and two-shot (including subfolders) and join on name', () => {
+    const baseFolders = [
+      path.join(__dirname, `../log/llm/sap-sam/${STAMP}/one-shot`),
+      path.join(__dirname, `../log/llm/sap-sam/${STAMP}/two-shot`),
+    ];
+    // Reuse walk function
+    const merged: Record<string, UsageEntry> = {};
+    for (const folder of baseFolders) {
+      const jsonFiles = walk(folder);
+      for (const filePath of jsonFiles) {
+        try {
+          const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          const { name, processID, usage } = content;
+          if (!name || !processID || usage === undefined) continue;
+          if (!merged[name]) {
+            merged[name] = { name, usages: [{ processID, usage }] };
+          } else {
+            merged[name].usages.push({ processID, usage });
+          }
+        } catch (e) {
+          console.error(`Failed to parse ${filePath}:`, e);
+        }
+      }
+    }
+    const mergedArr = Object.values(merged);
+    const outPath = path.join(__dirname, `../log/llm/sap-sam/${STAMP}/merged_summary.json`);
+    fs.writeFileSync(outPath, JSON.stringify(mergedArr, null, 2), 'utf-8');
+    console.log(`Merged LLM usage file saved to ${outPath}`);
   });
 });

@@ -40,7 +40,7 @@ export class LLMProvider {
       usage: {
         include: true,
       },
-      max_tokens: 5000,
+      max_tokens: 15000,
       temperature: queryData.temperature,
       extra_body: { enable_thinking: false },
     };

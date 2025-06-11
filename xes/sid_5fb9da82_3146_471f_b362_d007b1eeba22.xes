@@ -35,11 +35,12 @@
       <string key="concept:name" value="Fotos bezahlen"/>
       <string key="id" value="sid-2BA251C1-F838-4861-B938-22F4BE0320B2"/>
       <string key="sourceRef" value="sid-CD6A11B8-EA8B-40AB-9CB1-CACA9180B346"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Fotos abholen"/>
-      <string key="id" value="sid-DB65A7A4-7642-48A2-8798-44DC7F968623"/>
-      <string key="sourceRef" value="sid-915B6780-6534-405B-9FD1-B0C78D3B5B1E"/>
+      <string key="concept:name" value="Fotos geschickt bekommen"/>
+      <string key="id" value="sid-D0AC8191-ECED-4E83-ACF3-28B83E1C53E2"/>
+      <string key="sourceRef" value="sid-18ECE3B7-DCF9-4380-9ED7-245901D6A440"/>
     </event>
   </trace>
   <trace>
@@ -72,12 +73,11 @@
       <string key="concept:name" value="Fotos bezahlen"/>
       <string key="id" value="sid-2BA251C1-F838-4861-B938-22F4BE0320B2"/>
       <string key="sourceRef" value="sid-CD6A11B8-EA8B-40AB-9CB1-CACA9180B346"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Fotos geschickt bekommen"/>
-      <string key="id" value="sid-D0AC8191-ECED-4E83-ACF3-28B83E1C53E2"/>
-      <string key="sourceRef" value="sid-18ECE3B7-DCF9-4380-9ED7-245901D6A440"/>
+      <string key="concept:name" value="Fotos abholen"/>
+      <string key="id" value="sid-DB65A7A4-7642-48A2-8798-44DC7F968623"/>
+      <string key="sourceRef" value="sid-915B6780-6534-405B-9FD1-B0C78D3B5B1E"/>
     </event>
   </trace>
 </log>

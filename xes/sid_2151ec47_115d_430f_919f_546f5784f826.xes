@@ -15,17 +15,6 @@
       <string key="concept:name" value="Dobijanje opisa problema"/>
       <string key="id" value="sid-CE66FED6-A686-4096-B422-CD0BA169BE36"/>
       <string key="sourceRef" value="sid-77762FAA-CBB9-4E89-9239-64BC82E6847B"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Pitanje podrske I nivoa"/>
-      <string key="id" value="sid-13670263-52E5-49D8-9F4B-0558669622F0"/>
-      <string key="sourceRef" value="sid-B55E9BB8-73D7-4C3A-B520-708BBF4A6A9D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Slanje resenja"/>
-      <string key="id" value="sid-D4B484C1-78F8-4D81-957D-2DAF07E48494"/>
-      <string key="sourceRef" value="sid-C9940571-785E-42CC-B469-5DA7A474E4C6"/>
     </event>
     <event>
       <string key="concept:name" value="Saopstavanje resenja"/>
@@ -82,6 +71,17 @@
       <string key="concept:name" value="Dobijanje opisa problema"/>
       <string key="id" value="sid-CE66FED6-A686-4096-B422-CD0BA169BE36"/>
       <string key="sourceRef" value="sid-77762FAA-CBB9-4E89-9239-64BC82E6847B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Pitanje podrske I nivoa"/>
+      <string key="id" value="sid-13670263-52E5-49D8-9F4B-0558669622F0"/>
+      <string key="sourceRef" value="sid-B55E9BB8-73D7-4C3A-B520-708BBF4A6A9D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-D4B484C1-78F8-4D81-957D-2DAF07E48494"/>
+      <string key="sourceRef" value="sid-C9940571-785E-42CC-B469-5DA7A474E4C6"/>
     </event>
     <event>
       <string key="concept:name" value="Saopstavanje resenja"/>

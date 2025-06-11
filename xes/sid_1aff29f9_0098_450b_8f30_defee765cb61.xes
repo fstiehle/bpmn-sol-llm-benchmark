@@ -25,29 +25,6 @@
       <string key="concept:name" value="Ticket auswählen"/>
       <string key="id" value="sid-C3423358-0834-46F4-9BEF-2312F3F5670B"/>
       <string key="sourceRef" value="sid-C3FE02E8-C705-4DC0-BEEC-8567CFB4B9B2"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Kunde füllt Formular aus"/>
-      <string key="id" value="sid-08E44EEC-F5A2-4529-9B95-DAA0B1553E3B"/>
-      <string key="sourceRef" value="sid-D0AB87D0-19D7-4CEF-B3F5-B39CC83153D4"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ticket erstellen"/>
-      <string key="id" value="sid-71EECEC0-BED7-4D5B-A3B9-F5E0A08A1B91"/>
-      <string key="sourceRef" value="sid-C76DC8B4-5477-44FF-9300-CCBB398E709F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Meldet sich an"/>
-      <string key="id" value="sid-04736748-3A55-4172-8EC2-70379C6D6C1C"/>
-      <string key="sourceRef" value="sid-D033B3A1-C8FD-42BB-93DB-160EF2DD2A77"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ticket auswählen"/>
-      <string key="id" value="sid-C3423358-0834-46F4-9BEF-2312F3F5670B"/>
-      <string key="sourceRef" value="sid-C3FE02E8-C705-4DC0-BEEC-8567CFB4B9B2"/>
     </event>
     <event>
       <string key="concept:name" value="Ticket bearbeiten"/>
@@ -78,6 +55,29 @@
       <string key="concept:name" value="Rückmeldung einsehen"/>
       <string key="id" value="sid-B42BA3E1-4936-4177-9785-0CBF5888F7DB"/>
       <string key="sourceRef" value="sid-83E1BDE7-8068-4CE3-80F3-D43A23B89294"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kunde füllt Formular aus"/>
+      <string key="id" value="sid-08E44EEC-F5A2-4529-9B95-DAA0B1553E3B"/>
+      <string key="sourceRef" value="sid-D0AB87D0-19D7-4CEF-B3F5-B39CC83153D4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ticket erstellen"/>
+      <string key="id" value="sid-71EECEC0-BED7-4D5B-A3B9-F5E0A08A1B91"/>
+      <string key="sourceRef" value="sid-C76DC8B4-5477-44FF-9300-CCBB398E709F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Meldet sich an"/>
+      <string key="id" value="sid-04736748-3A55-4172-8EC2-70379C6D6C1C"/>
+      <string key="sourceRef" value="sid-D033B3A1-C8FD-42BB-93DB-160EF2DD2A77"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ticket auswählen"/>
+      <string key="id" value="sid-C3423358-0834-46F4-9BEF-2312F3F5670B"/>
+      <string key="sourceRef" value="sid-C3FE02E8-C705-4DC0-BEEC-8567CFB4B9B2"/>
+      <boolean key="conditions" value="1"/>
     </event>
   </trace>
 </log>

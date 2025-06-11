@@ -9,7 +9,8 @@ const config: HardhatUserConfig = {
         "enabled": true,
         "runs": 100
       }
-    }
+    },
+    
   },
   mocha: {
     timeout: 40000

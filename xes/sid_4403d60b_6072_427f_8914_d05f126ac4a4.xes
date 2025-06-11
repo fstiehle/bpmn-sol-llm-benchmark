@@ -10,6 +10,19 @@
       <string key="concept:name" value="Pronalaženje dostupnog primjerka knjige"/>
       <string key="id" value="sid-A6663D7A-4D36-4E24-B402-3B6D0CD89938"/>
       <string key="sourceRef" value="sid-74A49ABE-427E-4530-8B41-06A6BC1B5022"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rezerviranje knjige"/>
+      <string key="id" value="sid-4459D276-4952-4A89-8151-505064149A15"/>
+      <string key="sourceRef" value="sid-8E284737-B4FD-41B6-AF1B-52A3A2D27D6C"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Pronalaženje dostupnog primjerka knjige"/>
+      <string key="id" value="sid-A6663D7A-4D36-4E24-B402-3B6D0CD89938"/>
+      <string key="sourceRef" value="sid-74A49ABE-427E-4530-8B41-06A6BC1B5022"/>
     </event>
     <event>
       <string key="concept:name" value="Posuđivanje knjige"/>
@@ -42,12 +55,6 @@
       <string key="concept:name" value="Vraćanje posuđene knjige"/>
       <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
       <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Plaćanje zakasnine"/>
-      <string key="id" value="sid-BA0AF6A7-C1DF-4EBD-9603-AE5D7AB2EDFF"/>
-      <string key="sourceRef" value="sid-A12D0250-A2F0-4C82-960F-9329B47D2478"/>
     </event>
   </trace>
   <trace>
@@ -65,19 +72,12 @@
       <string key="concept:name" value="Vraćanje posuđene knjige"/>
       <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
       <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Pronalaženje dostupnog primjerka knjige"/>
-      <string key="id" value="sid-A6663D7A-4D36-4E24-B402-3B6D0CD89938"/>
-      <string key="sourceRef" value="sid-74A49ABE-427E-4530-8B41-06A6BC1B5022"/>
-      <boolean key="conditions" value="2"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Rezerviranje knjige"/>
-      <string key="id" value="sid-4459D276-4952-4A89-8151-505064149A15"/>
-      <string key="sourceRef" value="sid-8E284737-B4FD-41B6-AF1B-52A3A2D27D6C"/>
+      <string key="concept:name" value="Plaćanje zakasnine"/>
+      <string key="id" value="sid-BA0AF6A7-C1DF-4EBD-9603-AE5D7AB2EDFF"/>
+      <string key="sourceRef" value="sid-A12D0250-A2F0-4C82-960F-9329B47D2478"/>
     </event>
   </trace>
 </log>

@@ -36,8 +36,10 @@ export const randomSigners = async (amount: number, funder: any, provider: any):
 };
 
 // Helper to apply data changes to a contract
-async function applyDataChanges(contract: any, dataChanges: any[], tab3: string): Promise<boolean> {
+async function applyDataChanges(contract: any, dataChanges: any[], tab3: string
+  ): Promise<{ allTokenStatesChanged: boolean, gasCost: number }> {
   let allTokenStatesChanged = true;
+  let gasCost = 0;
   for (const el of dataChanges) {
     let preConditionState;
     try {
@@ -56,14 +58,16 @@ async function applyDataChanges(contract: any, dataChanges: any[], tab3: string)
     const methodName = "set" + capitalize(el.variable);
     logDebug(`${tab3}🛠️ Try:`, methodName, updatedState);
     try {
-      await (await contract[methodName](updatedState)).wait(1);
+      const tx = await (await contract[methodName](updatedState)).wait(1);
+      logDebug('Gas', 'Write', el.variable, el.val, ":", tx.gasUsed);
+      gasCost += Number(tx.gasUsed);
     } catch (error) {
       logDebug(`${tab3}⚠️`, error instanceof Error ? error.message : String(error));
       allTokenStatesChanged = false;
       continue;
     }
   }
-  return allTokenStatesChanged;
+  return { allTokenStatesChanged, gasCost };
 }
 
 // Modular function to replay a single trace (conforming or non-conforming)
@@ -93,14 +97,18 @@ async function replayTrace({
     preTokenState: any;
     postTokenState: any;
     tokenStateChanged: boolean;
+    gasCost: number;
     error?: string;
   }[] = [];
 
   for (const event of trace) {
+    let gasCost = 0;
     if (event.dataChange && event.dataChange.length > 0) {
-      const changed = await applyDataChanges(contract, event.dataChange, tab3);
+      const r = await applyDataChanges(contract, event.dataChange, tab3);
+      gasCost += r.gasCost;
+      logDebug(`${tab3}🛠️ Data changes applied:`, event.dataChange, 'Gas cost:', gasCost);
       if (isConforming) {
-        allTokenStatesChanged = allTokenStatesChanged && changed;
+        allTokenStatesChanged = allTokenStatesChanged && r.allTokenStatesChanged;
       }
     }
 
@@ -135,7 +143,9 @@ async function replayTrace({
       if (typeof participant[methodToCall] !== "function") {
         throw new Error(`Method ${methodToCall} does not exist on the contract`);
       }
-      await (await participant[methodToCall](taskID)).wait(1);
+      const tx = await (await participant[methodToCall](taskID)).wait(1);
+      gasCost += tx.gasCost;
+      logDebug('Gas', 'Enact', event.name, taskID, ":", tx.gasUsed);
       postTokenState = await contract.tokenState();
     } catch (error) {
       postTokenState = await contract.tokenState();
@@ -146,6 +156,7 @@ async function replayTrace({
         preTokenState: preTokenState.toString(),
         postTokenState: postTokenState.toString(),
         tokenStateChanged: postTokenState !== preTokenState,
+        gasCost,
         error: (error instanceof Error ? error.message : String(error)).slice(0, 30)
       });
       logDebug(`${tab3}❌`, error instanceof Error ? error.message : String(error));
@@ -172,7 +183,8 @@ async function replayTrace({
       taskID,
       preTokenState: preTokenState.toString(),
       postTokenState: postTokenState.toString(),
-      tokenStateChanged: postTokenState !== preTokenState
+      tokenStateChanged: postTokenState !== preTokenState,
+      gasCost
     });
   }
   return { allTokenStatesChanged, eventsRejected, report };
@@ -187,7 +199,7 @@ export class TraceReplayer {
 
   async replay() {
     const solFiles = fs.readdirSync(this.solDir).filter(file => file.endsWith('.sol'));
-    const results: { process: string; true_positives: number; number_positives: number; true_negative: number; number_negatives: number }[] = [];
+    const results: { process: string; true_positives: number; number_positives: number; true_negative: number; number_negatives: number, gas: number; compiled: boolean }[] = [];
     let totalTracesReplayed = 0; // <-- Add counter
 
     for (const file of solFiles) {
@@ -217,17 +229,22 @@ export class TraceReplayer {
         triggerEncoding.participants.size, 
         (await ethers.getSigners())[0], 
         ethers.provider);
-
+      let totalGasCost = 0;
       let correctTraceCount = 0;
       // replay log
       for (const [i, trace] of eventLog.traces.entries()) {
         totalTracesReplayed++; // <-- Increment for each replayed trace
+        let gasCost = 0;
         let contract;
         try {
           contract = await ethers.deployContract(
             `${this.contractPrefix}${name}`,
             [wallets.map(v => v.address)]
           );
+          const tx = await contract.deploymentTransaction()!.wait(1)
+          if (!tx) throw Error()
+          gasCost += Number(tx.gasUsed);
+          logDebug('Gas', 'Deployment', ':', gasCost);
         } catch (error) {
           console.log(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
           throw error;
@@ -239,7 +256,7 @@ export class TraceReplayer {
         }
 
         console.log(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
-        const { allTokenStatesChanged, report } = await replayTrace({
+        const { allTokenStatesChanged, eventsRejected, report } = await replayTrace({
           contract,
           trace,
           contracts,
@@ -273,6 +290,8 @@ export class TraceReplayer {
         } else {
           console.log(`${tab(3)}❌ Trace #${i + 1} did not conform.`);
         }
+
+        totalGasCost = gasCost + report.reduce((sum, r) => sum + (r.gasCost || 0), 0)
       }
 
       // --- Non-conforming traces ---
@@ -335,7 +354,9 @@ export class TraceReplayer {
         true_positives: correctTraceCount,
         number_positives: eventLog.traces.length,
         true_negative: rejectedTraces, // <-- Use the sum of rejected traces
-        number_negatives: badLog.traces.length
+        number_negatives: badLog.traces.length,
+        gas: totalGasCost,
+        compiled: true
       });
     }
 
@@ -343,7 +364,6 @@ export class TraceReplayer {
       name: this.test.name,
       timestamp: new Date().toISOString(),
       model: this.test.model,
-      gascost: 0,
       processes: results
     };
 
@@ -375,16 +395,6 @@ export class TraceReplayer {
       };
     });
 
-    // Calculate overall F1 score
-    const totalTP = results.reduce((sum, r) => sum + r.true_positives, 0);
-    const totalFP = results.reduce((sum, r) => sum + (r.number_positives - r.true_positives), 0);
-    const totalFN = results.reduce((sum, r) => sum + (r.number_negatives - r.true_negative), 0);
-
-    const overallPrecision = totalTP + totalFP === 0 ? 0 : totalTP / (totalTP + totalFP);
-    const overallRecall = totalTP + totalFN === 0 ? 0 : totalTP / (totalTP + totalFN);
-    const overallF1 = overallPrecision + overallRecall === 0 ? 0 : (2 * overallPrecision * overallRecall) / (overallPrecision + overallRecall);
-
-    console.log(`${tab(1)}🏆 Overall F1 Score: ${overallF1.toFixed(2)}`);
     for (const r of results) {
       if (r.true_positives < r.number_positives || r.true_negative < r.number_negatives) {
         console.log(`${tab(1)}⚠️ Model "${r.process}" has false positives or false negatives.`);
