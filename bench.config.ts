@@ -21,7 +21,7 @@ export const NR_NON_CONFORMING_TRACES = 50;
 
 // only take the first 20 process models from data
 // good for pre-testing
-export const NR_PROCESS_MODELS: number | "all" = 20;
+export const NR_PROCESS_MODELS: number | "all" = 5;
 
 export const XES_PARSER = new chorpiler.utils.XESParser();
 export const XES_DIR = "./xes";
@@ -33,26 +33,26 @@ export const ENDPOINT =
 export const SYSTEM_PROMPT = `You are a helpful assistant that generates Solidity smart contracts based on the provided requirements. 
 Make sure to follow best practices for Solidity development, including security considerations and gas optimization.`;
 
-export const stamp = "last";
+export const STAMP = "last"; // identifier of the current experiment used throughout benchmark
 
 // -----------------------------------------------
 // TESTS
 // List of model names
 export const modelNames = [
-  "openai/gpt-4.1",
-  "anthropic/claude-sonnet-4",
-  "google/gemini-2.5-pro-preview-05-06",
-  "x-ai/grok-3-beta",
+  ///"openai/gpt-4.1",
+  //"anthropic/claude-sonnet-4",
+  //"google/gemini-2.5-pro-preview-05-06", unable to turn off reasoning output
+  //"x-ai/grok-3-beta",
   "meta-llama/llama-3.3-70b-instruct",
-  "meta-llama/llama-3.1-405b-instruct",
-  "qwen/qwen3-235b-a22b",
-  "deepseek/deepseek-chat-v3-0324"
+  //"meta-llama/llama-3.1-405b-instruct",
+  //"qwen/qwen3-235b-a22b",
+  //"deepseek/deepseek-chat-v3-0324"
 ];
 
 // List of prompt paths to use for all models
 export const promptPaths: string[] = [
   path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot.txt"),
-  path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-naive.txt"),
+  //path.join(__dirname, "/prompts/sap-sam/one-shot/one-shot-naive.txt"),
   path.join(__dirname, "/prompts/sap-sam/two-shot/two-shot.txt"),
   // Add more prompt paths here as needed
 ];
@@ -63,7 +63,7 @@ export const modelTestConfigs: TestConfig[] = modelNames.flatMap(model =>
     new TestConfig({
       name: `${model} - ${path.basename(promptPath, ".txt")}`,
       dataSet: "sap-sam",
-      promptType: path.basename(path.dirname(promptPath)),
+      promptType: path.basename(promptPath, ".txt"),
       model,
       promptPath,
       inputFolder: path.join(__dirname, "/data/sap-sam/")

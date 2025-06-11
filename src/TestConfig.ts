@@ -1,4 +1,4 @@
-import { stamp } from "../bench.config";
+import { STAMP } from "../bench.config";
 import * as path from "path";
 
 export class TestConfig {
@@ -35,7 +35,7 @@ export class TestConfig {
     this.inputFolder = params.inputFolder;
     this.multipleFunc = params.multipleFunc ?? false;
     this.temperature = params.temperature ?? 0.7;
-    this.stamp = params.stamp ?? `${this.dataSet}/${this.model}/${this.promptType}/${stamp}`;
+    this.stamp = params.stamp ?? `${this.dataSet}/${STAMP}/${this.promptType}/${this.model}/`;
     this.outputFolder = params.outputFolder ?? path.join(process.cwd(), `/log/llm/${this.stamp}`);
     this.slug = params.slug ?? `${this.model}_${this.promptType}_`.replace(/[^a-zA-Z0-9]/g, '_');
   }

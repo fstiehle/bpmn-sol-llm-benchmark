@@ -78,7 +78,8 @@ const runTest = async (config: TestConfig) => {
           completion_tokens: result.usage?.completion_tokens,
           total_tokens: result.usage?.total_tokens,
           cost: result.usage?.cost,
-        }
+        },
+        compiled: true
       };
 
       // Write the JSON output to the specified output folder
@@ -100,7 +101,7 @@ describe("LLM Endpoint Tests", () => {
     console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
   });
 
-  console.log(`Running for ${NR_PROCESS_MODELS} files.`);
+  console.log(`\nRunning for ${NR_PROCESS_MODELS} files each.`);
 
   for (const testConfig of llms) {
     it(`should run: ${testConfig.name}`, async () => {

@@ -33,6 +33,7 @@ Use the following mapping of taskID to `choreographyTask` id of the model:
 ```json
 {{parIDs}}
 ```
+- If you use text from the model in the code, you must properly escape it (no -, no umlauts).
 - Do not output any text other than the Solidity contract itself. 
 
 An example.

@@ -41,6 +41,7 @@ Use the following mapping of taskID to `choreographyTask` id of the model:
 ```
 
 - At the end of the process, set `tokenState = 0` to indicate termination.
+- If you use text from the model in the code, you must properly escape it (no -, no umlauts).
 - Do not output any text other than the Solidity contract itself.
 
 An example.
@@ -134,7 +135,7 @@ A correct implementation is:
 ```solidity
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-contract comp_Choreography {
+contract Choreography {
   uint public tokenState = 1;
   address[3] public participants;
   uint public conditions;
@@ -296,7 +297,7 @@ A correct implementation is:
 ```solidity
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-contract comp_sid_328a2509_2c20_498a_96e7_5cc2a7fa12c0 {
+contract sid_328a2509_2c20_498a_96e7_5cc2a7fa12c0 {
   uint public tokenState = 1;
   address[8] public participants;
   uint public conditions;

@@ -7,7 +7,7 @@ import { TestConfig } from "../src/TestConfig";
 import { TraceReplayer } from '../src/TraceReplayer';
 
 // Usage in Mocha
-describe("Chorpiler", () => {
+describe.skip("Chorpiler", () => {
   execSync("npx hardhat compile", { stdio: "inherit" });
 
   it(`Replay traces`, async () => {
@@ -25,7 +25,7 @@ describe("Chorpiler", () => {
   });
 });
 
-describe.skip("LLM", () => {
+describe("LLM", () => {
   console.log("The following benchmarks will run:");
   run.forEach(config => {
     console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
