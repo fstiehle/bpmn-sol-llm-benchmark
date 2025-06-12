@@ -15,8 +15,7 @@ const runTest = async (config: TestConfig) => {
   const llm = new LLMProvider();
 
   if (fs.existsSync(config.outputFolder)) {
-    fs.rmSync(config.outputFolder, { recursive: true, force: true });
-    console.log(`${tab2}🗑️ Deleted existing output folder: ${config.outputFolder}`);
+    console.log(`${tab2} Folder already exists, re-trying failed requests. ${config.outputFolder}`);
   }
 
   // Limit the number of process models if NR_PROCESS_MODELS is set to a number
@@ -27,8 +26,13 @@ const runTest = async (config: TestConfig) => {
   }
 
   for (const file of files) {
-    const filePath = path.join(config.inputFolder, file);
     const fileNameWithoutExt = path.basename(file, ".bpmn");
+    const outputFilePath = path.join(config.outputFolder, `${fileNameWithoutExt}.json`);
+    if (fs.existsSync(outputFilePath)) {
+      console.log(`${tab2} ⚠️ Output already exists, skipping: ${outputFilePath}`);
+      continue;
+    }
+    const filePath = path.join(config.inputFolder, file);
     console.log(`${tab2}📄 ${file}:`);
 
     // Read the corresponding .json file from contracts/chorpiler

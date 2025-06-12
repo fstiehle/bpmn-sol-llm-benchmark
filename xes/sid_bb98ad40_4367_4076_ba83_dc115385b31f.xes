@@ -21,28 +21,6 @@
       <string key="id" value="sid-2970602A-4361-4A6B-B02B-872BC7F94F2C"/>
       <string key="sourceRef" value="sid-BEDE07B6-0D6B-4D8E-B18A-082DE24E7816"/>
     </event>
-    <event>
-      <string key="concept:name" value="Syötä tunnukset"/>
-      <string key="id" value="sid-DFCBB94B-43EB-4AF6-9E65-CE539A4F5143"/>
-      <string key="sourceRef" value="sid-39E5327A-67DB-47C1-BF6C-A48C6968FCB5"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Valitse käyttöaika"/>
-      <string key="id" value="sid-1DD77D45-C283-496D-93C9-BCC7AB51CE78"/>
-      <string key="sourceRef" value="sid-4229B47E-6090-4363-8995-A968B30BB164"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Syötä tiedot"/>
-      <string key="id" value="sid-EFC80793-ED99-4698-BF1A-35834474426B"/>
-      <string key="sourceRef" value="sid-98691990-5DFB-4042-9A88-1B8C78D4ABE9"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lähetä pyöräilijätunnukset"/>
-      <string key="id" value="sid-2970602A-4361-4A6B-B02B-872BC7F94F2C"/>
-      <string key="sourceRef" value="sid-BEDE07B6-0D6B-4D8E-B18A-082DE24E7816"/>
-    </event>
   </trace>
   <trace>
     <event>
@@ -69,6 +47,28 @@
       <string key="concept:name" value="Hyväksy palautus"/>
       <string key="id" value="sid-CD955ECD-DF05-404E-9C19-88C7DD9D0453"/>
       <string key="sourceRef" value="sid-F77E2CB1-0E3D-475E-A767-C657432CCC22"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Valitse käyttöaika"/>
+      <string key="id" value="sid-1DD77D45-C283-496D-93C9-BCC7AB51CE78"/>
+      <string key="sourceRef" value="sid-4229B47E-6090-4363-8995-A968B30BB164"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Syötä tiedot"/>
+      <string key="id" value="sid-EFC80793-ED99-4698-BF1A-35834474426B"/>
+      <string key="sourceRef" value="sid-98691990-5DFB-4042-9A88-1B8C78D4ABE9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lähetä pyöräilijätunnukset"/>
+      <string key="id" value="sid-2970602A-4361-4A6B-B02B-872BC7F94F2C"/>
+      <string key="sourceRef" value="sid-BEDE07B6-0D6B-4D8E-B18A-082DE24E7816"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Syötä tunnukset"/>
+      <string key="id" value="sid-DFCBB94B-43EB-4AF6-9E65-CE539A4F5143"/>
+      <string key="sourceRef" value="sid-39E5327A-67DB-47C1-BF6C-A48C6968FCB5"/>
     </event>
   </trace>
 </log>

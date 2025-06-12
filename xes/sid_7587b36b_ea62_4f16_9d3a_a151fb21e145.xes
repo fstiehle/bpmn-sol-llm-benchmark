@@ -27,9 +27,9 @@
       <string key="sourceRef" value="sid-56C7595F-3F3A-4E11-A71B-7BDD9DE3090B"/>
     </event>
     <event>
-      <string key="concept:name" value="Refuse payment"/>
-      <string key="id" value="sid-8B3FC931-BDFA-4E9B-9C1D-B12AAE6E7AF5"/>
-      <string key="sourceRef" value="sid-6463EAE2-8FB7-42F1-A3CD-5C14CD8FF690"/>
+      <string key="concept:name" value="Confirm payment"/>
+      <string key="id" value="sid-E5E15A79-4F3E-4236-A0B7-D869B828DD8A"/>
+      <string key="sourceRef" value="sid-C5636116-B7D1-4573-8124-CC776C58AEC7"/>
     </event>
   </trace>
   <trace>
@@ -54,9 +54,9 @@
       <string key="sourceRef" value="sid-56C7595F-3F3A-4E11-A71B-7BDD9DE3090B"/>
     </event>
     <event>
-      <string key="concept:name" value="Confirm payment"/>
-      <string key="id" value="sid-E5E15A79-4F3E-4236-A0B7-D869B828DD8A"/>
-      <string key="sourceRef" value="sid-C5636116-B7D1-4573-8124-CC776C58AEC7"/>
+      <string key="concept:name" value="Refuse payment"/>
+      <string key="id" value="sid-8B3FC931-BDFA-4E9B-9C1D-B12AAE6E7AF5"/>
+      <string key="sourceRef" value="sid-6463EAE2-8FB7-42F1-A3CD-5C14CD8FF690"/>
     </event>
   </trace>
   <trace>

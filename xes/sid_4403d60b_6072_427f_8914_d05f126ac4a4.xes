@@ -30,14 +30,9 @@
       <string key="sourceRef" value="sid-9DBE4BB6-070A-4CB2-A0A7-533BCFF89CF2"/>
     </event>
     <event>
-      <string key="concept:name" value="Registriranje &amp;#10;gubitka knjige"/>
-      <string key="id" value="sid-5E955D68-8136-4843-BDD6-B30855E7FF76"/>
-      <string key="sourceRef" value="sid-0D1291D1-3F4C-4417-80EA-1CCDCB891EAC"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Plaćanje vrijednosti izgubljene knjiige"/>
-      <string key="id" value="sid-0179BFA8-211F-4289-91B1-A5A18BF65DF5"/>
-      <string key="sourceRef" value="sid-1F9706D3-B182-48FA-9CE5-AF6821F24D55"/>
+      <string key="concept:name" value="Vraćanje posuđene knjige"/>
+      <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
+      <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
     </event>
   </trace>
   <trace>
@@ -52,9 +47,14 @@
       <string key="sourceRef" value="sid-9DBE4BB6-070A-4CB2-A0A7-533BCFF89CF2"/>
     </event>
     <event>
-      <string key="concept:name" value="Vraćanje posuđene knjige"/>
-      <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
-      <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
+      <string key="concept:name" value="Registriranje &amp;#10;gubitka knjige"/>
+      <string key="id" value="sid-5E955D68-8136-4843-BDD6-B30855E7FF76"/>
+      <string key="sourceRef" value="sid-0D1291D1-3F4C-4417-80EA-1CCDCB891EAC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Plaćanje vrijednosti izgubljene knjiige"/>
+      <string key="id" value="sid-0179BFA8-211F-4289-91B1-A5A18BF65DF5"/>
+      <string key="sourceRef" value="sid-1F9706D3-B182-48FA-9CE5-AF6821F24D55"/>
     </event>
   </trace>
   <trace>

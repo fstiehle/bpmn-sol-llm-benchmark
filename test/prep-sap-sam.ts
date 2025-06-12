@@ -251,6 +251,7 @@ describe('XML Files in data/raw', () => {
     }
   });
 
+  // TODO: Make sure this runs AFTER the test above
   it('should verify that simulator can run the bpmn', async () => {
     const files = fs.readdirSync(intDataPath);
     const errors: { file: string; error: string }[] = [];

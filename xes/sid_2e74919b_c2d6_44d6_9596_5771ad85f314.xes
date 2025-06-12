@@ -10,7 +10,12 @@
       <string key="concept:name" value="Auf Reservierung prüfen&amp;#10;"/>
       <string key="id" value="sid-181F9D56-226F-4071-A541-5B34611F8C21"/>
       <string key="sourceRef" value="sid-6660C65A-6582-4059-93FB-9BBB3546A95C"/>
-      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Freies Zimmer verfügbar&amp;#10;&amp;#10;?"/>
+      <string key="id" value="sid-E4C67638-32F7-4EF7-B567-F5CDC766B074"/>
+      <string key="sourceRef" value="sid-9DA08B84-BF46-42AB-BCAA-AD6B6E33A8AE"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
       <string key="concept:name" value="Schlüssel aushändigen&amp;#10;"/>
@@ -40,12 +45,7 @@
       <string key="concept:name" value="Auf Reservierung prüfen&amp;#10;"/>
       <string key="id" value="sid-181F9D56-226F-4071-A541-5B34611F8C21"/>
       <string key="sourceRef" value="sid-6660C65A-6582-4059-93FB-9BBB3546A95C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Freies Zimmer verfügbar&amp;#10;&amp;#10;?"/>
-      <string key="id" value="sid-E4C67638-32F7-4EF7-B567-F5CDC766B074"/>
-      <string key="sourceRef" value="sid-9DA08B84-BF46-42AB-BCAA-AD6B6E33A8AE"/>
-      <boolean key="conditions" value="2"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="Schlüssel aushändigen&amp;#10;"/>

@@ -15,24 +15,6 @@
       <string key="concept:name" value="dobijanje opisa problema"/>
       <string key="id" value="sid-BC1B9586-C693-42A6-9707-0E2713E56C27"/>
       <string key="sourceRef" value="sid-9DD46E37-04F3-4639-861E-0132F627F4FA"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="saopstavanje resenja"/>
-      <string key="id" value="sid-D8A1AE1C-A2B7-41FB-ACAC-F37E92E70E28"/>
-      <string key="sourceRef" value="sid-86C02E72-789B-41C9-BB00-757ACEFD13FE"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="saopstavanje problema"/>
-      <string key="id" value="sid-ADE2BBE3-1E47-4634-867B-5FCC470C7C42"/>
-      <string key="sourceRef" value="sid-A830C717-AECB-4C0E-B3FC-EA5661D77C0E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="dobijanje opisa problema"/>
-      <string key="id" value="sid-BC1B9586-C693-42A6-9707-0E2713E56C27"/>
-      <string key="sourceRef" value="sid-9DD46E37-04F3-4639-861E-0132F627F4FA"/>
     </event>
     <event>
       <string key="concept:name" value="konsultovanje o problemu"/>
@@ -53,6 +35,24 @@
       <string key="concept:name" value="vracanje resenja"/>
       <string key="id" value="sid-9CB7EF96-1BA2-468B-BFE1-FDCCC6B05965"/>
       <string key="sourceRef" value="sid-8F5251A3-5982-420F-93FF-ED2522D9392F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="saopstavanje resenja"/>
+      <string key="id" value="sid-D8A1AE1C-A2B7-41FB-ACAC-F37E92E70E28"/>
+      <string key="sourceRef" value="sid-86C02E72-789B-41C9-BB00-757ACEFD13FE"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="saopstavanje problema"/>
+      <string key="id" value="sid-ADE2BBE3-1E47-4634-867B-5FCC470C7C42"/>
+      <string key="sourceRef" value="sid-A830C717-AECB-4C0E-B3FC-EA5661D77C0E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dobijanje opisa problema"/>
+      <string key="id" value="sid-BC1B9586-C693-42A6-9707-0E2713E56C27"/>
+      <string key="sourceRef" value="sid-9DD46E37-04F3-4639-861E-0132F627F4FA"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="saopstavanje resenja"/>

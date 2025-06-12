@@ -28,7 +28,11 @@
       <string key="concept:name" value="Sharing files"/>
       <string key="id" value="sid-F1E6C57F-8A72-4DC8-BF87-42B45DA8CD93"/>
       <string key="sourceRef" value="sid-4F818FF8-8142-4DB3-B2FB-D7D89580C693"/>
-      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rating&amp;#10;information&amp;#10;"/>
+      <string key="id" value="sid-DBA2078F-6FA5-481D-83B4-325BE4500E3F"/>
+      <string key="sourceRef" value="sid-94438FDD-AFA0-4E09-92E0-45D15F5053A2"/>
     </event>
     <event>
       <string key="concept:name" value="Retrieving information"/>
@@ -41,11 +45,7 @@
       <string key="concept:name" value="Sharing files"/>
       <string key="id" value="sid-F1E6C57F-8A72-4DC8-BF87-42B45DA8CD93"/>
       <string key="sourceRef" value="sid-4F818FF8-8142-4DB3-B2FB-D7D89580C693"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Rating&amp;#10;information&amp;#10;"/>
-      <string key="id" value="sid-DBA2078F-6FA5-481D-83B4-325BE4500E3F"/>
-      <string key="sourceRef" value="sid-94438FDD-AFA0-4E09-92E0-45D15F5053A2"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
       <string key="concept:name" value="Retrieving information"/>

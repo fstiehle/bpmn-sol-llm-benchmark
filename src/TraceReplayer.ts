@@ -4,7 +4,7 @@ import * as path from "path";
 import * as fs from "fs";
 import chorpiler from "chorpiler";
 import { TestConfig } from "./TestConfig";
-import { ENCODINGS_DIR, NR_NON_CONFORMING_TRACES, XES_DIR, XES_PARSER } from "../bench.config";
+import { DEBUG, ENCODINGS_DIR, NR_NON_CONFORMING_TRACES, XES_DIR, XES_PARSER } from "../bench.config";
 import { Wallet, HDNodeWallet } from "ethers";
 
 // Helper to capitalize a string (global)
@@ -281,8 +281,10 @@ export class TraceReplayer {
           "🔄 Changed": tokenStateChanged ? "✅" : "❌",
           "⚠️ Error": error || ""
         }));
-        console.log(`${tab(3)}Trace Report:`);
-        console.table(tableData);
+        if (DEBUG) {
+          console.log(`${tab(3)}Trace Report:`);
+          console.table(tableData);
+        }
 
         if (allTokenStatesChanged) {
           correctTraceCount++;
@@ -345,8 +347,10 @@ export class TraceReplayer {
           "🔄 Changed": tokenStateChanged ? "✅" : "❌",
           "⚠️ Error": error || ""
         }));
-        console.log(`${tab(3)}Non-Conforming Trace Report:`);
-        console.table(tableData);
+        if (DEBUG) {
+          console.log(`${tab(3)}Non-Conforming Trace Report:`);
+          console.table(tableData);
+        }
       };
 
       results.push({

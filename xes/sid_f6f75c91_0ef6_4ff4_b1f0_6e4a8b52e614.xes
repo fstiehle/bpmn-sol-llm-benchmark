@@ -7,26 +7,26 @@
 
   <trace>
     <event>
-      <string key="concept:name" value="Verify English language test result"/>
-      <string key="id" value="sid-E6072FFC-EB5F-4F80-88C5-ED1470CA99BE"/>
-      <string key="sourceRef" value="sid-12D2EA8F-A95C-4888-9C06-173286B2D557"/>
-    </event>
-    <event>
       <string key="concept:name" value="Validate Academic Transcripts"/>
       <string key="id" value="sid-99BB2DE8-0810-46E3-B30C-2512AB61C00A"/>
       <string key="sourceRef" value="sid-F9AB9DCD-491E-4D97-863F-160B8BD7CF2C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verify English language test result"/>
+      <string key="id" value="sid-E6072FFC-EB5F-4F80-88C5-ED1470CA99BE"/>
+      <string key="sourceRef" value="sid-12D2EA8F-A95C-4888-9C06-173286B2D557"/>
     </event>
   </trace>
   <trace>
     <event>
-      <string key="concept:name" value="Validate Academic Transcripts"/>
-      <string key="id" value="sid-99BB2DE8-0810-46E3-B30C-2512AB61C00A"/>
-      <string key="sourceRef" value="sid-F9AB9DCD-491E-4D97-863F-160B8BD7CF2C"/>
-    </event>
-    <event>
       <string key="concept:name" value="Verify English language test result"/>
       <string key="id" value="sid-E6072FFC-EB5F-4F80-88C5-ED1470CA99BE"/>
       <string key="sourceRef" value="sid-12D2EA8F-A95C-4888-9C06-173286B2D557"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Validate Academic Transcripts"/>
+      <string key="id" value="sid-99BB2DE8-0810-46E3-B30C-2512AB61C00A"/>
+      <string key="sourceRef" value="sid-F9AB9DCD-491E-4D97-863F-160B8BD7CF2C"/>
     </event>
   </trace>
 </log>

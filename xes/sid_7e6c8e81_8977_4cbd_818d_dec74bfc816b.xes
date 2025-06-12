@@ -53,19 +53,6 @@
       <string key="concept:name" value="Receive documents&amp;#10;"/>
       <string key="id" value="sid-30A5461D-7588-4ED8-ADC2-E4128343C522"/>
       <string key="sourceRef" value="sid-62362F8F-1E4A-4890-842B-03432E258CCA"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Reject application&amp;#10;&amp;#10;"/>
-      <string key="id" value="sid-5A3ECBEA-8342-402B-8957-B983A5CF5CB6"/>
-      <string key="sourceRef" value="sid-ABDA66DF-39A9-4B4A-B60C-C6EEB3C12F74"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Receive documents&amp;#10;"/>
-      <string key="id" value="sid-30A5461D-7588-4ED8-ADC2-E4128343C522"/>
-      <string key="sourceRef" value="sid-62362F8F-1E4A-4890-842B-03432E258CCA"/>
     </event>
     <event>
       <string key="concept:name" value="Application contains errors"/>
@@ -130,6 +117,19 @@
       <string key="concept:name" value="Confirmation of applicants"/>
       <string key="id" value="sid-4B89B8DF-8AF8-4325-81E7-8C70BB23A15D"/>
       <string key="sourceRef" value="sid-6DFE9AF7-2CC7-4531-9699-539A44C0E1F2"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Receive documents&amp;#10;"/>
+      <string key="id" value="sid-30A5461D-7588-4ED8-ADC2-E4128343C522"/>
+      <string key="sourceRef" value="sid-62362F8F-1E4A-4890-842B-03432E258CCA"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Reject application&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-5A3ECBEA-8342-402B-8957-B983A5CF5CB6"/>
+      <string key="sourceRef" value="sid-ABDA66DF-39A9-4B4A-B60C-C6EEB3C12F74"/>
     </event>
   </trace>
 </log>

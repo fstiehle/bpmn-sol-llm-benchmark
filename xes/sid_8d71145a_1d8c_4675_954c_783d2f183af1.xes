@@ -10,17 +10,12 @@
       <string key="concept:name" value="Bewerbung abschicken"/>
       <string key="id" value="oryx_17BDCD00-2EF4-4300-9B41-89E99AB80C1E"/>
       <string key="sourceRef" value="oryx_2B340B3D-D9D7-49EA-9B18-68E21B048E77"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Zusage versenden"/>
-      <string key="id" value="oryx_AF21D2E5-26A2-4BDA-A13A-3505624B4560"/>
-      <string key="sourceRef" value="oryx_C293DEC3-DFBB-45A7-959B-EF3465DD79EA"/>
-      <boolean key="conditions" value="4"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Immatrikulationsunterlagen versenden"/>
-      <string key="id" value="oryx_30B3598E-DF0D-402D-BD8A-BC8236E8E422"/>
-      <string key="sourceRef" value="oryx_96BAC460-9D6C-470A-96D3-82A6A9A783E5"/>
+      <string key="concept:name" value="Absage versenden"/>
+      <string key="id" value="oryx_27A367A7-12ED-4EC6-BEDA-3DFD1B6BBA81"/>
+      <string key="sourceRef" value="oryx_A3D2A899-26BF-4022-94C4-B56EF32FD946"/>
     </event>
   </trace>
   <trace>
@@ -28,12 +23,11 @@
       <string key="concept:name" value="Bewerbung abschicken"/>
       <string key="id" value="oryx_17BDCD00-2EF4-4300-9B41-89E99AB80C1E"/>
       <string key="sourceRef" value="oryx_2B340B3D-D9D7-49EA-9B18-68E21B048E77"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Absage versenden"/>
-      <string key="id" value="oryx_27A367A7-12ED-4EC6-BEDA-3DFD1B6BBA81"/>
-      <string key="sourceRef" value="oryx_A3D2A899-26BF-4022-94C4-B56EF32FD946"/>
+      <string key="concept:name" value="Zusage versenden"/>
+      <string key="id" value="oryx_AF21D2E5-26A2-4BDA-A13A-3505624B4560"/>
+      <string key="sourceRef" value="oryx_C293DEC3-DFBB-45A7-959B-EF3465DD79EA"/>
     </event>
   </trace>
   <trace>
@@ -88,6 +82,12 @@
       <string key="concept:name" value="Zusage versenden"/>
       <string key="id" value="oryx_AF21D2E5-26A2-4BDA-A13A-3505624B4560"/>
       <string key="sourceRef" value="oryx_C293DEC3-DFBB-45A7-959B-EF3465DD79EA"/>
+      <boolean key="conditions" value="4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Immatrikulationsunterlagen versenden"/>
+      <string key="id" value="oryx_30B3598E-DF0D-402D-BD8A-BC8236E8E422"/>
+      <string key="sourceRef" value="oryx_96BAC460-9D6C-470A-96D3-82A6A9A783E5"/>
     </event>
   </trace>
   <trace>

@@ -10,7 +10,11 @@
       <string key="concept:name" value="place order"/>
       <string key="id" value="sid-CCCF13BB-6E7E-46DC-8404-7A8297EEB35D"/>
       <string key="sourceRef" value="sid-D4140B09-49DC-465B-B03C-A724D58B0A8C"/>
-      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="deliver &amp;#10;material"/>
+      <string key="id" value="sid-3B11CB48-05A6-4BA6-9F6D-4CD17832F69B"/>
+      <string key="sourceRef" value="sid-70B0F7FD-7BDE-4FE4-94A4-40D523C3955F"/>
     </event>
     <event>
       <string key="concept:name" value="ship goods"/>
@@ -28,11 +32,7 @@
       <string key="concept:name" value="place order"/>
       <string key="id" value="sid-CCCF13BB-6E7E-46DC-8404-7A8297EEB35D"/>
       <string key="sourceRef" value="sid-D4140B09-49DC-465B-B03C-A724D58B0A8C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="deliver &amp;#10;material"/>
-      <string key="id" value="sid-3B11CB48-05A6-4BA6-9F6D-4CD17832F69B"/>
-      <string key="sourceRef" value="sid-70B0F7FD-7BDE-4FE4-94A4-40D523C3955F"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="ship goods"/>

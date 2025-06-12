@@ -51,7 +51,7 @@ export class LLMProvider {
     };
 
     try {
-      const response = await axios.post(this.apiUrl, payload, { headers });
+      const response = await axios.post(this.apiUrl, payload, { headers, timeout: 5 * 60 * 1000 }); // 5 minutes timeout
 
       if (response.status !== 200) {
         console.error(`Error: ${response.status} - ${response.statusText}`);

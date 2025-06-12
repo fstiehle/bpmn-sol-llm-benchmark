@@ -10,12 +10,12 @@
       <string key="concept:name" value="Instance Data Change"/>
       <string key="id" value="Instance Data Change"/>
       <string key="sourceRef" value="sid-C60E110A-DFC6-4A0A-AAC7-A301E0B28A0E"/>
-      <boolean key="conditions" value="1"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="An Warteschlange 1 anstellen"/>
-      <string key="id" value="sid-48DA2ADE-5B7F-4D68-A3B3-7271C36DD57E"/>
-      <string key="sourceRef" value="sid-C60E110A-DFC6-4A0A-AAC7-A301E0B28A0E"/>
+      <string key="concept:name" value="An Warteschlange 3 anstellen"/>
+      <string key="id" value="sid-D82F561F-771D-43BC-B4FB-D165CF04BB6F"/>
+      <string key="sourceRef" value="sid-401DF3AF-ECFD-42F8-AB82-2CF1D9754584"/>
     </event>
     <event>
       <string key="concept:name" value="Teller bereitstellen"/>
@@ -109,76 +109,16 @@
       <string key="concept:name" value="Forderungen bezahlen"/>
       <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
       <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
-      <boolean key="conditions" value="4"/>
     </event>
     <event>
       <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
-      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
-      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
+      <string key="id" value="sid-841B139E-9C36-4A4A-8765-6617A2F7A244"/>
+      <string key="sourceRef" value="sid-177D29A9-9C69-4055-94F4-FC3EBC94CD47"/>
     </event>
     <event>
-      <string key="concept:name" value="Essensplatz suchen"/>
-      <string key="id" value="sid-25B3FD8F-B874-4A33-B9EA-48CC7F623957"/>
-      <string key="sourceRef" value="sid-858E735B-86FB-40C6-8561-409BA0454084"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Essen verzehren"/>
-      <string key="id" value="sid-0305710C-7E67-4291-9EF5-833B510DA300"/>
-      <string key="sourceRef" value="sid-515A2F85-845B-48FB-93C4-6FD5AF48E623"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-C60E110A-DFC6-4A0A-AAC7-A301E0B28A0E"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="An Warteschlange 3 anstellen"/>
-      <string key="id" value="sid-D82F561F-771D-43BC-B4FB-D165CF04BB6F"/>
-      <string key="sourceRef" value="sid-401DF3AF-ECFD-42F8-AB82-2CF1D9754584"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Teller bereitstellen"/>
-      <string key="id" value="sid-F0099824-993E-449E-AFF1-0F315FFD9BCC"/>
-      <string key="sourceRef" value="sid-849F2AB5-9E83-4B94-9692-076702C4C463"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Teller befüllen"/>
-      <string key="id" value="sid-278CD03B-5B0D-4A61-9156-3D00C6D77487"/>
-      <string key="sourceRef" value="sid-4D923395-9EF5-4CF7-B231-57701F325103"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Teller auf die Theke stellen"/>
-      <string key="id" value="sid-CFC48BBD-0CA5-4A8A-8981-4818C1BD4E63"/>
-      <string key="sourceRef" value="sid-1456E64B-7DA5-46E2-9270-09070A78ED16"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Teller von der Theke nehmen"/>
-      <string key="id" value="sid-AA331F9C-61AD-43DF-B9FA-336EBE95FB64"/>
-      <string key="sourceRef" value="sid-9B0092F0-2D4E-4242-8E4D-82FBC7474C85"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zur Kassen begeben"/>
-      <string key="id" value="sid-720465BA-FA50-4AA1-B159-6170FAE0CD5C"/>
-      <string key="sourceRef" value="sid-06E1D9C7-2DD2-4989-878E-08B643A4A26C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Beitrag ermitteln"/>
-      <string key="id" value="sid-85FB1251-02A7-451C-ABF2-A9A4656E44A4"/>
-      <string key="sourceRef" value="sid-C5B83927-8E3E-49C9-8C4D-0CDDBBE963D8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Forderungen bezahlen"/>
-      <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
-      <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
-      <boolean key="conditions" value="4"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
-      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
-      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
+      <string key="concept:name" value="Wechselgeld ausgeben"/>
+      <string key="id" value="sid-97DF2393-0947-4F00-B69A-FF07EAAD6932"/>
+      <string key="sourceRef" value="sid-020C2059-7AFD-48DC-B14A-26DFE1D0A84B"/>
     </event>
     <event>
       <string key="concept:name" value="Essensplatz suchen"/>
@@ -299,16 +239,12 @@
       <string key="concept:name" value="Forderungen bezahlen"/>
       <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
       <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
+      <boolean key="conditions" value="4"/>
     </event>
     <event>
       <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
-      <string key="id" value="sid-841B139E-9C36-4A4A-8765-6617A2F7A244"/>
-      <string key="sourceRef" value="sid-177D29A9-9C69-4055-94F4-FC3EBC94CD47"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wechselgeld ausgeben"/>
-      <string key="id" value="sid-97DF2393-0947-4F00-B69A-FF07EAAD6932"/>
-      <string key="sourceRef" value="sid-020C2059-7AFD-48DC-B14A-26DFE1D0A84B"/>
+      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
+      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
     </event>
     <event>
       <string key="concept:name" value="Essensplatz suchen"/>
@@ -377,6 +313,70 @@
       <string key="concept:name" value="Wechselgeld ausgeben"/>
       <string key="id" value="sid-97DF2393-0947-4F00-B69A-FF07EAAD6932"/>
       <string key="sourceRef" value="sid-020C2059-7AFD-48DC-B14A-26DFE1D0A84B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Essensplatz suchen"/>
+      <string key="id" value="sid-25B3FD8F-B874-4A33-B9EA-48CC7F623957"/>
+      <string key="sourceRef" value="sid-858E735B-86FB-40C6-8561-409BA0454084"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Essen verzehren"/>
+      <string key="id" value="sid-0305710C-7E67-4291-9EF5-833B510DA300"/>
+      <string key="sourceRef" value="sid-515A2F85-845B-48FB-93C4-6FD5AF48E623"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-C60E110A-DFC6-4A0A-AAC7-A301E0B28A0E"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="An Warteschlange 1 anstellen"/>
+      <string key="id" value="sid-48DA2ADE-5B7F-4D68-A3B3-7271C36DD57E"/>
+      <string key="sourceRef" value="sid-C60E110A-DFC6-4A0A-AAC7-A301E0B28A0E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Teller bereitstellen"/>
+      <string key="id" value="sid-F0099824-993E-449E-AFF1-0F315FFD9BCC"/>
+      <string key="sourceRef" value="sid-849F2AB5-9E83-4B94-9692-076702C4C463"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Teller befüllen"/>
+      <string key="id" value="sid-278CD03B-5B0D-4A61-9156-3D00C6D77487"/>
+      <string key="sourceRef" value="sid-4D923395-9EF5-4CF7-B231-57701F325103"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Teller auf die Theke stellen"/>
+      <string key="id" value="sid-CFC48BBD-0CA5-4A8A-8981-4818C1BD4E63"/>
+      <string key="sourceRef" value="sid-1456E64B-7DA5-46E2-9270-09070A78ED16"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Teller von der Theke nehmen"/>
+      <string key="id" value="sid-AA331F9C-61AD-43DF-B9FA-336EBE95FB64"/>
+      <string key="sourceRef" value="sid-9B0092F0-2D4E-4242-8E4D-82FBC7474C85"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zur Kassen begeben"/>
+      <string key="id" value="sid-720465BA-FA50-4AA1-B159-6170FAE0CD5C"/>
+      <string key="sourceRef" value="sid-06E1D9C7-2DD2-4989-878E-08B643A4A26C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Beitrag ermitteln"/>
+      <string key="id" value="sid-85FB1251-02A7-451C-ABF2-A9A4656E44A4"/>
+      <string key="sourceRef" value="sid-C5B83927-8E3E-49C9-8C4D-0CDDBBE963D8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Forderungen bezahlen"/>
+      <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
+      <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
+      <boolean key="conditions" value="4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
+      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
+      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
     </event>
     <event>
       <string key="concept:name" value="Essensplatz suchen"/>

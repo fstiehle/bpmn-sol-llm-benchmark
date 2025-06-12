@@ -15,23 +15,6 @@
       <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
       <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
       <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde erhält Gerät zurück erhält eine Absage"/>
-      <string key="id" value="sid-25AA23A0-E09A-4708-8B06-8184876E4159"/>
-      <string key="sourceRef" value="sid-097003EF-0716-4C8A-83CE-DFF1DB13A797"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Anfrage auf Reparatur stellen &#x2F; Produkt an reBuy senden"/>
-      <string key="id" value="sid-6E7BC75D-207E-4D80-9AE8-CD7A71E4F01A"/>
-      <string key="sourceRef" value="sid-0F471585-1895-4008-BF83-CD19C3C35B7F"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
-      <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
-      <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -54,6 +37,23 @@
       <string key="concept:name" value="Reparatur erfolgreich; Produkt kann zurück gesendet werden"/>
       <string key="id" value="sid-9A2B984C-85DA-4FDA-A60A-8CDAA4B4F902"/>
       <string key="sourceRef" value="sid-A1F4119B-1D60-45AC-A316-6D57E4DF2DF7"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Anfrage auf Reparatur stellen &#x2F; Produkt an reBuy senden"/>
+      <string key="id" value="sid-6E7BC75D-207E-4D80-9AE8-CD7A71E4F01A"/>
+      <string key="sourceRef" value="sid-0F471585-1895-4008-BF83-CD19C3C35B7F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Prüfung, ob es sich um einen Garantiefall handelt&amp;#10;&amp;#10;"/>
+      <string key="id" value="sid-EDC95EBB-1DB2-45EB-B9F1-DE20B008C455"/>
+      <string key="sourceRef" value="sid-ED3A3934-055A-4351-8E98-3FB615A8ED0F"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunde erhält Gerät zurück erhält eine Absage"/>
+      <string key="id" value="sid-25AA23A0-E09A-4708-8B06-8184876E4159"/>
+      <string key="sourceRef" value="sid-097003EF-0716-4C8A-83CE-DFF1DB13A797"/>
     </event>
   </trace>
   <trace>

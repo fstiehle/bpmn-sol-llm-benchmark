@@ -25,16 +25,17 @@
       <string key="concept:name" value="Abbuchungen der Mieten"/>
       <string key="id" value="sid-7BDBA21B-53A9-4ADC-9D65-A596298ECBA8"/>
       <string key="sourceRef" value="sid-E3024F85-F72E-4AB3-8312-4C6FAEBF7B27"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Zahlungseingang"/>
-      <string key="id" value="sid-39618A3C-58A6-44AC-9142-66016323280F"/>
-      <string key="sourceRef" value="sid-179BA752-F932-4F9C-BF71-A3F286921344"/>
+      <string key="concept:name" value="Rückbuchung Bank"/>
+      <string key="id" value="sid-BEE7DB4D-D839-41F6-8AE3-201B0F3C19C6"/>
+      <string key="sourceRef" value="sid-05422DA4-DFD4-43C5-85FB-692E343ECB9C"/>
     </event>
     <event>
-      <string key="concept:name" value="Ausbuchen der Forderung"/>
-      <string key="id" value="sid-C7C013AB-E8A8-46E7-8835-19E028888F5B"/>
-      <string key="sourceRef" value="sid-418525D0-D9C1-4B84-AF6A-A534F22666D8"/>
+      <string key="concept:name" value="Versand Zahlschein"/>
+      <string key="id" value="sid-67E70492-5F82-4F91-84FF-139376BD187D"/>
+      <string key="sourceRef" value="sid-B84354B3-9E95-4373-B812-4A9059659984"/>
     </event>
   </trace>
   <trace>
@@ -57,18 +58,16 @@
       <string key="concept:name" value="Abbuchungen der Mieten"/>
       <string key="id" value="sid-7BDBA21B-53A9-4ADC-9D65-A596298ECBA8"/>
       <string key="sourceRef" value="sid-E3024F85-F72E-4AB3-8312-4C6FAEBF7B27"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Rückbuchung Bank"/>
-      <string key="id" value="sid-BEE7DB4D-D839-41F6-8AE3-201B0F3C19C6"/>
-      <string key="sourceRef" value="sid-05422DA4-DFD4-43C5-85FB-692E343ECB9C"/>
+      <string key="concept:name" value="Zahlungseingang"/>
+      <string key="id" value="sid-39618A3C-58A6-44AC-9142-66016323280F"/>
+      <string key="sourceRef" value="sid-179BA752-F932-4F9C-BF71-A3F286921344"/>
     </event>
     <event>
-      <string key="concept:name" value="Versand Zahlschein"/>
-      <string key="id" value="sid-67E70492-5F82-4F91-84FF-139376BD187D"/>
-      <string key="sourceRef" value="sid-B84354B3-9E95-4373-B812-4A9059659984"/>
-      <boolean key="conditions" value="2"/>
+      <string key="concept:name" value="Ausbuchen der Forderung"/>
+      <string key="id" value="sid-C7C013AB-E8A8-46E7-8835-19E028888F5B"/>
+      <string key="sourceRef" value="sid-418525D0-D9C1-4B84-AF6A-A534F22666D8"/>
     </event>
   </trace>
 </log>

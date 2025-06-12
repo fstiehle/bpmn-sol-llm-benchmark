@@ -10,12 +10,11 @@
       <string key="concept:name" value="Anrufen"/>
       <string key="id" value="sid-9BF45F4A-BF50-4B1F-9CA6-A48300FEC94A"/>
       <string key="sourceRef" value="sid-5F45D451-1079-4B66-9E00-7AB9E5E04A07"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Notiz"/>
-      <string key="id" value="sid-5ADAF5B5-2E03-4531-B02C-72D10257157D"/>
-      <string key="sourceRef" value="sid-5C359DF1-7DC7-4F36-B8D0-5025C3041FB2"/>
+      <string key="concept:name" value="Problem lösen"/>
+      <string key="id" value="sid-4BD2E9FD-7A3A-4418-B277-F03832E242C7"/>
+      <string key="sourceRef" value="sid-40C9EC3B-AF7E-4F00-9789-30AB417365B9"/>
     </event>
   </trace>
   <trace>
@@ -23,11 +22,12 @@
       <string key="concept:name" value="Anrufen"/>
       <string key="id" value="sid-9BF45F4A-BF50-4B1F-9CA6-A48300FEC94A"/>
       <string key="sourceRef" value="sid-5F45D451-1079-4B66-9E00-7AB9E5E04A07"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Problem lösen"/>
-      <string key="id" value="sid-4BD2E9FD-7A3A-4418-B277-F03832E242C7"/>
-      <string key="sourceRef" value="sid-40C9EC3B-AF7E-4F00-9789-30AB417365B9"/>
+      <string key="concept:name" value="Notiz"/>
+      <string key="id" value="sid-5ADAF5B5-2E03-4531-B02C-72D10257157D"/>
+      <string key="sourceRef" value="sid-5C359DF1-7DC7-4F36-B8D0-5025C3041FB2"/>
     </event>
   </trace>
 </log>

@@ -17,152 +17,6 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
-      <string key="concept:name" value="Rechazar Oferta"/>
-      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
-      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Rechazar Oferta"/>
-      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
-      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Oferta"/>
-      <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
-      <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Verificar Disponibilidad"/>
-      <string key="id" value="sid-EF43FCD4-1DF7-4093-A9B7-5419C653BF7A"/>
-      <string key="sourceRef" value="sid-57895C77-C75D-4E16-A42D-67F0A0107906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Contratar Diseñador"/>
-      <string key="id" value="sid-B306BE9A-C017-44C4-A032-61CC2CE93418"/>
-      <string key="sourceRef" value="sid-1E044381-4AAE-45D7-86A1-67F90E2900E2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Anuncio"/>
-      <string key="id" value="sid-C1F3770E-ED65-40B5-B7F7-138016DFA6B3"/>
-      <string key="sourceRef" value="sid-D0579251-FD33-42B0-91B3-F420FEC56E42"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Oferta"/>
-      <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
-      <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Verificar Disponibilidad"/>
-      <string key="id" value="sid-EF43FCD4-1DF7-4093-A9B7-5419C653BF7A"/>
-      <string key="sourceRef" value="sid-57895C77-C75D-4E16-A42D-67F0A0107906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Contratar Diseñador"/>
-      <string key="id" value="sid-B306BE9A-C017-44C4-A032-61CC2CE93418"/>
-      <string key="sourceRef" value="sid-1E044381-4AAE-45D7-86A1-67F90E2900E2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Anuncio"/>
-      <string key="id" value="sid-C1F3770E-ED65-40B5-B7F7-138016DFA6B3"/>
-      <string key="sourceRef" value="sid-D0579251-FD33-42B0-91B3-F420FEC56E42"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
       <string key="concept:name" value="Solicitar Cambios"/>
       <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
       <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
@@ -259,6 +113,39 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
+      <string key="concept:name" value="Solicitar Cambios"/>
+      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
+      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Hacer Oferta"/>
+      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
+      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechazar Oferta"/>
+      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
+      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Hacer Consulta"/>
+      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
+      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Hacer Oferta"/>
+      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
+      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
+    </event>
+    <event>
       <string key="concept:name" value="Aceptar Oferta"/>
       <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
       <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
@@ -323,39 +210,6 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
-      <string key="concept:name" value="Rechazar Oferta"/>
-      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
-      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
       <string key="concept:name" value="Solicitar Cambios"/>
       <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
       <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
@@ -405,102 +259,6 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
       <string key="concept:name" value="Rechazar Oferta"/>
       <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
       <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
@@ -511,215 +269,6 @@
       <string key="concept:name" value="Hacer Consulta"/>
       <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
       <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Rechazar Oferta"/>
-      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
-      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Hacer Oferta"/>
@@ -800,6 +349,71 @@
       <string key="id" value="Instance Data Change"/>
       <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
       <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Hacer Oferta"/>
+      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
+      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aceptar Oferta"/>
+      <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
+      <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verificar Disponibilidad"/>
+      <string key="id" value="sid-EF43FCD4-1DF7-4093-A9B7-5419C653BF7A"/>
+      <string key="sourceRef" value="sid-57895C77-C75D-4E16-A42D-67F0A0107906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Contratar Diseñador"/>
+      <string key="id" value="sid-B306BE9A-C017-44C4-A032-61CC2CE93418"/>
+      <string key="sourceRef" value="sid-1E044381-4AAE-45D7-86A1-67F90E2900E2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aceptar Anuncio"/>
+      <string key="id" value="sid-C1F3770E-ED65-40B5-B7F7-138016DFA6B3"/>
+      <string key="sourceRef" value="sid-D0579251-FD33-42B0-91B3-F420FEC56E42"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Hacer Consulta"/>
+      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
+      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Hacer Oferta"/>
+      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
+      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Solicitar Cambios"/>
+      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
+      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Hacer Oferta"/>
+      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
+      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Rechazar Oferta"/>
+      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
+      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Hacer Consulta"/>
+      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
+      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
     </event>
     <event>
       <string key="concept:name" value="Hacer Oferta"/>
@@ -1048,9 +662,24 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
-      <string key="concept:name" value="Rechazar Oferta"/>
-      <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
-      <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
+      <string key="concept:name" value="Aceptar Oferta"/>
+      <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
+      <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Verificar Disponibilidad"/>
+      <string key="id" value="sid-EF43FCD4-1DF7-4093-A9B7-5419C653BF7A"/>
+      <string key="sourceRef" value="sid-57895C77-C75D-4E16-A42D-67F0A0107906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Contratar Diseñador"/>
+      <string key="id" value="sid-B306BE9A-C017-44C4-A032-61CC2CE93418"/>
+      <string key="sourceRef" value="sid-1E044381-4AAE-45D7-86A1-67F90E2900E2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aceptar Anuncio"/>
+      <string key="id" value="sid-C1F3770E-ED65-40B5-B7F7-138016DFA6B3"/>
+      <string key="sourceRef" value="sid-D0579251-FD33-42B0-91B3-F420FEC56E42"/>
     </event>
   </trace>
   <trace>
@@ -1058,22 +687,6 @@
       <string key="concept:name" value="Hacer Consulta"/>
       <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
       <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Hacer Oferta"/>
@@ -1289,169 +902,9 @@
       <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
     </event>
     <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
       <string key="concept:name" value="Rechazar Oferta"/>
       <string key="id" value="sid-6DB351C5-0BD5-4ADE-867E-702EA62F30C7"/>
       <string key="sourceRef" value="sid-0A2C5779-B818-4605-9C92-30A3FF1CF4B0"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Hacer Consulta"/>
-      <string key="id" value="sid-C47FA0CA-10B8-4CB2-A749-1C7D9BC91F21"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Solicitar Cambios"/>
-      <string key="id" value="sid-04BF4FE3-1AB2-4009-9692-3AFA7ACFB0CA"/>
-      <string key="sourceRef" value="sid-E98700B3-AD27-4429-8723-BE89D5279E1E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B5BA824-9FB2-4976-B51C-922662C3C0F7"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Hacer Oferta"/>
-      <string key="id" value="sid-502E6BD6-49C0-44B0-BDC6-B7C74A8F51FC"/>
-      <string key="sourceRef" value="sid-3A899227-B80D-4B8B-AC45-0DAF4D0F8091"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Oferta"/>
-      <string key="id" value="sid-4E8403A3-4EEC-4888-94DC-4AA827D510FF"/>
-      <string key="sourceRef" value="sid-69C14D14-9CBA-43B2-9BBD-EDF9C2365F28"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Verificar Disponibilidad"/>
-      <string key="id" value="sid-EF43FCD4-1DF7-4093-A9B7-5419C653BF7A"/>
-      <string key="sourceRef" value="sid-57895C77-C75D-4E16-A42D-67F0A0107906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Contratar Diseñador"/>
-      <string key="id" value="sid-B306BE9A-C017-44C4-A032-61CC2CE93418"/>
-      <string key="sourceRef" value="sid-1E044381-4AAE-45D7-86A1-67F90E2900E2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aceptar Anuncio"/>
-      <string key="id" value="sid-C1F3770E-ED65-40B5-B7F7-138016DFA6B3"/>
-      <string key="sourceRef" value="sid-D0579251-FD33-42B0-91B3-F420FEC56E42"/>
     </event>
   </trace>
 </log>

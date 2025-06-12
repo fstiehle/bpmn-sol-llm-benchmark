@@ -23,7 +23,7 @@ export const NR_NON_CONFORMING_TRACES = 5;
 
 // only take the first 20 process models from data
 // good for pre-testing
-export const NR_PROCESS_MODELS: number | "all" = 10;
+export const NR_PROCESS_MODELS: number | "all" = 200;
 
 export const XES_PARSER = new chorpiler.utils.XESParser();
 export const XES_DIR = "./xes";

@@ -38,6 +38,12 @@
       <string key="concept:name" value="Trazenje resenja"/>
       <string key="id" value="sid-4DC770E3-8BE9-487F-BA09-20DA760F80FD"/>
       <string key="sourceRef" value="sid-B2257561-15EF-4552-BD7F-11FC0A701629"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Trazenje resenja"/>
+      <string key="id" value="sid-A608F0E5-61C5-4C6B-95BD-3B764B7F6D1C"/>
+      <string key="sourceRef" value="sid-F9434B53-AEAB-478A-9DEB-CCC6C03CAABC"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>
@@ -65,12 +71,6 @@
       <string key="concept:name" value="Trazenje resenja"/>
       <string key="id" value="sid-4DC770E3-8BE9-487F-BA09-20DA760F80FD"/>
       <string key="sourceRef" value="sid-B2257561-15EF-4552-BD7F-11FC0A701629"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Trazenje resenja"/>
-      <string key="id" value="sid-A608F0E5-61C5-4C6B-95BD-3B764B7F6D1C"/>
-      <string key="sourceRef" value="sid-F9434B53-AEAB-478A-9DEB-CCC6C03CAABC"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>

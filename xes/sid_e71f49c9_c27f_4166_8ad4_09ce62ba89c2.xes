@@ -15,12 +15,11 @@
       <string key="concept:name" value="Termék struktúra kialakítása"/>
       <string key="id" value="sid-D87EBE0B-6AF4-4774-9EED-F54C51A23A28"/>
       <string key="sourceRef" value="sid-84A89994-EF14-4307-9A71-16BD36615F13"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Termelés indítása"/>
-      <string key="id" value="sid-99828401-43C8-4AB6-86C5-429B3ACFAE23"/>
-      <string key="sourceRef" value="sid-CAE89689-510D-4E5C-BFBC-6BF4B2DBC9B7"/>
+      <string key="concept:name" value="Gyártási feltételek átalakítása új termék létrehozásához"/>
+      <string key="id" value="sid-35CD6D5F-8D97-4DB0-8C2C-19AB56E84D97"/>
+      <string key="sourceRef" value="sid-7EA199F7-E291-4F5C-A9E3-124D93AD3424"/>
     </event>
   </trace>
   <trace>
@@ -33,11 +32,12 @@
       <string key="concept:name" value="Termék struktúra kialakítása"/>
       <string key="id" value="sid-D87EBE0B-6AF4-4774-9EED-F54C51A23A28"/>
       <string key="sourceRef" value="sid-84A89994-EF14-4307-9A71-16BD36615F13"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Gyártási feltételek átalakítása új termék létrehozásához"/>
-      <string key="id" value="sid-35CD6D5F-8D97-4DB0-8C2C-19AB56E84D97"/>
-      <string key="sourceRef" value="sid-7EA199F7-E291-4F5C-A9E3-124D93AD3424"/>
+      <string key="concept:name" value="Termelés indítása"/>
+      <string key="id" value="sid-99828401-43C8-4AB6-86C5-429B3ACFAE23"/>
+      <string key="sourceRef" value="sid-CAE89689-510D-4E5C-BFBC-6BF4B2DBC9B7"/>
     </event>
   </trace>
 </log>

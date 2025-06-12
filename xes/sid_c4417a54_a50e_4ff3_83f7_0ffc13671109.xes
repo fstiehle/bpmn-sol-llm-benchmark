@@ -32,9 +32,24 @@
       <string key="sourceRef" value="sid-36658d4d-b1b9-40eb-8a30-84b601e180ac"/>
     </event>
     <event>
-      <string key="concept:name" value="Cancel Application"/>
-      <string key="id" value="sid-2F841D2F-49A5-4996-9D1C-11AE37C3E9F7"/>
-      <string key="sourceRef" value="sid-1ab9faa6-687a-4869-84ec-f81279d890d3"/>
+      <string key="concept:name" value="Receive PDF and certified transcripts"/>
+      <string key="id" value="sid-52A5B39F-573A-4335-BE6C-8017868EF356"/>
+      <string key="sourceRef" value="sid-9d464ce3-962f-4af4-bcd9-352eb82a595f"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Appropriate Letter"/>
+      <string key="id" value="sid-C2636CD9-CC8B-4073-9CF9-69EFEC5B3475"/>
+      <string key="sourceRef" value="sid-a2217407-ece2-41ca-8678-2e55959cd147"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Receive Appropriate Letter"/>
+      <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
+      <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Accept Offer"/>
+      <string key="id" value="sid-1057EE16-1EDB-4341-9611-ABF7A02F8AA0"/>
+      <string key="sourceRef" value="sid-d6c07e9b-bb71-4806-bcd6-bb325416e72f"/>
     </event>
   </trace>
   <trace>
@@ -112,24 +127,9 @@
       <string key="sourceRef" value="sid-36658d4d-b1b9-40eb-8a30-84b601e180ac"/>
     </event>
     <event>
-      <string key="concept:name" value="Receive PDF and certified transcripts"/>
-      <string key="id" value="sid-52A5B39F-573A-4335-BE6C-8017868EF356"/>
-      <string key="sourceRef" value="sid-9d464ce3-962f-4af4-bcd9-352eb82a595f"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send Appropriate Letter"/>
-      <string key="id" value="sid-C2636CD9-CC8B-4073-9CF9-69EFEC5B3475"/>
-      <string key="sourceRef" value="sid-a2217407-ece2-41ca-8678-2e55959cd147"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Receive Appropriate Letter"/>
-      <string key="id" value="sid-77EA6596-05F3-4C8C-BF15-880C8ACAC7A5"/>
-      <string key="sourceRef" value="sid-5450d796-b993-4fc6-8ad6-219c98074090"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Accept Offer"/>
-      <string key="id" value="sid-1057EE16-1EDB-4341-9611-ABF7A02F8AA0"/>
-      <string key="sourceRef" value="sid-d6c07e9b-bb71-4806-bcd6-bb325416e72f"/>
+      <string key="concept:name" value="Cancel Application"/>
+      <string key="id" value="sid-2F841D2F-49A5-4996-9D1C-11AE37C3E9F7"/>
+      <string key="sourceRef" value="sid-1ab9faa6-687a-4869-84ec-f81279d890d3"/>
     </event>
   </trace>
 </log>

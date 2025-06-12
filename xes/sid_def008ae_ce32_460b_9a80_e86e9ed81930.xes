@@ -20,29 +20,6 @@
       <string key="concept:name" value="Send ball bearings"/>
       <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
       <string key="sourceRef" value="sid-3E85AC6A-4BF8-49CB-894A-5837934CB94A"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Confirm purchase"/>
-      <string key="id" value="sid-7A00EB74-2BC7-46A4-894D-867EF7322F21"/>
-      <string key="sourceRef" value="sid-F45ACEB8-D958-453C-9F13-CD24201D3DED"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Send purchase contract"/>
-      <string key="id" value="sid-84676F3C-5580-43B1-A08B-C1ECC3CF42FF"/>
-      <string key="sourceRef" value="sid-B9BB5FF6-C8F8-423F-8230-EFF91F94E8BF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send payment"/>
-      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
-      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send ball bearings"/>
-      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
-      <string key="sourceRef" value="sid-3E85AC6A-4BF8-49CB-894A-5837934CB94A"/>
     </event>
     <event>
       <string key="concept:name" value="Collect fine"/>
@@ -81,6 +58,29 @@
       <string key="concept:name" value="Cancel contract"/>
       <string key="id" value="sid-E35FF85B-3619-4F99-94A4-604585274B44"/>
       <string key="sourceRef" value="sid-417F4224-D4A9-4864-9EEC-F05C55C96E00"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Send purchase contract"/>
+      <string key="id" value="sid-84676F3C-5580-43B1-A08B-C1ECC3CF42FF"/>
+      <string key="sourceRef" value="sid-B9BB5FF6-C8F8-423F-8230-EFF91F94E8BF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send payment"/>
+      <string key="id" value="sid-40B088FB-BEF2-4CD4-B269-B0902EB49BF6"/>
+      <string key="sourceRef" value="sid-25BB18D6-6667-4950-8293-C119F1F1D375"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send ball bearings"/>
+      <string key="id" value="sid-546BF032-593C-4B67-93B7-A531E433B0A0"/>
+      <string key="sourceRef" value="sid-3E85AC6A-4BF8-49CB-894A-5837934CB94A"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Confirm purchase"/>
+      <string key="id" value="sid-7A00EB74-2BC7-46A4-894D-867EF7322F21"/>
+      <string key="sourceRef" value="sid-F45ACEB8-D958-453C-9F13-CD24201D3DED"/>
     </event>
   </trace>
 </log>

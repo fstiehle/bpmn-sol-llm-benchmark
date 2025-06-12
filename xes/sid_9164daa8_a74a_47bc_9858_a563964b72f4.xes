@@ -10,6 +10,14 @@
       <string key="concept:name" value="Make Travel Offer"/>
       <string key="id" value="sid-4FCF24A6-4656-4A6D-8054-DB86A47FB3B2"/>
       <string key="sourceRef" value="sid-B0F2AC12-3BF2-440A-84E5-2B6B1C00A8E1"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make Travel Offer"/>
+      <string key="id" value="sid-4FCF24A6-4656-4A6D-8054-DB86A47FB3B2"/>
+      <string key="sourceRef" value="sid-B0F2AC12-3BF2-440A-84E5-2B6B1C00A8E1"/>
     </event>
     <event>
       <string key="concept:name" value="Pay Travel"/>
@@ -35,14 +43,6 @@
       <string key="concept:name" value="Confirm Payment"/>
       <string key="id" value="sid-5C61019F-F503-4448-A4DB-0AF73B07D301"/>
       <string key="sourceRef" value="sid-2513ACDF-358C-4930-A87E-DBD132D7130A"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Make Travel Offer"/>
-      <string key="id" value="sid-4FCF24A6-4656-4A6D-8054-DB86A47FB3B2"/>
-      <string key="sourceRef" value="sid-B0F2AC12-3BF2-440A-84E5-2B6B1C00A8E1"/>
-      <boolean key="conditions" value="1"/>
     </event>
   </trace>
 </log>

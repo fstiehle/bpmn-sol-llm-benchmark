@@ -10,24 +10,6 @@
       <string key="concept:name" value="Send Credit Card Application"/>
       <string key="id" value="sid-88782CCC-0556-4CA8-A271-E9F020AAC566"/>
       <string key="sourceRef" value="sid-91B128FC-88E1-42DD-844A-6FD4B3C086BF"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send Credit file Request"/>
-      <string key="id" value="sid-A87350F0-7FF2-46C1-8345-85302C6685EE"/>
-      <string key="sourceRef" value="sid-DAE334AE-7728-4D42-AC9E-747A6173975B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send Application rejection"/>
-      <string key="id" value="sid-67D54B50-8B13-4615-84FA-32D41BFB5033"/>
-      <string key="sourceRef" value="sid-BE1FAB17-812B-463D-B0CB-9F24504313D9"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Send Credit Card Application"/>
-      <string key="id" value="sid-88782CCC-0556-4CA8-A271-E9F020AAC566"/>
-      <string key="sourceRef" value="sid-91B128FC-88E1-42DD-844A-6FD4B3C086BF"/>
     </event>
     <event>
       <string key="concept:name" value="Send Application rejection"/>
@@ -52,6 +34,24 @@
       <string key="concept:name" value="Send Application acception"/>
       <string key="id" value="sid-2B1E895B-C5C4-4DDF-93FD-2DD7E270A723"/>
       <string key="sourceRef" value="sid-BF819EFB-A566-462C-BA45-C7096977C921"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Send Credit Card Application"/>
+      <string key="id" value="sid-88782CCC-0556-4CA8-A271-E9F020AAC566"/>
+      <string key="sourceRef" value="sid-91B128FC-88E1-42DD-844A-6FD4B3C086BF"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Credit file Request"/>
+      <string key="id" value="sid-A87350F0-7FF2-46C1-8345-85302C6685EE"/>
+      <string key="sourceRef" value="sid-DAE334AE-7728-4D42-AC9E-747A6173975B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Application rejection"/>
+      <string key="id" value="sid-67D54B50-8B13-4615-84FA-32D41BFB5033"/>
+      <string key="sourceRef" value="sid-BE1FAB17-812B-463D-B0CB-9F24504313D9"/>
     </event>
   </trace>
 </log>

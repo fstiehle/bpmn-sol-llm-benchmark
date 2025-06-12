@@ -15,6 +15,17 @@
       <string key="concept:name" value="dobijanje detaljnog opisa problema"/>
       <string key="id" value="sid-FE51912A-8320-4763-8606-42CC18A7C84A"/>
       <string key="sourceRef" value="sid-2514E99F-3643-4E64-BC1C-49534275891B"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prosledjivane problema podrsci"/>
+      <string key="id" value="sid-AE5730CF-5C7A-45D9-AD7D-182C260E2A2F"/>
+      <string key="sourceRef" value="sid-5647E949-C829-4F14-9C5E-CC5E00CB077D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="dostavljanje resenja problema"/>
+      <string key="id" value="sid-4F9692D5-AF9B-4D10-8BB6-2950149B3559"/>
+      <string key="sourceRef" value="sid-5D78B48A-38D6-4BD2-98A4-C769B29BF281"/>
     </event>
     <event>
       <string key="concept:name" value="davanje instrukcija za resavanje problema"/>
@@ -32,17 +43,6 @@
       <string key="concept:name" value="dobijanje detaljnog opisa problema"/>
       <string key="id" value="sid-FE51912A-8320-4763-8606-42CC18A7C84A"/>
       <string key="sourceRef" value="sid-2514E99F-3643-4E64-BC1C-49534275891B"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="prosledjivane problema podrsci"/>
-      <string key="id" value="sid-AE5730CF-5C7A-45D9-AD7D-182C260E2A2F"/>
-      <string key="sourceRef" value="sid-5647E949-C829-4F14-9C5E-CC5E00CB077D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="dostavljanje resenja problema"/>
-      <string key="id" value="sid-4F9692D5-AF9B-4D10-8BB6-2950149B3559"/>
-      <string key="sourceRef" value="sid-5D78B48A-38D6-4BD2-98A4-C769B29BF281"/>
     </event>
     <event>
       <string key="concept:name" value="davanje instrukcija za resavanje problema"/>

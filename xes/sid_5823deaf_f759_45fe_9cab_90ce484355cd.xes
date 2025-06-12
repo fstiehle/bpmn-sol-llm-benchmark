@@ -12,6 +12,23 @@
       <string key="sourceRef" value="sid-76C942B7-EF09-4E9B-8B44-F56091D3DC96"/>
     </event>
     <event>
+      <string key="concept:name" value="T4&amp;#10;Offer counter-proposal"/>
+      <string key="id" value="sid-F8929F66-43D4-4F05-94E3-B254EB0E9B7B"/>
+      <string key="sourceRef" value="sid-6914601D-489A-45E4-BFC6-317C4E66E9F3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="T6&amp;#10;Reject counter-proposal"/>
+      <string key="id" value="sid-A3BC0953-F5BA-4D9B-9E2B-0871FDB6CB35"/>
+      <string key="sourceRef" value="sid-6CB9E0D6-CDAD-46C9-B7D0-89D12522B7FE"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="T1&amp;#10;Propose supply plan"/>
+      <string key="id" value="sid-0AB2B1E2-565E-492E-871C-50FF20A321C6"/>
+      <string key="sourceRef" value="sid-76C942B7-EF09-4E9B-8B44-F56091D3DC96"/>
+    </event>
+    <event>
       <string key="concept:name" value="T3&amp;#10;Accept proposal"/>
       <string key="id" value="sid-88D3A0FA-60F7-4BC6-8785-C239506B46F9"/>
       <string key="sourceRef" value="sid-7B2DF84C-CE72-4B44-80F0-DE5D4F7DF29A"/>
@@ -32,23 +49,6 @@
       <string key="concept:name" value="T5&amp;#10;Accept counter-proposal"/>
       <string key="id" value="sid-AF2D4571-93CA-4D0A-B19E-9982DFA90B60"/>
       <string key="sourceRef" value="sid-67C22B70-0E0C-4ABD-9D5D-B00611DAB73C"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="T1&amp;#10;Propose supply plan"/>
-      <string key="id" value="sid-0AB2B1E2-565E-492E-871C-50FF20A321C6"/>
-      <string key="sourceRef" value="sid-76C942B7-EF09-4E9B-8B44-F56091D3DC96"/>
-    </event>
-    <event>
-      <string key="concept:name" value="T4&amp;#10;Offer counter-proposal"/>
-      <string key="id" value="sid-F8929F66-43D4-4F05-94E3-B254EB0E9B7B"/>
-      <string key="sourceRef" value="sid-6914601D-489A-45E4-BFC6-317C4E66E9F3"/>
-    </event>
-    <event>
-      <string key="concept:name" value="T6&amp;#10;Reject counter-proposal"/>
-      <string key="id" value="sid-A3BC0953-F5BA-4D9B-9E2B-0871FDB6CB35"/>
-      <string key="sourceRef" value="sid-6CB9E0D6-CDAD-46C9-B7D0-89D12522B7FE"/>
     </event>
   </trace>
   <trace>

@@ -10,66 +10,6 @@
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
       <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
       <boolean key="conditions" value="1"/>
     </event>
   </trace>
@@ -127,6 +67,66 @@
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
       <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informierung"/>
+      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
+      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überprüfung des Dokuments"/>
+      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
+      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dokument überarbeiten"/>
+      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
+      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informierung"/>
+      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
+      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überprüfung des Dokuments"/>
+      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
+      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dokument überarbeiten"/>
+      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
+      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
       <boolean key="conditions" value="1"/>
     </event>
   </trace>
@@ -171,93 +171,52 @@
       <string key="concept:name" value="Überprüfung des Dokuments"/>
       <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
       <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Mitarbeiter informieren"/>
-      <string key="id" value="sid-B1DDCDBA-51A9-46AA-B8E9-75EBAC9A065E"/>
-      <string key="sourceRef" value="sid-E2454ADD-3A3B-476A-A770-31599C7F4E11"/>
+      <string key="concept:name" value="Dokument überarbeiten"/>
+      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
+      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informierung"/>
+      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
+      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überprüfung des Dokuments"/>
+      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
+      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dokument überarbeiten"/>
+      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
+      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="1"/>
     </event>
   </trace>
   <trace>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
     <event>
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
@@ -373,75 +332,12 @@
       <string key="concept:name" value="Überprüfung des Dokuments"/>
       <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
       <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="1"/>
+      <string key="concept:name" value="Mitarbeiter informieren"/>
+      <string key="id" value="sid-B1DDCDBA-51A9-46AA-B8E9-75EBAC9A065E"/>
+      <string key="sourceRef" value="sid-E2454ADD-3A3B-476A-A770-31599C7F4E11"/>
     </event>
   </trace>
   <trace>
@@ -471,66 +367,6 @@
       <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
       <boolean key="conditions" value="0"/>
     </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-  </trace>
-  <trace>
     <event>
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
@@ -606,6 +442,32 @@
     </event>
   </trace>
   <trace>
+    <event>
+      <string key="concept:name" value="Übertragung Dokument"/>
+      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informierung"/>
+      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
+      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überprüfung des Dokuments"/>
+      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
+      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dokument überarbeiten"/>
+      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
+      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
+      <boolean key="conditions" value="0"/>
+    </event>
     <event>
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
@@ -953,48 +815,7 @@
       <string key="concept:name" value="Übertragung Dokument"/>
       <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
       <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dokument überarbeiten"/>
-      <string key="id" value="sid-C7C16036-0CCC-4182-A2CF-87037DA4618E"/>
-      <string key="sourceRef" value="sid-0A3ED738-A0D0-4173-9800-EEE715B6E906"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Übertragung Dokument"/>
-      <string key="id" value="sid-5263A40D-8891-4DBB-9753-E08829F913C8"/>
-      <string key="sourceRef" value="sid-5A2FF4B7-7853-493E-A845-B80747A0CE0D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informierung"/>
-      <string key="id" value="sid-474C3F6D-654F-4DC4-B6A4-B46A12DBA8DD"/>
-      <string key="sourceRef" value="sid-92E269D8-F390-4C84-BD70-368C1D6FD366"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überprüfung des Dokuments"/>
-      <string key="id" value="sid-D70E8DC2-B36B-421E-B503-FBC9E02A9441"/>
-      <string key="sourceRef" value="sid-1D418850-6B25-481C-806C-0BD1293677BA"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Mitarbeiter informieren"/>
-      <string key="id" value="sid-B1DDCDBA-51A9-46AA-B8E9-75EBAC9A065E"/>
-      <string key="sourceRef" value="sid-E2454ADD-3A3B-476A-A770-31599C7F4E11"/>
+      <boolean key="conditions" value="1"/>
     </event>
   </trace>
 </log>

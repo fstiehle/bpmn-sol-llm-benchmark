@@ -15,23 +15,6 @@
       <string key="concept:name" value="Problem analysieren"/>
       <string key="id" value="sid-FD70D51F-BA7F-40A9-9154-9DDC364BAC6D"/>
       <string key="sourceRef" value="sid-3B32482F-E17A-4CE7-84C1-CE86D7B8FC54"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lösung übermitteln"/>
-      <string key="id" value="sid-F5EA1FDA-6D80-4211-A079-D014E4C6DAD5"/>
-      <string key="sourceRef" value="sid-39DBB554-070A-4512-A003-DF6153845A17"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Kundenanruf"/>
-      <string key="id" value="sid-679D0305-B6E0-4E58-90A7-65F71C959523"/>
-      <string key="sourceRef" value="sid-4512EEAA-9AAF-4F70-BFE3-B71B691B1CCC"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Problem analysieren"/>
-      <string key="id" value="sid-FD70D51F-BA7F-40A9-9154-9DDC364BAC6D"/>
-      <string key="sourceRef" value="sid-3B32482F-E17A-4CE7-84C1-CE86D7B8FC54"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -58,6 +41,23 @@
       <string key="concept:name" value="Formular unterschreiben"/>
       <string key="id" value="sid-72D3C0FD-9775-4B90-BCB8-A816D0043095"/>
       <string key="sourceRef" value="sid-F539E9A7-C040-4662-B305-19FBFD472B45"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Kundenanruf"/>
+      <string key="id" value="sid-679D0305-B6E0-4E58-90A7-65F71C959523"/>
+      <string key="sourceRef" value="sid-4512EEAA-9AAF-4F70-BFE3-B71B691B1CCC"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem analysieren"/>
+      <string key="id" value="sid-FD70D51F-BA7F-40A9-9154-9DDC364BAC6D"/>
+      <string key="sourceRef" value="sid-3B32482F-E17A-4CE7-84C1-CE86D7B8FC54"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lösung übermitteln"/>
+      <string key="id" value="sid-F5EA1FDA-6D80-4211-A079-D014E4C6DAD5"/>
+      <string key="sourceRef" value="sid-39DBB554-070A-4512-A003-DF6153845A17"/>
     </event>
   </trace>
 </log>

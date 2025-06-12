@@ -25,12 +25,21 @@
       <string key="concept:name" value="prüft Angebot"/>
       <string key="id" value="sid-0FA4A8C3-EFE4-4DCF-8250-51C08636B652"/>
       <string key="sourceRef" value="sid-7E89C9CF-C130-40C5-8FCD-0468832FAE86"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="leitet Angebot nicht weiter"/>
-      <string key="id" value="sid-2B159E97-31EE-4DEB-9CAE-DE9142C948B9"/>
-      <string key="sourceRef" value="sid-AC1C8D43-8850-49C9-BC22-091AAD43F674"/>
+      <string key="concept:name" value="leitet Angebot weiter"/>
+      <string key="id" value="sid-2DE00CF7-6B13-4C8B-AFC9-8411D05EDFA1"/>
+      <string key="sourceRef" value="sid-568A01D0-DE86-4617-ADE6-CA1F27131CA3"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Bezahlung der Lizenzgebühr des Titels"/>
+      <string key="id" value="sid-6720CB2F-39DE-4D81-B878-9D40DE9D4A05"/>
+      <string key="sourceRef" value="sid-A7E2FECB-EEF7-4A1E-BBF7-806F31105830"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fügt den neuen Titel in Mediathek hinzu"/>
+      <string key="id" value="sid-8E23B660-E062-4BE2-B7FE-5FAB006E5596"/>
+      <string key="sourceRef" value="sid-254F16C5-86CA-4339-90A9-43AC073DA3FE"/>
     </event>
   </trace>
   <trace>
@@ -53,21 +62,12 @@
       <string key="concept:name" value="prüft Angebot"/>
       <string key="id" value="sid-0FA4A8C3-EFE4-4DCF-8250-51C08636B652"/>
       <string key="sourceRef" value="sid-7E89C9CF-C130-40C5-8FCD-0468832FAE86"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="leitet Angebot weiter"/>
-      <string key="id" value="sid-2DE00CF7-6B13-4C8B-AFC9-8411D05EDFA1"/>
-      <string key="sourceRef" value="sid-568A01D0-DE86-4617-ADE6-CA1F27131CA3"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Bezahlung der Lizenzgebühr des Titels"/>
-      <string key="id" value="sid-6720CB2F-39DE-4D81-B878-9D40DE9D4A05"/>
-      <string key="sourceRef" value="sid-A7E2FECB-EEF7-4A1E-BBF7-806F31105830"/>
-    </event>
-    <event>
-      <string key="concept:name" value="fügt den neuen Titel in Mediathek hinzu"/>
-      <string key="id" value="sid-8E23B660-E062-4BE2-B7FE-5FAB006E5596"/>
-      <string key="sourceRef" value="sid-254F16C5-86CA-4339-90A9-43AC073DA3FE"/>
+      <string key="concept:name" value="leitet Angebot nicht weiter"/>
+      <string key="id" value="sid-2B159E97-31EE-4DEB-9CAE-DE9142C948B9"/>
+      <string key="sourceRef" value="sid-AC1C8D43-8850-49C9-BC22-091AAD43F674"/>
     </event>
   </trace>
 </log>

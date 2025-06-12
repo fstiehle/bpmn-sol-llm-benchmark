@@ -15,6 +15,56 @@
       <string key="concept:name" value="Käsittele hakemus"/>
       <string key="id" value="sid-FF15E121-3C47-48F4-836C-7F70E80B3609"/>
       <string key="sourceRef" value="sid-484E79FB-F402-40B6-B32D-EC4DBBBBD1C1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lisätiedot ovat saapuneet"/>
+      <string key="id" value="sid-4D2CB065-ACA3-4316-9BEB-86DB8739223D"/>
+      <string key="sourceRef" value="sid-89E6F069-C01B-4E99-BBDD-B8E26CAF57DD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Päätöksen teko"/>
+      <string key="id" value="sid-6D76069E-5C12-4370-9773-683E77F6E062"/>
+      <string key="sourceRef" value="sid-CB31C267-F8D3-479B-A562-40810B5E7DAD"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota korvaushakemus"/>
+      <string key="id" value="sid-8E04D711-2C7B-47E2-ADA4-C974E6C7D38F"/>
+      <string key="sourceRef" value="sid-DE7A3A59-A566-4605-9519-9E0AB298FF56"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Käsittele hakemus"/>
+      <string key="id" value="sid-FF15E121-3C47-48F4-836C-7F70E80B3609"/>
+      <string key="sourceRef" value="sid-484E79FB-F402-40B6-B32D-EC4DBBBBD1C1"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lisätietoja ei ole saatu"/>
+      <string key="id" value="sid-3B7A59B6-C2D1-4F53-BC12-780121409AC5"/>
+      <string key="sourceRef" value="sid-84297189-7940-4103-B110-D69E7493D918"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Lisätiedot ovat saapuneet"/>
+      <string key="id" value="sid-4D2CB065-ACA3-4316-9BEB-86DB8739223D"/>
+      <string key="sourceRef" value="sid-89E6F069-C01B-4E99-BBDD-B8E26CAF57DD"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Päätöksen teko"/>
+      <string key="id" value="sid-6D76069E-5C12-4370-9773-683E77F6E062"/>
+      <string key="sourceRef" value="sid-CB31C267-F8D3-479B-A562-40810B5E7DAD"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Vastaanota korvaushakemus"/>
+      <string key="id" value="sid-8E04D711-2C7B-47E2-ADA4-C974E6C7D38F"/>
+      <string key="sourceRef" value="sid-DE7A3A59-A566-4605-9519-9E0AB298FF56"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Käsittele hakemus"/>
+      <string key="id" value="sid-FF15E121-3C47-48F4-836C-7F70E80B3609"/>
+      <string key="sourceRef" value="sid-484E79FB-F402-40B6-B32D-EC4DBBBBD1C1"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -22,56 +72,6 @@
       <string key="id" value="sid-3B7A59B6-C2D1-4F53-BC12-780121409AC5"/>
       <string key="sourceRef" value="sid-84297189-7940-4103-B110-D69E7493D918"/>
       <boolean key="conditions" value="2"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Vastaanota korvaushakemus"/>
-      <string key="id" value="sid-8E04D711-2C7B-47E2-ADA4-C974E6C7D38F"/>
-      <string key="sourceRef" value="sid-DE7A3A59-A566-4605-9519-9E0AB298FF56"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Käsittele hakemus"/>
-      <string key="id" value="sid-FF15E121-3C47-48F4-836C-7F70E80B3609"/>
-      <string key="sourceRef" value="sid-484E79FB-F402-40B6-B32D-EC4DBBBBD1C1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lisätiedot ovat saapuneet"/>
-      <string key="id" value="sid-4D2CB065-ACA3-4316-9BEB-86DB8739223D"/>
-      <string key="sourceRef" value="sid-89E6F069-C01B-4E99-BBDD-B8E26CAF57DD"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Päätöksen teko"/>
-      <string key="id" value="sid-6D76069E-5C12-4370-9773-683E77F6E062"/>
-      <string key="sourceRef" value="sid-CB31C267-F8D3-479B-A562-40810B5E7DAD"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Vastaanota korvaushakemus"/>
-      <string key="id" value="sid-8E04D711-2C7B-47E2-ADA4-C974E6C7D38F"/>
-      <string key="sourceRef" value="sid-DE7A3A59-A566-4605-9519-9E0AB298FF56"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Käsittele hakemus"/>
-      <string key="id" value="sid-FF15E121-3C47-48F4-836C-7F70E80B3609"/>
-      <string key="sourceRef" value="sid-484E79FB-F402-40B6-B32D-EC4DBBBBD1C1"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lisätietoja ei ole saatu"/>
-      <string key="id" value="sid-3B7A59B6-C2D1-4F53-BC12-780121409AC5"/>
-      <string key="sourceRef" value="sid-84297189-7940-4103-B110-D69E7493D918"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Lisätiedot ovat saapuneet"/>
-      <string key="id" value="sid-4D2CB065-ACA3-4316-9BEB-86DB8739223D"/>
-      <string key="sourceRef" value="sid-89E6F069-C01B-4E99-BBDD-B8E26CAF57DD"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Päätöksen teko"/>
-      <string key="id" value="sid-6D76069E-5C12-4370-9773-683E77F6E062"/>
-      <string key="sourceRef" value="sid-CB31C267-F8D3-479B-A562-40810B5E7DAD"/>
     </event>
   </trace>
 </log>

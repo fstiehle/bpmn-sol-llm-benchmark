@@ -36,12 +36,11 @@
       <string key="concept:name" value="Spende im Stream anzeigen"/>
       <string key="id" value="sid-795BDE4F-A952-455E-887A-EA41B29BCBF2"/>
       <string key="sourceRef" value="sid-F2B4C4BE-10F8-4308-8746-B8C5F42E8000"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Donation wird nicht vorgelesen"/>
-      <string key="id" value="sid-D7A36BA5-1446-4C4A-AD55-69BDBAE7A8CA"/>
-      <string key="sourceRef" value="sid-95C61465-10F4-41A4-9593-7F1829B771D7"/>
+      <string key="concept:name" value="Donation vorlesen"/>
+      <string key="id" value="sid-BCB18608-A5AB-4284-A4C9-1A81DA0CB9E5"/>
+      <string key="sourceRef" value="sid-C10AF4F9-EAEC-47C4-A37D-130831A4F570"/>
     </event>
   </trace>
   <trace>
@@ -97,11 +96,12 @@
       <string key="concept:name" value="Spende im Stream anzeigen"/>
       <string key="id" value="sid-795BDE4F-A952-455E-887A-EA41B29BCBF2"/>
       <string key="sourceRef" value="sid-F2B4C4BE-10F8-4308-8746-B8C5F42E8000"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Donation vorlesen"/>
-      <string key="id" value="sid-BCB18608-A5AB-4284-A4C9-1A81DA0CB9E5"/>
-      <string key="sourceRef" value="sid-C10AF4F9-EAEC-47C4-A37D-130831A4F570"/>
+      <string key="concept:name" value="Donation wird nicht vorgelesen"/>
+      <string key="id" value="sid-D7A36BA5-1446-4C4A-AD55-69BDBAE7A8CA"/>
+      <string key="sourceRef" value="sid-95C61465-10F4-41A4-9593-7F1829B771D7"/>
     </event>
   </trace>
 </log>

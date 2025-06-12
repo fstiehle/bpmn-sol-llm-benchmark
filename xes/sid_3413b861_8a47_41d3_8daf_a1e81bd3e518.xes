@@ -15,6 +15,34 @@
       <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
       <string key="id" value="sid-1A819D31-39BF-4D46-BCA2-B179558E994C"/>
       <string key="sourceRef" value="sid-7312E875-E461-4CDE-AE83-AA846631CD66"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value=""/>
+      <string key="id" value="sid-C978C6C9-48E1-49A2-A2FA-65F0F7BC5B41"/>
+      <string key="sourceRef" value="sid-DAB5428C-DC39-46A0-AFFC-A582F339661E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-57C81B29-22B6-49FC-ACFA-7F9A22C75876"/>
+      <string key="sourceRef" value="sid-ECE59F5C-E6AD-4DF8-9D91-42AB43121425"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Slanje resenja"/>
+      <string key="id" value="sid-95FC3A8B-EA99-429F-8CD6-660CB56644B7"/>
+      <string key="sourceRef" value="sid-15FEF403-B997-484A-A006-F49D8F6F2DE6"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Slanje opisa problema"/>
+      <string key="id" value="sid-0CB4AAC5-693A-4689-A62F-ED9E9AD3FC1E"/>
+      <string key="sourceRef" value="sid-4D514ED1-7E23-43BC-86E3-123B31F7047D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
+      <string key="id" value="sid-1A819D31-39BF-4D46-BCA2-B179558E994C"/>
+      <string key="sourceRef" value="sid-7312E875-E461-4CDE-AE83-AA846631CD66"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>
@@ -49,34 +77,6 @@
       <string key="concept:name" value="Slanje resenja"/>
       <string key="id" value="sid-7D2DD5DA-0D4D-494E-8195-4923284FEB9F"/>
       <string key="sourceRef" value="sid-BB83BEEE-1CF0-45D7-B3FE-5D26B0EDC63A"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Slanje resenja"/>
-      <string key="id" value="sid-57C81B29-22B6-49FC-ACFA-7F9A22C75876"/>
-      <string key="sourceRef" value="sid-ECE59F5C-E6AD-4DF8-9D91-42AB43121425"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Slanje resenja"/>
-      <string key="id" value="sid-95FC3A8B-EA99-429F-8CD6-660CB56644B7"/>
-      <string key="sourceRef" value="sid-15FEF403-B997-484A-A006-F49D8F6F2DE6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Slanje opisa problema"/>
-      <string key="id" value="sid-0CB4AAC5-693A-4689-A62F-ED9E9AD3FC1E"/>
-      <string key="sourceRef" value="sid-4D514ED1-7E23-43BC-86E3-123B31F7047D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Dobijanje detaljnog opisa problema"/>
-      <string key="id" value="sid-1A819D31-39BF-4D46-BCA2-B179558E994C"/>
-      <string key="sourceRef" value="sid-7312E875-E461-4CDE-AE83-AA846631CD66"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value=""/>
-      <string key="id" value="sid-C978C6C9-48E1-49A2-A2FA-65F0F7BC5B41"/>
-      <string key="sourceRef" value="sid-DAB5428C-DC39-46A0-AFFC-A582F339661E"/>
     </event>
     <event>
       <string key="concept:name" value="Slanje resenja"/>
