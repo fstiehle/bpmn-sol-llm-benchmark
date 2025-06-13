@@ -162,6 +162,29 @@ cat("\n--- Combined Metrics per Model ---\n")
 print(combined_metrics, width = Inf, row.names = FALSE, right = FALSE)
 write.csv(combined_metrics, "combined_model_metrics.csv", row.names = FALSE)
 
+# ===================================================
+# SECTION 5: Correlation Between Gateways and F1 Score
+# ===================================================
+
+# Assumes meta_data contains columns: process, gateways (or similar)
+# First, join f1 per process with meta_data
+f1_vs_gateways <- flat_data %>%
+  select(process, f1) %>%
+  left_join(meta_data, by = "model")
+
+# Plot F1 vs Gateway count
+ggplot(f1_vs_gateways, aes(x = gateways, y = f1)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, color = "blue") +
+  labs(
+    title = "Relation Between Number of Gateways and F1 Score",
+    x = "Number of Gateways",
+    y = "F1 Score"
+  ) +
+  theme_minimal()
+
+# Optionally: save the plot
+ggsave("f1_vs_gateways.png", width = 8, height = 5)
 
 # ===================================================
 # END OF SCRIPT

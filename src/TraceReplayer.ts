@@ -204,7 +204,7 @@ export class TraceReplayer {
 
     for (const file of solFiles) {
       const name = path.basename(file, '.sol');
-      console.log(`${tab(1)}🔬 Simulate: ${name} in ${this.test.name}`);
+      logDebug(`${tab(1)}🔬 Simulate: ${name} in ${this.test.name}`);
 
       const eventLog = await XES_PARSER.fromXML(
         fs.readFileSync(path.join(XES_DIR, name + '.xes'))
@@ -255,7 +255,7 @@ export class TraceReplayer {
           contracts.set(id, contract.connect(wallets[num]));
         }
 
-        console.log(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
+        logDebug(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
         const { allTokenStatesChanged, eventsRejected, report } = await replayTrace({
           contract,
           trace,
@@ -288,9 +288,9 @@ export class TraceReplayer {
 
         if (allTokenStatesChanged) {
           correctTraceCount++;
-          console.log(`${tab(3)}✅ Trace #${i + 1} conformed!`);
+          logDebug(`${tab(3)}✅ Trace #${i + 1} conformed!`);
         } else {
-          console.log(`${tab(3)}❌ Trace #${i + 1} did not conform.`);
+          logDebug(`${tab(3)}❌ Trace #${i + 1} did not conform.`);
         }
 
         totalGasCost = gasCost + report.reduce((sum, r) => sum + (r.gasCost || 0), 0)
@@ -304,7 +304,7 @@ export class TraceReplayer {
 
       for (const [i, trace] of badLog.traces.entries()) {
         totalTracesReplayed++; // <-- Increment for each replayed trace (non-conforming)
-        console.log(`Replay Non-Conforming Trace ${i} (${name})`);
+        logDebug(`Replay Non-Conforming Trace ${i} (${name})`);
         let contract;
         try {
           contract = await ethers.deployContract(

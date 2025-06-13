@@ -6,7 +6,7 @@ import { ENCODINGS_DIR, run } from "../bench.config";
 import { TestConfig } from "../src/TestConfig";
 import { TraceReplayer } from '../src/TraceReplayer';
 
-describe.skip("Chorpiler", () => {
+describe("Chorpiler", () => {
   execSync("npx hardhat compile", { stdio: "inherit" });
 
   it(`Replay traces`, async () => {
@@ -24,7 +24,7 @@ describe.skip("Chorpiler", () => {
   });
 });
 
-describe("LLM", () => {
+describe.skip("LLM", () => {
   console.log("The following benchmarks will run:");
   run.forEach(config => {
     console.log(`- ${config.name} (Prompt: ${config.promptPath})`);
