@@ -9,6 +9,7 @@ const indent = (level: number) => "  ".repeat(level);
 const runTest = async (config: TestConfig) => {
   const tab = indent(1);
   const tab2 = indent(2);
+  const tab3 = indent(3);
   console.log(`${tab}${config.name}:`);
 
   // Prepare LLMProvider instance
@@ -26,19 +27,28 @@ const runTest = async (config: TestConfig) => {
   }
 
   for (const file of files) {
+    console.log(`${tab2}📄 ${file}:`)
     const fileNameWithoutExt = path.basename(file, ".bpmn");
     const outputFilePath = path.join(config.outputFolder, `${fileNameWithoutExt}.json`);
+    // If the output file exists and its output is null, delete the file
     if (fs.existsSync(outputFilePath)) {
-      console.log(`${tab2} ⚠️ Output already exists, skipping: ${outputFilePath}`);
+      const existing = JSON.parse(fs.readFileSync(outputFilePath, "utf-8"));
+      if (existing.output == null) {
+        fs.unlinkSync(outputFilePath);
+        console.log(`${tab3} 🗑️ Deleted file with null output: ${path.basename(outputFilePath)}`);
+      }
+    }
+
+    if (fs.existsSync(outputFilePath)) {
+      console.log(`${tab3} ⚠️ Output already exists, skipping: ${path.basename(outputFilePath)}`);
       continue;
     }
     const filePath = path.join(config.inputFolder, file);
-    console.log(`${tab2}📄 ${file}:`);
 
     // Read the corresponding .json file from contracts/chorpiler
     const jsonFilePath = path.join(__dirname, "../contracts/chorpiler", `${fileNameWithoutExt}.json`);
     if (!fs.existsSync(jsonFilePath)) {
-      console.log(`JSON encoding file not found: ${jsonFilePath}, skipping`);
+      console.log(`${tab3} JSON encoding file not found: ${path.basename(jsonFilePath)}, skipping`);
       continue;
     }
 
@@ -56,6 +66,7 @@ const runTest = async (config: TestConfig) => {
     try {
       // Directly call the LLMProvider with prompt and input
       const inputText = fs.readFileSync(filePath, "utf-8");
+      console.log(`${tab2} Calling provider...`);
       const result = await llm.generate({
         process: inputText,
         prompt: updatedPrompt,

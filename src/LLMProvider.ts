@@ -40,7 +40,7 @@ export class LLMProvider {
       usage: {
         include: true,
       },
-      max_tokens: 15000,
+      max_tokens: 25000, // has to be quite large for qwen's reasoning.
       temperature: queryData.temperature,
       extra_body: { enable_thinking: false },
     };
@@ -51,7 +51,7 @@ export class LLMProvider {
     };
 
     try {
-      const response = await axios.post(this.apiUrl, payload, { headers, timeout: 5 * 60 * 1000 }); // 5 minutes timeout
+      const response = await axios.post(this.apiUrl, payload, { headers, timeout: 10 * 60 * 1000 }); // 5 minutes timeout
 
       if (response.status !== 200) {
         console.error(`Error: ${response.status} - ${response.statusText}`);
@@ -63,7 +63,7 @@ export class LLMProvider {
 
       const data = response.data;
       if (!data || !data.choices || !data.choices[0]?.message?.content) {
-        console.error("Invalid response format:", data);
+        console.error("Invalid response format:", JSON.stringify(data));
         return {
           smart_contract: null,
           usage: data?.usage || null,
@@ -82,12 +82,13 @@ export class LLMProvider {
       error.response.data
         );
       } else if (error.request) {
-        console.error("No response received:", error.request);
+        console.error("No response received:", JSON.stringify(error));
+        console.error("Error request object:", JSON.stringify(error.request, null, 2));
       } else {
         console.error("Axios error:", error.message);
       }
     } else {
-      console.error("Unexpected error:", error);
+      console.error("Unexpected error:", JSON.stringify(error));
     }
     return {
       smart_contract: null,
