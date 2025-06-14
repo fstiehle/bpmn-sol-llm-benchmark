@@ -15,7 +15,7 @@ library(dplyr)
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 # --------- Configuration ---------
-version <- "initial"
+version <- "last"
 case <- "sap-sam"
 
 # --------- File Paths ---------
@@ -152,7 +152,6 @@ combined_metrics <- flat_data %>%
     avg_total_tokens = round(mean(avg_total_tokens, na.rm = TRUE), 0),
     avg_gascost = round(mean(gas, na.rm = TRUE), 0),
     f1_macro = round(mean(f1_macro, na.rm = TRUE), 3),
-    accuracy = round(mean(accuracy, na.rm = TRUE), 3),
     compiled_pct = round(mean(compiled, na.rm = TRUE) * 100, 1),
     .groups = "drop"
   ) %>%
@@ -161,38 +160,6 @@ combined_metrics <- flat_data %>%
 cat("\n--- Combined Metrics per Model ---\n")
 print(combined_metrics, width = Inf, row.names = FALSE, right = FALSE)
 write.csv(combined_metrics, "combined_model_metrics.csv", row.names = FALSE)
-
-
-# ===================================================
-# SECTION 5: Correlation Between Gateways and F1 Score
-# ===================================================
-
-library(stringr)
-
-# Zähle wie oft das Wort 'gateway' (oder Varianten) im Element-Text vorkommt
-# Zähle alle Spalten mit "Gateway" im Namen
-gateway_cols <- grep("Gateway", colnames(meta_data), value = TRUE)
-
-# Erzeuge neue Spalte 'gateways' als Summe aller Gateway-Spalten
-meta_data <- meta_data %>%
-  mutate(gateways = rowSums(select(., all_of(gateway_cols)), na.rm = TRUE))
-
-# Join F1 & Gateway counts, inkl. Modellinfo
-f1_vs_gateways <- flat_data %>%
-  select(process, f1, model) %>%
-  left_join(meta_data %>% select(model, gateways), by = "model")
-
-# Plot mit Linien für jedes Modell
-ggplot(f1_vs_gateways, aes(x = gateways, y = f1, color = model)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", se = FALSE, linewidth = 1) +  # Eine Linie pro Modell
-  labs(
-    title = "F1 Score vs. Number of Gateways by Model",
-    x = "Number of Gateways",
-    y = "F1 Score",
-    color = "Model"
-  ) +
-  theme_minimal()
 
 # ===================================================
 # END OF SCRIPT

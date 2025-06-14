@@ -39,7 +39,7 @@ describe('summary', () => {
     const baseFolders = [
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/one-shot`),
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/two-shot`),
-      //path.join(__dirname, `../log/execution/sap-sam/${STAMP}/chorpiler`), 
+      path.join(__dirname, `../log/execution/sap-sam/${STAMP}/chorpiler`), 
     ];
     // Collect and merge
     const merged: Record<string, Summary> = {};
@@ -64,15 +64,26 @@ describe('summary', () => {
       console.log('No not_compiled.csv found at', notCompiledPath);
     } else {
       const notCompiledLines = fs.readFileSync(notCompiledPath, 'utf-8')
-        .split(/\r?\n/)
-        .filter(line => line.trim() && !line.trim().startsWith('//'));
-      for (const line of notCompiledLines) {
-        const [jsonFile, modelAndPrompt, processId] = line.split(',').map(s => s.replace(/^"|"$/g, ''));
-        // modelAndPrompt: "meta-llama/llama-3.3-70b-instruct - one-shot-naive"
-        // processId: "sid_013a683b_d99f_4e2b_9a44_a2ab7b15edff"
-        const modelName = modelAndPrompt.split(' - ')[0];
-        const promptType = modelAndPrompt.split(' - ')[1];
+  .split(/\r?\n/)
+  .filter(line => line.trim() && !line.trim().startsWith('//'));
+
+for (const line of notCompiledLines) {
+  const [jsonFileRaw, modelAndPromptRaw, processIdRaw] = line.split(',');
+
+        // Strip outer quotes and trim whitespace
+        const jsonFile = jsonFileRaw?.trim().replace(/^"|"$/g, '') || '';
+        const modelAndPrompt = modelAndPromptRaw?.trim().replace(/^"|"$/g, '') || '';
+        const processId = processIdRaw?.trim().replace(/^"|"$/g, '') || '';
+
+        // Split model and prompt type
+        const [modelName = '', promptType = ''] = modelAndPrompt.split(' - ');
+
+        // Reconstruct name in a consistent format
         const name = `${modelName} - ${promptType}`;
+
+        // Optional: use the values here
+        console.log({ jsonFile, name, processId });
+
         // Find or create merged entry
         if (!merged[name]) {
           throw new Error(`No merged summary entry found for name: ${name} (from not_compiled.csv)`);

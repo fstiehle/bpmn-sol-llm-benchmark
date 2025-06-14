@@ -35,7 +35,7 @@ group_bpmn_elements <- function(data, metadata_cols = 2) {
 
 plot_element_counts <- function(counts, title = "Element Counts", cex = 0.8) {
   old_par <- par(no.readonly = TRUE)
-  par(mar = c(15, 4, 4, 2))  # adjust margins
+  par(mar = c(15, 4, 4, 2))  # mehr Platz für Achsenbeschriftungen
   
   bar_mids <- barplot(counts,
                       las = 2,
@@ -44,12 +44,13 @@ plot_element_counts <- function(counts, title = "Element Counts", cex = 0.8) {
   
   text(x = bar_mids,
        y = counts,
-       labels = counts,
+       labels = round(counts, 2),
        pos = 3,
        cex = cex)
   
   par(old_par)
 }
+
 
 # Function to detect and sort outliers by element type
 find_element_outliers <- function(data_grouped, pattern, percentile = 0.95) {
@@ -78,7 +79,7 @@ find_element_outliers <- function(data_grouped, pattern, percentile = 0.95) {
 }
 
 # --------- Configuration ---------
-version <- "initial"
+version <- "last"
 case <- "sap-sam"
 
 # --------- File Paths ---------

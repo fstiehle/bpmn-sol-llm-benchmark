@@ -8,6 +8,11 @@ export const capitalize = (name: string): string => {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
+export const escapeCsv = (value: string | undefined | null): string => {
+  if (!value) return '""';
+  return `"${String(value).replace(/"/g, '""')}"`;
+}
+
 const csvPath = path.join(path.join(__dirname, `../log/execution/sap-sam/${STAMP}`), "not_compiled.csv");
 
 const processLogsToSol = (logFolder: string, solFolder: string, prefix="LLM_") => {
@@ -20,7 +25,11 @@ const processLogsToSol = (logFolder: string, solFolder: string, prefix="LLM_") =
 
     if (logContent.compiled === false) {
       console.log(`Skipping ${logFile} because it was marked to not compile.`);
-      const csvLine = `"${logFile}","${logContent.name || ""}","${logContent.processID || ""}"`;
+      const csvLine = [
+        escapeCsv(logFile),
+        escapeCsv(logContent.name),
+        escapeCsv(logContent.processID)
+      ].join(",") + "\n";
       fs.appendFileSync(csvPath, csvLine, "utf-8");
       continue;
     }

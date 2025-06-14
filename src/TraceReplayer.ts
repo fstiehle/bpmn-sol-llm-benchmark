@@ -116,11 +116,18 @@ async function replayTrace({
   for (const event of trace) {
     let gasCost = 0;
     if (event.dataChange && event.dataChange.length > 0) {
-      const r = await applyDataChanges(contract, event.dataChange, tab3);
-      gasCost += r.gasCost;
-      logDebug(`${tab3}🛠️ Data changes applied:`, event.dataChange, 'Gas cost:', gasCost);
-      if (isConforming) {
-        allTokenStatesChanged = allTokenStatesChanged && r.allTokenStatesChanged;
+      let r;
+      try {
+        r = await applyDataChanges(contract, event.dataChange, tab3);
+        gasCost += r.gasCost;
+        logDebug(`${tab3}🛠️ Data changes applied:`, event.dataChange, 'Gas cost:', gasCost);
+        if (isConforming) {
+          allTokenStatesChanged = allTokenStatesChanged && r.allTokenStatesChanged;
+        }
+      } catch (error) {
+        logDebug(`${tab3}⚠️ Error applying data changes:`, error instanceof Error ? error.message : String(error));
+        allTokenStatesChanged = false;
+        continue;
       }
     }
 
@@ -317,6 +324,7 @@ export class TraceReplayer {
 
       for (const [i, trace] of badLog.traces.entries()) {
         totalTracesReplayed++; // <-- Increment for each replayed trace (non-conforming)
+        try {
         console.log(`${tab(2)}🔁 Replay Non-Conforming Trace ${i} (${name})`);
         let contract;
         try {
@@ -364,7 +372,11 @@ export class TraceReplayer {
           console.log(`${tab(3)}Non-Conforming Trace Report:`);
           console.table(tableData);
         }
-      };
+        } catch (err) {
+          console.log(JSON.stringify(err))
+          rejectedTraces++
+        }
+      }
 
       results.push({
         process: name,
@@ -389,7 +401,12 @@ export class TraceReplayer {
       fs.mkdirSync(outDir, { recursive: true });
     }
     const outPath = path.join(outDir, `summary.json`);
-    fs.writeFileSync(outPath, JSON.stringify(experimentSummary, null, 2), "utf-8");
+    try {
+      fs.writeFileSync(outPath, JSON.stringify(experimentSummary, null, 2), "utf-8");
+    } catch (err) {
+      console.log(`${tab(1)}⚠️ Failed to write summary file:`, err instanceof Error ? err.message : String(err));
+      console.log(experimentSummary);
+    }
     console.log(`${tab(1)}💾 Saved run summary to ${outPath}`);
 
     const summaryTable = results.map(r => {

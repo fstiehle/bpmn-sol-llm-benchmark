@@ -1,16 +1,8 @@
 "name","tp","tn","fp","fn","accuracy","f1_macro"
-"x-ai/grok-3-beta - two-shot",18,33,0,0,1,1
-"Baseline Rule-Based Generation",4403,11155,1,0,0.999935728517257,0.999999163487921
-"anthropic/claude-sonnet-4 - one-shot",16,33,0,2,0.96078431372549,0.9375
-"x-ai/grok-3-beta - one-shot",16,33,0,2,0.96078431372549,0.9375
-"qwen/qwen3-235b-a22b - one-shot",15,33,0,3,0.941176470588235,0.9125
-"anthropic/claude-sonnet-4 - two-shot",13,33,0,5,0.901960784313726,0.8125
-"openai/gpt-4.1 - two-shot",13,33,0,5,0.901960784313726,0.8125
-"openai/gpt-4.1 - one-shot",14,33,0,4,0.92156862745098,0.75
-"deepseek/deepseek-chat-v3-0324 - two-shot",11,33,0,7,0.862745098039216,0.6875
-"deepseek/deepseek-chat-v3-0324 - one-shot",7,29,0,8,0.818181818181818,0.571428571428571
-"qwen/qwen3-235b-a22b - two-shot",7,33,0,11,0.784313725490196,0.5
-"meta-llama/llama-3.3-70b-instruct - one-shot",4,29,0,12,0.733333333333333,0.375
-"meta-llama/llama-3.1-405b-instruct - one-shot",2,24,0,10,0.722222222222222,0.333333333333333
-"meta-llama/llama-3.1-405b-instruct - two-shot",5,33,0,13,0.745098039215686,0.3125
-"meta-llama/llama-3.3-70b-instruct - two-shot",3,29,0,13,0.711111111111111,0.285714285714286
+"x-ai/grok-3-beta - one-shot",632,7702,0,184,0.978398685137356,0.917826055352632
+"anthropic/claude-sonnet-4 - one-shot",559,7700,2,257,0.969593801361822,0.861775674125072
+"anthropic/claude-sonnet-4 - two-shot",584,7699,3,232,0.972411364169993,0.853182209356908
+"openai/gpt-4.1 - one-shot",407,7651,2,403,0.952144629563984,0.796613474823575
+"openai/gpt-4.1 - two-shot",305,7700,2,511,0.939774594975346,0.696118239190528
+"meta-llama/llama-3.3-70b-instruct - one-shot",114,6931,13,650,0.913985469641931,0.39854095111238
+"meta-llama/llama-3.3-70b-instruct - two-shot",92,7457,8,693,0.915030303030303,0.381419925829864
