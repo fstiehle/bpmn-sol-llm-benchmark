@@ -80,5 +80,5 @@ export const llms: TestConfig[] = [
 // -----------------------------------------------
 // Define which benchmarks to run
 export const run: TestConfig[] = [
-  ...modelTestConfigs.slice(8, 12)
+  modelTestConfigs[12]
 ];

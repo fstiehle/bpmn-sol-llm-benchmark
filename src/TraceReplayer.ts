@@ -140,6 +140,7 @@ async function replayTrace({
         const methodToCall = "enact";
         if (typeof contract[methodToCall] !== "function") {
           throw new Error(`Method ${methodToCall} does not exist on the contract`);
+          continue;
         }
         await (await contract[methodToCall](0)).wait(1);
       } catch (error) {
@@ -181,6 +182,7 @@ async function replayTrace({
       logDebug(`${tab3}❌`, error instanceof Error ? error.message : String(error));
       if (isConforming) {
         allTokenStatesChanged = false;
+        break;
       } else {
         eventsRejected++;
       }
@@ -188,9 +190,11 @@ async function replayTrace({
     }
     if (postTokenState !== preTokenState) {
       logDebug(`${tab3}🔄 Token state changed: ${preTokenState} -> ${postTokenState}`);
+      if (!isConforming) break;
     } else {
       if (isConforming) {
         allTokenStatesChanged = false;
+        break;
       } else {
         eventsRejected++;
         logDebug(`${tab3}✅ Token state did not change.`);
@@ -266,7 +270,7 @@ export class TraceReplayer {
           logDebug('Gas', 'Deployment', ':', gasCost);
         } catch (error) {
           console.log(`${tab(3)}⚠️`, error instanceof Error ? error.message : String(error));
-          throw error;
+          continue
         }
 
         const contracts = new Map<string, any>();

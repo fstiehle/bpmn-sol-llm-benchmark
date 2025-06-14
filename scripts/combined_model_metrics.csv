@@ -1,8 +1,16 @@
 "name","avg_cost","avg_total_tokens","avg_gascost","f1_macro","compiled_pct"
+"Baseline Rule-Based Generation",NA,NA,1224673,1,100
 "x-ai/grok-3-beta - one-shot",0.044,10134,511899,0.918,100
 "anthropic/claude-sonnet-4 - one-shot",0.046,11442,506138,0.862,100
+"x-ai/grok-3-beta - two-shot",0.056,14964,507486,0.861,100
 "anthropic/claude-sonnet-4 - two-shot",0.064,17218,504703,0.853,100
 "openai/gpt-4.1 - one-shot",0.028,10326,507672,0.797,99.4
 "openai/gpt-4.1 - two-shot",0.038,15410,511424,0.696,100
-"meta-llama/llama-3.3-70b-instruct - one-shot",0.001,10249,521630,0.399,100
-"meta-llama/llama-3.3-70b-instruct - two-shot",0.002,15252,504478,0.381,100
+"deepseek/deepseek-chat-v3-0324 - two-shot",0.007,15680,502086,0.669,97.6
+"qwen/qwen3-235b-a22b - one-shot",0.009,18444,497351,0.648,97
+"qwen/qwen3-235b-a22b - two-shot",0.009,24415,481497,0.581,93.4
+"deepseek/deepseek-chat-v3-0324 - one-shot",0.005,10483,507397,0.58,99.4
+"meta-llama/llama-3.1-405b-instruct - one-shot",0.01,10259,508774,0.436,99.4
+"meta-llama/llama-3.1-405b-instruct - two-shot",0.016,15473,499448,0.396,98.8
+"meta-llama/llama-3.3-70b-instruct - two-shot",0.002,15252,504476,0.37,97
+"meta-llama/llama-3.3-70b-instruct - one-shot",0.001,10249,521630,0.36,90.4

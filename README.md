@@ -8,13 +8,11 @@ in the project directory run `npm install`.
 
 ## Replicate the Benchmark Run
 To run our benchmark `last`, which includes 165 process models from SAP-SAM, run:
-1. `npm run test`, which executes the correctness benchmark (this will take a while). To see debug output you can create a `.env` file in the root repository or otherwise set the DEBUG=true environment variable.
+1. `npm run test`, which compiles the contracts (may take a while) executes the correctness benchmark (may take a while). To see debug output you can create a `.env` file in the root repository or otherwise set the DEBUG=true environment variable.
 2. `npm run summary`, which will create convenient merged files for data analysis out of the singular execution and usage (llm) logs. They can be found in `log/execution/sap-sam/last/merged_summary.json` and analogously in the `llm` folder. `/scripts/` contains .R scripts to visualise the results.
 
 ## Overview
 ### Folder Structure
-
-```
 ```
 .
 ├── data/
@@ -58,6 +56,8 @@ The main configuration for the benchmark is done in `bench.config.ts`. Key optio
 You can adjust these options in `bench.config.ts` to control which models, prompts, and process models are included in the benchmark run.
 
 If you want to run your own OpenRouter requersts (via `npm llm`) you must set a `OPENROUTER_SC_API_KEY` environment variable.
+
+If you want to run it on other data, place the data in `data/raw/`.
 
 ### Scripts
 The following `npm run` scripts can be run:
