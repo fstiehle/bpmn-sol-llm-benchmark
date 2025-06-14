@@ -39,7 +39,7 @@ To run our benchmark `last`, which includes 165 process models from SAP-SAM, run
 
 ### Configuration
 
-The main configuration for the benchmark is done in `bench.config.ts`. Key options include:
+The main configuration for the benchmark is done in `bench.config.ts`. Options include:
 
 - **STAMP**: Identifier for the current experiment (used in log and output paths). Currently `last`, which refers to the benchmark run conducted in our study. Create a new name for a new benchmark run.
 - **DEBUG**: Set via environment variable or `.env` file to enable debug output.
@@ -64,7 +64,7 @@ The following `npm run` scripts can be run:
 - `compile`: Prepares tests and compiles contracts using Hardhat.
 - `test`: Runs the main correctness benchmark (`test/execute.ts`).
 - `sam`: Pre-processes the SAP-SAM data and runs the simulator.
-- `**`summary`: Generates merged summary files for analysis.
+- `summary`: Generates merged summary files for analysis.
 - `llm`: Runs the llm requests through OpenRouter.
 - `clean-all`: Cleans generated files and artifacts except raw data.
 - `clean-llm`: Cleans LLM-related contract files and artifacts.
