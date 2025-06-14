@@ -148,12 +148,12 @@ combined_metrics <- flat_data %>%
   left_join(summary_stats, by = "name") %>%
   group_by(name) %>%
   summarise(
-    avg_cost = mean(avg_cost, na.rm = TRUE),
-    avg_total_tokens = mean(avg_total_tokens, na.rm = TRUE),
-    avg_gascost = mean(gas, na.rm = TRUE),
-    f1_macro = mean(f1_macro, na.rm = TRUE),
-    accuracy = mean(accuracy, na.rm = TRUE),
-    compiled_pct = mean(compiled, na.rm = TRUE) * 100,
+    avg_cost = round(mean(avg_cost, na.rm = TRUE), 3),
+    avg_total_tokens = round(mean(avg_total_tokens, na.rm = TRUE), 0),
+    avg_gascost = round(mean(gas, na.rm = TRUE), 0),
+    f1_macro = round(mean(f1_macro, na.rm = TRUE), 3),
+    accuracy = round(mean(accuracy, na.rm = TRUE), 3),
+    compiled_pct = round(mean(compiled, na.rm = TRUE) * 100, 1),
     .groups = "drop"
   ) %>%
   arrange(desc(f1_macro))
@@ -162,29 +162,37 @@ cat("\n--- Combined Metrics per Model ---\n")
 print(combined_metrics, width = Inf, row.names = FALSE, right = FALSE)
 write.csv(combined_metrics, "combined_model_metrics.csv", row.names = FALSE)
 
+
 # ===================================================
 # SECTION 5: Correlation Between Gateways and F1 Score
 # ===================================================
 
-# Assumes meta_data contains columns: process, gateways (or similar)
-# First, join f1 per process with meta_data
-f1_vs_gateways <- flat_data %>%
-  select(process, f1) %>%
-  left_join(meta_data, by = "model")
+library(stringr)
 
-# Plot F1 vs Gateway count
-ggplot(f1_vs_gateways, aes(x = gateways, y = f1)) +
+# Zähle wie oft das Wort 'gateway' (oder Varianten) im Element-Text vorkommt
+# Zähle alle Spalten mit "Gateway" im Namen
+gateway_cols <- grep("Gateway", colnames(meta_data), value = TRUE)
+
+# Erzeuge neue Spalte 'gateways' als Summe aller Gateway-Spalten
+meta_data <- meta_data %>%
+  mutate(gateways = rowSums(select(., all_of(gateway_cols)), na.rm = TRUE))
+
+# Join F1 & Gateway counts, inkl. Modellinfo
+f1_vs_gateways <- flat_data %>%
+  select(process, f1, model) %>%
+  left_join(meta_data %>% select(model, gateways), by = "model")
+
+# Plot mit Linien für jedes Modell
+ggplot(f1_vs_gateways, aes(x = gateways, y = f1, color = model)) +
   geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", se = TRUE, color = "blue") +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 1) +  # Eine Linie pro Modell
   labs(
-    title = "Relation Between Number of Gateways and F1 Score",
+    title = "F1 Score vs. Number of Gateways by Model",
     x = "Number of Gateways",
-    y = "F1 Score"
+    y = "F1 Score",
+    color = "Model"
   ) +
   theme_minimal()
-
-# Optionally: save the plot
-ggsave("f1_vs_gateways.png", width = 8, height = 5)
 
 # ===================================================
 # END OF SCRIPT

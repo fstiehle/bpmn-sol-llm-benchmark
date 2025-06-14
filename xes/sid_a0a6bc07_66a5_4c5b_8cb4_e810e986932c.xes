@@ -15,6 +15,23 @@
       <string key="concept:name" value="Problem besprechen"/>
       <string key="id" value="sid-69BA1A06-C37D-48D0-B43D-B9D0CAE2A281"/>
       <string key="sourceRef" value="sid-C91FA95E-9346-40A8-9C9D-6FB4283EBE4C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem gelöst"/>
+      <string key="id" value="sid-B4C50627-5A0A-4352-B049-F76B5A945616"/>
+      <string key="sourceRef" value="sid-823B3ADF-F803-4A44-9291-78891FDE59FF"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Problem schildern"/>
+      <string key="id" value="sid-C0A1EAF6-72BE-4733-817D-D9CDD3F1D5E4"/>
+      <string key="sourceRef" value="sid-236D2A58-93C0-4D6B-AC21-3CA11DBFDBB6"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Problem besprechen"/>
+      <string key="id" value="sid-69BA1A06-C37D-48D0-B43D-B9D0CAE2A281"/>
+      <string key="sourceRef" value="sid-C91FA95E-9346-40A8-9C9D-6FB4283EBE4C"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -36,23 +53,6 @@
       <string key="concept:name" value="Auftragsbericht unterschreiben lassen"/>
       <string key="id" value="sid-3EB52EB9-A019-42DF-8709-F1C10B3EB532"/>
       <string key="sourceRef" value="sid-EF1E6D68-92D6-4893-B94A-EAD107A97836"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Problem schildern"/>
-      <string key="id" value="sid-C0A1EAF6-72BE-4733-817D-D9CDD3F1D5E4"/>
-      <string key="sourceRef" value="sid-236D2A58-93C0-4D6B-AC21-3CA11DBFDBB6"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Problem besprechen"/>
-      <string key="id" value="sid-69BA1A06-C37D-48D0-B43D-B9D0CAE2A281"/>
-      <string key="sourceRef" value="sid-C91FA95E-9346-40A8-9C9D-6FB4283EBE4C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Problem gelöst"/>
-      <string key="id" value="sid-B4C50627-5A0A-4352-B049-F76B5A945616"/>
-      <string key="sourceRef" value="sid-823B3ADF-F803-4A44-9291-78891FDE59FF"/>
     </event>
   </trace>
 </log>

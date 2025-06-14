@@ -33,6 +33,12 @@
       <string key="concept:name" value="Vraćanje posuđene knjige"/>
       <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
       <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Plaćanje zakasnine"/>
+      <string key="id" value="sid-BA0AF6A7-C1DF-4EBD-9603-AE5D7AB2EDFF"/>
+      <string key="sourceRef" value="sid-A12D0250-A2F0-4C82-960F-9329B47D2478"/>
     </event>
   </trace>
   <trace>
@@ -72,12 +78,6 @@
       <string key="concept:name" value="Vraćanje posuđene knjige"/>
       <string key="id" value="sid-9E7741AD-9B67-412F-B09F-EE04324BB9F7"/>
       <string key="sourceRef" value="sid-2B3E0EA7-E525-4CAC-9DF5-A01A59CEF605"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Plaćanje zakasnine"/>
-      <string key="id" value="sid-BA0AF6A7-C1DF-4EBD-9603-AE5D7AB2EDFF"/>
-      <string key="sourceRef" value="sid-A12D0250-A2F0-4C82-960F-9329B47D2478"/>
     </event>
   </trace>
 </log>

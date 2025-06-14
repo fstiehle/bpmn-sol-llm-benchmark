@@ -1,6 +1,8 @@
+library(dplyr)
 library(readr)
+library(jsonlite)
+library(tidyr)
 library(ggplot2)
-library(cluster)
 
 # Set working directory to the folder where this script is located
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
@@ -75,10 +77,25 @@ find_element_outliers <- function(data_grouped, pattern, percentile = 0.95) {
   return(outliers_sorted[, c("model", "original_file", total_col_name)])
 }
 
+# --------- Configuration ---------
+version <- "initial"
+case <- "sap-sam"
 
-# ---------------------------------
-meta_data <- read_csv("../data/sap-sam/meta_data.csv")
-meta_data <- meta_data[1:min(200, nrow(meta_data)), ]
+# --------- File Paths ---------
+meta_path   <- file.path("..", "data", case, "meta_data.csv")
+input_path  <- file.path("..", "log", "execution", case, version, "merged_summary.json")
+
+# --------- Load Data ---------
+meta_data  <- read_csv(meta_path)
+input_data <- fromJSON(input_path, flatten = TRUE)
+
+flat_data <- input_json %>%
+  unnest_longer(processes) %>%
+  unnest_wider(processes)
+
+# only inspect meta data for actually executed processes
+meta_data <- meta_data %>%
+  filter(model %in% flat_data$process)
 
 # Remove namespace prefixes from column names
 # Group elements (if not already done)

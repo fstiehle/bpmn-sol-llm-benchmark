@@ -15,6 +15,24 @@
       <string key="concept:name" value="Analyze Problem and tryout different solutions"/>
       <string key="id" value="sid-D13BFCC6-850D-49B1-880B-295073279AA6"/>
       <string key="sourceRef" value="sid-E4EE6500-1510-46F0-A9D3-E18BFB1124BB"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="End the call with a good note"/>
+      <string key="id" value="sid-C57DC0A3-EED2-48A4-A208-AB2FC780F555"/>
+      <string key="sourceRef" value="sid-EC0D5EE0-0ACA-4288-8220-6C021C3AC9B1"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Customer reports problem"/>
+      <string key="id" value="sid-E9490497-2BF8-40EF-AA19-5DD2A3814375"/>
+      <string key="sourceRef" value="sid-51B335BB-4706-4A51-ACB3-65BBF3DA18BB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Analyze Problem and tryout different solutions"/>
+      <string key="id" value="sid-D13BFCC6-850D-49B1-880B-295073279AA6"/>
+      <string key="sourceRef" value="sid-E4EE6500-1510-46F0-A9D3-E18BFB1124BB"/>
     </event>
     <event>
       <string key="concept:name" value="Create Problem Note and forward"/>
@@ -40,24 +58,6 @@
       <string key="concept:name" value="Record time and incident report in service form"/>
       <string key="id" value="sid-59E2CFCD-9D63-49A7-ACD4-BFC6A59E71ED"/>
       <string key="sourceRef" value="sid-624B46B7-48DB-4C36-A376-F02B2254DF78"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Customer reports problem"/>
-      <string key="id" value="sid-E9490497-2BF8-40EF-AA19-5DD2A3814375"/>
-      <string key="sourceRef" value="sid-51B335BB-4706-4A51-ACB3-65BBF3DA18BB"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Analyze Problem and tryout different solutions"/>
-      <string key="id" value="sid-D13BFCC6-850D-49B1-880B-295073279AA6"/>
-      <string key="sourceRef" value="sid-E4EE6500-1510-46F0-A9D3-E18BFB1124BB"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="End the call with a good note"/>
-      <string key="id" value="sid-C57DC0A3-EED2-48A4-A208-AB2FC780F555"/>
-      <string key="sourceRef" value="sid-EC0D5EE0-0ACA-4288-8220-6C021C3AC9B1"/>
     </event>
   </trace>
 </log>

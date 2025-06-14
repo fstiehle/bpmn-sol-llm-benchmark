@@ -17,6 +17,23 @@
       <string key="sourceRef" value="sid-6BE1A809-1F59-45F5-A276-CA8A0166556E"/>
     </event>
     <event>
+      <string key="concept:name" value="Angebot ablehnen"/>
+      <string key="id" value="sid-F80E4543-2ECB-464B-A37D-243945E38A27"/>
+      <string key="sourceRef" value="sid-69DAF359-82DC-4A0C-8207-62B08CFB513B"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Anfrage stellen"/>
+      <string key="id" value="sid-2A8C519B-FA14-48DA-9551-53685209B7F3"/>
+      <string key="sourceRef" value="sid-A0D69601-A54B-415A-94A5-25278983CA54"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot vorlegen"/>
+      <string key="id" value="sid-17E8C140-858E-4263-8049-98F7DA801390"/>
+      <string key="sourceRef" value="sid-6BE1A809-1F59-45F5-A276-CA8A0166556E"/>
+    </event>
+    <event>
       <string key="concept:name" value="Angebot zusagen"/>
       <string key="id" value="sid-CCF831C8-84D6-4DB1-9F15-73E236241023"/>
       <string key="sourceRef" value="sid-C1EA74CD-7B68-4CB0-9EB2-B7CFC4048966"/>
@@ -35,23 +52,6 @@
       <string key="concept:name" value="Kaffeebohnen liefern"/>
       <string key="id" value="sid-321D60EE-2226-4B45-91C2-440C52F3C3BA"/>
       <string key="sourceRef" value="sid-29A94792-A9EC-48EF-9420-62CF5F62A70F"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Anfrage stellen"/>
-      <string key="id" value="sid-2A8C519B-FA14-48DA-9551-53685209B7F3"/>
-      <string key="sourceRef" value="sid-A0D69601-A54B-415A-94A5-25278983CA54"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot vorlegen"/>
-      <string key="id" value="sid-17E8C140-858E-4263-8049-98F7DA801390"/>
-      <string key="sourceRef" value="sid-6BE1A809-1F59-45F5-A276-CA8A0166556E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot ablehnen"/>
-      <string key="id" value="sid-F80E4543-2ECB-464B-A37D-243945E38A27"/>
-      <string key="sourceRef" value="sid-69DAF359-82DC-4A0C-8207-62B08CFB513B"/>
     </event>
   </trace>
 </log>

@@ -20,11 +20,12 @@
       <string key="concept:name" value="Treffen Entscheidung"/>
       <string key="id" value="sid-839A0098-79BF-4A7B-8859-9536463ECE67"/>
       <string key="sourceRef" value="sid-E3886731-2BFD-489C-A3AC-40343D58CABE"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Vertrag wird abgeschlossen"/>
-      <string key="id" value="sid-62FE5728-7B51-4DEC-B05A-F3782899E75F"/>
-      <string key="sourceRef" value="sid-E7343B84-AB9C-498D-A7D2-8FA5F3D456E0"/>
+      <string key="concept:name" value="informiert über Ablehnung"/>
+      <string key="id" value="sid-E554BFD8-A719-4C64-A76E-20B9E08151DB"/>
+      <string key="sourceRef" value="sid-3E2EC81E-FCD0-4384-81FE-BEBBC8736E5D"/>
     </event>
   </trace>
   <trace>
@@ -42,12 +43,11 @@
       <string key="concept:name" value="Treffen Entscheidung"/>
       <string key="id" value="sid-839A0098-79BF-4A7B-8859-9536463ECE67"/>
       <string key="sourceRef" value="sid-E3886731-2BFD-489C-A3AC-40343D58CABE"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="informiert über Ablehnung"/>
-      <string key="id" value="sid-E554BFD8-A719-4C64-A76E-20B9E08151DB"/>
-      <string key="sourceRef" value="sid-3E2EC81E-FCD0-4384-81FE-BEBBC8736E5D"/>
+      <string key="concept:name" value="Vertrag wird abgeschlossen"/>
+      <string key="id" value="sid-62FE5728-7B51-4DEC-B05A-F3782899E75F"/>
+      <string key="sourceRef" value="sid-E7343B84-AB9C-498D-A7D2-8FA5F3D456E0"/>
     </event>
   </trace>
 </log>

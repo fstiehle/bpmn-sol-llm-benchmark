@@ -36,6 +36,7 @@
       <string key="concept:name" value="Versand Zahlschein"/>
       <string key="id" value="sid-67E70492-5F82-4F91-84FF-139376BD187D"/>
       <string key="sourceRef" value="sid-B84354B3-9E95-4373-B812-4A9059659984"/>
+      <boolean key="conditions" value="2"/>
     </event>
   </trace>
   <trace>

@@ -10,6 +10,12 @@
       <string key="concept:name" value="Send Credit Card Application"/>
       <string key="id" value="sid-88782CCC-0556-4CA8-A271-E9F020AAC566"/>
       <string key="sourceRef" value="sid-91B128FC-88E1-42DD-844A-6FD4B3C086BF"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send Credit file Request"/>
+      <string key="id" value="sid-A87350F0-7FF2-46C1-8345-85302C6685EE"/>
+      <string key="sourceRef" value="sid-DAE334AE-7728-4D42-AC9E-747A6173975B"/>
     </event>
     <event>
       <string key="concept:name" value="Send Application rejection"/>
@@ -41,12 +47,6 @@
       <string key="concept:name" value="Send Credit Card Application"/>
       <string key="id" value="sid-88782CCC-0556-4CA8-A271-E9F020AAC566"/>
       <string key="sourceRef" value="sid-91B128FC-88E1-42DD-844A-6FD4B3C086BF"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send Credit file Request"/>
-      <string key="id" value="sid-A87350F0-7FF2-46C1-8345-85302C6685EE"/>
-      <string key="sourceRef" value="sid-DAE334AE-7728-4D42-AC9E-747A6173975B"/>
     </event>
     <event>
       <string key="concept:name" value="Send Application rejection"/>

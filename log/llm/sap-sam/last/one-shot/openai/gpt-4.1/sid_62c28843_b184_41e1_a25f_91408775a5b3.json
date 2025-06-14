@@ -3,7 +3,7 @@
   "processID": "sid_62c28843_b184_41e1_a25f_91408775a5b3",
   "timestamp": "2025-06-11T23:44:54.997Z",
   "model": "openai/gpt-4.1",
-  "compiled": true,
+  "compiled": false,
   "usage": {
     "prompt_tokens": 16135,
     "completion_tokens": 3149,

@@ -1,0 +1,251 @@
+<ns0:definitions xmlns:ns0="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.signavio.com" xmlns:ns3="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:ns4="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns5="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="19.1.2" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-1548ffcc-7c95-4d6d-8126-ae34eb896843" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+  <ns0:category id="sid-a99e1898-a8b8-4841-bac4-640815dbfea7">
+    <ns0:categoryValue id="sid-50aa5305-81b2-4f87-8090-77ee6b674b3e" value="|||"></ns0:categoryValue>
+  </ns0:category>
+  <ns0:choreography id="sid_ece51571_13ba_41d8_8688_057c876cc093" isClosed="false">
+    <ns0:participant id="sid-170A6FB3-18BD-4081-9856-FD7B725508B5" name="Verkäufer">
+      <ns0:participantMultiplicity id="sid-61f76c50-f72f-4cf5-b69c-62fc13220d54" maximum="2" minimum="2"></ns0:participantMultiplicity>
+    </ns0:participant>
+    <ns0:participant id="sid-BB40BA0E-5BD8-400A-8D03-AB33C9EC8CAD" name="IT-System"></ns0:participant>
+    <ns0:participant id="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B" name="IT-System"></ns0:participant>
+    <ns0:participant id="sid-A8EB5DDD-BD01-4871-9E04-8F46994B870A" name=""></ns0:participant>
+    <ns0:participant id="sid-42E785F6-BEF2-4F1E-9360-59F53113535E" name="IT-System"></ns0:participant>
+    <ns0:participant id="sid-045CAB1C-66B8-417A-AAF2-92C0B040D2F0" name="Bieter">
+      <ns0:participantMultiplicity id="sid-4a4b0cc7-749f-4f39-b869-162bd3c800e3" maximum="2" minimum="2"></ns0:participantMultiplicity>
+    </ns0:participant>
+    <ns0:participant id="sid-ED772AA5-04AE-4144-BBAA-887B716830FA" name="IT-System">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-C424456F-CD67-4A52-9AD2-5E1BAC3254D5" name="Bieter">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:participantMultiplicity id="sid-db8f55fc-1f64-45d6-b3c3-2ec024e945df" maximum="2" minimum="2"></ns0:participantMultiplicity>
+    </ns0:participant>
+    <ns0:participant id="sid-F33A8DC9-B104-407B-9115-9EBA957946F8" name="Prüfer">
+      <ns0:participantMultiplicity id="sid-702db0f2-ce36-4c38-b4f8-844b4ba6f05f" maximum="2" minimum="2"></ns0:participantMultiplicity>
+    </ns0:participant>
+    <ns0:participant id="sid-1206A89E-EC72-4474-962C-8F44793E5507" name=""></ns0:participant>
+    <ns0:participant id="sid-53D5849B-4E7C-4138-AA70-18A6B0206676" name="IT-System"></ns0:participant>
+    <ns0:participant id="sid-BFF60BF7-DFEC-4795-B994-9E584DB255BC" name="Verkäufer">
+      <ns0:participantMultiplicity id="sid-3cde35b1-1ba2-45d7-bb74-503e2a3526d4" maximum="2" minimum="2"></ns0:participantMultiplicity>
+    </ns0:participant>
+    <ns0:participant id="sid-FB804EB5-34FB-4DF4-AC0D-9567AB57DA34" name="IT-System">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-DEF61FEA-ABA6-44A5-A513-002D657CA05C" name="Verkäufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4" name="IT-System">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-5C721823-47AA-4E7A-8F0D-7E15FE9E8846" name="Käufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366" name="IT-System">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-EBF45F80-A440-4674-B1F0-18FADE9F9FAD" name="Verkäufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875" name="Käufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-9DDFC5B5-1D0C-4253-B7F0-917B76E4E6AD" name="Auktionshaus">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA" name="Auktionshaus">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-A7D54E68-3CFB-409F-A82C-8AE83001BA32" name="Verkäufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-5E022FD0-B7EE-438E-994F-35899746B7F9" name="Verkäufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:participant id="sid-ED3E1FA4-D053-4519-8C40-073B679E38A6" name="Käufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:participant>
+    <ns0:messageFlow id="sid-03d951ee-5f39-42c3-96e6-8edf7ce1cea6" sourceRef="sid-170A6FB3-18BD-4081-9856-FD7B725508B5" targetRef="sid-BB40BA0E-5BD8-400A-8D03-AB33C9EC8CAD"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-e18d87c0-9bd5-4506-bda1-34457815e677" sourceRef="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B" targetRef="sid-A8EB5DDD-BD01-4871-9E04-8F46994B870A"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-f3e5d216-b502-4141-bac2-07b355578545" sourceRef="sid-42E785F6-BEF2-4F1E-9360-59F53113535E" targetRef="sid-045CAB1C-66B8-417A-AAF2-92C0B040D2F0"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-4e53e27b-b988-40d2-a228-2a79728c0da1" sourceRef="sid-ED772AA5-04AE-4144-BBAA-887B716830FA" targetRef="sid-C424456F-CD67-4A52-9AD2-5E1BAC3254D5"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-6f869bf9-bb66-4a2c-8a2f-b7ee0afc753c" sourceRef="sid-F33A8DC9-B104-407B-9115-9EBA957946F8" targetRef="sid-1206A89E-EC72-4474-962C-8F44793E5507"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-4c95f2d4-992f-4ed4-83a6-00a9be212210" sourceRef="sid-53D5849B-4E7C-4138-AA70-18A6B0206676" targetRef="sid-BFF60BF7-DFEC-4795-B994-9E584DB255BC"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-056c43e9-200a-4a35-9613-b01e7fee37cc" sourceRef="sid-FB804EB5-34FB-4DF4-AC0D-9567AB57DA34" targetRef="sid-DEF61FEA-ABA6-44A5-A513-002D657CA05C"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-bb70230d-77d4-4254-8067-1007495690eb" sourceRef="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4" targetRef="sid-5C721823-47AA-4E7A-8F0D-7E15FE9E8846"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-78cb6631-4d00-4b83-b685-6dde98895a71" sourceRef="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366" targetRef="sid-EBF45F80-A440-4674-B1F0-18FADE9F9FAD"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-27f7007d-e63e-469d-ab42-f3945572a075" sourceRef="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875" targetRef="sid-9DDFC5B5-1D0C-4253-B7F0-917B76E4E6AD"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-cbc03fc1-b717-4df0-b741-85b7b6505a36" sourceRef="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA" targetRef="sid-A7D54E68-3CFB-409F-A82C-8AE83001BA32"></ns0:messageFlow>
+    <ns0:messageFlow id="sid-b7db706c-5574-49d8-a109-f167a9a46c14" sourceRef="sid-5E022FD0-B7EE-438E-994F-35899746B7F9" targetRef="sid-ED3E1FA4-D053-4519-8C40-073B679E38A6"></ns0:messageFlow>
+    <ns0:group categoryValueRef="sid-50aa5305-81b2-4f87-8090-77ee6b674b3e" id="sid-51EBE98B-7DDE-4BF1-8EF9-BB9E4C6FF5CB"></ns0:group>
+    <ns0:startEvent id="sid-CA783F3B-8AEE-48AC-92B5-47E7BEBD1AB2" name="">
+      <ns0:outgoing>sid-1E5AFB9F-CCDA-4FB0-A60E-4CD459CE9ADC</ns0:outgoing>
+    </ns0:startEvent>
+    <ns0:choreographyTask id="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7" initiatingParticipantRef="sid-170A6FB3-18BD-4081-9856-FD7B725508B5" loopType="MultiInstanceParallel" name="Einreichung des Artikels">
+      <ns0:incoming>sid-1E5AFB9F-CCDA-4FB0-A60E-4CD459CE9ADC</ns0:incoming>
+      <ns0:outgoing>sid-00A945CA-994F-4F29-8A5A-CDFCA9B8A565</ns0:outgoing>
+      <ns0:participantRef>sid-170A6FB3-18BD-4081-9856-FD7B725508B5</ns0:participantRef>
+      <ns0:participantRef>sid-BB40BA0E-5BD8-400A-8D03-AB33C9EC8CAD</ns0:participantRef>
+      <ns0:messageFlowRef>sid-03d951ee-5f39-42c3-96e6-8edf7ce1cea6</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-EE6304AF-0457-4569-916C-F2734D11F2C7" initiatingParticipantRef="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B" loopType="MultiInstanceParallel" name="inseriert Artikel">
+      <ns0:incoming>sid-8EAD68DB-6401-423B-9720-6E32218A95B5</ns0:incoming>
+      <ns0:outgoing>sid-BF4DF63A-D682-4A70-83B5-9BFCE2C3661D</ns0:outgoing>
+      <ns0:participantRef>sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B</ns0:participantRef>
+      <ns0:participantRef>sid-A8EB5DDD-BD01-4871-9E04-8F46994B870A</ns0:participantRef>
+      <ns0:messageFlowRef>sid-e18d87c0-9bd5-4506-bda1-34457815e677</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F" initiatingParticipantRef="sid-42E785F6-BEF2-4F1E-9360-59F53113535E" loopType="MultiInstanceParallel" name="werden über Artikel per Email informiert">
+      <ns0:incoming>sid-BF4DF63A-D682-4A70-83B5-9BFCE2C3661D</ns0:incoming>
+      <ns0:outgoing>sid-ACA6C295-7CAC-4E64-972C-3CDDA0CFBFB8</ns0:outgoing>
+      <ns0:participantRef>sid-42E785F6-BEF2-4F1E-9360-59F53113535E</ns0:participantRef>
+      <ns0:participantRef>sid-045CAB1C-66B8-417A-AAF2-92C0B040D2F0</ns0:participantRef>
+      <ns0:messageFlowRef>sid-f3e5d216-b502-4141-bac2-07b355578545</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-10C4FC75-0471-4678-9641-99BCCCA63621" initiatingParticipantRef="sid-ED772AA5-04AE-4144-BBAA-887B716830FA" loopType="None" name="versteigert Artikel">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-ACA6C295-7CAC-4E64-972C-3CDDA0CFBFB8</ns0:incoming>
+      <ns0:outgoing>sid-6D47AFDE-F672-439D-950C-4006585D9295</ns0:outgoing>
+      <ns0:participantRef>sid-ED772AA5-04AE-4144-BBAA-887B716830FA</ns0:participantRef>
+      <ns0:participantRef>sid-C424456F-CD67-4A52-9AD2-5E1BAC3254D5</ns0:participantRef>
+      <ns0:messageFlowRef>sid-4e53e27b-b988-40d2-a228-2a79728c0da1</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2" initiatingParticipantRef="sid-F33A8DC9-B104-407B-9115-9EBA957946F8" loopType="MultiInstanceParallel" name="prüft Artikel">
+      <ns0:incoming>sid-00A945CA-994F-4F29-8A5A-CDFCA9B8A565</ns0:incoming>
+      <ns0:outgoing>sid-907F3091-7CC5-42B1-9B29-BC43092A74CF</ns0:outgoing>
+      <ns0:participantRef>sid-F33A8DC9-B104-407B-9115-9EBA957946F8</ns0:participantRef>
+      <ns0:participantRef>sid-1206A89E-EC72-4474-962C-8F44793E5507</ns0:participantRef>
+      <ns0:messageFlowRef>sid-6f869bf9-bb66-4a2c-8a2f-b7ee0afc753c</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-BCCA6FC4-B4F3-4294-BC0E-09D2C4683B0F" initiatingParticipantRef="sid-53D5849B-4E7C-4138-AA70-18A6B0206676" loopType="MultiInstanceParallel" name="lehnt Inserierung ab">
+      <ns0:incoming>sid-B26AF796-20E6-4749-A7D0-E84ED8D5624C</ns0:incoming>
+      <ns0:outgoing>sid-D5D1C513-DFD1-4539-9F7C-C7D53860F12D</ns0:outgoing>
+      <ns0:participantRef>sid-53D5849B-4E7C-4138-AA70-18A6B0206676</ns0:participantRef>
+      <ns0:participantRef>sid-BFF60BF7-DFEC-4795-B994-9E584DB255BC</ns0:participantRef>
+      <ns0:messageFlowRef>sid-4c95f2d4-992f-4ed4-83a6-00a9be212210</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-18B04E9C-D64F-4D2E-8727-7BDF52A105D6" initiatingParticipantRef="sid-FB804EB5-34FB-4DF4-AC0D-9567AB57DA34" loopType="None" name="löscht Artikel und informiert Verkäufer">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-4E77F0A0-2224-4123-B804-9CDA9A28DDA3</ns0:incoming>
+      <ns0:outgoing>sid-90D1187F-B9CF-4B56-9AD2-F249EF9B8CC5</ns0:outgoing>
+      <ns0:participantRef>sid-FB804EB5-34FB-4DF4-AC0D-9567AB57DA34</ns0:participantRef>
+      <ns0:participantRef>sid-DEF61FEA-ABA6-44A5-A513-002D657CA05C</ns0:participantRef>
+      <ns0:messageFlowRef>sid-056c43e9-200a-4a35-9613-b01e7fee37cc</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263" initiatingParticipantRef="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4" loopType="None" name="fordert zu Zahlung auf">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-4D5336F5-FD61-408E-AE35-6BD744B5461B</ns0:incoming>
+      <ns0:outgoing>sid-95C1E102-6F40-4637-92AE-B6CCC811CE27</ns0:outgoing>
+      <ns0:participantRef>sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4</ns0:participantRef>
+      <ns0:participantRef>sid-5C721823-47AA-4E7A-8F0D-7E15FE9E8846</ns0:participantRef>
+      <ns0:messageFlowRef>sid-bb70230d-77d4-4254-8067-1007495690eb</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA" initiatingParticipantRef="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366" loopType="None" name="fordert zu Versand auf">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-0667533A-0F2A-4973-ACB7-4EFF34108D1A</ns0:incoming>
+      <ns0:outgoing>sid-3F7F8A86-D1CA-403D-90B0-5C6F99912EF9</ns0:outgoing>
+      <ns0:participantRef>sid-38DAD7BF-8F6B-466D-96A8-88762E67A366</ns0:participantRef>
+      <ns0:participantRef>sid-EBF45F80-A440-4674-B1F0-18FADE9F9FAD</ns0:participantRef>
+      <ns0:messageFlowRef>sid-78cb6631-4d00-4b83-b685-6dde98895a71</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB" initiatingParticipantRef="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875" loopType="None" name="bezahlt">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-95C1E102-6F40-4637-92AE-B6CCC811CE27</ns0:incoming>
+      <ns0:outgoing>sid-670D1A86-DF8E-45DF-BC0A-8D670182B5F4</ns0:outgoing>
+      <ns0:participantRef>sid-4A81BF83-0B3C-435D-8012-3BB0920C5875</ns0:participantRef>
+      <ns0:participantRef>sid-9DDFC5B5-1D0C-4253-B7F0-917B76E4E6AD</ns0:participantRef>
+      <ns0:messageFlowRef>sid-27f7007d-e63e-469d-ab42-f3945572a075</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82" initiatingParticipantRef="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA" loopType="None" name="bezahlt Anteil">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-670D1A86-DF8E-45DF-BC0A-8D670182B5F4</ns0:incoming>
+      <ns0:outgoing>sid-EAAEBAC1-09CA-46EA-9054-2D8491BDC010</ns0:outgoing>
+      <ns0:participantRef>sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA</ns0:participantRef>
+      <ns0:participantRef>sid-A7D54E68-3CFB-409F-A82C-8AE83001BA32</ns0:participantRef>
+      <ns0:messageFlowRef>sid-cbc03fc1-b717-4df0-b741-85b7b6505a36</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:choreographyTask id="sid-E6BAE8BC-B37E-4100-8976-B34914A66443" initiatingParticipantRef="sid-5E022FD0-B7EE-438E-994F-35899746B7F9" loopType="None" name="versendet">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-3F7F8A86-D1CA-403D-90B0-5C6F99912EF9</ns0:incoming>
+      <ns0:outgoing>sid-A3F40CAF-4CBF-4A83-B1A5-295CDB1A298B</ns0:outgoing>
+      <ns0:participantRef>sid-5E022FD0-B7EE-438E-994F-35899746B7F9</ns0:participantRef>
+      <ns0:participantRef>sid-ED3E1FA4-D053-4519-8C40-073B679E38A6</ns0:participantRef>
+      <ns0:messageFlowRef>sid-b7db706c-5574-49d8-a109-f167a9a46c14</ns0:messageFlowRef>
+    </ns0:choreographyTask>
+    <ns0:endEvent id="sid-4DB1DA7F-6577-48B5-A3B8-A109D1AE648D" name="">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-90D1187F-B9CF-4B56-9AD2-F249EF9B8CC5</ns0:incoming>
+      <ns0:incoming>sid-D5D1C513-DFD1-4539-9F7C-C7D53860F12D</ns0:incoming>
+      <ns0:incoming>sid-C2EE0ED5-AFAA-4625-8E5B-752F9594EC87</ns0:incoming>
+    </ns0:endEvent>
+    <ns0:exclusiveGateway gatewayDirection="Diverging" id="sid-12BC7446-AACA-435F-979A-8127AB6B3100" name="" default="sid-8EAD68DB-6401-423B-9720-6E32218A95B5">
+      <ns0:incoming>sid-907F3091-7CC5-42B1-9B29-BC43092A74CF</ns0:incoming>
+      <ns0:outgoing>sid-8EAD68DB-6401-423B-9720-6E32218A95B5</ns0:outgoing>
+      <ns0:outgoing>sid-B26AF796-20E6-4749-A7D0-E84ED8D5624C</ns0:outgoing>
+    </ns0:exclusiveGateway>
+    <ns0:exclusiveGateway gatewayDirection="Diverging" id="sid-683FADC2-9D4D-472D-8DD8-5B9C5C002651" name="" default="sid-4E77F0A0-2224-4123-B804-9CDA9A28DDA3">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-6D47AFDE-F672-439D-950C-4006585D9295</ns0:incoming>
+      <ns0:outgoing>sid-4E77F0A0-2224-4123-B804-9CDA9A28DDA3</ns0:outgoing>
+      <ns0:outgoing>sid-CBB0302D-0F19-4DB2-B41E-E827290237A3</ns0:outgoing>
+    </ns0:exclusiveGateway>
+    <ns0:parallelGateway gatewayDirection="Diverging" id="sid-0C9D4B71-1348-4D7E-A578-1A8E2CF76EFA" name="">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-CBB0302D-0F19-4DB2-B41E-E827290237A3</ns0:incoming>
+      <ns0:outgoing>sid-4D5336F5-FD61-408E-AE35-6BD744B5461B</ns0:outgoing>
+      <ns0:outgoing>sid-0667533A-0F2A-4973-ACB7-4EFF34108D1A</ns0:outgoing>
+    </ns0:parallelGateway>
+    <ns0:parallelGateway gatewayDirection="Converging" id="sid-216F0E5A-7EC9-4B8C-BFC5-740CC78BB4FB" name="">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <ns0:incoming>sid-A3F40CAF-4CBF-4A83-B1A5-295CDB1A298B</ns0:incoming>
+      <ns0:incoming>sid-EAAEBAC1-09CA-46EA-9054-2D8491BDC010</ns0:incoming>
+      <ns0:outgoing>sid-C2EE0ED5-AFAA-4625-8E5B-752F9594EC87</ns0:outgoing>
+    </ns0:parallelGateway>
+    <ns0:sequenceFlow id="sid-1E5AFB9F-CCDA-4FB0-A60E-4CD459CE9ADC" name="" sourceRef="sid-CA783F3B-8AEE-48AC-92B5-47E7BEBD1AB2" targetRef="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-BF4DF63A-D682-4A70-83B5-9BFCE2C3661D" name="" sourceRef="sid-EE6304AF-0457-4569-916C-F2734D11F2C7" targetRef="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-ACA6C295-7CAC-4E64-972C-3CDDA0CFBFB8" name="" sourceRef="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F" targetRef="sid-10C4FC75-0471-4678-9641-99BCCCA63621"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-00A945CA-994F-4F29-8A5A-CDFCA9B8A565" name="" sourceRef="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7" targetRef="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-907F3091-7CC5-42B1-9B29-BC43092A74CF" name="" sourceRef="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2" targetRef="sid-12BC7446-AACA-435F-979A-8127AB6B3100"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-8EAD68DB-6401-423B-9720-6E32218A95B5" name="Artikel angenommen" sourceRef="sid-12BC7446-AACA-435F-979A-8127AB6B3100" targetRef="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-B26AF796-20E6-4749-A7D0-E84ED8D5624C" name="conditions &amp; 1 == 1" sourceRef="sid-12BC7446-AACA-435F-979A-8127AB6B3100" targetRef="sid-BCCA6FC4-B4F3-4294-BC0E-09D2C4683B0F">
+      <conditionExpression xsi:type="ns0:tFormalExpression" language="Solidity">conditions &amp; 1 == 1</conditionExpression>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-D5D1C513-DFD1-4539-9F7C-C7D53860F12D" name="" sourceRef="sid-BCCA6FC4-B4F3-4294-BC0E-09D2C4683B0F" targetRef="sid-4DB1DA7F-6577-48B5-A3B8-A109D1AE648D"></ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-4E77F0A0-2224-4123-B804-9CDA9A28DDA3" name="nicht verkauft" sourceRef="sid-683FADC2-9D4D-472D-8DD8-5B9C5C002651" targetRef="sid-18B04E9C-D64F-4D2E-8727-7BDF52A105D6">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-6D47AFDE-F672-439D-950C-4006585D9295" name="" sourceRef="sid-10C4FC75-0471-4678-9641-99BCCCA63621" targetRef="sid-683FADC2-9D4D-472D-8DD8-5B9C5C002651">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-90D1187F-B9CF-4B56-9AD2-F249EF9B8CC5" name="" sourceRef="sid-18B04E9C-D64F-4D2E-8727-7BDF52A105D6" targetRef="sid-4DB1DA7F-6577-48B5-A3B8-A109D1AE648D">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-CBB0302D-0F19-4DB2-B41E-E827290237A3" name="conditions &amp; 2 == 2" sourceRef="sid-683FADC2-9D4D-472D-8DD8-5B9C5C002651" targetRef="sid-0C9D4B71-1348-4D7E-A578-1A8E2CF76EFA">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+      <conditionExpression xsi:type="ns0:tFormalExpression" language="Solidity">conditions &amp; 2 == 2</conditionExpression>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-4D5336F5-FD61-408E-AE35-6BD744B5461B" name="" sourceRef="sid-0C9D4B71-1348-4D7E-A578-1A8E2CF76EFA" targetRef="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-0667533A-0F2A-4973-ACB7-4EFF34108D1A" name="" sourceRef="sid-0C9D4B71-1348-4D7E-A578-1A8E2CF76EFA" targetRef="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-95C1E102-6F40-4637-92AE-B6CCC811CE27" name="" sourceRef="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263" targetRef="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-670D1A86-DF8E-45DF-BC0A-8D670182B5F4" name="" sourceRef="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB" targetRef="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-3F7F8A86-D1CA-403D-90B0-5C6F99912EF9" name="" sourceRef="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA" targetRef="sid-E6BAE8BC-B37E-4100-8976-B34914A66443">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-A3F40CAF-4CBF-4A83-B1A5-295CDB1A298B" name="" sourceRef="sid-E6BAE8BC-B37E-4100-8976-B34914A66443" targetRef="sid-216F0E5A-7EC9-4B8C-BFC5-740CC78BB4FB">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-EAAEBAC1-09CA-46EA-9054-2D8491BDC010" name="" sourceRef="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82" targetRef="sid-216F0E5A-7EC9-4B8C-BFC5-740CC78BB4FB">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+    <ns0:sequenceFlow id="sid-C2EE0ED5-AFAA-4625-8E5B-752F9594EC87" name="" sourceRef="sid-216F0E5A-7EC9-4B8C-BFC5-740CC78BB4FB" targetRef="sid-4DB1DA7F-6577-48B5-A3B8-A109D1AE648D">
+      <ns0:categoryValueRef>sid-50aa5305-81b2-4f87-8090-77ee6b674b3e</ns0:categoryValueRef>
+    </ns0:sequenceFlow>
+  </ns0:choreography>
+</ns0:definitions>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0">
+	<global scope="event">
+		<string key="concept:name" value="Task Name"/>
+		<string key="sourceRef" value="Participant ID"/>
+	</global>
+
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="lehnt Inserierung ab"/>
+      <string key="id" value="sid-BCCA6FC4-B4F3-4294-BC0E-09D2C4683B0F"/>
+      <string key="sourceRef" value="sid-53D5849B-4E7C-4138-AA70-18A6B0206676"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="löscht Artikel und informiert Verkäufer"/>
+      <string key="id" value="sid-18B04E9C-D64F-4D2E-8727-7BDF52A105D6"/>
+      <string key="sourceRef" value="sid-FB804EB5-34FB-4DF4-AC0D-9567AB57DA34"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Einreichung des Artikels"/>
+      <string key="id" value="sid-B020ABB4-E1DC-4699-9AFB-DC499C6DEFC7"/>
+      <string key="sourceRef" value="sid-170A6FB3-18BD-4081-9856-FD7B725508B5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="prüft Artikel"/>
+      <string key="id" value="sid-C5BF85AA-5481-44C5-9769-8580ECF4B2C2"/>
+      <string key="sourceRef" value="sid-F33A8DC9-B104-407B-9115-9EBA957946F8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="inseriert Artikel"/>
+      <string key="id" value="sid-EE6304AF-0457-4569-916C-F2734D11F2C7"/>
+      <string key="sourceRef" value="sid-96A9D20C-C136-4987-8C61-F5D8CFAC804B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="werden über Artikel per Email informiert"/>
+      <string key="id" value="sid-D17EA4C0-6C34-4A47-AE55-95A9CFD9782F"/>
+      <string key="sourceRef" value="sid-42E785F6-BEF2-4F1E-9360-59F53113535E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versteigert Artikel"/>
+      <string key="id" value="sid-10C4FC75-0471-4678-9641-99BCCCA63621"/>
+      <string key="sourceRef" value="sid-ED772AA5-04AE-4144-BBAA-887B716830FA"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Zahlung auf"/>
+      <string key="id" value="sid-23BE0EDE-9CBA-4724-AE2D-83AD6FD83263"/>
+      <string key="sourceRef" value="sid-25F0ECD2-ED9A-4101-8FB6-3111A69348E4"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fordert zu Versand auf"/>
+      <string key="id" value="sid-43E15B32-508D-4AC8-A678-AF2BBF7BCECA"/>
+      <string key="sourceRef" value="sid-38DAD7BF-8F6B-466D-96A8-88762E67A366"/>
+    </event>
+    <event>
+      <string key="concept:name" value="versendet"/>
+      <string key="id" value="sid-E6BAE8BC-B37E-4100-8976-B34914A66443"/>
+      <string key="sourceRef" value="sid-5E022FD0-B7EE-438E-994F-35899746B7F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt"/>
+      <string key="id" value="sid-49A8580D-FE33-4CEA-889D-D6962B13D4AB"/>
+      <string key="sourceRef" value="sid-4A81BF83-0B3C-435D-8012-3BB0920C5875"/>
+    </event>
+    <event>
+      <string key="concept:name" value="bezahlt Anteil"/>
+      <string key="id" value="sid-0EA89E01-D84D-4588-9AD3-9946A1749E82"/>
+      <string key="sourceRef" value="sid-9B876C5E-7D4B-4CBB-93C1-EB96A09D82EA"/>
+    </event>
+  </trace>
+</log>

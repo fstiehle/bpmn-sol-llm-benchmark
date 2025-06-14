@@ -3,7 +3,7 @@
   "processID": "sid_1822c7e8_cade_4df0_a6d8_f7f836656cd0",
   "timestamp": "2025-06-13T20:55:27.155Z",
   "model": "deepseek/deepseek-chat-v3-0324",
-  "compiled": true,
+  "compiled": false,
   "usage": {
     "prompt_tokens": 20436,
     "completion_tokens": 1731,

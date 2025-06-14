@@ -10,6 +10,34 @@
       <string key="concept:name" value="Zapłata za towar"/>
       <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
       <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Realizacja zamówienia,&amp;#10;przesłanie informacji o przesyłce"/>
+      <string key="id" value="sid-F4EB5C5A-7A7E-4B28-8573-394A547027FC"/>
+      <string key="sourceRef" value="sid-9037fbb8-5429-431e-8ad9-6cd49a6553a1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Aktualizacja danych na stronie"/>
+      <string key="id" value="sid-17C76E1F-DF07-41C5-AB96-67878F5FDAB1"/>
+      <string key="sourceRef" value="sid-6165f3e9-5f7a-4ab7-b029-8b8b640082fc"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Przekazanie towaru kurierowi"/>
+      <string key="id" value="sid-C8D7C501-EE1C-4921-80FC-FAB3063BD75A"/>
+      <string key="sourceRef" value="sid-101d2ad4-2d05-4a75-bdba-ae874351f8a1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wysłanie informacji o przybyciu kuriera w danym dniu o danej godzinie, próba doręczenia przesyłki"/>
+      <string key="id" value="sid-884E65EB-CD77-45E9-A251-AC64A7163CD5"/>
+      <string key="sourceRef" value="sid-ceacf71d-2e92-4fd7-8259-8c8db8f68201"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Zapłata za towar"/>
+      <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
+      <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
     </event>
   </trace>
   <trace>
@@ -44,34 +72,6 @@
       <string key="concept:name" value="Przekazanie do punktu odbiorczego"/>
       <string key="id" value="sid-CE1ACF04-6606-4523-8B8D-AB0FBEAED0B5"/>
       <string key="sourceRef" value="sid-a593c2db-4504-4e65-b4f4-840b2d089fca"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Zapłata za towar"/>
-      <string key="id" value="sid-8D30ABAD-3927-4172-9CE2-67F00C02E2C5"/>
-      <string key="sourceRef" value="sid-28a3a1d2-1ba6-4c9b-854c-24c33db57182"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Realizacja zamówienia,&amp;#10;przesłanie informacji o przesyłce"/>
-      <string key="id" value="sid-F4EB5C5A-7A7E-4B28-8573-394A547027FC"/>
-      <string key="sourceRef" value="sid-9037fbb8-5429-431e-8ad9-6cd49a6553a1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Aktualizacja danych na stronie"/>
-      <string key="id" value="sid-17C76E1F-DF07-41C5-AB96-67878F5FDAB1"/>
-      <string key="sourceRef" value="sid-6165f3e9-5f7a-4ab7-b029-8b8b640082fc"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Przekazanie towaru kurierowi"/>
-      <string key="id" value="sid-C8D7C501-EE1C-4921-80FC-FAB3063BD75A"/>
-      <string key="sourceRef" value="sid-101d2ad4-2d05-4a75-bdba-ae874351f8a1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wysłanie informacji o przybyciu kuriera w danym dniu o danej godzinie, próba doręczenia przesyłki"/>
-      <string key="id" value="sid-884E65EB-CD77-45E9-A251-AC64A7163CD5"/>
-      <string key="sourceRef" value="sid-ceacf71d-2e92-4fd7-8259-8c8db8f68201"/>
     </event>
   </trace>
 </log>

@@ -16,11 +16,12 @@
       <string key="concept:name" value="Angebot erstellen"/>
       <string key="id" value="sid-3F08F667-1697-4B4B-8B32-49E343BF67BA"/>
       <string key="sourceRef" value="sid-5F3C7E73-2D8A-464C-94DE-0A9838ED8514"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Buchungen durchführen"/>
-      <string key="id" value="sid-E227F0D6-458E-4922-A634-DAD8E16397C1"/>
-      <string key="sourceRef" value="sid-4F246BAF-C80F-4F1F-BDC2-42AF30BD322A"/>
+      <string key="concept:name" value="Angebot abschließen"/>
+      <string key="id" value="sid-9F0F5E46-643F-4042-89F2-9954894766D8"/>
+      <string key="sourceRef" value="sid-7945A58D-8647-4734-98A4-80740988DC93"/>
     </event>
   </trace>
   <trace>
@@ -46,12 +47,11 @@
       <string key="concept:name" value="Angebot erstellen"/>
       <string key="id" value="sid-3F08F667-1697-4B4B-8B32-49E343BF67BA"/>
       <string key="sourceRef" value="sid-5F3C7E73-2D8A-464C-94DE-0A9838ED8514"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Angebot abschließen"/>
-      <string key="id" value="sid-9F0F5E46-643F-4042-89F2-9954894766D8"/>
-      <string key="sourceRef" value="sid-7945A58D-8647-4734-98A4-80740988DC93"/>
+      <string key="concept:name" value="Buchungen durchführen"/>
+      <string key="id" value="sid-E227F0D6-458E-4922-A634-DAD8E16397C1"/>
+      <string key="sourceRef" value="sid-4F246BAF-C80F-4F1F-BDC2-42AF30BD322A"/>
     </event>
   </trace>
 </log>

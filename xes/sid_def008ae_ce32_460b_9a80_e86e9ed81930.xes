@@ -25,12 +25,11 @@
       <string key="concept:name" value="Collect fine"/>
       <string key="id" value="sid-F687495E-7B41-4EB7-972A-F36C271CBE1C"/>
       <string key="sourceRef" value="sid-649E2444-2908-4510-8A40-D4AE39CC6389"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Confirm purchase"/>
-      <string key="id" value="sid-7A00EB74-2BC7-46A4-894D-867EF7322F21"/>
-      <string key="sourceRef" value="sid-F45ACEB8-D958-453C-9F13-CD24201D3DED"/>
+      <string key="concept:name" value="Cancel contract"/>
+      <string key="id" value="sid-E35FF85B-3619-4F99-94A4-604585274B44"/>
+      <string key="sourceRef" value="sid-417F4224-D4A9-4864-9EEC-F05C55C96E00"/>
     </event>
   </trace>
   <trace>
@@ -53,11 +52,12 @@
       <string key="concept:name" value="Collect fine"/>
       <string key="id" value="sid-F687495E-7B41-4EB7-972A-F36C271CBE1C"/>
       <string key="sourceRef" value="sid-649E2444-2908-4510-8A40-D4AE39CC6389"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
-      <string key="concept:name" value="Cancel contract"/>
-      <string key="id" value="sid-E35FF85B-3619-4F99-94A4-604585274B44"/>
-      <string key="sourceRef" value="sid-417F4224-D4A9-4864-9EEC-F05C55C96E00"/>
+      <string key="concept:name" value="Confirm purchase"/>
+      <string key="id" value="sid-7A00EB74-2BC7-46A4-894D-867EF7322F21"/>
+      <string key="sourceRef" value="sid-F45ACEB8-D958-453C-9F13-CD24201D3DED"/>
     </event>
   </trace>
   <trace>

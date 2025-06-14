@@ -51,12 +51,16 @@
       <string key="concept:name" value="Forderungen bezahlen"/>
       <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
       <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
-      <boolean key="conditions" value="4"/>
     </event>
     <event>
       <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
-      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
-      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
+      <string key="id" value="sid-841B139E-9C36-4A4A-8765-6617A2F7A244"/>
+      <string key="sourceRef" value="sid-177D29A9-9C69-4055-94F4-FC3EBC94CD47"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wechselgeld ausgeben"/>
+      <string key="id" value="sid-97DF2393-0947-4F00-B69A-FF07EAAD6932"/>
+      <string key="sourceRef" value="sid-020C2059-7AFD-48DC-B14A-26DFE1D0A84B"/>
     </event>
     <event>
       <string key="concept:name" value="Essensplatz suchen"/>
@@ -177,16 +181,12 @@
       <string key="concept:name" value="Forderungen bezahlen"/>
       <string key="id" value="sid-C888D461-1BB6-440F-98C5-D69DC47FFBDB"/>
       <string key="sourceRef" value="sid-8B5AE4F8-FD43-45B6-A10E-93EE9424ACBC"/>
+      <boolean key="conditions" value="4"/>
     </event>
     <event>
       <string key="concept:name" value="Einzahlungsbetrag einkassieren"/>
-      <string key="id" value="sid-841B139E-9C36-4A4A-8765-6617A2F7A244"/>
-      <string key="sourceRef" value="sid-177D29A9-9C69-4055-94F4-FC3EBC94CD47"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wechselgeld ausgeben"/>
-      <string key="id" value="sid-97DF2393-0947-4F00-B69A-FF07EAAD6932"/>
-      <string key="sourceRef" value="sid-020C2059-7AFD-48DC-B14A-26DFE1D0A84B"/>
+      <string key="id" value="sid-9F1BC1FD-F32E-42CB-8FD8-5813F1A2E095"/>
+      <string key="sourceRef" value="sid-B3E8DC1C-107A-4C75-A339-3843F33BC898"/>
     </event>
     <event>
       <string key="concept:name" value="Essensplatz suchen"/>

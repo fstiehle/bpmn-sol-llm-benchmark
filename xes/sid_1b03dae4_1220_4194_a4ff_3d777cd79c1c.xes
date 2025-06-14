@@ -12,14 +12,14 @@
       <string key="sourceRef" value="sid-57ED3BD0-4FE0-4C7B-A604-E56E6CA41702"/>
     </event>
     <event>
-      <string key="concept:name" value="M2"/>
-      <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
-      <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
-    </event>
-    <event>
       <string key="concept:name" value="M4"/>
       <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
       <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M2"/>
+      <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
+      <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
     </event>
     <event>
       <string key="concept:name" value="M3"/>
@@ -39,14 +39,14 @@
       <string key="sourceRef" value="sid-57ED3BD0-4FE0-4C7B-A604-E56E6CA41702"/>
     </event>
     <event>
-      <string key="concept:name" value="M4"/>
-      <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
-      <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
-    </event>
-    <event>
       <string key="concept:name" value="M2"/>
       <string key="id" value="sid-C2405B42-3A6C-4E8E-BA4C-BFD35BA4F9FF"/>
       <string key="sourceRef" value="sid-C6D2825C-DB5B-44F5-899E-11C0E66B9F27"/>
+    </event>
+    <event>
+      <string key="concept:name" value="M4"/>
+      <string key="id" value="sid-1071CFC9-F879-43FC-9065-70097B82BD19"/>
+      <string key="sourceRef" value="sid-CE7AFB4A-D93D-41CE-88D3-09187BD158F9"/>
     </event>
     <event>
       <string key="concept:name" value="M3"/>

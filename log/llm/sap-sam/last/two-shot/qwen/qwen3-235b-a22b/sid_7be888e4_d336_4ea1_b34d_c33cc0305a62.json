@@ -3,7 +3,7 @@
   "processID": "sid_7be888e4_d336_4ea1_b34d_c33cc0305a62",
   "timestamp": "2025-06-13T13:25:43.246Z",
   "model": "qwen/qwen3-235b-a22b",
-  "compiled": true,
+  "compiled": false,
   "usage": {
     "prompt_tokens": 19145,
     "completion_tokens": 15000,

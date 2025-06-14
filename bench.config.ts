@@ -19,7 +19,7 @@ export const DEBUG =
 export const STAMP = "last"; // identifier of the current experiment used throughout benchmark
 
 // Number of non-conforming traces to generate and replay
-export const NR_NON_CONFORMING_TRACES = 5;
+export const NR_NON_CONFORMING_TRACES = 50;
 
 // only take the first 20 process models from data
 // good for pre-testing

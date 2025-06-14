@@ -25,11 +25,7 @@
       <string key="concept:name" value="Informieren"/>
       <string key="id" value="sid-2B25DC31-BDA4-4EF1-A089-7A9C6EC035FF"/>
       <string key="sourceRef" value="sid-C43B3AF1-A338-49E2-B434-1F22598AA75A"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Informieren"/>
-      <string key="id" value="sid-A43F5015-5CCA-4A61-A724-EA48984F7806"/>
-      <string key="sourceRef" value="sid-983336E7-EC9E-45D6-9F2E-6CDCC4401F4E"/>
+      <boolean key="conditions" value="4"/>
     </event>
   </trace>
   <trace>
@@ -52,7 +48,11 @@
       <string key="concept:name" value="Informieren"/>
       <string key="id" value="sid-2B25DC31-BDA4-4EF1-A089-7A9C6EC035FF"/>
       <string key="sourceRef" value="sid-C43B3AF1-A338-49E2-B434-1F22598AA75A"/>
-      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Informieren"/>
+      <string key="id" value="sid-A43F5015-5CCA-4A61-A724-EA48984F7806"/>
+      <string key="sourceRef" value="sid-983336E7-EC9E-45D6-9F2E-6CDCC4401F4E"/>
     </event>
   </trace>
 </log>

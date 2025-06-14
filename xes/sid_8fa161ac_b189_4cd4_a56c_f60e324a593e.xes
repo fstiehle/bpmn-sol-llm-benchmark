@@ -15,16 +15,7 @@
       <string key="concept:name" value="opisivanje problema"/>
       <string key="id" value="sid-34874B10-2120-4641-85D3-7DA5014FE9FD"/>
       <string key="sourceRef" value="sid-2AAA03B3-8B36-48EC-AF43-C5F288B1FD9A"/>
-    </event>
-    <event>
-      <string key="concept:name" value="konsultovanje PPN"/>
-      <string key="id" value="sid-EB288683-8547-4DA6-BDC0-A1AE5A38734D"/>
-      <string key="sourceRef" value="sid-D7FD92FF-8A0A-4D95-8E0A-D8543D3F14B8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="slanje  resenja"/>
-      <string key="id" value="sid-598E252E-B2A2-40AA-AB49-CD70F467EF44"/>
-      <string key="sourceRef" value="sid-2B541BAE-359E-4E3F-B5FE-FA26A3218942"/>
+      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="slanje resenja"/>
@@ -80,7 +71,16 @@
       <string key="concept:name" value="opisivanje problema"/>
       <string key="id" value="sid-34874B10-2120-4641-85D3-7DA5014FE9FD"/>
       <string key="sourceRef" value="sid-2AAA03B3-8B36-48EC-AF43-C5F288B1FD9A"/>
-      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="konsultovanje PPN"/>
+      <string key="id" value="sid-EB288683-8547-4DA6-BDC0-A1AE5A38734D"/>
+      <string key="sourceRef" value="sid-D7FD92FF-8A0A-4D95-8E0A-D8543D3F14B8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="slanje  resenja"/>
+      <string key="id" value="sid-598E252E-B2A2-40AA-AB49-CD70F467EF44"/>
+      <string key="sourceRef" value="sid-2B541BAE-359E-4E3F-B5FE-FA26A3218942"/>
     </event>
     <event>
       <string key="concept:name" value="slanje resenja"/>

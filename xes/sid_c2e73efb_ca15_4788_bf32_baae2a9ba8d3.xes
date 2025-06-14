@@ -10,44 +10,6 @@
       <string key="concept:name" value="Bewerbung schicken"/>
       <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
       <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="fehlende Unterlagen einfordern"/>
-      <string key="id" value="oryx_8934DBF5-D5AB-486E-8193-8F477D7D9D7E"/>
-      <string key="sourceRef" value="oryx_55CB102F-BCE3-4484-93A6-9AD4EE0EA9CE"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Absage senden"/>
-      <string key="id" value="oryx_E9ECE0C2-F86E-4F24-BF47-9B5835296D32"/>
-      <string key="sourceRef" value="oryx_7ABFD9B3-1837-4397-A9BA-0FA05DFA6760"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Bewerbung schicken"/>
-      <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
-      <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Absage senden"/>
-      <string key="id" value="oryx_E9ECE0C2-F86E-4F24-BF47-9B5835296D32"/>
-      <string key="sourceRef" value="oryx_7ABFD9B3-1837-4397-A9BA-0FA05DFA6760"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Bewerbung schicken"/>
-      <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
-      <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="fehlende Unterlagen einfordern"/>
-      <string key="id" value="oryx_8934DBF5-D5AB-486E-8193-8F477D7D9D7E"/>
-      <string key="sourceRef" value="oryx_55CB102F-BCE3-4484-93A6-9AD4EE0EA9CE"/>
     </event>
     <event>
       <string key="concept:name" value="Zusage senden"/>
@@ -60,6 +22,44 @@
       <string key="concept:name" value="Bewerbung schicken"/>
       <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
       <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fehlende Unterlagen einfordern"/>
+      <string key="id" value="oryx_8934DBF5-D5AB-486E-8193-8F477D7D9D7E"/>
+      <string key="sourceRef" value="oryx_55CB102F-BCE3-4484-93A6-9AD4EE0EA9CE"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage senden"/>
+      <string key="id" value="oryx_E9ECE0C2-F86E-4F24-BF47-9B5835296D32"/>
+      <string key="sourceRef" value="oryx_7ABFD9B3-1837-4397-A9BA-0FA05DFA6760"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung schicken"/>
+      <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
+      <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Absage senden"/>
+      <string key="id" value="oryx_E9ECE0C2-F86E-4F24-BF47-9B5835296D32"/>
+      <string key="sourceRef" value="oryx_7ABFD9B3-1837-4397-A9BA-0FA05DFA6760"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Bewerbung schicken"/>
+      <string key="id" value="oryx_0C4114FE-5214-4147-A6F9-5B190D16B5BA"/>
+      <string key="sourceRef" value="oryx_CCBAC6C0-04CE-429F-B37F-01E7EADEB3BC"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="fehlende Unterlagen einfordern"/>
+      <string key="id" value="oryx_8934DBF5-D5AB-486E-8193-8F477D7D9D7E"/>
+      <string key="sourceRef" value="oryx_55CB102F-BCE3-4484-93A6-9AD4EE0EA9CE"/>
     </event>
     <event>
       <string key="concept:name" value="Zusage senden"/>

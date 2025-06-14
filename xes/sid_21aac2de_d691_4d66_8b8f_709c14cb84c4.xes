@@ -41,14 +41,18 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
+      <string key="id" value="sid-03DBAEBA-74CD-4B04-BD71-F56E32E84F02"/>
+      <string key="sourceRef" value="sid-870E6354-04CB-4981-A50F-EBEADCC84191"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
       <string key="id" value="sid-A06E9F8A-1AFE-44B0-B216-2031CB8BE358"/>
       <string key="sourceRef" value="sid-65B5B848-16CC-4403-A8BF-CB6AFF21C997"/>
     </event>
     <event>
-      <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
-      <string key="id" value="sid-03DBAEBA-74CD-4B04-BD71-F56E32E84F02"/>
-      <string key="sourceRef" value="sid-870E6354-04CB-4981-A50F-EBEADCC84191"/>
-      <boolean key="conditions" value="1"/>
+      <string key="concept:name" value="Verhandlung über Meeting&amp;#10;"/>
+      <string key="id" value="sid-24729521-9EAE-4157-8A7A-D2C60B7B8FF7"/>
+      <string key="sourceRef" value="sid-7100FFDA-6BF4-4C46-AF81-2E127B10578A"/>
     </event>
   </trace>
   <trace>
@@ -112,11 +116,7 @@
       <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
       <string key="id" value="sid-03DBAEBA-74CD-4B04-BD71-F56E32E84F02"/>
       <string key="sourceRef" value="sid-870E6354-04CB-4981-A50F-EBEADCC84191"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Verhandlung über Meeting&amp;#10;"/>
-      <string key="id" value="sid-24729521-9EAE-4157-8A7A-D2C60B7B8FF7"/>
-      <string key="sourceRef" value="sid-7100FFDA-6BF4-4C46-AF81-2E127B10578A"/>
+      <boolean key="conditions" value="1"/>
     </event>
   </trace>
   <trace>
@@ -127,13 +127,13 @@
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
-      <string key="id" value="sid-03DBAEBA-74CD-4B04-BD71-F56E32E84F02"/>
-      <string key="sourceRef" value="sid-870E6354-04CB-4981-A50F-EBEADCC84191"/>
+      <string key="id" value="sid-A06E9F8A-1AFE-44B0-B216-2031CB8BE358"/>
+      <string key="sourceRef" value="sid-65B5B848-16CC-4403-A8BF-CB6AFF21C997"/>
     </event>
     <event>
       <string key="concept:name" value="Vorschlag bearbeiten&amp;#10;"/>
-      <string key="id" value="sid-A06E9F8A-1AFE-44B0-B216-2031CB8BE358"/>
-      <string key="sourceRef" value="sid-65B5B848-16CC-4403-A8BF-CB6AFF21C997"/>
+      <string key="id" value="sid-03DBAEBA-74CD-4B04-BD71-F56E32E84F02"/>
+      <string key="sourceRef" value="sid-870E6354-04CB-4981-A50F-EBEADCC84191"/>
     </event>
     <event>
       <string key="concept:name" value="Verhandlung über Meeting&amp;#10;"/>

@@ -12,6 +12,18 @@
       <string key="sourceRef" value="sid-9834A24B-C0E7-4DAB-94E7-D820A4FEA1B4"/>
     </event>
     <event>
+      <string key="concept:name" value="Reject Offer"/>
+      <string key="id" value="sid-1D096979-7C5F-402C-A905-2F7180C1F4E1"/>
+      <string key="sourceRef" value="sid-69BEB602-DEFD-49C3-AFED-CE629AEBDCDC"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Make travel offer"/>
+      <string key="id" value="sid-3E37DF0E-F7CB-458E-814D-3771BB34BE1C"/>
+      <string key="sourceRef" value="sid-9834A24B-C0E7-4DAB-94E7-D820A4FEA1B4"/>
+    </event>
+    <event>
       <string key="concept:name" value="Book travel"/>
       <string key="id" value="sid-8CF08A36-D3B9-4BF9-B3A3-F97D7619EAAA"/>
       <string key="sourceRef" value="sid-70579543-EE60-4F13-9FFE-A9918A68AE1D"/>
@@ -35,18 +47,6 @@
       <string key="concept:name" value="Confirm payment"/>
       <string key="id" value="sid-BA77ABD3-D153-40B1-89FC-6ED58B05ADDA"/>
       <string key="sourceRef" value="sid-D1EBFECB-6FCB-46C9-BAB3-EC40AA7D8EB3"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Make travel offer"/>
-      <string key="id" value="sid-3E37DF0E-F7CB-458E-814D-3771BB34BE1C"/>
-      <string key="sourceRef" value="sid-9834A24B-C0E7-4DAB-94E7-D820A4FEA1B4"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Reject Offer"/>
-      <string key="id" value="sid-1D096979-7C5F-402C-A905-2F7180C1F4E1"/>
-      <string key="sourceRef" value="sid-69BEB602-DEFD-49C3-AFED-CE629AEBDCDC"/>
     </event>
   </trace>
   <trace>

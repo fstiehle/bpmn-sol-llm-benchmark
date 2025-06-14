@@ -39,7 +39,7 @@ describe('summary', () => {
     const baseFolders = [
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/one-shot`),
       path.join(__dirname, `../log/execution/sap-sam/${STAMP}/two-shot`),
-      path.join(__dirname, `../log/execution/sap-sam/${STAMP}/chorpiler`), 
+      //path.join(__dirname, `../log/execution/sap-sam/${STAMP}/chorpiler`), 
     ];
     // Collect and merge
     const merged: Record<string, Summary> = {};

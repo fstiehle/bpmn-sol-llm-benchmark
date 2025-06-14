@@ -15,6 +15,24 @@
       <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
       <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
       <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>
+      <string key="id" value="sid-31D3A0CF-717F-4EF7-9B47-774CB8A8215D"/>
+      <string key="sourceRef" value="sid-AFF98A98-EFE6-4D2B-AEA1-440C8B8E4EFB"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Korisnik ima problem"/>
+      <string key="id" value="sid-F7F3C968-49FE-4E45-9D23-88A8D6512528"/>
+      <string key="sourceRef" value="sid-8AF7A7C1-C308-4E6B-91D9-BC6E413F652C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
+      <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
+      <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
     </event>
     <event>
       <string key="concept:name" value="Konsultovanje podrške I nivoa"/>
@@ -35,24 +53,6 @@
       <string key="concept:name" value="Saopštavanje rešenja problema operateru"/>
       <string key="id" value="sid-DECE56B3-AD26-4313-9744-49DF2A6C6A9F"/>
       <string key="sourceRef" value="sid-A94C12ED-2FA9-4AA4-9B3A-1C3937AF9384"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>
-      <string key="id" value="sid-31D3A0CF-717F-4EF7-9B47-774CB8A8215D"/>
-      <string key="sourceRef" value="sid-AFF98A98-EFE6-4D2B-AEA1-440C8B8E4EFB"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Korisnik ima problem"/>
-      <string key="id" value="sid-F7F3C968-49FE-4E45-9D23-88A8D6512528"/>
-      <string key="sourceRef" value="sid-8AF7A7C1-C308-4E6B-91D9-BC6E413F652C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahtevanje detaljnijeg opisa problema"/>
-      <string key="id" value="sid-CFB94369-6DC6-4A48-8CB3-0224494D2054"/>
-      <string key="sourceRef" value="sid-4D17B162-E9D7-4202-BE44-6E4456E18068"/>
-      <boolean key="conditions" value="1"/>
     </event>
     <event>
       <string key="concept:name" value="Saopštavanje rešenja problema korisniku"/>

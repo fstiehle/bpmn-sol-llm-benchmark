@@ -6,7 +6,7 @@
   "author": "Fabian Stiehle",
   "scripts": {
     "compile": "mocha test/prep.ts && hardhat compile",
-    "test": "mocha --timeout 600000 test/execute.ts",
+    "test": "mocha --timeout 60000000 test/execute.ts",
     "sam": "mocha --timeout 600000 test/prep-sap-sam.ts && npx hardhat compile",
     "summary": "mocha test/summary.ts",
     "llm": "mocha --timeout 60000000 test/llm.ts",

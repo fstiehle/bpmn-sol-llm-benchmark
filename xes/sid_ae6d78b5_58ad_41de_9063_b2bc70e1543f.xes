@@ -10,34 +10,6 @@
       <string key="concept:name" value="GPA Conversion"/>
       <string key="id" value="sid-365F91D0-DD9F-486E-B83C-DECBCA9A7B0A"/>
       <string key="sourceRef" value="sid-88A3BDA2-87DD-4724-A247-2D8F186C08EB"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Check for plagiarism"/>
-      <string key="id" value="sid-FDC6DD88-3121-4EC4-BFBA-DFF7B6402410"/>
-      <string key="sourceRef" value="sid-A90E035F-CD03-4D70-BDD9-AF23DB971A48"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Assess application letter"/>
-      <string key="id" value="sid-B2BADF13-36D1-4B5D-AE77-E09232974D90"/>
-      <string key="sourceRef" value="sid-E8B24BCA-93B0-4089-8E14-7755FB3858CF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Assign ranking"/>
-      <string key="id" value="sid-EE6F5910-1D15-4F9C-8C28-72AD4D9070D2"/>
-      <string key="sourceRef" value="sid-BD03974B-E199-4CAC-8141-0B4812671CEF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Create preliminary list of applications"/>
-      <string key="id" value="sid-6AEC28B8-8F55-4AE8-908F-F60609161299"/>
-      <string key="sourceRef" value="sid-8870ABF1-EBE1-4E45-B49F-8CA4DE5BBCA5"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="GPA Conversion"/>
-      <string key="id" value="sid-365F91D0-DD9F-486E-B83C-DECBCA9A7B0A"/>
-      <string key="sourceRef" value="sid-88A3BDA2-87DD-4724-A247-2D8F186C08EB"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -66,6 +38,34 @@
       <string key="concept:name" value="Application marked &#39;failed&#39;"/>
       <string key="id" value="sid-C569B56D-1EA0-46C8-81A4-12C4216C6406"/>
       <string key="sourceRef" value="sid-A269BCDE-1BB4-48A9-8AA1-E43E34CD8C3B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Create preliminary list of applications"/>
+      <string key="id" value="sid-6AEC28B8-8F55-4AE8-908F-F60609161299"/>
+      <string key="sourceRef" value="sid-8870ABF1-EBE1-4E45-B49F-8CA4DE5BBCA5"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="GPA Conversion"/>
+      <string key="id" value="sid-365F91D0-DD9F-486E-B83C-DECBCA9A7B0A"/>
+      <string key="sourceRef" value="sid-88A3BDA2-87DD-4724-A247-2D8F186C08EB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Check for plagiarism"/>
+      <string key="id" value="sid-FDC6DD88-3121-4EC4-BFBA-DFF7B6402410"/>
+      <string key="sourceRef" value="sid-A90E035F-CD03-4D70-BDD9-AF23DB971A48"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Assess application letter"/>
+      <string key="id" value="sid-B2BADF13-36D1-4B5D-AE77-E09232974D90"/>
+      <string key="sourceRef" value="sid-E8B24BCA-93B0-4089-8E14-7755FB3858CF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Assign ranking"/>
+      <string key="id" value="sid-EE6F5910-1D15-4F9C-8C28-72AD4D9070D2"/>
+      <string key="sourceRef" value="sid-BD03974B-E199-4CAC-8141-0B4812671CEF"/>
     </event>
     <event>
       <string key="concept:name" value="Create preliminary list of applications"/>

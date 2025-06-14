@@ -77,6 +77,23 @@
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
       <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -123,77 +140,6 @@
     </event>
   </trace>
   <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
-      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
-      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
-      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
-      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Transportkosten bezahlen"/>
-      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
-      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware liefern"/>
-      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
-      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wareneingang bestätigen"/>
-      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
-      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
-      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
-      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
     <event>
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
@@ -245,165 +191,6 @@
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
       <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
-      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
-      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
-      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
-      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Transportkosten bezahlen"/>
-      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
-      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware liefern"/>
-      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
-      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wareneingang bestätigen"/>
-      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
-      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
-      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
-      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
-      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
-      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
-      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
-      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Transportkosten bezahlen"/>
-      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
-      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware liefern"/>
-      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
-      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wareneingang bestätigen"/>
-      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
-      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
-      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
-      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
     </event>
     <event>
       <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
@@ -458,196 +245,6 @@
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
       <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
-      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
-      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Transportkosten bezahlen"/>
-      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
-      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
-      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
-      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware liefern"/>
-      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
-      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wareneingang bestätigen"/>
-      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
-      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
-      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
-      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
     </event>
     <event>
       <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
@@ -663,77 +260,6 @@
       <string key="concept:name" value="Transportkosten bezahlen"/>
       <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
       <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware liefern"/>
-      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
-      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Wareneingang bestätigen"/>
-      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
-      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
-      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
-      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
-      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
-      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Transportkosten bezahlen"/>
-      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
-      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
-      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
-      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
     </event>
     <event>
       <string key="concept:name" value="Ware liefern"/>
@@ -871,23 +397,6 @@
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
       <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
     </event>
     <event>
       <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
@@ -959,66 +468,39 @@
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
       <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
+      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
+      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
     </event>
     <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
+      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
+      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
+      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
     </event>
     <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
+      <string key="concept:name" value="Transportkosten bezahlen"/>
+      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
+      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
     </event>
     <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+      <string key="concept:name" value="Ware liefern"/>
+      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
+      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
     </event>
     <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
+      <string key="concept:name" value="Wareneingang bestätigen"/>
+      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
+      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
     </event>
     <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Überschuss zurückzahlen"/>
-      <string key="id" value="sid-6840A80E-8EE7-4A49-9CFE-607B2EED5E87"/>
-      <string key="sourceRef" value="sid-43F24C0E-CEF3-48BD-B3C5-BF72C9731587"/>
+      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
+      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
+      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
     </event>
   </trace>
   <trace>
-    <event>
-      <string key="concept:name" value="Überweisung tätigen"/>
-      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="2"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
-      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
-      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
-      <boolean key="conditions" value="0"/>
-    </event>
     <event>
       <string key="concept:name" value="Überweisung tätigen"/>
       <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
@@ -1284,6 +766,402 @@
       <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
     </event>
     <event>
+      <string key="concept:name" value="Transportkosten bezahlen"/>
+      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
+      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
+      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
+      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware liefern"/>
+      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
+      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang bestätigen"/>
+      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
+      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
+      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
+      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
+      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
+      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
+      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
+      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Transportkosten bezahlen"/>
+      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
+      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware liefern"/>
+      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
+      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang bestätigen"/>
+      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
+      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
+      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
+      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überschuss zurückzahlen"/>
+      <string key="id" value="sid-6840A80E-8EE7-4A49-9CFE-607B2EED5E87"/>
+      <string key="sourceRef" value="sid-43F24C0E-CEF3-48BD-B3C5-BF72C9731587"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
+      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
+      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Transportkosten bezahlen"/>
+      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
+      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
+      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
+      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware liefern"/>
+      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
+      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang bestätigen"/>
+      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
+      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
+      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
+      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
+      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
+      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
+    </event>
+    <event>
       <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
       <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
       <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
@@ -1405,6 +1283,145 @@
       <string key="concept:name" value="Überschuss zurückzahlen"/>
       <string key="id" value="sid-6840A80E-8EE7-4A49-9CFE-607B2EED5E87"/>
       <string key="sourceRef" value="sid-43F24C0E-CEF3-48BD-B3C5-BF72C9731587"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="2"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Nachhzahlungsaufforderung schicken"/>
+      <string key="id" value="sid-75BCEE37-9CDA-41D8-B345-83417545D41F"/>
+      <string key="sourceRef" value="sid-7D419E4B-EA5E-4E7E-97A2-7843644FFD82"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung tätigen"/>
+      <string key="id" value="sid-17139AC8-7F6D-400E-AFDA-3B754E66F776"/>
+      <string key="sourceRef" value="sid-3D77B4DA-EBFF-4063-AF53-F6DF819CC4E8"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Zahlungseingang bestätigen&amp;#10;"/>
+      <string key="id" value="sid-1FB6E2A1-8320-4851-B504-8CA4B7AF1ED0"/>
+      <string key="sourceRef" value="sid-1EE2B9B5-9E32-4BF3-9723-1276F2D297AE"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware an Logistik-Unternehmen übergeben"/>
+      <string key="id" value="sid-5CFB3FE9-33BB-4E8D-91F5-FB684E3F49BC"/>
+      <string key="sourceRef" value="sid-F766CC2B-A841-45B3-9057-FFCE7998935D"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Transportkosten bezahlen"/>
+      <string key="id" value="sid-13151680-B8EB-4564-B218-B73084FC75E5"/>
+      <string key="sourceRef" value="sid-F59B4A38-E914-4337-A662-6F13D1D9AEC5"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Ware liefern"/>
+      <string key="id" value="sid-F731B3E3-C364-47B2-85EE-F14FE149D7B1"/>
+      <string key="sourceRef" value="sid-12E26F9F-47BC-446C-A1BA-25FFCFE5947B"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Wareneingang bestätigen"/>
+      <string key="id" value="sid-5FD69B90-2FAE-4AF1-A36E-3C5F70447C40"/>
+      <string key="sourceRef" value="sid-65A60C8F-A03B-4280-B88A-C75E94A198ED"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Überweisung an den Verkäufer tätigen"/>
+      <string key="id" value="sid-0C00E59F-E01E-45F3-A8DD-E10A61D2884F"/>
+      <string key="sourceRef" value="sid-AE8A0FC2-6A63-4E30-9B16-D80C772986A6"/>
     </event>
   </trace>
 </log>

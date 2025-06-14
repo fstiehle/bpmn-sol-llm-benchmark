@@ -22,19 +22,9 @@
       <string key="sourceRef" value="sid-43946E0D-327D-4AC0-B25F-01429023F59E"/>
     </event>
     <event>
-      <string key="concept:name" value="Send product to repair"/>
-      <string key="id" value="sid-3C568A39-2054-4401-8B0B-E0DB372732BF"/>
-      <string key="sourceRef" value="sid-46FF618A-EAEC-4853-B958-57995C25591A"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Resend repaired product"/>
-      <string key="id" value="sid-32A1A621-E61A-455D-8744-722B80F8957C"/>
-      <string key="sourceRef" value="sid-BB836B49-E9FF-4477-8462-9BF5F4AD1F2E"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Send product to client"/>
-      <string key="id" value="sid-89AE49BF-22B6-4845-B15D-45F0BF9D87AF"/>
-      <string key="sourceRef" value="sid-9987E2BA-698F-4D3D-8C77-A9E5A39ADC5C"/>
+      <string key="concept:name" value="Send money to client"/>
+      <string key="id" value="sid-3F98CB79-F885-47D5-BD69-C6355DDCF23C"/>
+      <string key="sourceRef" value="sid-D43FD103-C6FE-4A43-93D3-19FDB2FEC3C7"/>
     </event>
   </trace>
   <trace>
@@ -76,9 +66,19 @@
       <string key="sourceRef" value="sid-43946E0D-327D-4AC0-B25F-01429023F59E"/>
     </event>
     <event>
-      <string key="concept:name" value="Send money to client"/>
-      <string key="id" value="sid-3F98CB79-F885-47D5-BD69-C6355DDCF23C"/>
-      <string key="sourceRef" value="sid-D43FD103-C6FE-4A43-93D3-19FDB2FEC3C7"/>
+      <string key="concept:name" value="Send product to repair"/>
+      <string key="id" value="sid-3C568A39-2054-4401-8B0B-E0DB372732BF"/>
+      <string key="sourceRef" value="sid-46FF618A-EAEC-4853-B958-57995C25591A"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Resend repaired product"/>
+      <string key="id" value="sid-32A1A621-E61A-455D-8744-722B80F8957C"/>
+      <string key="sourceRef" value="sid-BB836B49-E9FF-4477-8462-9BF5F4AD1F2E"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Send product to client"/>
+      <string key="id" value="sid-89AE49BF-22B6-4845-B15D-45F0BF9D87AF"/>
+      <string key="sourceRef" value="sid-9987E2BA-698F-4D3D-8C77-A9E5A39ADC5C"/>
     </event>
   </trace>
 </log>

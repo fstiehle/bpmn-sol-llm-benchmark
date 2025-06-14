@@ -115,120 +115,6 @@
       <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
     </event>
     <event>
-      <string key="concept:name" value="Annahme des Angebots"/>
-      <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
-      <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
-      <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Annahme des Angebots"/>
-      <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
-      <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
-      <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
       <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
       <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
       <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
@@ -310,54 +196,6 @@
       <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
     </event>
     <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
       <string key="concept:name" value="Annahme des Angebots"/>
       <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
       <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
@@ -368,199 +206,6 @@
       <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
       <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
       <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Annahme des Angebots"/>
-      <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
-      <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
-      <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Angebot wird erarbeitet"/>
@@ -826,6 +471,39 @@
       <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
     </event>
     <event>
+      <string key="concept:name" value="Annahme des Angebots"/>
+      <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
+      <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
+      <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
+      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot wird erarbeitet"/>
+      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
+      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
+      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
+      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Instance Data Change"/>
+      <string key="id" value="Instance Data Change"/>
+      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
+      <boolean key="conditions" value="0"/>
+    </event>
+    <event>
+      <string key="concept:name" value="Angebot wird erarbeitet"/>
+      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
+      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
+    </event>
+    <event>
       <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
       <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
       <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
@@ -1051,54 +729,6 @@
       <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
     </event>
     <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
       <string key="concept:name" value="Annahme des Angebots"/>
       <string key="id" value="sid-63E5779C-3140-4658-B55E-7244DAD33881"/>
       <string key="sourceRef" value="sid-BD2A3C8A-2A43-4AF1-8253-E1C732234246"/>
@@ -1109,22 +739,6 @@
       <string key="concept:name" value="Seminaranfrage&amp;#10; weiterleiten"/>
       <string key="id" value="sid-2C281AE4-77B2-4C0E-AEA3-F4C70A060904"/>
       <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Angebot wird erarbeitet"/>
-      <string key="id" value="sid-3CAE87CD-DFE0-412B-9129-7028D6969739"/>
-      <string key="sourceRef" value="sid-27D0FC53-4C78-4495-BA46-0B499033036C"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Kunde gibt seine speziellen Wünsche an"/>
-      <string key="id" value="sid-0E515EDA-4CBB-4465-B129-B0CC719EB7C9"/>
-      <string key="sourceRef" value="sid-2B20C191-F227-4B8C-8267-B10726AA9065"/>
-    </event>
-    <event>
-      <string key="concept:name" value="Instance Data Change"/>
-      <string key="id" value="Instance Data Change"/>
-      <string key="sourceRef" value="sid-4B6DEF20-0F20-4A01-9991-B27D7B17EFAF"/>
-      <boolean key="conditions" value="0"/>
     </event>
     <event>
       <string key="concept:name" value="Angebot wird erarbeitet"/>

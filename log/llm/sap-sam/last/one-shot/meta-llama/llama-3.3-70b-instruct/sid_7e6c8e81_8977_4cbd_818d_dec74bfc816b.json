@@ -3,7 +3,7 @@
   "processID": "sid_7e6c8e81_8977_4cbd_818d_dec74bfc816b",
   "timestamp": "2025-06-12T09:50:49.644Z",
   "model": "meta-llama/llama-3.3-70b-instruct",
-  "compiled": true,
+  "compiled": false,
   "usage": {
     "prompt_tokens": 14325,
     "completion_tokens": 1427,

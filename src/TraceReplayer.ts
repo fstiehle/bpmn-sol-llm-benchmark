@@ -21,15 +21,27 @@ export function logDebug(...args: any[]) {
 
 const tab = (n: number) => "  ".repeat(n);
 
-export const randomSigners = async (amount: number, funder: any, provider: any): Promise<HDNodeWallet[]> => {
+export const randomSigners = async (amount: number, funders: any, provider: any): Promise<HDNodeWallet[]> => {
   const signers: HDNodeWallet[] = [];
   for (let i = 0; i < amount; i++) {
     let wallet = Wallet.createRandom().connect(provider);
     // Send ETH to the new wallet so it can perform a tx
-    await funder.sendTransaction({
-      to: wallet.address,
-      value: ethers.parseEther("1")
-    });
+    // Find a funder with enough ETH to fund the new wallet
+    let funded = false;
+    for (const funder of Array.isArray(funders) ? funders : [funders]) {
+      const balance = await provider.getBalance(funder.address);
+      if (balance > ethers.parseEther("0.1")) {
+      await funder.sendTransaction({
+        to: wallet.address,
+        value: ethers.parseEther("0.05")
+      });
+      funded = true;
+      break;
+      }
+    }
+    if (!funded) {
+      throw new Error("No funder has enough ETH to fund the new wallet.");
+    }
     signers.push(wallet);
   }
   return signers;
@@ -204,7 +216,7 @@ export class TraceReplayer {
 
     for (const file of solFiles) {
       const name = path.basename(file, '.sol');
-      logDebug(`${tab(1)}🔬 Simulate: ${name} in ${this.test.name}`);
+      console.log(`${tab(1)}🔬 Simulate: ${name} in ${this.test.name}`);
 
       const eventLog = await XES_PARSER.fromXML(
         fs.readFileSync(path.join(XES_DIR, name + '.xes'))
@@ -227,7 +239,7 @@ export class TraceReplayer {
       // Use randomSigners instead of ethers.getSigners
       const wallets = await randomSigners(
         triggerEncoding.participants.size, 
-        (await ethers.getSigners())[0], 
+        (await ethers.getSigners()), 
         ethers.provider);
       let totalGasCost = 0;
       let correctTraceCount = 0;
@@ -255,8 +267,8 @@ export class TraceReplayer {
           contracts.set(id, contract.connect(wallets[num]));
         }
 
-        logDebug(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
-        const { allTokenStatesChanged, eventsRejected, report } = await replayTrace({
+        console.log(`${tab(2)}🔁 Replay Conforming Trace: #${i + 1}`);
+        let { allTokenStatesChanged, eventsRejected, report } = await replayTrace({
           contract,
           trace,
           contracts,
@@ -268,7 +280,8 @@ export class TraceReplayer {
 
         const finalTokenState = await contract.tokenState();
         if (Number(finalTokenState) !== 0) {
-          console.warn(`${tab(3)}⚠️ End of process not reached! Final token state: ${finalTokenState}`);
+          allTokenStatesChanged = false;
+          logDebug(`${tab(3)}⚠️ End of process not reached or != 0. Final token state: ${finalTokenState}`);
         } else {
           logDebug(`${tab(3)}✅ Process completed successfully with token state 0.`);
         }
@@ -304,7 +317,7 @@ export class TraceReplayer {
 
       for (const [i, trace] of badLog.traces.entries()) {
         totalTracesReplayed++; // <-- Increment for each replayed trace (non-conforming)
-        logDebug(`Replay Non-Conforming Trace ${i} (${name})`);
+        console.log(`${tab(2)}🔁 Replay Non-Conforming Trace ${i} (${name})`);
         let contract;
         try {
           contract = await ethers.deployContract(

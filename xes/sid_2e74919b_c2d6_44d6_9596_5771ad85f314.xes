@@ -15,12 +15,11 @@
       <string key="concept:name" value="Freies Zimmer verfügbar&amp;#10;&amp;#10;?"/>
       <string key="id" value="sid-E4C67638-32F7-4EF7-B567-F5CDC766B074"/>
       <string key="sourceRef" value="sid-9DA08B84-BF46-42AB-BCAA-AD6B6E33A8AE"/>
-      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="Schlüssel aushändigen&amp;#10;"/>
-      <string key="id" value="sid-3791BA58-F1EE-48E9-A212-E6FBC50B3AAC"/>
-      <string key="sourceRef" value="sid-3D9ABCFA-0B62-47EF-806C-CBEFCAFF9CD6"/>
+      <string key="concept:name" value="In anderes Hotel &amp;#10;&amp;#10;verwiesen&amp;#10;"/>
+      <string key="id" value="sid-95D5D543-0404-4C29-98F8-FD3EA102C79F"/>
+      <string key="sourceRef" value="sid-0A68008E-9992-4571-AF4F-893F675BC6C0"/>
     </event>
   </trace>
   <trace>
@@ -33,11 +32,12 @@
       <string key="concept:name" value="Freies Zimmer verfügbar&amp;#10;&amp;#10;?"/>
       <string key="id" value="sid-E4C67638-32F7-4EF7-B567-F5CDC766B074"/>
       <string key="sourceRef" value="sid-9DA08B84-BF46-42AB-BCAA-AD6B6E33A8AE"/>
+      <boolean key="conditions" value="2"/>
     </event>
     <event>
-      <string key="concept:name" value="In anderes Hotel &amp;#10;&amp;#10;verwiesen&amp;#10;"/>
-      <string key="id" value="sid-95D5D543-0404-4C29-98F8-FD3EA102C79F"/>
-      <string key="sourceRef" value="sid-0A68008E-9992-4571-AF4F-893F675BC6C0"/>
+      <string key="concept:name" value="Schlüssel aushändigen&amp;#10;"/>
+      <string key="id" value="sid-3791BA58-F1EE-48E9-A212-E6FBC50B3AAC"/>
+      <string key="sourceRef" value="sid-3D9ABCFA-0B62-47EF-806C-CBEFCAFF9CD6"/>
     </event>
   </trace>
   <trace>

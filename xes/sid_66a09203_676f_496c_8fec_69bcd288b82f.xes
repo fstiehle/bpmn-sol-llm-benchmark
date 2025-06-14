@@ -15,6 +15,18 @@
       <string key="concept:name" value="präsentiert mögliches Objekt"/>
       <string key="id" value="sid-F6CE5331-CAB4-4FAC-BDD7-3B99BC13EECE"/>
       <string key="sourceRef" value="sid-48BEDC78-021A-46F2-9813-FA38843331D1"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <string key="concept:name" value="teilt Wünsche&#x2F;Rahmenbedingung mit"/>
+      <string key="id" value="sid-56125FD7-FBEE-47E9-B12C-9F21ECF50FBE"/>
+      <string key="sourceRef" value="sid-739EAEF9-482B-48C6-BFF4-6021696FFEDB"/>
+    </event>
+    <event>
+      <string key="concept:name" value="präsentiert mögliches Objekt"/>
+      <string key="id" value="sid-F6CE5331-CAB4-4FAC-BDD7-3B99BC13EECE"/>
+      <string key="sourceRef" value="sid-48BEDC78-021A-46F2-9813-FA38843331D1"/>
       <boolean key="conditions" value="1"/>
     </event>
     <event>
@@ -36,18 +48,6 @@
       <string key="concept:name" value="Vertrag unterzeichnen"/>
       <string key="id" value="sid-218F35A0-BB4F-434A-A456-79ED84327F62"/>
       <string key="sourceRef" value="sid-C9F3EFB0-B99F-4D5C-A527-4AE4C1C2D125"/>
-    </event>
-  </trace>
-  <trace>
-    <event>
-      <string key="concept:name" value="teilt Wünsche&#x2F;Rahmenbedingung mit"/>
-      <string key="id" value="sid-56125FD7-FBEE-47E9-B12C-9F21ECF50FBE"/>
-      <string key="sourceRef" value="sid-739EAEF9-482B-48C6-BFF4-6021696FFEDB"/>
-    </event>
-    <event>
-      <string key="concept:name" value="präsentiert mögliches Objekt"/>
-      <string key="id" value="sid-F6CE5331-CAB4-4FAC-BDD7-3B99BC13EECE"/>
-      <string key="sourceRef" value="sid-48BEDC78-021A-46F2-9813-FA38843331D1"/>
     </event>
   </trace>
   <trace>
